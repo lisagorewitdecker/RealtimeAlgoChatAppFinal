@@ -1,0 +1,7 @@
+{
+  "name": "realtime-algo-chat-release-caller-probe",
+  "private": true,
+  "engines": {
+    "node": ">=24 <25"
+  }
+}
