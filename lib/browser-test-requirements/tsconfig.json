@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    // Keep the incremental state inside the emitted output: if `dist` is wiped,
+    // `tsc --build` must not still believe this project is up to date.
+    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
+    // The decision is read out of `process.env`.
+    "types": ["node"]
+  },
+  "include": ["src"]
+}
