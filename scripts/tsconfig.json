@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "types": ["node"],
+    // These scripts are never built: tsx and `node --test` run them straight
+    // from source, so a relative import has to name the .ts file it loads.
+    // Nothing is emitted, so no rootDir: the unit suites in tests/ sit beside
+    // src/ and have to be part of the same program to be checked at all.
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src", "tests"]
+}
