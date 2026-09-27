@@ -9,7 +9,7 @@ Every account is authenticated through Clerk. Any signed-in user with a verified
 This is a pnpm monorepo. The product is split across three artifacts, each independently run and previewed:
 
 ```
-artifacts/
+  artifacts/
   api-server/       Express + Socket.IO backend (auth, rooms, moderation, AI assistant proxy)
   chat-app/         Expo/React Native app (iOS, Android, Web) — the DevStudio client
   mockup-sandbox/   Design/preview sandbox used while iterating on UI components
@@ -71,9 +71,11 @@ Secrets (Clerk keys, admin allowlist, session secret, Anthropic access) are mana
 - Room access is granted only via signed server-issued capabilities, not client-asserted room membership.
 - See `replit.md` for project-specific conventions and decisions as they're recorded.
 
-
-# DevStudio
+# RealtimeAlgoChatApp
 
 DevStudio (DevAlgoChat) is a real-time collaboration platform for developers, built around three modes in a single room: **Build** (collaborative code sandbox with an AI assistant), **Call** (voice/video), and **Ship** (chat and room coordination).
 
 Every account is authenticated through Clerk. Any signed-in user with a verified email and an unbanned account gets full access to the product — there are no paid tiers or feature gates. Administrators (configured via an allowlist of Clerk user IDs) can search for accounts and ban or restore access.
+
+# Author
+## Lisa M Gorewit-Decker
