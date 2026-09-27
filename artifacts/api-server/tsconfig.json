@@ -1,0 +1,33 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "incremental": true,
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "outDir": "dist",
+    "types": ["node"],
+    // tsc only typechecks this package — esbuild (build.mjs) produces dist —
+    // so there is no rootDir and the unit suites in tests/ can join the same
+    // program as src/. `node --test` runs those suites straight from source,
+    // so their relative imports name the .ts file they load.
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src", "tests"],
+  "references": [
+    {
+      "path": "../../lib/browser-test-requirements"
+    },
+    {
+      "path": "../../lib/db"
+    },
+    {
+      "path": "../../lib/api-zod"
+    },
+    {
+      "path": "../../lib/hosted-document-inset"
+    },
+    {
+      "path": "../../lib/integrations-anthropic-ai"
+    }
+  ]
+}
