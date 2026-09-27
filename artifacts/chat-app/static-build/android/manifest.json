@@ -1,0 +1,104 @@
+{
+  "id": "9ee89561-1f0e-4ed0-ba1b-0009e54b9cd2",
+  "createdAt": "2026-08-30T17:53:29.359Z",
+  "runtimeVersion": "exposdk:54.0.0",
+  "launchAsset": {
+    "key": "bundle-1788112409359-8856",
+    "contentType": "application/javascript",
+    "url": "https://9ef9cc57-ae03-4505-bda2-eb1e49ac0af4-00-ag9lllazkfvs.worf.replit.dev/1788112409359-8856/_expo/static/js/android/bundle.js"
+  },
+  "assets": [],
+  "metadata": {},
+  "extra": {
+    "eas": {},
+    "expoClient": {
+      "name": "DevStudioApp",
+      "slug": "chat-app",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/images/icon.png",
+      "scheme": "chat-app",
+      "userInterfaceStyle": "automatic",
+      "newArchEnabled": true,
+      "splash": {
+        "image": "./assets/images/icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#0E1118",
+        "imageUrl": "http://127.0.0.1:8093/assets/./assets/images/icon.png"
+      },
+      "ios": {
+        "supportsTablet": false,
+        "infoPlist": {
+          "NSCameraUsageDescription": "DevStudioApp uses your camera for video calls.",
+          "NSMicrophoneUsageDescription": "DevStudioApp uses your microphone for voice and video calls."
+        }
+      },
+      "android": {
+        "permissions": [
+          "android.permission.CAMERA",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.MODIFY_AUDIO_SETTINGS"
+        ]
+      },
+      "web": {
+        "favicon": "./assets/images/icon.png"
+      },
+      "plugins": [
+        [
+          "expo-router",
+          {
+            "origin": "https://replit.com/"
+          }
+        ],
+        "expo-font",
+        "expo-web-browser"
+      ],
+      "experiments": {
+        "typedRoutes": true,
+        "reactCompiler": true
+      },
+      "_internal": {
+        "isDebug": false,
+        "projectRoot": "/home/runner/workspace/artifacts/chat-app",
+        "dynamicConfigPath": {},
+        "staticConfigPath": "/home/runner/workspace/artifacts/chat-app/app.json",
+        "packageJsonPath": "/home/runner/workspace/artifacts/chat-app/package.json",
+        "pluginHistory": {
+          "expo-font": {
+            "name": "expo-font",
+            "version": "14.0.12"
+          },
+          "expo-web-browser": {
+            "name": "expo-web-browser",
+            "version": "15.0.11"
+          }
+        }
+      },
+      "sdkVersion": "54.0.0",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "extra": {
+        "router": {
+          "origin": "https://replit.com/"
+        }
+      },
+      "iconUrl": "http://127.0.0.1:8093/assets/./assets/images/icon.png",
+      "hostUri": "9ef9cc57-ae03-4505-bda2-eb1e49ac0af4-00-ag9lllazkfvs.worf.replit.dev/android"
+    },
+    "expoGo": {
+      "debuggerHost": "9ef9cc57-ae03-4505-bda2-eb1e49ac0af4-00-ag9lllazkfvs.worf.replit.dev/android",
+      "developer": {
+        "tool": "expo-cli",
+        "projectRoot": "/home/runner/workspace/artifacts/chat-app"
+      },
+      "packagerOpts": {
+        "dev": false
+      },
+      "mainModuleName": "node_modules/.pnpm/expo-router@6.0.24_ecbb631125c41be0f4be8f3d5ce78d3b/node_modules/expo-router/entry"
+    },
+    "scopeKey": "@anonymous/chat-app-2c6110db-8798-4f59-87c0-b3e1e74d20b1"
+  }
+}
