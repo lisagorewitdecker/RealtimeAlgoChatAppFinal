@@ -1,7 +1,34 @@
 {
-  "name": "realtime-algo-chat-release-caller-probe",
+  "name": "workspace",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "sh -c 'rm -f package-lock.json yarn.lock; case \"$npm_config_user_agent\" in pnpm/*) ;; *) echo \"Use pnpm instead\" >&2; exit 1 ;; esac'",
+    "build": "pnpm run typecheck && pnpm -r --if-present run build",
+    "typecheck:libs": "tsc --build",
+    "check:typecheck-scripts": "pnpm --filter @workspace/scripts run check:typecheck-scripts",
+    "typecheck": "pnpm run check:typecheck-scripts && pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./lib/**\" --filter \"./scripts\" --if-present run typecheck && pnpm --filter @workspace/api-server run typecheck:e2e",
+    "check:test-scripts": "pnpm --filter @workspace/scripts run check:test-scripts",
+    "check:browser-requirements": "pnpm --filter @workspace/scripts run check:browser-requirements",
+    "check:browser-output": "pnpm --filter @workspace/scripts run check:browser-output",
+    "check:browser-commands": "pnpm --filter @workspace/scripts run check:browser-commands",
+    "check:command-requirements": "pnpm --filter @workspace/scripts run check:command-requirements",
+    "check:release-suites": "pnpm --filter @workspace/scripts run check:release-suites",
+    "check:debugger": "pnpm --filter @workspace/chat-app run check:debugger",
+    "check:fonts": "pnpm --filter @workspace/chat-app run check:fonts",
+    "test": "pnpm run check:test-scripts && pnpm run check:browser-requirements && pnpm run check:browser-output && pnpm run check:browser-commands && pnpm run check:command-requirements && pnpm run check:release-suites && pnpm run test:unit && pnpm -r --if-present run test",
+    "test:unit": "pnpm --filter @workspace/scripts run test:unit",
+    "release:settings": "pnpm --filter @workspace/scripts run release:settings",
+    "release:validate": "pnpm run release:settings && pnpm --filter @workspace/api-server run test:e2e:moderation-recovery && pnpm --filter @workspace/api-server run test:e2e:launch-smoke && pnpm --filter @workspace/api-server run test:e2e:auth-layout && pnpm --filter @workspace/api-server run test:e2e:home-bar && pnpm --filter @workspace/api-server run test:e2e:hosted-home-bar && pnpm --filter @workspace/api-server run test:e2e:banned-room && pnpm --filter @workspace/api-server run test:e2e:moderation && pnpm --filter @workspace/api-server run test:e2e:moderation-timeout"
+  },
+
+  "checksOutsideFullRun": {
+    "check:debugger": "run as the expo-debugger workflow: it needs this workspace's Nix desktop libraries and downloads React Native's DevTools shell, neither of which `pnpm run test` has",
+    "check:fonts": "run as the chat-app-fonts workflow: it builds the published app and serves the output to fetch every font, a release-time run rather than a per-change one"
+  },
   "private": true,
-  "engines": {
-    "node": ">=24 <25"
+  "devDependencies": {
+    "prettier": "^3.9.6",
+    "typescript": "~5.9.3"
   }
 }
