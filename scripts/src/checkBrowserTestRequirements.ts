@@ -3772,8 +3772,8 @@ function packageSubpath(
     if (target === null) continue;
     return {
       target: target.replace(
-        "*",
-        subpath.slice(prefix.length, subpath.length - suffix.length),
+        /\*/g,
+        () => subpath.slice(prefix.length, subpath.length - suffix.length),
       ),
     };
   }
