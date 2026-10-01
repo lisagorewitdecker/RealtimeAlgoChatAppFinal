@@ -59,6 +59,7 @@ import {
 } from "../src/checkCommandRequirements.ts";
 import { LEFT_OUT_SUITES, RELEASE_SCRIPT } from "../src/checkReleaseSuites.ts";
 import { CHECK_SCRIPT_PREFIX } from "../src/checkTestScripts.ts";
+import { escapeRegExp } from "./escapeRegExp.ts";
 
 const WORKSPACE_ROOT = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
@@ -85,7 +86,7 @@ import { join } from "node:path";
 
 export default defineConfig({
   testDir: ".",
-  ${TEST_MATCH_KEY}: /${spec.replace(/\./g, "\\.")}/,
+  ${TEST_MATCH_KEY}: /${escapeRegExp(spec)}/,
   outputDir: join(tmpdir(), "${spec}-playwright"),
   preserveOutput: "never",
 ${body}});
@@ -97,7 +98,7 @@ const bareConfig = (spec: string): string =>
 
 export default defineConfig({
   testDir: ".",
-  ${TEST_MATCH_KEY}: /${spec.replace(/\./g, "\\.")}/,
+  ${TEST_MATCH_KEY}: /${escapeRegExp(spec)}/,
 });
 `;
 

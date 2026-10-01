@@ -21,6 +21,7 @@ import {
   PREFLIGHT_FUNCTION,
   STARTS_KEY,
 } from "../src/checkCommandRequirements.ts";
+import { escapeRegExp } from "./escapeRegExp.ts";
 
 const WORKSPACE_ROOT = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
@@ -707,7 +708,12 @@ test("a declared run the command's module never starts fails", (t) => {
 
   const failure = checkWorkspace(root);
   assert.ok(failure, "an environment spread into another run is accounted for by nothing");
-  assert.match(failure, new RegExp(`nothing in .*${TIMEOUT.module.replace(/\./g, "\\.")} names ${TIMEOUT_SUITE.config.replace(/\./g, "\\.")}`));
+  assert.match(
+    failure,
+    new RegExp(
+      `nothing in .*${escapeRegExp(TIMEOUT.module)} names ${escapeRegExp(TIMEOUT_SUITE.config)}`,
+    ),
+  );
 });
 
 test("a setting the run it starts needs and the command does not require fails", (t) => {
@@ -917,7 +923,12 @@ test("a shared module declaring no command fails", (t) => {
 
   const failure = checkWorkspace(root);
   assert.ok(failure, "a check with nothing to check passes like a compliant one");
-  assert.match(failure, new RegExp(`No ${COMMAND_TYPE} in ${REQUIREMENT_MODULE.replace(/[./]/g, "\\$&")} names a command`));
+  assert.match(
+    failure,
+    new RegExp(
+      `No ${COMMAND_TYPE} in ${escapeRegExp(REQUIREMENT_MODULE)} names a command`,
+    ),
+  );
 });
 
 test("the shared requirement module being gone fails", (t) => {

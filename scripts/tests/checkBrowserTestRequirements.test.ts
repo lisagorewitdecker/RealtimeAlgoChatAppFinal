@@ -35,6 +35,7 @@ import {
   findPlaywrightConfigs,
   stripComments,
 } from "../src/playwrightConfigs.ts";
+import { escapeRegExp } from "./escapeRegExp.ts";
 
 const WORKSPACE_ROOT = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
@@ -55,7 +56,7 @@ function config(body: string, spec = "moderation.spec.ts"): string {
   return `import { defineConfig } from "@playwright/test";
 export default defineConfig({
   testDir: ".",
-  ${TEST_MATCH_KEY}: /${spec.replace(/\./g, "\\.")}/,
+  ${TEST_MATCH_KEY}: /${escapeRegExp(spec)}/,
 ${body}});
 `;
 }
@@ -357,7 +358,7 @@ export default function setup(): void {
 
   const failure = checkWorkspace(root);
   assert.ok(failure, "only the shared module knows what each suite needs");
-  assert.match(failure, new RegExp(REQUIREMENT_MODULE.replace(/\//g, "\\/")));
+  assert.match(failure, new RegExp(escapeRegExp(REQUIREMENT_MODULE)));
 });
 
 test("a globalSetup built at runtime cannot be followed to a module", (t) => {
@@ -2018,6 +2019,14 @@ function packageFiles(
   return files;
 }
 
+test("regex escaping treats backslashes and metacharacters literally", () => {
+  const value = String.raw`dir\file.[spec]/child`;
+  const escaped = new RegExp(`^${escapeRegExp(value)}$`);
+
+  assert.equal(escaped.test(value), true);
+  assert.equal(escaped.test(`${value}extra`), false);
+});
+
 /** What names those directories as this workspace's own packages. */
 const workspaceManifest = (globs: readonly string[]): string =>
   ["packages:", ...globs.map((glob) => `  - ${glob}`), ""].join("\n");
@@ -2130,6 +2139,31 @@ test("reads a table", async () => { await Promise.resolve(usersTable); });
     null,
     "a subpath names a module of that package as surely as its entry point does",
   );
+});
+
+test("every wildcard in an exports target is substituted", (t) => {
+  const root = settingsWorkspace(
+    t,
+    { required: ["E2E_CHAT_URL", "DATABASE_URL"] },
+    `import { test } from "@playwright/test";
+import { usersTable } from "@workspace/db/schema/users";
+test.use({ baseURL: process.env["E2E_CHAT_URL"] });
+test("reads a table", async () => { await Promise.resolve(usersTable); });
+`,
+    {
+      "pnpm-workspace.yaml": workspaceManifest(["lib/*"]),
+      ...packageFiles(
+        "@workspace/db",
+        "lib/db",
+        {
+          "src/users/schema-users.ts": `export const usersTable = process.env.DATABASE_URL;\n`,
+        },
+        { ".": "./src/index.ts", "./schema/*": "./src/*/schema-*.ts" },
+      ),
+    },
+  );
+
+  assert.equal(checkWorkspace(root), null);
 });
 
 test("a directory of modules is read through the index inside it", (t) => {
