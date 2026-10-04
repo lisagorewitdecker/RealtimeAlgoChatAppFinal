@@ -190,8 +190,8 @@ importers:
         specifier: ^3.9.6
         version: 3.9.6
       typescript:
-        specifier: ~5.9.3
-        version: 5.9.3
+        specifier: ~7.0.2
+        version: 7.0.2
 
   artifacts/api-server:
     dependencies:
@@ -297,7 +297,7 @@ importers:
     dependencies:
       '@solana/web3.js':
         specifier: ^1.98.4
-        version: 1.98.4(bufferutil@4.1.0)(typescript@6.0.3)
+        version: 1.98.4(bufferutil@4.1.0)(typescript@7.0.2)
       bs58:
         specifier: ^6.0.0
         version: 6.0.0
@@ -318,6 +318,8 @@ importers:
         specifier: ^7.29.7
         version: 7.29.7(supports-color@8.1.1)
       '@clerk/expo':
+        specifier: ^4.6.1
+        version: 4.6.1(5725cccc8210deaccb7a7937a4af8513)
         specifier: ^4.7.3
         version: 4.7.3(87f0ddace64b6c4910cd20d6ee24e4ae)
       '@expo-google-fonts/inter':
@@ -325,7 +327,7 @@ importers:
         version: 0.4.2
       '@expo/cli':
         specifier: ~57.0.26
-        version: 57.0.27(@expo/metro-runtime@57.0.16)(bufferutil@4.1.0)(expo-constants@57.0.19)(expo-font@57.0.4)(expo-router@57.0.23)(expo@57.0.25)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)(typescript@6.0.3)
+        version: 57.0.27(@expo/metro-runtime@57.0.16)(bufferutil@4.1.0)(expo-constants@57.0.19)(expo-font@57.0.4)(expo-router@57.0.23)(expo@57.0.25)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/ngrok':
         specifier: ^4.1.3
         version: 4.1.3
@@ -376,7 +378,7 @@ importers:
         version: 0.3.6
       expo:
         specifier: ~57.0.25
-        version: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+        version: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       expo-auth-session:
         specifier: ~57.0.13
         version: 57.0.13(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)
@@ -412,7 +414,7 @@ importers:
         version: 57.0.11(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)
       expo-location:
         specifier: ~57.0.20
-        version: 57.0.20(expo@57.0.25)(supports-color@8.1.1)(typescript@6.0.3)
+        version: 57.0.20(expo@57.0.25)(supports-color@8.1.1)(typescript@7.0.2)
       expo-router:
         specifier: ~57.0.23
         version: 57.0.23(bc097c5f92146d261808adef14249909)
@@ -421,7 +423,7 @@ importers:
         version: 57.0.4(expo@57.0.25)
       expo-splash-screen:
         specifier: ~57.0.9
-        version: 57.0.9(expo@57.0.25)(supports-color@8.1.1)(typescript@6.0.3)
+        version: 57.0.9(expo@57.0.25)(supports-color@8.1.1)(typescript@7.0.2)
       expo-status-bar:
         specifier: ~57.0.1
         version: 57.0.1(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
@@ -477,8 +479,8 @@ importers:
         specifier: 0.10.1
         version: 0.10.1(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)
       typescript:
-        specifier: ~6.0.3
-        version: 6.0.3
+        specifier: ~7.0.2
+        version: 7.0.2
       zod:
         specifier: 'catalog:'
         version: 3.25.76
@@ -679,7 +681,7 @@ importers:
     devDependencies:
       orval:
         specifier: ^8.9.1
-        version: 8.27.0(prettier@3.9.6)(supports-color@8.1.1)(typescript@5.9.3)
+        version: 8.27.0(prettier@3.9.6)(supports-color@8.1.1)(typescript@7.0.2)
 
   lib/api-zod:
     dependencies:
@@ -3317,6 +3319,126 @@ packages:
 
   '@types/yargs@17.0.35':
     resolution: {integrity: sha512-qUHkeCyQFxMXg79wQfTtfndEC+N9ZZg76HJftDJp+qH2tV7Gj4OJi7l+PiWwJ+pWtW8GwSmqsDj/oymhrTWXjg==}
+
+  '@typescript/typescript-aix-ppc64@7.0.2':
+    resolution: {integrity: sha512-MTKKkWB7p/0E9xi1d1tHtZ5PiLkGEMIq88pK2CubZjOsLtYTLqhgIgi6zepFa+9GHZ6h05NMCkQxGKiPXMxXtQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [ppc64]
+    os: [aix]
+
+  '@typescript/typescript-darwin-arm64@7.0.2':
+    resolution: {integrity: sha512-gowzar9MwS/aRWp6f3a4KUqzRjAZjOsmGNCM6LcTgXum+dBfgsBVMN+AgvOCCbguXyick6LJhpBszxMebJ8syA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@typescript/typescript-darwin-x64@7.0.2':
+    resolution: {integrity: sha512-SZ9xZInqApNlNGc9s0W1VSsktYSOe9cFqNOIqmN1Gs8SmkjKZYFt017G4VwPxASInODuAdbTW7sXiFUf893RgA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@typescript/typescript-freebsd-arm64@7.0.2':
+    resolution: {integrity: sha512-W5NH4y/J0plIIS5b2xvTEkU7JFxyqdMAOgf+Ilhl0vHQXKO5dZoxd+C/jEtq56c4F3wk71RB4BMRQ2XdI+bwYQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@typescript/typescript-freebsd-x64@7.0.2':
+    resolution: {integrity: sha512-UMGDx5sTpzNw3WiPebH7l90IWfJggEd+egHt/q6p7/Cm3zqoV7VxkGXt+3DxPIw8CcmvAB0j3sVVfbhX+M4Tpw==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@typescript/typescript-linux-arm64@7.0.2':
+    resolution: {integrity: sha512-Qh4eU4/y3yDjnfjjyPYihMj5/ODIlmt+Bzu17OI+fiSRDW57QmU5SiN63exPRNJPKUzcc1INa1NXdrJ+MqHjUQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@typescript/typescript-linux-arm@7.0.2':
+    resolution: {integrity: sha512-gffT3xPz9sR7j/YJExkyPntrI0P2EP9XbOyWzth2/Gs0RstK+90RBcO0ncXoXy/beYll1SXw846Nf2zdnEz0QQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm]
+    os: [linux]
+
+  '@typescript/typescript-linux-loong64@7.0.2':
+    resolution: {integrity: sha512-uEHck9i8hoAzXPiYRib1O7miOnz23SxIeVl6F4LXox+qov1K35jHcEW6VHKvZI+pyvl7fZEP4MCU5LYvIq1GuQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [loong64]
+    os: [linux]
+
+  '@typescript/typescript-linux-mips64el@7.0.2':
+    resolution: {integrity: sha512-R4KvAMnE43W5Qeqb0Ly56O3mWMWIAgsMyz36DCaycd5nbg/9kzm0liw3JocfRqyJY0KPmzFjbswozXyW0DnIYA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [mips64el]
+    os: [linux]
+
+  '@typescript/typescript-linux-ppc64@7.0.2':
+    resolution: {integrity: sha512-DORx5b3sd/4S7eayxm4FQv+A7CrkUIGRaHiwI8oiHTAI1fAPWhF4J0vAlkC8biAlHSVVwxMQ3tjZ2/DVbnQiiA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@typescript/typescript-linux-riscv64@7.0.2':
+    resolution: {integrity: sha512-wf0jqEDOjrPRnKwYRyyJDRo11KMbvMFrU+q4zqKyChODBzvlkbhNQfKvLxQCcwTpdDaXSHZTVuh0JoCrKCUMHQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@typescript/typescript-linux-s390x@7.0.2':
+    resolution: {integrity: sha512-IkwJc3L7yhytWd/ewjyxNDfOmswCm9GWMJT/ue/dU4aZNbwZeYAetq42VyLmsmSjvoX7z74X6ZaYCtzAr0EuGw==}
+    engines: {node: '>=16.20.0'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@typescript/typescript-linux-x64@7.0.2':
+    resolution: {integrity: sha512-EYdf2cNg7rgCWJnxCdJ+F3V39O8ihb37eHAu1LK8oAFizgTQbPOK7zHHXbPt8rX24COqODXeI3sIf0fCXG7H/A==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [linux]
+
+  '@typescript/typescript-netbsd-arm64@7.0.2':
+    resolution: {integrity: sha512-+polYF4MF04aPpO5FTkHran9yUQDSXqy5GiSDKpsll5jy3l3+g9QLhpf39T+ePtefhXLOGrLl0QIjkQP6VnelA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [netbsd]
+
+  '@typescript/typescript-netbsd-x64@7.0.2':
+    resolution: {integrity: sha512-8YIT0EHM/3dq10ZOVF/A7pc/YSMtbcecct4rWtexrnSCHOPcpC2KTLXfTCR6vDpnSiY12heNb1GiN/wu+T/FyA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [netbsd]
+
+  '@typescript/typescript-openbsd-arm64@7.0.2':
+    resolution: {integrity: sha512-APT8+ClYnuYm1u9+kgGXoMj2VzWzcymwh2gNSQVySHfkRDGOTVkoWLjCmOQSaO+PoqQ57B0flRp9SA+7GnnkzQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [openbsd]
+
+  '@typescript/typescript-openbsd-x64@7.0.2':
+    resolution: {integrity: sha512-yX7s+Q0Dln0Dt9tEzZsAjXXR/+ytBM7AlglaqyeMPxQszJ1JhlJdZ6jLA+IzldHtflX81em7lDao1xXu+aRRkg==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [openbsd]
+
+  '@typescript/typescript-sunos-x64@7.0.2':
+    resolution: {integrity: sha512-dLJDGaLZ1D4HPQn62u1n8mBDkJREwMsAkCdkwd4Ieqw+x3TUyTsqY0YiBCtE6H6OzzgGk3iuZ3vFWRS+E8/d1g==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [sunos]
+
+  '@typescript/typescript-win32-arm64@7.0.2':
+    resolution: {integrity: sha512-Gyl1Vy6OsWesLzmq+EP0Fb7b4Nid5232AvcA2SFcdYreldpNtYFFofPjnt62y9hQy7VTaZp65ICJjuAQRaVcIQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@typescript/typescript-win32-x64@7.0.2':
+    resolution: {integrity: sha512-0BQ3HkAHHlKLSp1qRvf3SUhGpGsDuhB/jgFw75guyqbxJqEaS0Cw/VFO8i2nHglJUzQCRtMMR/IBAKE3ETMC4g==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [win32]
 
   '@ungap/structured-clone@1.4.0':
     resolution: {integrity: sha512-1mEZtMKPM09vDmQt5y7YvmN2+DFTP7Tg0EWXdic8/C6VRnpb33e4ghisCIE3WZjsE2N8mf+QV1Zqh7ZFYLWInQ==}
@@ -7026,14 +7148,9 @@ packages:
     peerDependencies:
       typescript: 5.0.x || 5.1.x || 5.2.x || 5.3.x || 5.4.x || 5.5.x || 5.6.x || 5.7.x || 5.8.x || 5.9.x || 6.0.x
 
-  typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-
-  typescript@6.0.3:
-    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
-    engines: {node: '>=14.17'}
+  typescript@7.0.2:
+    resolution: {integrity: sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==}
+    engines: {node: '>=16.20.0'}
     hasBin: true
 
   ua-parser-js@1.0.41:
@@ -8000,15 +8117,15 @@ snapshots:
       '@babel/helper-string-parser': 7.29.7
       '@babel/helper-validator-identifier': 7.29.7
 
-  '@base-org/account@2.0.1(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(typescript@6.0.3)(utf-8-validate@6.0.6)(zod@3.25.76)':
+  '@base-org/account@2.0.1(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(typescript@7.0.2)(utf-8-validate@6.0.6)(zod@3.25.76)':
     dependencies:
       '@noble/hashes': 1.4.0
       clsx: 1.2.1
       eventemitter3: 5.0.1
       idb-keyval: 6.2.1
-      ox: 0.6.9(typescript@6.0.3)(zod@3.25.76)
+      ox: 0.6.9(typescript@7.0.2)(zod@3.25.76)
       preact: 10.24.2
-      viem: 2.55.19(bufferutil@4.1.0)(typescript@6.0.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      viem: 2.55.19(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@6.0.6)(zod@3.25.76)
       zustand: 5.0.3(@types/react@19.2.18)(react@19.2.3)
     transitivePeerDependencies:
       - '@types/react'
@@ -8031,6 +8148,14 @@ snapshots:
       - react
       - react-dom
 
+  '@clerk/clerk-js@6.30.2(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(@types/react@19.2.18)(bs58@6.0.0)(bufferutil@4.1.0)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(typescript@7.0.2)(utf-8-validate@6.0.6)(zod@3.25.76)':
+    dependencies:
+      '@base-org/account': 2.0.1(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(typescript@7.0.2)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@clerk/shared': 4.30.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      '@coinbase/wallet-sdk': 4.3.7(bufferutil@4.1.0)(typescript@7.0.2)(zod@3.25.76)
+      '@solana/wallet-adapter-base': 0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))
+      '@solana/wallet-adapter-react': 0.15.39(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(typescript@7.0.2)
+      '@solana/wallet-standard': 1.1.4(@solana/wallet-adapter-base@0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2)))(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)(react@19.2.3)
   '@clerk/backend@3.21.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
       '@clerk/shared': 4.37.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -8070,15 +8195,16 @@ snapshots:
       - utf-8-validate
       - zod
 
+  '@clerk/expo@4.6.1(5725cccc8210deaccb7a7937a4af8513)':
   '@clerk/expo@4.7.3(87f0ddace64b6c4910cd20d6ee24e4ae)':
     dependencies:
-      '@clerk/clerk-js': 6.30.2(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@6.0.3))(@types/react@19.2.18)(bs58@6.0.0)(bufferutil@4.1.0)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(typescript@6.0.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      '@clerk/clerk-js': 6.30.2(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(@types/react@19.2.18)(bs58@6.0.0)(bufferutil@4.1.0)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(typescript@7.0.2)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@clerk/react': 6.14.8(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@clerk/clerk-js': 6.36.0(@types/react@19.2.18)(bufferutil@4.1.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@6.0.3)(utf-8-validate@6.0.6)(zod@3.25.76)
       '@clerk/react': 6.17.4(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@clerk/shared': 4.37.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       base-64: 1.0.0
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
       react-native-url-polyfill: 4.0.0(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))
@@ -8163,13 +8289,13 @@ snapshots:
       - react
       - react-dom
 
-  '@coinbase/wallet-sdk@4.3.7(bufferutil@4.1.0)(typescript@6.0.3)(zod@3.25.76)':
+  '@coinbase/wallet-sdk@4.3.7(bufferutil@4.1.0)(typescript@7.0.2)(zod@3.25.76)':
     dependencies:
       '@noble/hashes': 1.8.0
       clsx: 1.2.1
       eventemitter3: 5.0.4
       preact: 10.29.8
-      viem: 2.55.19(bufferutil@4.1.0)(typescript@6.0.3)(utf-8-validate@6.0.6)(zod@3.25.76)
+      viem: 2.55.19(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@6.0.6)(zod@3.25.76)
     transitivePeerDependencies:
       - bufferutil
       - preact-render-to-string
@@ -8196,25 +8322,25 @@ snapshots:
 
   '@expo-google-fonts/material-symbols@0.4.48': {}
 
-  '@expo/cli@57.0.27(@expo/metro-runtime@57.0.16)(bufferutil@4.1.0)(expo-constants@57.0.19)(expo-font@57.0.4)(expo-router@57.0.23)(expo@57.0.25)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)(typescript@6.0.3)':
+  '@expo/cli@57.0.27(@expo/metro-runtime@57.0.16)(bufferutil@4.1.0)(expo-constants@57.0.19)(expo-font@57.0.4)(expo-router@57.0.23)(expo@57.0.25)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
       '@expo/code-signing-certificates': 0.0.6
-      '@expo/config': 57.0.9(supports-color@8.1.1)(typescript@6.0.3)
-      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/config': 57.0.9(supports-color@8.1.1)(typescript@7.0.2)
+      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/devcert': 1.2.1(supports-color@8.1.1)
       '@expo/env': 2.4.3(supports-color@8.1.1)
-      '@expo/image-utils': 0.11.5(supports-color@8.1.1)(typescript@6.0.3)
-      '@expo/inline-modules': 0.1.7(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/image-utils': 0.11.5(supports-color@8.1.1)(typescript@7.0.2)
+      '@expo/inline-modules': 0.1.7(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/json-file': 11.0.1
       '@expo/log-box': 57.0.4(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       '@expo/metro': 56.0.2(bufferutil@4.1.0)(supports-color@8.1.1)
-      '@expo/metro-config': 57.0.12(bufferutil@4.1.0)(expo@57.0.25)(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/metro-config': 57.0.12(bufferutil@4.1.0)(expo@57.0.25)(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/metro-file-map': 57.0.3(supports-color@8.1.1)
       '@expo/osascript': 2.7.1
       '@expo/package-manager': 1.13.1
       '@expo/plist': 0.8.1
-      '@expo/prebuild-config': 57.0.16(supports-color@8.1.1)(typescript@6.0.3)
-      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/prebuild-config': 57.0.16(supports-color@8.1.1)(typescript@7.0.2)
+      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/router-server': 57.0.11(@expo/metro-runtime@57.0.16)(expo-constants@57.0.19)(expo-font@57.0.4)(expo-router@57.0.23)(expo-server@57.0.3)(expo@57.0.25)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(supports-color@8.1.1)
       '@expo/schema-utils': 57.0.2
       '@expo/spawn-async': 1.8.0
@@ -8232,7 +8358,7 @@ snapshots:
       connect: 3.7.0(supports-color@8.1.1)
       debug: 4.4.3(supports-color@8.1.1)
       dnssd-advertise: 1.1.6
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       expo-server: 57.0.3
       fetch-nodeshim: 0.4.10
       getenv: 2.0.0
@@ -8277,12 +8403,12 @@ snapshots:
     dependencies:
       node-forge: 1.4.0(patch_hash=b7c83f1048de1fed7b79ea126641c8d7cd7a27fed66c77062e9a92b8b9e01800)
 
-  '@expo/config-plugins@57.0.9(supports-color@8.1.1)(typescript@6.0.3)':
+  '@expo/config-plugins@57.0.9(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
       '@expo/config-types': 57.0.2
       '@expo/json-file': 11.0.1
       '@expo/plist': 0.8.1
-      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/sdk-runtime-versions': 1.0.0
       chalk: 4.1.2
       debug: 4.4.3(supports-color@8.1.1)
@@ -8298,12 +8424,12 @@ snapshots:
 
   '@expo/config-types@57.0.2': {}
 
-  '@expo/config@57.0.9(supports-color@8.1.1)(typescript@6.0.3)':
+  '@expo/config@57.0.9(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/config-types': 57.0.2
       '@expo/json-file': 11.0.1
-      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@7.0.2)
       deepmerge: 4.3.1
       getenv: 2.0.0
       glob: 13.0.6
@@ -8330,7 +8456,7 @@ snapshots:
 
   '@expo/dom-webview@57.0.1(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)':
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
 
@@ -8360,9 +8486,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@expo/image-utils@0.11.5(supports-color@8.1.1)(typescript@6.0.3)':
+  '@expo/image-utils@0.11.5(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/spawn-async': 1.8.0
       chalk: 4.1.2
       getenv: 2.0.0
@@ -8373,9 +8499,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@expo/inline-modules@0.1.7(supports-color@8.1.1)(typescript@6.0.3)':
+  '@expo/inline-modules@0.1.7(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@7.0.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -8385,9 +8511,9 @@ snapshots:
       '@babel/code-frame': 7.29.7
       json5: 2.2.3
 
-  '@expo/local-build-cache-provider@57.0.8(supports-color@8.1.1)(typescript@6.0.3)':
+  '@expo/local-build-cache-provider@57.0.8(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@expo/config': 57.0.9(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/config': 57.0.9(supports-color@8.1.1)(typescript@7.0.2)
       chalk: 4.1.2
     transitivePeerDependencies:
       - supports-color
@@ -8397,21 +8523,21 @@ snapshots:
     dependencies:
       '@expo/dom-webview': 57.0.1(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       anser: 1.4.10
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
       stacktrace-parser: 0.1.11
 
-  '@expo/metro-config@57.0.12(bufferutil@4.1.0)(expo@57.0.25)(supports-color@8.1.1)(typescript@6.0.3)':
+  '@expo/metro-config@57.0.12(bufferutil@4.1.0)(expo@57.0.25)(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
       '@babel/code-frame': 7.29.7
       '@babel/core': 7.29.7(supports-color@8.1.1)
       '@babel/generator': 7.29.7
-      '@expo/config': 57.0.9(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/config': 57.0.9(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/env': 2.4.3(supports-color@8.1.1)
       '@expo/json-file': 11.0.1
       '@expo/metro': 56.0.2(bufferutil@4.1.0)(supports-color@8.1.1)
-      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/spawn-async': 1.8.0
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/remapping': 2.3.5
@@ -8428,7 +8554,7 @@ snapshots:
       postcss: 8.5.26
       resolve-from: 5.0.0
     optionalDependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -8450,7 +8576,7 @@ snapshots:
     dependencies:
       '@expo/log-box': 57.0.4(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       anser: 1.4.10
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       pretty-format: 29.7.0
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
@@ -8513,36 +8639,36 @@ snapshots:
       base64-js: 1.5.1
       xmlbuilder: 15.1.1
 
-  '@expo/prebuild-config@57.0.16(supports-color@8.1.1)(typescript@6.0.3)':
+  '@expo/prebuild-config@57.0.16(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@expo/config': 57.0.9(supports-color@8.1.1)(typescript@6.0.3)
-      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/config': 57.0.9(supports-color@8.1.1)(typescript@7.0.2)
+      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/config-types': 57.0.2
-      '@expo/image-utils': 0.11.5(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/image-utils': 0.11.5(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/json-file': 11.0.1
       '@react-native/normalize-colors': 0.86.3
       debug: 4.4.3(supports-color@8.1.1)
-      expo-modules-autolinking: 57.0.13(supports-color@8.1.1)(typescript@6.0.3)
+      expo-modules-autolinking: 57.0.13(supports-color@8.1.1)(typescript@7.0.2)
       resolve-from: 5.0.0
       semver: 7.8.5
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  '@expo/require-utils@57.0.5(supports-color@8.1.1)(typescript@6.0.3)':
+  '@expo/require-utils@57.0.5(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
       '@babel/code-frame': 7.29.7
       '@babel/core': 7.29.7(supports-color@8.1.1)
       '@babel/plugin-transform-modules-commonjs': 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     optionalDependencies:
-      typescript: 6.0.3
+      typescript: 7.0.2
     transitivePeerDependencies:
       - supports-color
 
   '@expo/router-server@57.0.11(@expo/metro-runtime@57.0.16)(expo-constants@57.0.19)(expo-font@57.0.4)(expo-router@57.0.23)(expo-server@57.0.3)(expo@57.0.25)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(supports-color@8.1.1)':
     dependencies:
       debug: 4.4.3(supports-color@8.1.1)
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       expo-constants: 57.0.19(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(supports-color@8.1.1)
       expo-font: 57.0.4(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       expo-server: 57.0.3
@@ -8566,7 +8692,7 @@ snapshots:
 
   '@expo/ui@57.0.20(d2e3c1d3bc3db639fdcc918e4752804d)':
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
       sf-symbols-typescript: 2.2.0
@@ -8903,22 +9029,23 @@ snapshots:
 
   '@opentelemetry/semantic-conventions@1.43.0': {}
 
-  '@orval/angular@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
+  '@orval/angular@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
       - typescript
 
-  '@orval/axios@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
+  '@orval/axios@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
       - typescript
 
+  '@orval/core@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
   '@orval/core@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
       '@scalar/openapi-types': 0.9.4
@@ -8932,28 +9059,37 @@ snapshots:
       jsesc: 3.1.0
       remeda: 2.34.0
       tinyglobby: 0.2.16
+      typedoc: 0.28.19(typescript@7.0.2)
       typedoc: 0.28.19(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
+  '@orval/effect@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
   '@orval/effect@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
       remeda: 2.34.0
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
       - typescript
 
-  '@orval/fetch@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
+  '@orval/fetch@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
       - typescript
 
+  '@orval/hono@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
+    dependencies:
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/zod': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      fs-extra: 11.3.5
+    optionalDependencies:
+      typescript: 7.0.2
   '@orval/hono@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
@@ -8965,54 +9101,55 @@ snapshots:
       - '@faker-js/faker'
       - supports-color
 
-  '@orval/mcp@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
+  '@orval/mcp@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      '@orval/fetch': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      '@orval/zod': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/fetch': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/zod': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
       - typescript
 
-  '@orval/mock@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
+  '@orval/mock@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
       remeda: 2.34.0
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
       - typescript
 
-  '@orval/query@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
+  '@orval/query@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      '@orval/fetch': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/fetch': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
       remeda: 2.34.0
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
       - typescript
 
-  '@orval/solid-start@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
+  '@orval/solid-start@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
       - typescript
 
-  '@orval/swr@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
+  '@orval/swr@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      '@orval/fetch': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/fetch': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
       - typescript
 
-  '@orval/zod@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
+  '@orval/zod@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       jsesc: 3.1.0
       remeda: 2.34.0
@@ -10060,6 +10197,778 @@ snapshots:
 
   '@socket.io/component-emitter@3.1.2': {}
 
+  '@solana-mobile/mobile-wallet-adapter-protocol-web3js@2.3.0(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(typescript@7.0.2)':
+    dependencies:
+      '@solana-mobile/mobile-wallet-adapter-protocol': 2.3.0(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(typescript@7.0.2)
+      '@solana/web3.js': 1.98.4(bufferutil@4.1.0)(typescript@7.0.2)
+    transitivePeerDependencies:
+      - bufferutil
+      - fastestsmallesttextencoderdecoder
+      - react-native
+      - typescript
+      - utf-8-validate
+
+  '@solana-mobile/mobile-wallet-adapter-protocol@2.3.0(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(typescript@7.0.2)':
+    dependencies:
+      '@noble/curves': 2.3.0
+      '@noble/hashes': 2.3.0
+      '@solana/kit': 7.1.1(bufferutil@4.1.0)(typescript@7.0.2)
+      '@solana/wallet-standard-features': 1.4.0
+      '@solana/wallet-standard-util': 1.1.3
+      '@wallet-standard/core': 1.1.1
+      react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
+    transitivePeerDependencies:
+      - bufferutil
+      - fastestsmallesttextencoderdecoder
+      - typescript
+      - utf-8-validate
+
+  '@solana-mobile/wallet-adapter-mobile@2.3.0(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(typescript@7.0.2)':
+    dependencies:
+      '@solana-mobile/mobile-wallet-adapter-protocol': 2.3.0(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(typescript@7.0.2)
+      '@solana-mobile/mobile-wallet-adapter-protocol-web3js': 2.3.0(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(typescript@7.0.2)
+      '@solana-mobile/wallet-standard-mobile': 0.6.0(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(typescript@7.0.2)
+      '@solana/wallet-adapter-base': 0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))
+      '@solana/wallet-standard-features': 1.4.0
+      '@solana/web3.js': 1.98.4(bufferutil@4.1.0)(typescript@7.0.2)
+      '@wallet-standard/core': 1.1.1
+      react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
+      tslib: 2.8.1
+    optionalDependencies:
+      '@react-native-async-storage/async-storage': 1.24.0(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))
+    transitivePeerDependencies:
+      - bufferutil
+      - fastestsmallesttextencoderdecoder
+      - typescript
+      - utf-8-validate
+
+  '@solana-mobile/wallet-standard-mobile@0.6.0(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(typescript@7.0.2)':
+    dependencies:
+      '@solana-mobile/mobile-wallet-adapter-protocol': 2.3.0(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(typescript@7.0.2)
+      '@solana/wallet-standard-chains': 1.1.2
+      '@solana/wallet-standard-features': 1.4.0
+      '@wallet-standard/base': 1.1.1
+      '@wallet-standard/features': 1.1.1
+      '@wallet-standard/wallet': 1.1.1
+      qrcode: 1.5.4
+      tslib: 2.8.1
+    optionalDependencies:
+      '@react-native-async-storage/async-storage': 1.24.0(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))
+    transitivePeerDependencies:
+      - bufferutil
+      - fastestsmallesttextencoderdecoder
+      - react-native
+      - typescript
+      - utf-8-validate
+
+  '@solana/accounts@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-strings': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/addresses@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/assertions': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-strings': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/nominal-types': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/assertions@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/buffer-layout@4.0.1':
+    dependencies:
+      buffer: 6.0.3
+
+  '@solana/codecs-core@2.3.0(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 2.3.0(typescript@7.0.2)
+      typescript: 7.0.2
+
+  '@solana/codecs-core@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/codecs-data-structures@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-numbers': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/codecs-numbers@2.3.0(typescript@7.0.2)':
+    dependencies:
+      '@solana/codecs-core': 2.3.0(typescript@7.0.2)
+      '@solana/errors': 2.3.0(typescript@7.0.2)
+      typescript: 7.0.2
+
+  '@solana/codecs-numbers@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/codecs-strings@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-numbers': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/codecs@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-data-structures': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-numbers': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-strings': 7.1.1(typescript@7.0.2)
+      '@solana/fixed-points': 7.1.1(typescript@7.0.2)
+      '@solana/options': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/errors@2.3.0(typescript@7.0.2)':
+    dependencies:
+      chalk: 5.6.2
+      commander: 14.0.3
+      typescript: 7.0.2
+
+  '@solana/errors@7.1.1(typescript@7.0.2)':
+    dependencies:
+      chalk: 5.6.2
+      commander: 15.0.0
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/fast-stable-stringify@7.1.1(typescript@7.0.2)':
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/fixed-points@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/functional@7.1.1(typescript@7.0.2)':
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/instruction-plans@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/instructions': 7.1.1(typescript@7.0.2)
+      '@solana/keys': 7.1.1(typescript@7.0.2)
+      '@solana/promises': 7.1.1(typescript@7.0.2)
+      '@solana/transaction-messages': 7.1.1(typescript@7.0.2)
+      '@solana/transactions': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/instructions@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/keys@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/assertions': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-strings': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/nominal-types': 7.1.1(typescript@7.0.2)
+      '@solana/promises': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/kit@7.1.1(bufferutil@4.1.0)(typescript@7.0.2)':
+    dependencies:
+      '@solana/accounts': 7.1.1(typescript@7.0.2)
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/codecs': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/functional': 7.1.1(typescript@7.0.2)
+      '@solana/instruction-plans': 7.1.1(typescript@7.0.2)
+      '@solana/instructions': 7.1.1(typescript@7.0.2)
+      '@solana/keys': 7.1.1(typescript@7.0.2)
+      '@solana/offchain-messages': 7.1.1(typescript@7.0.2)
+      '@solana/plugin-core': 7.1.1(typescript@7.0.2)
+      '@solana/plugin-interfaces': 7.1.1(typescript@7.0.2)
+      '@solana/program-client-core': 7.1.1(typescript@7.0.2)
+      '@solana/programs': 7.1.1(typescript@7.0.2)
+      '@solana/promises': 7.1.1(typescript@7.0.2)
+      '@solana/rpc': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-api': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-parsed-types': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec-types': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-subscriptions': 7.1.1(bufferutil@4.1.0)(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+      '@solana/signers': 7.1.1(typescript@7.0.2)
+      '@solana/subscribable': 7.1.1(typescript@7.0.2)
+      '@solana/sysvars': 7.1.1(typescript@7.0.2)
+      '@solana/transaction-confirmation': 7.1.1(bufferutil@4.1.0)(typescript@7.0.2)
+      '@solana/transaction-introspection': 7.1.1(typescript@7.0.2)
+      '@solana/transaction-messages': 7.1.1(typescript@7.0.2)
+      '@solana/transactions': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - bufferutil
+      - fastestsmallesttextencoderdecoder
+      - utf-8-validate
+
+  '@solana/nominal-types@7.1.1(typescript@7.0.2)':
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/offchain-messages@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-data-structures': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-numbers': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-strings': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/keys': 7.1.1(typescript@7.0.2)
+      '@solana/nominal-types': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/options@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-data-structures': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-numbers': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-strings': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/plugin-core@7.1.1(typescript@7.0.2)':
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/plugin-interfaces@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/accounts': 7.1.1(typescript@7.0.2)
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/instruction-plans': 7.1.1(typescript@7.0.2)
+      '@solana/keys': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-subscriptions-spec': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+      '@solana/signers': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/program-client-core@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/accounts': 7.1.1(typescript@7.0.2)
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/instruction-plans': 7.1.1(typescript@7.0.2)
+      '@solana/instructions': 7.1.1(typescript@7.0.2)
+      '@solana/plugin-interfaces': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-api': 7.1.1(typescript@7.0.2)
+      '@solana/signers': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/programs@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/promises@7.1.1(typescript@7.0.2)':
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/rpc-api@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-strings': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/keys': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-parsed-types': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-transformers': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+      '@solana/transaction-messages': 7.1.1(typescript@7.0.2)
+      '@solana/transactions': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/rpc-parsed-types@7.1.1(typescript@7.0.2)':
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/rpc-spec-types@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/rpc-spec@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec-types': 7.1.1(typescript@7.0.2)
+      '@solana/subscribable': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/rpc-subscriptions-api@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/keys': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-subscriptions-spec': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-transformers': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+      '@solana/transaction-messages': 7.1.1(typescript@7.0.2)
+      '@solana/transactions': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/rpc-subscriptions-channel-websocket@7.1.1(bufferutil@4.1.0)(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/functional': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-subscriptions-spec': 7.1.1(typescript@7.0.2)
+      '@solana/subscribable': 7.1.1(typescript@7.0.2)
+      ws: 8.21.0(bufferutil@4.1.0)(utf-8-validate@6.0.6)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
+  '@solana/rpc-subscriptions-spec@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/promises': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec-types': 7.1.1(typescript@7.0.2)
+      '@solana/subscribable': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/rpc-subscriptions@7.1.1(bufferutil@4.1.0)(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/fast-stable-stringify': 7.1.1(typescript@7.0.2)
+      '@solana/functional': 7.1.1(typescript@7.0.2)
+      '@solana/promises': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec-types': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-subscriptions-api': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-subscriptions-channel-websocket': 7.1.1(bufferutil@4.1.0)(typescript@7.0.2)
+      '@solana/rpc-subscriptions-spec': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-transformers': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+      '@solana/subscribable': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - bufferutil
+      - fastestsmallesttextencoderdecoder
+      - utf-8-validate
+
+  '@solana/rpc-transformers@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/functional': 7.1.1(typescript@7.0.2)
+      '@solana/nominal-types': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec-types': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/rpc-transport-http@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec-types': 7.1.1(typescript@7.0.2)
+      undici-types: 8.10.0
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/rpc-types@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-numbers': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-strings': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/fixed-points': 7.1.1(typescript@7.0.2)
+      '@solana/nominal-types': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    dependencies:
+      '@scalar/helpers': 0.10.0
+      pathe: 2.0.3
+      yaml: 2.9.0
+
+  '@scalar/json-magic@0.13.2':
+    dependencies:
+      '@scalar/helpers': 0.11.1
+      pathe: 2.0.3
+      yaml: 2.9.0
+
+  '@scalar/openapi-parser@0.28.16':
+    dependencies:
+      '@scalar/helpers': 0.11.1
+      '@scalar/json-magic': 0.13.2
+      '@scalar/openapi-types': 0.9.5
+      '@scalar/openapi-upgrader': 0.2.15
+      ajv: 8.20.0
+      ajv-draft-04: 1.0.0(ajv@8.20.0)
+      ajv-formats: 3.0.1
+      jsonpointer: 5.0.1
+      leven: 4.1.0
+      yaml: 2.9.0
+
+  '@scalar/openapi-types@0.9.4': {}
+
+  '@scalar/openapi-types@0.9.5': {}
+
+  '@scalar/openapi-upgrader@0.2.15':
+    dependencies:
+      '@scalar/openapi-types': 0.9.5
+
+  '@scure/base@1.2.6': {}
+
+  '@scure/bip32@1.7.0':
+    dependencies:
+      '@noble/curves': 1.9.7
+      '@noble/hashes': 1.8.0
+      '@scure/base': 1.2.6
+
+  '@scure/bip39@1.6.0':
+    dependencies:
+      '@noble/hashes': 1.8.0
+      '@scure/base': 1.2.6
+
+  '@sec-ant/readable-stream@0.4.1': {}
+
+  '@sentry/conventions@0.16.0': {}
+
+  '@sentry/core@10.71.0':
+    dependencies:
+      '@sentry/conventions': 0.16.0
+
+  '@sentry/node-core@10.71.0(@opentelemetry/api@1.9.1)(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/instrumentation@0.220.0(@opentelemetry/api@1.9.1)(supports-color@8.1.1))(@opentelemetry/sdk-trace-base@2.10.0(@opentelemetry/api@1.9.1))':
+    dependencies:
+      '@sentry/conventions': 0.16.0
+      '@sentry/core': 10.71.0
+      '@sentry/opentelemetry': 10.71.0(@opentelemetry/api@1.9.1)(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.10.0(@opentelemetry/api@1.9.1))
+      import-in-the-middle: 3.3.3
+    optionalDependencies:
+      '@opentelemetry/api': 1.9.1
+      '@opentelemetry/core': 2.10.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/instrumentation': 0.220.0(@opentelemetry/api@1.9.1)(supports-color@8.1.1)
+      '@opentelemetry/sdk-trace-base': 2.10.0(@opentelemetry/api@1.9.1)
+
+  '@sentry/node@10.71.0(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(supports-color@8.1.1)':
+    dependencies:
+      '@opentelemetry/api': 1.9.1
+      '@opentelemetry/instrumentation': 0.220.0(@opentelemetry/api@1.9.1)(supports-color@8.1.1)
+      '@opentelemetry/sdk-trace-base': 2.10.0(@opentelemetry/api@1.9.1)
+      '@sentry/conventions': 0.16.0
+      '@sentry/core': 10.71.0
+      '@sentry/node-core': 10.71.0(@opentelemetry/api@1.9.1)(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/instrumentation@0.220.0(@opentelemetry/api@1.9.1)(supports-color@8.1.1))(@opentelemetry/sdk-trace-base@2.10.0(@opentelemetry/api@1.9.1))
+      '@sentry/opentelemetry': 10.71.0(@opentelemetry/api@1.9.1)(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.10.0(@opentelemetry/api@1.9.1))
+      '@sentry/server-utils': 10.71.0(supports-color@8.1.1)
+      import-in-the-middle: 3.3.3
+    transitivePeerDependencies:
+      - '@opentelemetry/core'
+      - '@opentelemetry/exporter-trace-otlp-http'
+      - supports-color
+
+  '@solana/rpc@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/fast-stable-stringify': 7.1.1(typescript@7.0.2)
+      '@solana/functional': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-api': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-spec-types': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-transformers': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-transport-http': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/signers@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/instructions': 7.1.1(typescript@7.0.2)
+      '@solana/keys': 7.1.1(typescript@7.0.2)
+      '@solana/nominal-types': 7.1.1(typescript@7.0.2)
+      '@solana/offchain-messages': 7.1.1(typescript@7.0.2)
+      '@solana/transaction-messages': 7.1.1(typescript@7.0.2)
+      '@solana/transactions': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+  '@sentry/opentelemetry@10.71.0(@opentelemetry/api@1.9.1)(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.10.0(@opentelemetry/api@1.9.1))':
+    dependencies:
+      '@opentelemetry/api': 1.9.1
+      '@opentelemetry/core': 2.10.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/sdk-trace-base': 2.10.0(@opentelemetry/api@1.9.1)
+      '@sentry/conventions': 0.16.0
+      '@sentry/core': 10.71.0
+
+  '@sentry/server-utils@10.71.0(supports-color@8.1.1)':
+    dependencies:
+      '@apm-js-collab/code-transformer-bundler-plugins': 0.7.4
+      '@apm-js-collab/tracing-hooks': 0.13.0(supports-color@8.1.1)
+      '@sentry/conventions': 0.16.0
+      '@sentry/core': 10.71.0
+      meriyah: 6.1.4
+    transitivePeerDependencies:
+      - supports-color
+
+  '@solana/subscribable@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/promises': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+
+  '@solana/sysvars@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/accounts': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-data-structures': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-numbers': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/transaction-confirmation@7.1.1(bufferutil@4.1.0)(typescript@7.0.2)':
+    dependencies:
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-strings': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/keys': 7.1.1(typescript@7.0.2)
+      '@solana/promises': 7.1.1(typescript@7.0.2)
+      '@solana/rpc': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-subscriptions': 7.1.1(bufferutil@4.1.0)(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+      '@solana/transaction-messages': 7.1.1(typescript@7.0.2)
+      '@solana/transactions': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - bufferutil
+      - fastestsmallesttextencoderdecoder
+      - utf-8-validate
+
+  '@solana/transaction-introspection@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-strings': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/instructions': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+      '@solana/transaction-messages': 7.1.1(typescript@7.0.2)
+      '@solana/transactions': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/transaction-messages@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-data-structures': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-numbers': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/functional': 7.1.1(typescript@7.0.2)
+      '@solana/instructions': 7.1.1(typescript@7.0.2)
+      '@solana/nominal-types': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/transactions@7.1.1(typescript@7.0.2)':
+    dependencies:
+      '@solana/addresses': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-core': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-data-structures': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-numbers': 7.1.1(typescript@7.0.2)
+      '@solana/codecs-strings': 7.1.1(typescript@7.0.2)
+      '@solana/errors': 7.1.1(typescript@7.0.2)
+      '@solana/functional': 7.1.1(typescript@7.0.2)
+      '@solana/instructions': 7.1.1(typescript@7.0.2)
+      '@solana/keys': 7.1.1(typescript@7.0.2)
+      '@solana/nominal-types': 7.1.1(typescript@7.0.2)
+      '@solana/rpc-types': 7.1.1(typescript@7.0.2)
+      '@solana/transaction-messages': 7.1.1(typescript@7.0.2)
+    optionalDependencies:
+      typescript: 7.0.2
+    transitivePeerDependencies:
+      - fastestsmallesttextencoderdecoder
+
+  '@solana/wallet-adapter-base@0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))':
+    dependencies:
+      '@solana/wallet-standard-features': 1.4.0
+      '@solana/web3.js': 1.98.4(bufferutil@4.1.0)(typescript@7.0.2)
+      '@wallet-standard/base': 1.1.1
+      '@wallet-standard/features': 1.1.1
+      eventemitter3: 5.0.4
+
+  '@solana/wallet-adapter-react@0.15.39(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(typescript@7.0.2)':
+    dependencies:
+      '@solana-mobile/wallet-adapter-mobile': 2.3.0(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bufferutil@4.1.0)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(typescript@7.0.2)
+      '@solana/wallet-adapter-base': 0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))
+      '@solana/wallet-standard-wallet-adapter-react': 1.1.6(@solana/wallet-adapter-base@0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2)))(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)(react@19.2.3)
+      '@solana/web3.js': 1.98.4(bufferutil@4.1.0)(typescript@7.0.2)
+      react: 19.2.3
+    transitivePeerDependencies:
+      - bs58
+      - bufferutil
+      - fastestsmallesttextencoderdecoder
+      - react-native
+      - typescript
+      - utf-8-validate
+  '@shikijs/engine-oniguruma@3.23.0':
+    dependencies:
+      '@shikijs/types': 3.23.0
+      '@shikijs/vscode-textmate': 10.0.2
+
+  '@shikijs/langs@3.23.0':
+    dependencies:
+      '@shikijs/types': 3.23.0
+
+  '@shikijs/themes@3.23.0':
+    dependencies:
+      '@shikijs/types': 3.23.0
+
+  '@shikijs/types@3.23.0':
+    dependencies:
+      '@shikijs/vscode-textmate': 10.0.2
+      '@types/hast': 3.0.4
+
+  '@shikijs/vscode-textmate@10.0.2': {}
+
+  '@sinclair/typebox@0.27.10': {}
+
+  '@sinclair/typebox@0.34.52': {}
+
+  '@sindresorhus/is@4.6.0': {}
+
+  '@sindresorhus/merge-streams@4.0.0': {}
+
+  '@sinonjs/commons@3.0.1':
+    dependencies:
+      type-detect: 4.0.8
+
+  '@sinonjs/fake-timers@10.3.0':
+    dependencies:
+      '@sinonjs/commons': 3.0.1
+
+  '@socket.io/component-emitter@3.1.2': {}
+
+  '@solana/wallet-standard-wallet-adapter-base@1.1.5(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)':
+    dependencies:
+      '@solana/wallet-adapter-base': 0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))
+      '@solana/wallet-standard-chains': 1.1.2
+      '@solana/wallet-standard-features': 1.4.0
+      '@solana/wallet-standard-util': 1.1.3
+      '@solana/web3.js': 1.98.4(bufferutil@4.1.0)(typescript@7.0.2)
+      '@wallet-standard/app': 1.1.1
+      '@wallet-standard/base': 1.1.1
+      '@wallet-standard/features': 1.1.1
+      '@wallet-standard/wallet': 1.1.1
+      bs58: 6.0.0
+
+  '@solana/wallet-standard-wallet-adapter-react@1.1.6(@solana/wallet-adapter-base@0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2)))(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)(react@19.2.3)':
+    dependencies:
+      '@solana/wallet-adapter-base': 0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))
+      '@solana/wallet-standard-wallet-adapter-base': 1.1.5(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)
+      '@wallet-standard/app': 1.1.1
+      '@wallet-standard/base': 1.1.1
+      react: 19.2.3
+    transitivePeerDependencies:
+      - '@solana/web3.js'
+      - bs58
+
+  '@solana/wallet-standard-wallet-adapter@1.1.6(@solana/wallet-adapter-base@0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2)))(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)(react@19.2.3)':
+    dependencies:
+      '@solana/wallet-standard-wallet-adapter-base': 1.1.5(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)
+      '@solana/wallet-standard-wallet-adapter-react': 1.1.6(@solana/wallet-adapter-base@0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2)))(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)(react@19.2.3)
+    transitivePeerDependencies:
+      - '@solana/wallet-adapter-base'
+      - '@solana/web3.js'
+      - bs58
+      - react
+
+  '@solana/wallet-standard@1.1.4(@solana/wallet-adapter-base@0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2)))(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)(react@19.2.3)':
+    dependencies:
+      '@solana/wallet-standard-core': 1.1.3
+      '@solana/wallet-standard-wallet-adapter': 1.1.6(@solana/wallet-adapter-base@0.9.27(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2)))(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2))(bs58@6.0.0)(react@19.2.3)
+    transitivePeerDependencies:
+      - '@solana/wallet-adapter-base'
+      - '@solana/web3.js'
+      - bs58
+      - react
   '@solana/buffer-layout@4.0.1':
     dependencies:
       buffer: 6.0.3
@@ -10081,13 +10990,13 @@ snapshots:
       commander: 14.0.3
       typescript: 6.0.3
 
-  '@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@6.0.3)':
+  '@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@7.0.2)':
     dependencies:
       '@babel/runtime': 7.29.2
       '@noble/curves': 1.9.7
       '@noble/hashes': 1.8.0
       '@solana/buffer-layout': 4.0.1
-      '@solana/codecs-numbers': 2.3.0(typescript@6.0.3)
+      '@solana/codecs-numbers': 2.3.0(typescript@7.0.2)
       agentkeepalive: 4.6.0
       bn.js: 5.2.5
       borsh: 0.7.0
@@ -10364,6 +11273,66 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
+  '@typescript/typescript-aix-ppc64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-darwin-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-darwin-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-freebsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-freebsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-arm@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-loong64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-mips64el@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-ppc64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-riscv64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-s390x@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-netbsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-netbsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-openbsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-openbsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-sunos-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-win32-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-win32-x64@7.0.2':
+    optional: true
+
   '@ungap/structured-clone@1.4.0': {}
 
   '@vitejs/plugin-react@5.2.0(supports-color@8.1.1)(vite@7.3.6(@types/node@25.9.5)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.48.0)(tsx@4.23.13)(yaml@2.9.0))':
@@ -10458,14 +11427,14 @@ snapshots:
 
   abab@2.0.6: {}
 
-  abitype@1.2.3(typescript@6.0.3)(zod@3.25.76):
+  abitype@1.2.3(typescript@7.0.2)(zod@3.25.76):
     optionalDependencies:
-      typescript: 6.0.3
+      typescript: 7.0.2
       zod: 3.25.76
 
-  abitype@1.3.0(typescript@6.0.3)(zod@3.25.76):
+  abitype@1.3.0(typescript@7.0.2)(zod@3.25.76):
     optionalDependencies:
-      typescript: 6.0.3
+      typescript: 7.0.2
       zod: 3.25.76
 
   abort-controller@3.0.0:
@@ -10715,7 +11684,7 @@ snapshots:
       react-refresh: 0.14.2
     optionalDependencies:
       '@babel/runtime': 7.29.2
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -11475,12 +12444,12 @@ snapshots:
 
   expo-application@57.0.3(expo@57.0.25):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
 
-  expo-asset@57.0.18(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)(typescript@6.0.3):
+  expo-asset@57.0.18(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)(typescript@7.0.2):
     dependencies:
-      '@expo/image-utils': 0.11.5(supports-color@8.1.1)(typescript@6.0.3)
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      '@expo/image-utils': 0.11.5(supports-color@8.1.1)(typescript@7.0.2)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       expo-constants: 57.0.19(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(supports-color@8.1.1)
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
@@ -11504,56 +12473,56 @@ snapshots:
 
   expo-blur@57.0.3(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
 
   expo-constants@57.0.19(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(supports-color@8.1.1):
     dependencies:
       '@expo/env': 2.4.3(supports-color@8.1.1)
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
   expo-crypto@57.0.3(expo@57.0.25):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
 
   expo-file-system@57.0.7(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
 
   expo-font@57.0.4(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       fontfaceobserver: 2.3.0
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
 
   expo-glass-effect@57.0.4(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
 
   expo-haptics@57.0.3(expo@57.0.25):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
 
   expo-image-loader@57.0.1(expo@57.0.25):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
 
   expo-image-picker@57.0.20(expo@57.0.25):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       expo-image-loader: 57.0.1(expo@57.0.25)
 
   expo-image@57.0.5(expo@57.0.25)(react-native-web@0.21.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
       sf-symbols-typescript: 2.2.0
@@ -11562,12 +12531,12 @@ snapshots:
 
   expo-keep-awake@57.0.2(expo@57.0.25)(react@19.2.3):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react: 19.2.3
 
   expo-linear-gradient@57.0.2(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
 
@@ -11581,17 +12550,17 @@ snapshots:
       - expo
       - supports-color
 
-  expo-location@57.0.20(expo@57.0.25)(supports-color@8.1.1)(typescript@6.0.3):
+  expo-location@57.0.20(expo@57.0.25)(supports-color@8.1.1)(typescript@7.0.2):
     dependencies:
-      '@expo/image-utils': 0.11.5(supports-color@8.1.1)(typescript@6.0.3)
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      '@expo/image-utils': 0.11.5(supports-color@8.1.1)(typescript@7.0.2)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  expo-modules-autolinking@57.0.13(supports-color@8.1.1)(typescript@6.0.3):
+  expo-modules-autolinking@57.0.13(supports-color@8.1.1)(typescript@7.0.2):
     dependencies:
-      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/spawn-async': 1.8.0
       chalk: 4.1.2
       commander: 7.2.0
@@ -11626,7 +12595,7 @@ snapshots:
       color: 4.2.3
       debug: 4.4.3(supports-color@8.1.1)
       escape-string-regexp: 4.0.0
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       expo-constants: 57.0.19(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(supports-color@8.1.1)
       expo-glass-effect: 57.0.4(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       expo-linking: 57.0.11(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)
@@ -11664,15 +12633,15 @@ snapshots:
 
   expo-secure-store@57.0.4(expo@57.0.25):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
 
   expo-server@57.0.3: {}
 
-  expo-splash-screen@57.0.9(expo@57.0.25)(supports-color@8.1.1)(typescript@6.0.3):
+  expo-splash-screen@57.0.9(expo@57.0.25)(supports-color@8.1.1)(typescript@7.0.2):
     dependencies:
-      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@6.0.3)
-      '@expo/image-utils': 0.11.5(supports-color@8.1.1)(typescript@6.0.3)
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@7.0.2)
+      '@expo/image-utils': 0.11.5(supports-color@8.1.1)(typescript@7.0.2)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       xml2js: 0.6.0
     transitivePeerDependencies:
       - supports-color
@@ -11680,14 +12649,14 @@ snapshots:
 
   expo-status-bar@57.0.1(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
 
   expo-symbols@57.0.3(expo-font@57.0.4)(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3):
     dependencies:
       '@expo-google-fonts/material-symbols': 0.4.48
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       expo-font: 57.0.4(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
@@ -11697,7 +12666,7 @@ snapshots:
     dependencies:
       '@react-native/normalize-colors': 0.86.3
       debug: 4.4.3(supports-color@8.1.1)
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
     optionalDependencies:
       react-native-web: 0.21.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -11706,30 +12675,30 @@ snapshots:
 
   expo-web-browser@57.0.3(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)):
     dependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
 
-  expo@57.0.25(ae6c7953d41283de3d188badd79611e3):
+  expo@57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4):
     dependencies:
       '@babel/runtime': 7.29.2
-      '@expo/cli': 57.0.27(@expo/metro-runtime@57.0.16)(bufferutil@4.1.0)(expo-constants@57.0.19)(expo-font@57.0.4)(expo-router@57.0.23)(expo@57.0.25)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)(typescript@6.0.3)
-      '@expo/config': 57.0.9(supports-color@8.1.1)(typescript@6.0.3)
-      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/cli': 57.0.27(@expo/metro-runtime@57.0.16)(bufferutil@4.1.0)(expo-constants@57.0.19)(expo-font@57.0.4)(expo-router@57.0.23)(expo@57.0.25)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)(typescript@7.0.2)
+      '@expo/config': 57.0.9(supports-color@8.1.1)(typescript@7.0.2)
+      '@expo/config-plugins': 57.0.9(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/devtools': 57.0.1(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       '@expo/dom-webview': 57.0.1(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       '@expo/fingerprint': 0.20.13(supports-color@8.1.1)
-      '@expo/local-build-cache-provider': 57.0.8(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/local-build-cache-provider': 57.0.8(supports-color@8.1.1)(typescript@7.0.2)
       '@expo/log-box': 57.0.4(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       '@expo/metro': 56.0.2(bufferutil@4.1.0)(supports-color@8.1.1)
-      '@expo/metro-config': 57.0.12(bufferutil@4.1.0)(expo@57.0.25)(supports-color@8.1.1)(typescript@6.0.3)
+      '@expo/metro-config': 57.0.12(bufferutil@4.1.0)(expo@57.0.25)(supports-color@8.1.1)(typescript@7.0.2)
       '@ungap/structured-clone': 1.4.0
       babel-preset-expo: 57.0.13(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.2)(expo@57.0.25)(react-refresh@0.14.2)(supports-color@8.1.1)
-      expo-asset: 57.0.18(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)(typescript@6.0.3)
+      expo-asset: 57.0.18(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)(typescript@7.0.2)
       expo-constants: 57.0.19(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(supports-color@8.1.1)
       expo-file-system: 57.0.7(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))
       expo-font: 57.0.4(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       expo-keep-awake: 57.0.2(expo@57.0.25)(react@19.2.3)
-      expo-modules-autolinking: 57.0.13(supports-color@8.1.1)(typescript@6.0.3)
+      expo-modules-autolinking: 57.0.13(supports-color@8.1.1)(typescript@7.0.2)
       expo-modules-core: 57.0.19(react-native-worklets@0.10.1(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       pretty-format: 29.7.0
       react: 19.2.3
@@ -12432,7 +13401,7 @@ snapshots:
       server-only: 0.0.1
       stacktrace-js: 2.0.2
     optionalDependencies:
-      expo: 57.0.25(ae6c7953d41283de3d188badd79611e3)
+      expo: 57.0.25(1e5e764d3dfd3a30b6b5a9be463dcae4)
     transitivePeerDependencies:
       - '@babel/core'
       - bufferutil
@@ -13376,9 +14345,21 @@ snapshots:
       strip-ansi: 5.2.0
       wcwidth: 1.0.1
 
-  orval@8.27.0(prettier@3.9.6)(supports-color@8.1.1)(typescript@5.9.3):
+  orval@8.27.0(prettier@3.9.6)(supports-color@8.1.1)(typescript@7.0.2):
     dependencies:
       '@commander-js/extra-typings': 15.0.0(commander@15.0.0)
+      '@orval/angular': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/axios': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/effect': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/fetch': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/hono': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/mcp': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/mock': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/query': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/solid-start': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/swr': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
+      '@orval/zod': 8.27.0(supports-color@8.1.1)(typescript@7.0.2)
       '@orval/angular': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/axios': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
@@ -13404,6 +14385,9 @@ snapshots:
       js-yaml: 4.3.2
       remeda: 2.34.0
       string-argv: 0.3.2
+      typedoc: 0.28.19(typescript@7.0.2)
+      typedoc-plugin-coverage: 4.0.3(typedoc@0.28.19(typescript@7.0.2))
+      typedoc-plugin-markdown: 4.11.0(typedoc@0.28.19(typescript@7.0.2))
       typedoc: 0.28.19(typescript@5.9.3)
       typedoc-plugin-coverage: 4.0.3(typedoc@0.28.19(typescript@5.9.3))
       typedoc-plugin-markdown: 4.11.0(typedoc@0.28.19(typescript@5.9.3))
@@ -13414,7 +14398,7 @@ snapshots:
       - supports-color
       - typescript
 
-  ox@0.14.34(typescript@6.0.3)(zod@3.25.76):
+  ox@0.14.34(typescript@7.0.2)(zod@3.25.76):
     dependencies:
       '@adraffy/ens-normalize': 1.11.1
       '@noble/ciphers': 1.3.0
@@ -13422,24 +14406,24 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.3.0(typescript@6.0.3)(zod@3.25.76)
+      abitype: 1.3.0(typescript@7.0.2)(zod@3.25.76)
       eventemitter3: 5.0.1
     optionalDependencies:
-      typescript: 6.0.3
+      typescript: 7.0.2
     transitivePeerDependencies:
       - zod
 
-  ox@0.6.9(typescript@6.0.3)(zod@3.25.76):
+  ox@0.6.9(typescript@7.0.2)(zod@3.25.76):
     dependencies:
       '@adraffy/ens-normalize': 1.11.1
       '@noble/curves': 1.9.7
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.3.0(typescript@6.0.3)(zod@3.25.76)
+      abitype: 1.3.0(typescript@7.0.2)(zod@3.25.76)
       eventemitter3: 5.0.1
     optionalDependencies:
-      typescript: 6.0.3
+      typescript: 7.0.2
     transitivePeerDependencies:
       - zod
 
@@ -14569,6 +15553,13 @@ snapshots:
       media-typer: 1.1.0
       mime-types: 3.0.2
 
+  typedoc-plugin-coverage@4.0.3(typedoc@0.28.19(typescript@7.0.2)):
+    dependencies:
+      typedoc: 0.28.19(typescript@7.0.2)
+
+  typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@7.0.2)):
+    dependencies:
+      typedoc: 0.28.19(typescript@7.0.2)
   typedoc-plugin-coverage@4.0.3(typedoc@0.28.19(typescript@5.9.3)):
     dependencies:
       typedoc: 0.28.19(typescript@5.9.3)
@@ -14577,15 +15568,37 @@ snapshots:
     dependencies:
       typedoc: 0.28.19(typescript@5.9.3)
 
-  typedoc@0.28.19(typescript@5.9.3):
+  typedoc@0.28.19(typescript@7.0.2):
     dependencies:
       '@gerrit0/mini-shiki': 3.23.0
       lunr: 2.3.9
       markdown-it: 14.3.1
       minimatch: 10.2.5
-      typescript: 5.9.3
+      typescript: 7.0.2
       yaml: 2.9.0
 
+  typescript@7.0.2:
+    optionalDependencies:
+      '@typescript/typescript-aix-ppc64': 7.0.2
+      '@typescript/typescript-darwin-arm64': 7.0.2
+      '@typescript/typescript-darwin-x64': 7.0.2
+      '@typescript/typescript-freebsd-arm64': 7.0.2
+      '@typescript/typescript-freebsd-x64': 7.0.2
+      '@typescript/typescript-linux-arm': 7.0.2
+      '@typescript/typescript-linux-arm64': 7.0.2
+      '@typescript/typescript-linux-loong64': 7.0.2
+      '@typescript/typescript-linux-mips64el': 7.0.2
+      '@typescript/typescript-linux-ppc64': 7.0.2
+      '@typescript/typescript-linux-riscv64': 7.0.2
+      '@typescript/typescript-linux-s390x': 7.0.2
+      '@typescript/typescript-linux-x64': 7.0.2
+      '@typescript/typescript-netbsd-arm64': 7.0.2
+      '@typescript/typescript-netbsd-x64': 7.0.2
+      '@typescript/typescript-openbsd-arm64': 7.0.2
+      '@typescript/typescript-openbsd-x64': 7.0.2
+      '@typescript/typescript-sunos-x64': 7.0.2
+      '@typescript/typescript-win32-arm64': 7.0.2
+      '@typescript/typescript-win32-x64': 7.0.2
   typescript@5.9.3: {}
 
   typescript@6.0.3: {}
@@ -14690,18 +15703,18 @@ snapshots:
       d3-time: 3.1.0
       d3-timer: 3.0.1
 
-  viem@2.55.19(bufferutil@4.1.0)(typescript@6.0.3)(utf-8-validate@6.0.6)(zod@3.25.76):
+  viem@2.55.19(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@6.0.6)(zod@3.25.76):
     dependencies:
       '@noble/curves': 1.9.1
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@6.0.3)(zod@3.25.76)
+      abitype: 1.2.3(typescript@7.0.2)(zod@3.25.76)
       isows: 1.0.7(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@6.0.6))
-      ox: 0.14.34(typescript@6.0.3)(zod@3.25.76)
+      ox: 0.14.34(typescript@7.0.2)(zod@3.25.76)
       ws: 8.21.0(bufferutil@4.1.0)(utf-8-validate@6.0.6)
     optionalDependencies:
-      typescript: 6.0.3
+      typescript: 7.0.2
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
