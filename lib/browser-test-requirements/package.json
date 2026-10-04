@@ -1,0 +1,15 @@
+{
+  "name": "@workspace/browser-test-requirements",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "pnpm -w run typecheck:libs && tsc -p tsconfig.tests.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:"
+  }
+}

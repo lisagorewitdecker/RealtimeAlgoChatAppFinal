@@ -1,0 +1,336 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.2.0
+  description: DevStudio API — secure rooms, profiles, and E2EE collaboration
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: profile
+    description: User profile operations
+  - name: rooms
+    description: Room operations
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+
+  /profile:
+    get:
+      operationId: getProfile
+      tags: [profile]
+      summary: Get current user profile
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: User profile
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProfileResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          description: Profile not found
+
+    put:
+      operationId: upsertProfile
+      tags: [profile]
+      summary: Create or update current user profile
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpsertProfileRequest"
+      responses:
+        "200":
+          description: Updated profile
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProfileResponse"
+        "400":
+          description: Validation error
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+
+    delete:
+      operationId: deleteAccount
+      tags: [profile]
+      summary: Delete the current user account
+      description: Removes the authenticated account and its user-owned app data while preserving shared room history.
+      security:
+        - bearerAuth: []
+      responses:
+        "204":
+          description: Account deleted
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+
+  /rooms:
+    get:
+      operationId: listRooms
+      tags: [rooms]
+      summary: List active rooms
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: List of active rooms
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RoomsListResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+
+    post:
+      operationId: createRoom
+      tags: [rooms]
+      summary: Create a room
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateRoomRequest"
+      responses:
+        "201":
+          description: Room created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RoomResponse"
+        "400":
+          description: Validation error
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+
+  /rooms/{roomId}:
+    get:
+      operationId: getRoom
+      tags: [rooms]
+      summary: Get room info
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: roomId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Room info
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RoomResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          description: Room not found
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  responses:
+    Unauthorized:
+      description: Authentication required
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              error:
+                type: string
+            required:
+              - error
+
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+          description: >-
+            "ok" when every startup configuration check passed, "degraded" when
+            the process is serving but a check reported a problem.
+          enum: [ok, degraded]
+        checks:
+          $ref: "#/components/schemas/HealthChecks"
+      required:
+        - status
+        - checks
+
+    HealthChecks:
+      type: object
+      description: >-
+        Configuration readiness per dependency. Values describe the problem
+        class only; details stay in the server log so nothing sensitive is
+        exposed publicly.
+      properties:
+        clerkWebhookSigningSecret:
+          type: string
+          description: >-
+            Shape check for the Clerk/Svix webhook signing secret configured
+            for the running environment. "missing" means no secret is set;
+            "malformed" means the configured value is not a usable Svix signing
+            secret, so every delivery would fail signature verification.
+          enum: [ok, missing, malformed]
+        databaseUrl:
+          type: string
+          description: >-
+            Shape check for the database connection string. A missing value
+            stops startup, so a serving process never reports "missing";
+            "malformed" means the value is not a usable postgres:// URL and
+            every stored-data request will fail.
+          enum: [ok, missing, malformed]
+        clerkSecretKey:
+          type: string
+          description: >-
+            Shape check for the Clerk secret key used to verify session
+            tokens. "missing" or "malformed" means every authenticated request
+            and Socket.IO handshake is rejected.
+          enum: [ok, missing, malformed]
+        clerkPublishableKey:
+          type: string
+          description: >-
+            Shape check for the Clerk publishable key used by the session
+            middleware. "missing" or "malformed" means Clerk cannot complete
+            session handshakes, so sign-in can fail even with a usable secret
+            key.
+          enum: [ok, missing, malformed]
+        sessionSecret:
+          type: string
+          description: >-
+            Shape check for the key that signs room access capabilities.
+            "missing" or "malformed" means calls and the shared sandbox cannot
+            start.
+          enum: [ok, missing, malformed]
+        adminUserIds:
+          type: string
+          description: >-
+            Shape check for the moderator allow-list of Clerk user ids.
+            "missing" means no account can reach the moderation tools;
+            "malformed" means at least one entry is not a Clerk user id.
+          enum: [ok, missing, malformed]
+      required:
+        - clerkWebhookSigningSecret
+        - databaseUrl
+        - clerkSecretKey
+        - clerkPublishableKey
+        - sessionSecret
+        - adminUserIds
+
+    UserProfile:
+      type: object
+      properties:
+        username:
+          type: string
+          minLength: 2
+          maxLength: 30
+        avatarEmoji:
+          type: string
+          maxLength: 16
+          enum: ["😀", "😎", "🤓", "🧑‍💻", "👩‍💻", "👨‍💻", "🦄", "🐱", "🐶", "🦊", "🐼", "🐸", "🐙", "🦋", "🌈", "🔥", "⚡", "🚀", "🎨", "🎮", "💡", "🛠️", "🌟", "🍀"]
+      required:
+        - username
+        - avatarEmoji
+
+    ProfileResponse:
+      type: object
+      properties:
+        profile:
+          $ref: "#/components/schemas/UserProfile"
+        isAdmin:
+          type: boolean
+      required:
+        - profile
+
+    UpsertProfileRequest:
+      type: object
+      properties:
+        username:
+          type: string
+          maxLength: 64
+        avatarEmoji:
+          type: string
+          maxLength: 16
+          enum: ["😀", "😎", "🤓", "🧑‍💻", "👩‍💻", "👨‍💻", "🦄", "🐱", "🐶", "🦊", "🐼", "🐸", "🐙", "🦋", "🌈", "🔥", "⚡", "🚀", "🎨", "🎮", "💡", "🛠️", "🌟", "🍀"]
+        publicKey:
+          type: string
+          nullable: true
+          maxLength: 64
+          description: Base64-encoded X25519 public key
+
+    Room:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        userCount:
+          type: integer
+        createdAt:
+          type: integer
+          description: Unix timestamp in milliseconds
+      required:
+        - id
+        - name
+        - createdAt
+
+    RoomsListResponse:
+      type: object
+      properties:
+        rooms:
+          type: array
+          items:
+            $ref: "#/components/schemas/Room"
+      required:
+        - rooms
+
+    CreateRoomRequest:
+      type: object
+      properties:
+        roomId:
+          type: string
+          maxLength: 128
+        roomName:
+          type: string
+          maxLength: 128
+      required:
+        - roomId
+
+    RoomResponse:
+      type: object
+      properties:
+        room:
+          $ref: "#/components/schemas/Room"
+      required:
+        - room

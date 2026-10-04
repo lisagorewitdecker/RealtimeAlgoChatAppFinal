@@ -1,0 +1,22 @@
+{
+  // The program that typechecks this package's unit suite.
+  //
+  // `tsconfig.json` cannot hold it: that project is what `tsc --build` at the
+  // workspace root emits this library's declarations from, so it is composite
+  // and rooted at `src`, and a file outside `src` cannot join it. Without a
+  // second program the suite would sit in no typechecking program at all and
+  // be skipped by `pnpm run typecheck` for where it lives -- which is why
+  // this package's `typecheck` script names this file, and why the root
+  // typecheck runs the libraries' scripts alongside the artifacts'.
+  //
+  // Nothing is emitted here, so the suite imports `../src/index.ts` by the
+  // name of the file `node --test` really loads.
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    // `node:test`, `node:assert`, and the `process.env` the rules read.
+    "types": ["node"]
+  },
+  "include": ["tests"]
+}

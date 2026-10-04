@@ -1,0 +1,24 @@
+{
+  "name": "@workspace/scripts",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "hello": "tsx ./src/hello.ts",
+    "check:browser-commands": "tsx ./src/checkBrowserTestCommands.ts",
+    "check:browser-output": "tsx ./src/checkBrowserOutput.ts",
+    "check:browser-requirements": "tsx ./src/checkBrowserTestRequirements.ts",
+    "check:command-requirements": "tsx ./src/checkCommandRequirements.ts",
+    "check:release-suites": "tsx ./src/checkReleaseSuites.ts",
+    "check:test-scripts": "tsx ./src/checkTestScripts.ts",
+    "check:typecheck-scripts": "tsx ./src/checkTypecheckScripts.ts",
+    "release:settings": "tsx ./src/releaseSettings.ts",
+    "test:unit": "tsx ./src/runUnitTests.ts",
+    "typecheck": "pnpm -w run typecheck:libs && tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "@workspace/browser-test-requirements": "workspace:*",
+    "tsx": "catalog:"
+  }
+}
