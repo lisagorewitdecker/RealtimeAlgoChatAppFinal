@@ -18931,22 +18931,22 @@ var init_esm2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/debug-build.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/debug-build.js
 var DEBUG_BUILD2;
 var init_debug_build2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/debug-build.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/debug-build.js"() {
     DEBUG_BUILD2 = typeof __SENTRY_DEBUG__ === "undefined" || __SENTRY_DEBUG__;
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/http/httpServerIntegration.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/http/httpServerIntegration.js
 import { subscribe } from "node:diagnostics_channel";
 function addStartSpanCallback(request3, callback) {
   addNonEnumerableProperty(request3, "_startSpanCallback", new WeakRef(callback));
 }
 var HTTP_SERVER_INSTRUMENTED_KEY, INTEGRATION_NAME15, _httpServerIntegration, httpServerIntegration;
 var init_httpServerIntegration = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/http/httpServerIntegration.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/http/httpServerIntegration.js"() {
     init_esm2();
     init_esm();
     init_debug_build2();
@@ -22705,7 +22705,7 @@ var require_src = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/http/httpServerSpansIntegration.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/http/httpServerSpansIntegration.js
 import { errorMonitor } from "node:events";
 function isKnownPrefetchRequest2(req) {
   return req.headers["next-router-prefetch"] === "1";
@@ -22801,7 +22801,7 @@ function shouldFilterStatusCode(statusCode, dropForStatusCodes) {
 }
 var import_core2, INTEGRATION_NAME16, _httpServerSpansIntegration, httpServerSpansIntegration;
 var init_httpServerSpansIntegration = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/http/httpServerSpansIntegration.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/http/httpServerSpansIntegration.js"() {
     init_esm2();
     import_core2 = __toESM(require_src(), 1);
     init_attributes2();
@@ -23213,9 +23213,9 @@ var require_src2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/autoLoaderUtils.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/autoLoaderUtils.js
 var require_autoLoaderUtils = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/autoLoaderUtils.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/autoLoaderUtils.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.disableInstrumentations = exports.enableInstrumentations = void 0;
@@ -23244,9 +23244,9 @@ var require_autoLoaderUtils = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/autoLoader.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/autoLoader.js
 var require_autoLoader = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/autoLoader.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/autoLoader.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.registerInstrumentations = void 0;
@@ -23267,9 +23267,9 @@ var require_autoLoader = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/semver.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/semver.js
 var require_semver = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/semver.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/semver.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.satisfies = void 0;
@@ -23636,9 +23636,9 @@ var require_semver = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/shimmer.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/shimmer.js
 var require_shimmer = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/shimmer.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/shimmer.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.massUnwrap = exports.unwrap = exports.massWrap = exports.wrap = void 0;
@@ -23749,9 +23749,9 @@ var require_shimmer = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentation.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentation.js
 var require_instrumentation = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentation.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentation.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.InstrumentationAbstract = void 0;
@@ -23994,9 +23994,9 @@ var require_ms = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/debug@4.4.3/node_modules/debug/src/common.js
+// ../../node_modules/.pnpm/debug@4.4.3_supports-color@8.1.1/node_modules/debug/src/common.js
 var require_common = __commonJS({
-  "../../node_modules/.pnpm/debug@4.4.3/node_modules/debug/src/common.js"(exports, module2) {
+  "../../node_modules/.pnpm/debug@4.4.3_supports-color@8.1.1/node_modules/debug/src/common.js"(exports, module2) {
     function setup(env) {
       createDebug3.debug = createDebug3;
       createDebug3.default = createDebug3;
@@ -24171,9 +24171,9 @@ var require_common = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/debug@4.4.3/node_modules/debug/src/browser.js
+// ../../node_modules/.pnpm/debug@4.4.3_supports-color@8.1.1/node_modules/debug/src/browser.js
 var require_browser = __commonJS({
-  "../../node_modules/.pnpm/debug@4.4.3/node_modules/debug/src/browser.js"(exports, module2) {
+  "../../node_modules/.pnpm/debug@4.4.3_supports-color@8.1.1/node_modules/debug/src/browser.js"(exports, module2) {
     exports.formatArgs = formatArgs;
     exports.save = save;
     exports.load = load;
@@ -24354,27 +24354,29 @@ var require_has_flag = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/supports-color@7.2.0/node_modules/supports-color/index.js
+// ../../node_modules/.pnpm/supports-color@8.1.1/node_modules/supports-color/index.js
 var require_supports_color = __commonJS({
-  "../../node_modules/.pnpm/supports-color@7.2.0/node_modules/supports-color/index.js"(exports, module2) {
+  "../../node_modules/.pnpm/supports-color@8.1.1/node_modules/supports-color/index.js"(exports, module2) {
     "use strict";
     var os3 = __require("os");
     var tty = __require("tty");
     var hasFlag = require_has_flag();
     var { env } = process;
-    var forceColor;
+    var flagForceColor;
     if (hasFlag("no-color") || hasFlag("no-colors") || hasFlag("color=false") || hasFlag("color=never")) {
-      forceColor = 0;
+      flagForceColor = 0;
     } else if (hasFlag("color") || hasFlag("colors") || hasFlag("color=true") || hasFlag("color=always")) {
-      forceColor = 1;
+      flagForceColor = 1;
     }
-    if ("FORCE_COLOR" in env) {
-      if (env.FORCE_COLOR === "true") {
-        forceColor = 1;
-      } else if (env.FORCE_COLOR === "false") {
-        forceColor = 0;
-      } else {
-        forceColor = env.FORCE_COLOR.length === 0 ? 1 : Math.min(parseInt(env.FORCE_COLOR, 10), 3);
+    function envForceColor() {
+      if ("FORCE_COLOR" in env) {
+        if (env.FORCE_COLOR === "true") {
+          return 1;
+        }
+        if (env.FORCE_COLOR === "false") {
+          return 0;
+        }
+        return env.FORCE_COLOR.length === 0 ? 1 : Math.min(Number.parseInt(env.FORCE_COLOR, 10), 3);
       }
     }
     function translateLevel(level) {
@@ -24388,15 +24390,22 @@ var require_supports_color = __commonJS({
         has16m: level >= 3
       };
     }
-    function supportsColor(haveStream, streamIsTTY) {
+    function supportsColor(haveStream, { streamIsTTY, sniffFlags = true } = {}) {
+      const noFlagForceColor = envForceColor();
+      if (noFlagForceColor !== void 0) {
+        flagForceColor = noFlagForceColor;
+      }
+      const forceColor = sniffFlags ? flagForceColor : noFlagForceColor;
       if (forceColor === 0) {
         return 0;
       }
-      if (hasFlag("color=16m") || hasFlag("color=full") || hasFlag("color=truecolor")) {
-        return 3;
-      }
-      if (hasFlag("color=256")) {
-        return 2;
+      if (sniffFlags) {
+        if (hasFlag("color=16m") || hasFlag("color=full") || hasFlag("color=truecolor")) {
+          return 3;
+        }
+        if (hasFlag("color=256")) {
+          return 2;
+        }
       }
       if (haveStream && !streamIsTTY && forceColor === void 0) {
         return 0;
@@ -24413,7 +24422,7 @@ var require_supports_color = __commonJS({
         return 1;
       }
       if ("CI" in env) {
-        if (["TRAVIS", "CIRCLECI", "APPVEYOR", "GITLAB_CI", "GITHUB_ACTIONS", "BUILDKITE"].some((sign2) => sign2 in env) || env.CI_NAME === "codeship") {
+        if (["TRAVIS", "CIRCLECI", "APPVEYOR", "GITLAB_CI", "GITHUB_ACTIONS", "BUILDKITE", "DRONE"].some((sign2) => sign2 in env) || env.CI_NAME === "codeship") {
           return 1;
         }
         return min;
@@ -24425,7 +24434,7 @@ var require_supports_color = __commonJS({
         return 3;
       }
       if ("TERM_PROGRAM" in env) {
-        const version3 = parseInt((env.TERM_PROGRAM_VERSION || "").split(".")[0], 10);
+        const version3 = Number.parseInt((env.TERM_PROGRAM_VERSION || "").split(".")[0], 10);
         switch (env.TERM_PROGRAM) {
           case "iTerm.app":
             return version3 >= 3 ? 3 : 2;
@@ -24444,21 +24453,24 @@ var require_supports_color = __commonJS({
       }
       return min;
     }
-    function getSupportLevel(stream) {
-      const level = supportsColor(stream, stream && stream.isTTY);
+    function getSupportLevel(stream, options = {}) {
+      const level = supportsColor(stream, {
+        streamIsTTY: stream && stream.isTTY,
+        ...options
+      });
       return translateLevel(level);
     }
     module2.exports = {
       supportsColor: getSupportLevel,
-      stdout: translateLevel(supportsColor(true, tty.isatty(1))),
-      stderr: translateLevel(supportsColor(true, tty.isatty(2)))
+      stdout: getSupportLevel({ isTTY: tty.isatty(1) }),
+      stderr: getSupportLevel({ isTTY: tty.isatty(2) })
     };
   }
 });
 
-// ../../node_modules/.pnpm/debug@4.4.3/node_modules/debug/src/node.js
+// ../../node_modules/.pnpm/debug@4.4.3_supports-color@8.1.1/node_modules/debug/src/node.js
 var require_node2 = __commonJS({
-  "../../node_modules/.pnpm/debug@4.4.3/node_modules/debug/src/node.js"(exports, module2) {
+  "../../node_modules/.pnpm/debug@4.4.3_supports-color@8.1.1/node_modules/debug/src/node.js"(exports, module2) {
     var tty = __require("tty");
     var util2 = __require("util");
     exports.init = init3;
@@ -24630,9 +24642,9 @@ var require_node2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/debug@4.4.3/node_modules/debug/src/index.js
+// ../../node_modules/.pnpm/debug@4.4.3_supports-color@8.1.1/node_modules/debug/src/index.js
 var require_src3 = __commonJS({
-  "../../node_modules/.pnpm/debug@4.4.3/node_modules/debug/src/index.js"(exports, module2) {
+  "../../node_modules/.pnpm/debug@4.4.3_supports-color@8.1.1/node_modules/debug/src/index.js"(exports, module2) {
     if (typeof process === "undefined" || process.type === "renderer" || process.browser === true || process.__nwjs) {
       module2.exports = require_browser();
     } else {
@@ -24681,9 +24693,9 @@ var require_module_details_from_path = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/require-in-the-middle@8.0.1/node_modules/require-in-the-middle/index.js
+// ../../node_modules/.pnpm/require-in-the-middle@8.0.1_supports-color@8.1.1/node_modules/require-in-the-middle/index.js
 var require_require_in_the_middle = __commonJS({
-  "../../node_modules/.pnpm/require-in-the-middle@8.0.1/node_modules/require-in-the-middle/index.js"(exports, module2) {
+  "../../node_modules/.pnpm/require-in-the-middle@8.0.1_supports-color@8.1.1/node_modules/require-in-the-middle/index.js"(exports, module2) {
     "use strict";
     var path2 = __require("path");
     var Module2 = __require("module");
@@ -24910,9 +24922,9 @@ var require_require_in_the_middle = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/ModuleNameTrie.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/ModuleNameTrie.js
 var require_ModuleNameTrie = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/ModuleNameTrie.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/ModuleNameTrie.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ModuleNameTrie = exports.ModuleNameSeparator = void 0;
@@ -24983,9 +24995,9 @@ var require_ModuleNameTrie = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/RequireInTheMiddleSingleton.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/RequireInTheMiddleSingleton.js
 var require_RequireInTheMiddleSingleton = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/RequireInTheMiddleSingleton.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/RequireInTheMiddleSingleton.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.RequireInTheMiddleSingleton = void 0;
@@ -25363,9 +25375,9 @@ var require_import_in_the_middle = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/utils.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/utils.js
 var require_utils2 = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/utils.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/utils.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isWrapped = exports.safeExecuteInTheMiddleAsync = exports.safeExecuteInTheMiddle = void 0;
@@ -25408,9 +25420,9 @@ var require_utils2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
 var require_instrumentation2 = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.InstrumentationBase = void 0;
@@ -25660,9 +25672,9 @@ var require_instrumentation2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/normalize.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/normalize.js
 var require_normalize = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/normalize.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/normalize.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.normalize = void 0;
@@ -25673,9 +25685,9 @@ var require_normalize = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/index.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/index.js
 var require_node3 = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/index.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/node/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.normalize = exports.InstrumentationBase = void 0;
@@ -25690,9 +25702,9 @@ var require_node3 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/index.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/index.js
 var require_platform2 = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/platform/index.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/platform/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.normalize = exports.InstrumentationBase = void 0;
@@ -25706,9 +25718,9 @@ var require_platform2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentationNodeModuleDefinition.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentationNodeModuleDefinition.js
 var require_instrumentationNodeModuleDefinition = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentationNodeModuleDefinition.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentationNodeModuleDefinition.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.InstrumentationNodeModuleDefinition = void 0;
@@ -25730,9 +25742,9 @@ var require_instrumentationNodeModuleDefinition = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentationNodeModuleFile.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentationNodeModuleFile.js
 var require_instrumentationNodeModuleFile = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentationNodeModuleFile.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/instrumentationNodeModuleFile.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.InstrumentationNodeModuleFile = void 0;
@@ -25753,9 +25765,9 @@ var require_instrumentationNodeModuleFile = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/semconvStability.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/semconvStability.js
 var require_semconvStability = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/semconvStability.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/semconvStability.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.semconvStabilityFromStr = exports.SemconvStability = void 0;
@@ -25782,9 +25794,9 @@ var require_semconvStability = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/index.js
+// ../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/index.js
 var require_src4 = __commonJS({
-  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1/node_modules/@opentelemetry/instrumentation/build/src/index.js"(exports) {
+  "../../node_modules/.pnpm/@opentelemetry+instrumentation@0.220.0_@opentelemetry+api@1.9.1_supports-color@8.1.1/node_modules/@opentelemetry/instrumentation/build/src/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.semconvStabilityFromStr = exports.SemconvStability = exports.safeExecuteInTheMiddleAsync = exports.safeExecuteInTheMiddle = exports.isWrapped = exports.InstrumentationNodeModuleFile = exports.InstrumentationNodeModuleDefinition = exports.InstrumentationBase = exports.registerInstrumentations = void 0;
@@ -25824,10 +25836,10 @@ var require_src4 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/nodeVersion.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/nodeVersion.js
 var NODE_VERSION, NODE_MAJOR, NODE_MINOR;
 var init_nodeVersion = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/nodeVersion.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/nodeVersion.js"() {
     init_esm();
     NODE_VERSION = parseSemver(process.versions.node);
     NODE_MAJOR = NODE_VERSION.major;
@@ -25835,7 +25847,7 @@ var init_nodeVersion = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/http/SentryHttpInstrumentation.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/http/SentryHttpInstrumentation.js
 import { subscribe as subscribe2, unsubscribe } from "node:diagnostics_channel";
 import { errorMonitor as errorMonitor2 } from "node:events";
 import * as http from "node:http";
@@ -25894,7 +25906,7 @@ function instrumentHttpOutgoingRequestsViaMonkeyPatching(options) {
 }
 var FULLY_SUPPORTS_HTTP_DIAGNOSTICS_CHANNEL, _currentListener;
 var init_SentryHttpInstrumentation = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/http/SentryHttpInstrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/http/SentryHttpInstrumentation.js"() {
     init_esm2();
     init_esm();
     init_nodeVersion();
@@ -25902,10 +25914,10 @@ var init_SentryHttpInstrumentation = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/http/index.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/http/index.js
 var INTEGRATION_NAME17, httpIntegration;
 var init_http = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/http/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/http/index.js"() {
     init_esm();
     init_httpServerIntegration();
     init_httpServerSpansIntegration();
@@ -25956,7 +25968,7 @@ var init_http = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/outgoingFetchRequest.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/outgoingFetchRequest.js
 function addTracePropagationHeadersToFetchRequest(request3, propagationDecisionMap2, span) {
   const url = getAbsoluteUrl2(request3.origin, request3.path);
   const { tracePropagationTargets, propagateTraceparent } = getClient()?.getOptions() || {};
@@ -26128,7 +26140,7 @@ function getAbsoluteUrl2(origin, path2 = "/") {
 }
 var SENTRY_TRACE_HEADER, SENTRY_BAGGAGE_HEADER, W3C_TRACEPARENT_HEADER;
 var init_outgoingFetchRequest = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/outgoingFetchRequest.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/outgoingFetchRequest.js"() {
     init_esm();
     SENTRY_TRACE_HEADER = "sentry-trace";
     SENTRY_BAGGAGE_HEADER = "baggage";
@@ -26136,7 +26148,7 @@ var init_outgoingFetchRequest = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/node-fetch/undici-instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/node-fetch/undici-instrumentation.js
 import * as diagch from "diagnostics_channel";
 import { URL as URL2 } from "url";
 function instrumentUndici(config2 = {}) {
@@ -26386,7 +26398,7 @@ function getAbsoluteUrl3(origin, path2 = "/") {
 }
 var ATTR_HTTP_REQUEST_METHOD_ORIGINAL2, _channelSubs, spanFromReq, ignoreRequestMap, propagationDecisionMap;
 var init_undici_instrumentation = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/node-fetch/undici-instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/node-fetch/undici-instrumentation.js"() {
     init_esm();
     init_outgoingFetchRequest();
     init_attributes2();
@@ -26399,10 +26411,10 @@ var init_undici_instrumentation = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/node-fetch/index.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/node-fetch/index.js
 var _nativeNodeFetchIntegration, nativeNodeFetchIntegration;
 var init_node_fetch = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/node-fetch/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/node-fetch/index.js"() {
     init_esm();
     init_undici_instrumentation();
     _nativeNodeFetchIntegration = ((options = {}) => {
@@ -31005,16 +31017,16 @@ var init_esm4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/otel/contextManager.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/otel/contextManager.js
 var SentryContextManager;
 var init_contextManager = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/otel/contextManager.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/otel/contextManager.js"() {
     init_esm4();
     SentryContextManager = SentryAsyncLocalStorageContextManager;
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/otel/logger.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/otel/logger.js
 function setupOpenTelemetryLogger() {
   diag2.disable();
   diag2.setLogger(
@@ -31029,13 +31041,13 @@ function setupOpenTelemetryLogger() {
   );
 }
 var init_logger = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/otel/logger.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/otel/logger.js"() {
     init_esm2();
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/otel/instrument.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/otel/instrument.js
 function generateInstrumentOnce(name, creatorOrClass, optionsCallback) {
   if (optionsCallback) {
     return _generateInstrumentOnceWithOptions(
@@ -31087,13 +31099,13 @@ function _generateInstrumentOnceWithOptions(name, instrumentationClass, optionsC
 }
 var import_instrumentation, INSTRUMENTED;
 var init_instrument = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/otel/instrument.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/otel/instrument.js"() {
     import_instrumentation = __toESM(require_src4(), 1);
     INSTRUMENTED = {};
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/childProcess.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/childProcess.js
 import * as diagnosticsChannel from "node:diagnostics_channel";
 function captureChildProcessEvents(child, options) {
   let hasExited = false;
@@ -31152,7 +31164,7 @@ function captureWorkerThreadEvents(worker, options) {
 }
 var INTEGRATION_NAME18, childProcessIntegration;
 var init_childProcess = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/childProcess.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/childProcess.js"() {
     init_esm();
     INTEGRATION_NAME18 = "ChildProcess";
     childProcessIntegration = defineIntegration((options = {}) => {
@@ -31175,7 +31187,7 @@ var init_childProcess = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/context.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/context.js
 import { execFile } from "node:child_process";
 import { readFile, readdir } from "node:fs";
 import * as os from "node:os";
@@ -31449,7 +31461,7 @@ function getCloudResourceContext() {
 }
 var readFileAsync, readDirAsync, INTEGRATION_NAME19, _nodeContextIntegration, nodeContextIntegration, PLATFORM_NAMES, LINUX_DISTROS, LINUX_VERSIONS;
 var init_context3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/context.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/context.js"() {
     init_esm();
     readFileAsync = promisify(readFile);
     readDirAsync = promisify(readdir);
@@ -31561,7 +31573,7 @@ var init_context3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/contextlines.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/contextlines.js
 import { createReadStream } from "node:fs";
 import { createInterface } from "node:readline";
 function emplace(map, key, contents) {
@@ -31787,7 +31799,7 @@ function makeContextRange(line2, linecontext) {
 }
 var LRU_FILE_CONTENTS_CACHE, LRU_FILE_CONTENTS_FS_READ_FAILED, DEFAULT_LINES_OF_CONTEXT, INTEGRATION_NAME20, MAX_CONTEXTLINES_COLNO, MAX_CONTEXTLINES_LINENO, _contextLinesIntegration, contextLinesIntegration;
 var init_contextlines = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/contextlines.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/contextlines.js"() {
     init_esm();
     init_debug_build2();
     LRU_FILE_CONTENTS_CACHE = new LRUMap(10);
@@ -31809,7 +31821,7 @@ var init_contextlines = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/debug.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/debug.js
 async function isDebuggerEnabled() {
   if (cachedDebuggerEnabled === void 0) {
     try {
@@ -31823,11 +31835,11 @@ async function isDebuggerEnabled() {
 }
 var cachedDebuggerEnabled;
 var init_debug = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/debug.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/debug.js"() {
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/local-variables/common.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/local-variables/common.js
 function filterFrameVariables(vars, behavior) {
   return filterKeyValueData(vars, behavior);
 }
@@ -31865,20 +31877,20 @@ function functionNamesMatch(a, b2) {
 }
 var LOCAL_VARIABLES_KEY;
 var init_common = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/local-variables/common.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/local-variables/common.js"() {
     init_esm();
     LOCAL_VARIABLES_KEY = "__SENTRY_ERROR_LOCAL_VARIABLES__";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/local-variables/local-variables-async.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/local-variables/local-variables-async.js
 import { Worker } from "node:worker_threads";
 function log2(...args) {
   debug.log("[LocalVariables]", ...args);
 }
 var base64WorkerScript, localVariablesAsyncIntegration;
 var init_local_variables_async = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/local-variables/local-variables-async.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/local-variables/local-variables-async.js"() {
     init_esm();
     init_debug();
     init_common();
@@ -31977,7 +31989,7 @@ var init_local_variables_async = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/local-variables/local-variables-sync.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/local-variables/local-variables-sync.js
 function hashFrames(frames) {
   if (frames === void 0) {
     return;
@@ -32017,7 +32029,7 @@ function createCallbackList(complete) {
 }
 var AsyncSession, INTEGRATION_NAME21, _localVariablesSyncIntegration, localVariablesSyncIntegration;
 var init_local_variables_sync = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/local-variables/local-variables-sync.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/local-variables/local-variables-sync.js"() {
     init_esm();
     init_nodeVersion();
     init_debug();
@@ -32270,10 +32282,10 @@ var init_local_variables_sync = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/local-variables/index.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/local-variables/index.js
 var localVariablesIntegration;
 var init_local_variables = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/local-variables/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/local-variables/index.js"() {
     init_nodeVersion();
     init_local_variables_async();
     init_local_variables_sync();
@@ -32283,7 +32295,7 @@ var init_local_variables = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/modules.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/modules.js
 import { readFileSync } from "node:fs";
 import { join as join3 } from "node:path";
 function getServerModules() {
@@ -32322,7 +32334,7 @@ function getModulesFromPackageJson() {
 }
 var moduleCache, INTEGRATION_NAME22, _modulesIntegration, modulesIntegration;
 var init_modules = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/modules.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/modules.js"() {
     init_esm();
     INTEGRATION_NAME22 = "Modules";
     _modulesIntegration = (() => {
@@ -32342,7 +32354,7 @@ var init_modules = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/errorhandling.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/errorhandling.js
 function logAndExitProcess(error4) {
   consoleSandbox(() => {
     console.error(error4);
@@ -32369,14 +32381,14 @@ function logAndExitProcess(error4) {
 }
 var DEFAULT_SHUTDOWN_TIMEOUT;
 var init_errorhandling = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/errorhandling.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/errorhandling.js"() {
     init_esm();
     init_debug_build2();
     DEFAULT_SHUTDOWN_TIMEOUT = 2e3;
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/onuncaughtexception.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/onuncaughtexception.js
 import { isMainThread } from "worker_threads";
 function makeErrorHandler(client, options) {
   const timeout = 2e3;
@@ -32445,7 +32457,7 @@ function makeErrorHandler(client, options) {
 }
 var INTEGRATION_NAME23, onUncaughtExceptionIntegration;
 var init_onuncaughtexception = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/onuncaughtexception.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/onuncaughtexception.js"() {
     init_esm();
     init_debug_build2();
     init_errorhandling();
@@ -32468,7 +32480,7 @@ var init_onuncaughtexception = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/onunhandledrejection.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/onunhandledrejection.js
 function extractErrorInfo(reason) {
   if (!isObjectLike(reason)) {
     return { name: "", message: String(reason ?? "") };
@@ -32530,7 +32542,7 @@ function handleRejection(reason, mode) {
 }
 var INTEGRATION_NAME24, DEFAULT_IGNORES, _onUnhandledRejectionIntegration, onUnhandledRejectionIntegration;
 var init_onunhandledrejection = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/onunhandledrejection.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/onunhandledrejection.js"() {
     init_esm();
     init_errorhandling();
     INTEGRATION_NAME24 = "OnUnhandledRejection";
@@ -32560,10 +32572,10 @@ var init_onunhandledrejection = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/processSession.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/processSession.js
 var INTEGRATION_NAME25, processSessionIntegration;
 var init_processSession = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/processSession.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/processSession.js"() {
     init_esm();
     INTEGRATION_NAME25 = "ProcessSession";
     processSessionIntegration = defineIntegration(() => {
@@ -32583,7 +32595,7 @@ var init_processSession = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/spotlight.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/spotlight.js
 import * as http2 from "node:http";
 function connectToSpotlight(client, options) {
   const spotlightUrl = parseSidecarUrl(options.sidecarUrl);
@@ -32638,7 +32650,7 @@ function parseSidecarUrl(url) {
 }
 var INTEGRATION_NAME26, _spotlightIntegration, spotlightIntegration;
 var init_spotlight = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/spotlight.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/spotlight.js"() {
     init_esm();
     INTEGRATION_NAME26 = "Spotlight";
     _spotlightIntegration = ((options = {}) => {
@@ -32662,7 +32674,7 @@ var init_spotlight = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/console.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/console.js
 function instrumentConsoleLambda() {
   const consoleObj = GLOBAL_OBJ?.console;
   if (!consoleObj) {
@@ -32734,7 +32746,7 @@ function patchWithDefineProperty(consoleObj, level) {
 }
 var consoleIntegration2;
 var init_console3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/console.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/console.js"() {
     init_esm();
     consoleIntegration2 = defineIntegration((options = {}) => {
       return {
@@ -32758,7 +32770,7 @@ var init_console3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/systemError.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/systemError.js
 import * as util from "node:util";
 function isSystemError(error4) {
   if (!(error4 instanceof Error)) {
@@ -32774,7 +32786,7 @@ function isSystemError(error4) {
 }
 var INTEGRATION_NAME27, systemErrorIntegration;
 var init_systemError = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/systemError.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/systemError.js"() {
     init_esm();
     INTEGRATION_NAME27 = "NodeSystemError";
     systemErrorIntegration = defineIntegration((options = {}) => {
@@ -32813,11 +32825,11 @@ var init_systemError = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/proxy/base.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/proxy/base.js
 import * as http3 from "node:http";
 var _a, INTERNAL, Agent2;
 var init_base2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/proxy/base.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/proxy/base.js"() {
     INTERNAL = /* @__PURE__ */ Symbol("AgentBaseInternalState");
     Agent2 = class extends (_a = http3.Agent, _a) {
       constructor(opts) {
@@ -32881,7 +32893,7 @@ var init_base2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/proxy/parse-proxy-response.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/proxy/parse-proxy-response.js
 function debugLog(...args) {
   debug.log("[https-proxy-agent:parse-proxy-response]", ...args);
 }
@@ -32964,12 +32976,12 @@ function parseProxyResponse(socket) {
   });
 }
 var init_parse_proxy_response = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/proxy/parse-proxy-response.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/proxy/parse-proxy-response.js"() {
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/proxy/index.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/proxy/index.js
 import * as net from "node:net";
 import * as tls from "node:tls";
 function debugLog2(...args) {
@@ -32990,7 +33002,7 @@ function omit(obj, ...keys) {
 }
 var HttpsProxyAgent;
 var init_proxy = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/proxy/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/proxy/index.js"() {
     init_esm();
     init_base2();
     init_parse_proxy_response();
@@ -33082,7 +33094,7 @@ var init_proxy = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/transports/http.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/transports/http.js
 import * as http4 from "node:http";
 import * as https from "node:https";
 import { Readable } from "node:stream";
@@ -33178,14 +33190,14 @@ function createRequestExecutor(options, httpModule, agent) {
 }
 var GZIP_THRESHOLD;
 var init_http2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/transports/http.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/transports/http.js"() {
     init_esm();
     init_proxy();
     GZIP_THRESHOLD = 1024 * 32;
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/spotlight.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/spotlight.js
 function getSpotlightConfig(optionsSpotlight) {
   if (optionsSpotlight === false) {
     return false;
@@ -33198,12 +33210,12 @@ function getSpotlightConfig(optionsSpotlight) {
   return optionsSpotlight === true ? envUrl ?? true : envBool ?? envUrl;
 }
 var init_spotlight2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/spotlight.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/spotlight.js"() {
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/module.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/module.js
 import { posix, sep } from "node:path";
 function normalizeWindowsPath(path2) {
   return path2.replace(/^[A-Z]:/, "").replace(/\\/g, "/");
@@ -33235,12 +33247,12 @@ function createGetModuleFromFilename(basePath37 = process.argv[1] ? dirname(proc
   };
 }
 var init_module = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/module.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/module.js"() {
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/sdk/api.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/sdk/api.js
 function getSentryRelease(fallback) {
   if (process.env.SENTRY_RELEASE) {
     return process.env.SENTRY_RELEASE;
@@ -33294,19 +33306,19 @@ function getSentryRelease(fallback) {
 }
 var defaultStackParser;
 var init_api2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/sdk/api.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/sdk/api.js"() {
     init_esm();
     init_module();
     defaultStackParser = createStackParser(nodeStackLineParser(createGetModuleFromFilename()));
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/sdk/client.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/sdk/client.js
 import * as os2 from "node:os";
 import { threadId, isMainThread as isMainThread2 } from "worker_threads";
 var import_instrumentation2, DEFAULT_CLIENT_REPORT_FLUSH_INTERVAL_MS, NodeClient;
 var init_client2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/sdk/client.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/sdk/client.js"() {
     init_esm2();
     import_instrumentation2 = __toESM(require_src4(), 1);
     init_esm();
@@ -33429,7 +33441,7 @@ var init_client2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/detection.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/detection.js
 function supportsEsmLoaderHooks() {
   if (NODE_MAJOR >= 21 || NODE_MAJOR === 20 && NODE_MINOR >= 6 || NODE_MAJOR === 18 && NODE_MINOR >= 19) {
     return true;
@@ -33446,13 +33458,13 @@ function supportsEsmLoaderHooks() {
 }
 var hasWarnedAboutNodeVersion;
 var init_detection = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/detection.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/detection.js"() {
     init_esm();
     init_nodeVersion();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/sdk/esmLoader.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/sdk/esmLoader.js
 import * as moduleModule from "module";
 function initializeEsmLoader() {
   if (!supportsEsmLoaderHooks()) {
@@ -33473,14 +33485,14 @@ function initializeEsmLoader() {
 }
 var import_import_in_the_middle;
 var init_esmLoader = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/sdk/esmLoader.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/sdk/esmLoader.js"() {
     init_esm();
     import_import_in_the_middle = __toESM(require_import_in_the_middle(), 1);
     init_detection();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/sdk/index.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/sdk/index.js
 function getDefaultIntegrations() {
   return [
     // Common
@@ -33631,7 +33643,7 @@ function updateScopeFromEnvVariables() {
   }
 }
 var init_sdk2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/sdk/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/sdk/index.js"() {
     init_esm();
     init_esm4();
     init_debug_build2();
@@ -33656,10 +33668,10 @@ var init_sdk2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/createMissingInstrumentationContext.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/createMissingInstrumentationContext.js
 var createMissingInstrumentationContext;
 var init_createMissingInstrumentationContext = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/createMissingInstrumentationContext.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/createMissingInstrumentationContext.js"() {
     createMissingInstrumentationContext = (pkg) => {
       let isCjs;
       isCjs = false;
@@ -33671,7 +33683,7 @@ var init_createMissingInstrumentationContext = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/ensureIsWrapped.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/ensureIsWrapped.js
 function ensureIsWrapped(maybeWrappedFunction, name) {
   const clientOptions = getClient()?.getOptions();
   if (!clientOptions?.disableInstrumentationWarnings && !((0, import_instrumentation3.isWrapped)(maybeWrappedFunction) || typeof getOriginalFunction(maybeWrappedFunction) === "function") && isEnabled2() && hasSpansEnabled(clientOptions)) {
@@ -33685,14 +33697,14 @@ function ensureIsWrapped(maybeWrappedFunction, name) {
 }
 var import_instrumentation3;
 var init_ensureIsWrapped = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/ensureIsWrapped.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/ensureIsWrapped.js"() {
     import_instrumentation3 = __toESM(require_src4(), 1);
     init_esm();
     init_createMissingInstrumentationContext();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/anr/index.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/anr/index.js
 import { types } from "node:util";
 import { Worker as Worker2 } from "node:worker_threads";
 function log3(message, ...args) {
@@ -33805,7 +33817,7 @@ function disableAnrDetectionForCallback(callback) {
 }
 var isPromise, base64WorkerScript2, DEFAULT_INTERVAL, DEFAULT_HANG_THRESHOLD, INTEGRATION_NAME28, _anrIntegration, anrIntegration;
 var init_anr = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/anr/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/anr/index.js"() {
     init_esm();
     init_nodeVersion();
     init_debug();
@@ -33854,7 +33866,7 @@ var init_anr = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/logs/capture.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/logs/capture.js
 import { format } from "node:util";
 function captureLog(level, ...args) {
   const [messageOrMessageTemplate, paramsOrAttributes, maybeAttributesOrMetadata, maybeMetadata] = args;
@@ -33875,12 +33887,12 @@ function captureLog(level, ...args) {
   }
 }
 var init_capture = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/logs/capture.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/logs/capture.js"() {
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/logs/exports.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/logs/exports.js
 var exports_exports = {};
 __export(exports_exports, {
   debug: () => debug2,
@@ -33910,13 +33922,13 @@ function fatal(...args) {
   captureLog("fatal", ...args);
 }
 var init_exports3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/logs/exports.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/logs/exports.js"() {
     init_capture();
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/nodeRuntimeMetrics.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/nodeRuntimeMetrics.js
 import { monitorEventLoopDelay, performance as performance2 } from "perf_hooks";
 function _INTERNAL_normalizeCollectionInterval(rawInterval, integrationName, defaultInterval) {
   if (!Number.isFinite(rawInterval)) {
@@ -33935,7 +33947,7 @@ function _INTERNAL_normalizeCollectionInterval(rawInterval, integrationName, def
 }
 var INTEGRATION_NAME29, DEFAULT_INTERVAL_MS, MIN_COLLECTION_INTERVAL_MS, EVENT_LOOP_DELAY_RESOLUTION_MS, nodeRuntimeMetricsIntegration;
 var init_nodeRuntimeMetrics = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/nodeRuntimeMetrics.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/nodeRuntimeMetrics.js"() {
     init_esm();
     INTEGRATION_NAME29 = "NodeRuntimeMetrics";
     DEFAULT_INTERVAL_MS = 3e4;
@@ -34097,7 +34109,7 @@ var init_nodeRuntimeMetrics = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/winston.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/winston.js
 function createSentryWinstonTransport(TransportClass, sentryWinstonOptions) {
   class SentryWinstonTransport extends TransportClass {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -34145,7 +34157,7 @@ function createSentryWinstonTransport(TransportClass, sentryWinstonOptions) {
 }
 var DEFAULT_CAPTURED_LEVELS2, LEVEL_SYMBOL, MESSAGE_SYMBOL, SPLAT_SYMBOL, WINSTON_LEVEL_TO_LOG_SEVERITY_LEVEL_MAP;
 var init_winston = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/winston.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/winston.js"() {
     init_esm();
     init_debug_build2();
     init_capture();
@@ -34182,7 +34194,7 @@ var init_winston = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/pino.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/pino.js
 import * as diagnosticsChannel2 from "node:diagnostics_channel";
 function getPinoKey(logger3, symbolName, defaultKey) {
   const symbols = Object.getOwnPropertySymbols(logger3);
@@ -34201,7 +34213,7 @@ function stripIgnoredFields(result) {
 }
 var SENTRY_TRACK_SYMBOL, DEFAULT_OPTIONS, _pinoIntegration, pinoIntegration;
 var init_pino = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/integrations/pino.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/integrations/pino.js"() {
     init_esm();
     SENTRY_TRACK_SYMBOL = /* @__PURE__ */ Symbol("sentry-track-pino-logger");
     DEFAULT_OPTIONS = {
@@ -34299,17 +34311,17 @@ var init_pino = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/addOriginToSpan.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/addOriginToSpan.js
 function addOriginToSpan(span, origin) {
   span.setAttribute(SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN, origin);
 }
 var init_addOriginToSpan = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/utils/addOriginToSpan.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/utils/addOriginToSpan.js"() {
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/cron/common.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/cron/common.js
 function replaceCronNames(cronExpression) {
   return replacements.reduce(
     // oxlint-disable-next-line sdk/no-regexp-constructor
@@ -34319,7 +34331,7 @@ function replaceCronNames(cronExpression) {
 }
 var replacements;
 var init_common2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/cron/common.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/cron/common.js"() {
     replacements = [
       ["january", "1"],
       ["february", "2"],
@@ -34363,7 +34375,7 @@ var init_common2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/cron/cron.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/cron/cron.js
 function instrumentCron(lib, monitorSlug) {
   let jobScheduled = false;
   return new Proxy(lib, {
@@ -34445,14 +34457,14 @@ function instrumentCron(lib, monitorSlug) {
 }
 var ERROR_TEXT;
 var init_cron = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/cron/cron.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/cron/cron.js"() {
     init_esm();
     init_common2();
     ERROR_TEXT = "Automatic instrumentation of CronJob only supports crontab string";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/cron/node-cron.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/cron/node-cron.js
 function instrumentNodeCron(lib, monitorConfig = {}) {
   return new Proxy(lib, {
     get(target, prop) {
@@ -34498,13 +34510,13 @@ function instrumentNodeCron(lib, monitorConfig = {}) {
   });
 }
 var init_node_cron = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/cron/node-cron.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/cron/node-cron.js"() {
     init_esm();
     init_common2();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/cron/node-schedule.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/cron/node-schedule.js
 function instrumentNodeSchedule(lib) {
   return new Proxy(lib, {
     get(target, prop) {
@@ -34539,16 +34551,16 @@ function instrumentNodeSchedule(lib) {
   });
 }
 var init_node_schedule = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/cron/node-schedule.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/cron/node-schedule.js"() {
     init_esm();
     init_common2();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/cron/index.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/cron/index.js
 var cron;
 var init_cron2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/cron/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/cron/index.js"() {
     init_cron();
     init_node_cron();
     init_node_schedule();
@@ -34560,9 +34572,9 @@ var init_cron2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/index.js
+// ../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/index.js
 var init_esm5 = __esm({
-  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_e57ddc8c682f93a270df4265a143e64e/node_modules/@sentry/node-core/build/esm/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node-core@10.71.0_@opentelemetry+api@1.9.1_@opentelemetry+core@2.10.0_@opentele_a075c8ffb96bb2ebd01bb933bf655007/node_modules/@sentry/node-core/build/esm/index.js"() {
     init_httpServerSpansIntegration();
     init_httpServerIntegration();
     init_SentryHttpInstrumentation();
@@ -34600,10 +34612,10 @@ var init_esm5 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/http.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/http.js
 var INTEGRATION_NAME30, instrumentSentryHttp, httpIntegration2;
 var init_http3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/http.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/http.js"() {
     init_esm();
     init_esm5();
     init_attributes2();
@@ -34669,13 +34681,13 @@ var init_http3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/node-fetch.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/node-fetch.js
 function _shouldInstrumentSpans(options, clientOptions = {}) {
   return options.spans ?? (!clientOptions.skipOpenTelemetrySetup && hasSpansEnabled(clientOptions));
 }
 var _nativeNodeFetchIntegration2, nativeNodeFetchIntegration2;
 var init_node_fetch2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/node-fetch.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/node-fetch.js"() {
     init_esm5();
     init_esm();
     _nativeNodeFetchIntegration2 = ((options = {}) => {
@@ -34694,10 +34706,10 @@ var init_node_fetch2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/fs/vendored/constants.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/fs/vendored/constants.js
 var PROMISE_FUNCTIONS, CALLBACK_FUNCTIONS, SYNC_FUNCTIONS;
 var init_constants11 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/fs/vendored/constants.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/fs/vendored/constants.js"() {
     PROMISE_FUNCTIONS = [
       "access",
       "appendFile",
@@ -34832,7 +34844,7 @@ var init_constants11 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/fs/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/fs/vendored/utils.js
 function splitTwoLevels(functionName) {
   const memberParts = functionName.split(".");
   if (memberParts.length > 1) {
@@ -34859,11 +34871,11 @@ function indexFs(fs2, member) {
   }
 }
 var init_utils14 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/fs/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/fs/vendored/utils.js"() {
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/fs/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/fs/vendored/instrumentation.js
 import * as fs from "fs";
 import { promisify as promisify2 } from "util";
 function getSpanAttributes(functionName, args, config2) {
@@ -35031,7 +35043,7 @@ function recordError(span, error4, config2) {
 }
 var SPAN_ORIGIN, SPAN_OP, FS_OPERATIONS_WITH_OLD_PATH_NEW_PATH, FS_OPERATIONS_WITH_SRC_DEST, FS_OPERATIONS_WITH_EXISTING_PATH_NEW_PATH, FS_OPERATIONS_WITH_PREFIX, FS_OPERATIONS_WITH_TARGET_PATH, FS_OPERATIONS_WITH_PATH_ARG, _patched;
 var init_instrumentation = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/fs/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/fs/vendored/instrumentation.js"() {
     init_esm();
     init_constants11();
     init_utils14();
@@ -35094,10 +35106,10 @@ var init_instrumentation = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/fs/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/fs/index.js
 var INTEGRATION_NAME31, fsIntegration;
 var init_fs = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/fs/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/fs/index.js"() {
     init_esm();
     init_instrumentation();
     INTEGRATION_NAME31 = "FileSystem";
@@ -35112,15 +35124,15 @@ var init_fs = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/debug-build.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/debug-build.js
 var DEBUG_BUILD4;
 var init_debug_build3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/debug-build.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/debug-build.js"() {
     DEBUG_BUILD4 = typeof __SENTRY_DEBUG__ === "undefined" || __SENTRY_DEBUG__;
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/utils/setHttpServerSpanRouteAttribute.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/utils/setHttpServerSpanRouteAttribute.js
 function setHttpServerSpanRouteAttribute(route) {
   const activeSpan = getActiveSpan();
   if (!activeSpan) {
@@ -35136,19 +35148,19 @@ function setHttpServerSpanRouteAttribute(route) {
   rootSpan.setAttribute("http.route", route);
 }
 var init_setHttpServerSpanRouteAttribute = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/utils/setHttpServerSpanRouteAttribute.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/utils/setHttpServerSpanRouteAttribute.js"() {
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/express.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/express.js
 function setupExpressErrorHandler2(app3, options) {
   setupExpressErrorHandler(app3, options);
   ensureIsWrapped(app3.use, "express");
 }
 var import_instrumentation5, INTEGRATION_NAME32, SUPPORTED_VERSIONS, instrumentExpress, ExpressInstrumentation, _expressIntegration, expressIntegration;
 var init_express2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/express.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/express.js"() {
     import_instrumentation5 = __toESM(require_src4(), 1);
     init_esm5();
     init_esm();
@@ -35201,10 +35213,10 @@ var init_express2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/enums/AttributeNames.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/enums/AttributeNames.js
 var AttributeNames, FastifyTypes, FastifyNames;
 var init_AttributeNames = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/enums/AttributeNames.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/enums/AttributeNames.js"() {
     AttributeNames = /* @__PURE__ */ ((AttributeNames22) => {
       AttributeNames22["FASTIFY_NAME"] = "fastify.name";
       AttributeNames22["FASTIFY_TYPE"] = "fastify.type";
@@ -35225,15 +35237,15 @@ var init_AttributeNames = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/constants.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/constants.js
 var spanRequestSymbol;
 var init_constants12 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/constants.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/constants.js"() {
     spanRequestSymbol = /* @__PURE__ */ Symbol("opentelemetry.instrumentation.fastify.request_active_span");
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/utils.js
 function startSpan3(reply, tracer2, spanName, spanAttributes = {}) {
   const span = tracer2.startSpan(spanName, { attributes: spanAttributes });
   const spans = reply[spanRequestSymbol] || [];
@@ -35289,13 +35301,13 @@ function isPromise2(val) {
   return typeof val === "object" && val && typeof Object.getOwnPropertyDescriptor(val, "then")?.value === "function" || false;
 }
 var init_utils15 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/utils.js"() {
     init_esm2();
     init_constants12();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/instrumentation.js
 function instrumentClient() {
   const client = getClient();
   if (client) {
@@ -35322,7 +35334,7 @@ function addFastifyV3SpanAttributes(span) {
 }
 var import_instrumentation6, PACKAGE_NAME, ANONYMOUS_NAME, hooksNamesToWrap, FastifyInstrumentationV3;
 var init_instrumentation2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/v3/instrumentation.js"() {
     init_esm2();
     import_instrumentation6 = __toESM(require_src4(), 1);
     init_attributes2();
@@ -35526,15 +35538,15 @@ var init_op = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/debug-build.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/debug-build.js
 var DEBUG_BUILD5;
 var init_debug_build4 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/debug-build.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/debug-build.js"() {
     DEBUG_BUILD5 = typeof __SENTRY_DEBUG__ === "undefined" || __SENTRY_DEBUG__;
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/tracing-channel.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/tracing-channel.js
 function bindTracingChannelToSpan(channel4, getSpan2, opts) {
   const handle = bindSpanToChannelStore(channel4, getSpan2, opts);
   const beforeSpanEnd = opts?.beforeSpanEnd;
@@ -35660,7 +35672,7 @@ function getErrorInfo(error4) {
 }
 var NOOP;
 var init_tracing_channel = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/tracing-channel.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/tracing-channel.js"() {
     init_esm();
     init_debug_build4();
     init_attributes2();
@@ -35669,7 +35681,7 @@ var init_tracing_channel = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/graphql/utils.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/graphql/utils.js
 function renameRootSpanWithOperation(span, operationType, operationName) {
   const rootSpan = getRootSpan(span);
   if (rootSpan === span) {
@@ -35751,7 +35763,7 @@ function collectGraphqlDocument(document2) {
 }
 var ORIGINAL_DESCRIPTION_ATTRIBUTE, REDACTED_LITERAL_KINDS;
 var init_utils16 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/graphql/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/graphql/utils.js"() {
     init_attributes2();
     init_esm();
     ORIGINAL_DESCRIPTION_ATTRIBUTE = "original-description";
@@ -35759,7 +35771,7 @@ var init_utils16 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/graphql/graphql-dc-subscriber.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/graphql/graphql-dc-subscriber.js
 function subscribeGraphqlDiagnosticChannels(tracingChannel36, options = {}) {
   const ignoreResolveSpans = options.ignoreResolveSpans !== false;
   const ignoreTrivialResolveSpans = options.ignoreTrivialResolveSpans !== false;
@@ -35854,7 +35866,7 @@ function setupResolveChannel(tracingChannel36, ignoreTrivialResolveSpans) {
 }
 var GRAPHQL_DC_CHANNEL_PARSE, GRAPHQL_DC_CHANNEL_VALIDATE, GRAPHQL_DC_CHANNEL_EXECUTE, GRAPHQL_DC_CHANNEL_SUBSCRIBE, GRAPHQL_DC_CHANNEL_RESOLVE, ORIGIN, SPAN_NAME_PARSE, SPAN_NAME_VALIDATE, SPAN_NAME_EXECUTE, SPAN_NAME_SUBSCRIBE, SPAN_NAME_RESOLVE, GRAPHQL_FIELD_NAME, GRAPHQL_FIELD_PATH, GRAPHQL_FIELD_TYPE, GRAPHQL_PARENT_NAME;
 var init_graphql_dc_subscriber = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/graphql/graphql-dc-subscriber.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/graphql/graphql-dc-subscriber.js"() {
     init_attributes2();
     init_op();
     init_esm();
@@ -35878,11 +35890,11 @@ var init_graphql_dc_subscriber = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/graphql/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/graphql/index.js
 import * as diagnosticsChannel3 from "node:diagnostics_channel";
 var _graphqlIntegration, graphqlIntegration;
 var init_graphql = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/graphql/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/graphql/index.js"() {
     init_esm();
     init_graphql_dc_subscriber();
     _graphqlIntegration = ((options = {}) => {
@@ -35902,7 +35914,7 @@ var init_graphql = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mongoose/mongoose-dc-subscriber.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mongoose/mongoose-dc-subscriber.js
 function subscribeMongooseDiagnosticChannels(tracingChannel36) {
   if (subscribed) {
     return;
@@ -35976,7 +35988,7 @@ function redactValue(value, depth) {
 }
 var MONGOOSE_DC_CHANNEL_QUERY, MONGOOSE_DC_CHANNEL_AGGREGATE, MONGOOSE_DC_CHANNEL_MODEL_SAVE, MONGOOSE_DC_CHANNEL_MODEL_INSERT_MANY, MONGOOSE_DC_CHANNEL_MODEL_BULK_WRITE, MONGOOSE_DC_CHANNEL_CURSOR_NEXT, ORIGIN2, DB_SYSTEM_NAME_VALUE_MONGODB, MAX_REDACTION_DEPTH, subscribed;
 var init_mongoose_dc_subscriber = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mongoose/mongoose-dc-subscriber.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mongoose/mongoose-dc-subscriber.js"() {
     init_attributes2();
     init_esm();
     init_debug_build4();
@@ -35994,11 +36006,11 @@ var init_mongoose_dc_subscriber = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mongoose/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mongoose/index.js
 import * as diagnosticsChannel4 from "node:diagnostics_channel";
 var _mongooseIntegration, mongooseIntegration;
 var init_mongoose = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mongoose/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mongoose/index.js"() {
     init_esm();
     init_mongoose_dc_subscriber();
     _mongooseIntegration = (() => {
@@ -36018,7 +36030,7 @@ var init_mongoose = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mongodb/mongodb-span.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mongodb/mongodb-span.js
 function serializeDbStatement(commandObj) {
   return JSON.stringify(scrubStatement(commandObj));
 }
@@ -36133,7 +36145,7 @@ function startMongoSpan(attributes) {
 }
 var ATTR_DB_SYSTEM, ATTR_DB_NAME, ATTR_DB_OPERATION, ATTR_DB_STATEMENT, ATTR_DB_MONGODB_COLLECTION, ATTR_DB_CONNECTION_STRING, ATTR_NET_PEER_NAME, ATTR_NET_PEER_PORT, DB_SYSTEM_VALUE_MONGODB;
 var init_mongodb_span = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mongodb/mongodb-span.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mongodb/mongodb-span.js"() {
     init_esm();
     ATTR_DB_SYSTEM = "db.system";
     ATTR_DB_NAME = "db.name";
@@ -36147,7 +36159,7 @@ var init_mongodb_span = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mysql2/mysql2-dc-subscriber.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mysql2/mysql2-dc-subscriber.js
 function subscribeMysql2DiagnosticChannels(tracingChannel36) {
   setupQueryChannel(tracingChannel36, MYSQL2_DC_CHANNEL_QUERY);
   setupQueryChannel(tracingChannel36, MYSQL2_DC_CHANNEL_EXECUTE);
@@ -36198,7 +36210,7 @@ function setupConnectChannel(tracingChannel36, channelName, spanName) {
 }
 var MYSQL2_DC_CHANNEL_QUERY, MYSQL2_DC_CHANNEL_EXECUTE, MYSQL2_DC_CHANNEL_CONNECT, MYSQL2_DC_CHANNEL_POOL_CONNECT, ORIGIN3, DB_SYSTEM_NAME_VALUE_MYSQL2, SQL_OPERATION_RE;
 var init_mysql2_dc_subscriber = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mysql2/mysql2-dc-subscriber.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mysql2/mysql2-dc-subscriber.js"() {
     init_attributes2();
     init_esm();
     init_tracing_channel();
@@ -36212,11 +36224,11 @@ var init_mysql2_dc_subscriber = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mysql2/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mysql2/index.js
 import * as diagnosticsChannel5 from "node:diagnostics_channel";
 var _mysql2Integration, mysql2Integration;
 var init_mysql2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mysql2/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mysql2/index.js"() {
     init_esm();
     init_mysql2_dc_subscriber();
     _mysql2Integration = (() => {
@@ -36236,7 +36248,7 @@ var init_mysql2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/prisma/global.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/prisma/global.js
 function setGlobalTracingHelper(helper) {
   const globalValue = { helper };
   globalThisWithPrismaInstrumentation[GLOBAL_VERSIONED_INSTRUMENTATION_KEY] = globalValue;
@@ -36244,7 +36256,7 @@ function setGlobalTracingHelper(helper) {
 }
 var majorVersion, GLOBAL_INSTRUMENTATION_KEY, GLOBAL_VERSIONED_INSTRUMENTATION_KEY, globalThisWithPrismaInstrumentation;
 var init_global = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/prisma/global.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/prisma/global.js"() {
     majorVersion = "7";
     GLOBAL_INSTRUMENTATION_KEY = "PRISMA_INSTRUMENTATION";
     GLOBAL_VERSIONED_INSTRUMENTATION_KEY = `V${majorVersion}_PRISMA_INSTRUMENTATION`;
@@ -36252,7 +36264,7 @@ var init_global = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/prisma/tracing-helper.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/prisma/tracing-helper.js
 function registerPrismaSpan(id, span) {
   prismaSpanRegistry.set(id, span);
 }
@@ -36376,7 +36388,7 @@ function shouldIgnoreSpan2(spanName, ignoreSpanTypes) {
 }
 var showAllTraces, nonSampledTraceParent, PRISMA_ORIGIN, MAX_TRACKED_PRISMA_SPANS, prismaSpanRegistry, pendingEngineSpans, ActiveTracingHelper;
 var init_tracing_helper = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/prisma/tracing-helper.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/prisma/tracing-helper.js"() {
     init_esm();
     init_debug_build4();
     init_attributes2();
@@ -36464,7 +36476,7 @@ var init_tracing_helper = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/prisma/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/prisma/index.js
 function instrumentPrisma(options) {
   setGlobalTracingHelper(
     new ActiveTracingHelper({
@@ -36474,7 +36486,7 @@ function instrumentPrisma(options) {
 }
 var INTEGRATION_NAME33, _prismaIntegration, prismaIntegration;
 var init_prisma = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/prisma/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/prisma/index.js"() {
     init_esm();
     init_global();
     init_tracing_helper();
@@ -36491,7 +36503,7 @@ var init_prisma = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/redis/redis-dc-subscriber.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/redis/redis-dc-subscriber.js
 function subscribeRedisDiagnosticChannels(tracingChannel36, responseHook) {
   setupCommandChannel(
     tracingChannel36,
@@ -36574,7 +36586,7 @@ function runResponseHook(hook, span, command, args, result) {
 }
 var REDIS_DC_CHANNEL_COMMAND, REDIS_DC_CHANNEL_BATCH, REDIS_DC_CHANNEL_CONNECT, IOREDIS_DC_CHANNEL_COMMAND, IOREDIS_DC_CHANNEL_CONNECT, ORIGIN4, DB_SYSTEM_NAME_VALUE_REDIS;
 var init_redis_dc_subscriber = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/redis/redis-dc-subscriber.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/redis/redis-dc-subscriber.js"() {
     init_attributes2();
     init_esm();
     init_tracing_channel();
@@ -36588,11 +36600,11 @@ var init_redis_dc_subscriber = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/redis/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/redis/index.js
 import * as diagnosticsChannel6 from "node:diagnostics_channel";
 var _redisIntegration, redisIntegration;
 var init_redis = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/redis/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/redis/index.js"() {
     init_esm();
     init_redis_dc_subscriber();
     _redisIntegration = ((options = {}) => {
@@ -36612,10 +36624,10 @@ var init_redis = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/redis/redis-statement-serializer.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/redis/redis-statement-serializer.js
 var serializationSubsets, defaultDbStatementSerializer;
 var init_redis_statement_serializer = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/redis/redis-statement-serializer.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/redis/redis-statement-serializer.js"() {
     serializationSubsets = [
       {
         regex: /^ECHO/i,
@@ -36648,7 +36660,7 @@ var init_redis_statement_serializer = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/vercel-ai/util.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/vercel-ai/util.js
 function asString(value) {
   return typeof value === "string" ? value : void 0;
 }
@@ -36751,12 +36763,12 @@ function accumulateChunk(state, chunk) {
   }
 }
 var init_util = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/vercel-ai/util.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/vercel-ai/util.js"() {
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/vercel-ai/vercel-ai-dc-subscriber.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/vercel-ai/vercel-ai-dc-subscriber.js
 function clearOperationId(data) {
   if (!ROOT_OPERATION_TYPES.has(data.type)) {
     return;
@@ -37155,7 +37167,7 @@ function buildInputMessageAttributes(event, enableTruncation) {
 }
 var AI_SDK_TELEMETRY_TRACING_CHANNEL, ORIGIN5, GEN_AI_TOOL_CALL_ID_ATTRIBUTE2, GEN_AI_TOOL_DESCRIPTION_ATTRIBUTE2, GEN_AI_EMBEDDINGS_OPERATION, GEN_AI_RERANK_OPERATION, GEN_AI_GENERATE_CONTENT_OPERATION, WORKERS_AI_INTEGRATION_NAME2, VERCEL_AI_OPERATION_ID_ATTRIBUTE, VERCEL_AI_MODEL_PROVIDER_ATTRIBUTE, VERCEL_AI_SETTINGS_MAX_RETRIES_ATTRIBUTE, operationIdByCallId, toolDescriptionsByCallId, invokeAgentSpanByCallId, ROOT_OPERATION_TYPES;
 var init_vercel_ai_dc_subscriber = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/vercel-ai/vercel-ai-dc-subscriber.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/vercel-ai/vercel-ai-dc-subscriber.js"() {
     init_attributes2();
     init_op();
     init_esm();
@@ -37186,11 +37198,11 @@ var init_vercel_ai_dc_subscriber = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/vercel-ai/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/vercel-ai/index.js
 import * as diagnosticsChannel7 from "node:diagnostics_channel";
 var _vercelAiIntegration, vercelAiIntegration;
 var init_vercel_ai2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/vercel-ai/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/vercel-ai/index.js"() {
     init_esm();
     init_vercel_ai_dc_subscriber();
     _vercelAiIntegration = ((options = {}) => {
@@ -37210,7 +37222,7 @@ var init_vercel_ai2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/instrumentation.js
 import * as diagnosticsChannel8 from "node:diagnostics_channel";
 function getRequestRouteUrl(request3) {
   return request3.routeOptions?.url ?? request3.routerPath;
@@ -37430,7 +37442,7 @@ function instrumentOnRequest(fastify) {
 }
 var PACKAGE_NAME2, SUPPORTED_VERSIONS2, ORIGIN6, HOOK_OP, REQUEST_HANDLER_OP, FASTIFY_HOOKS, ATTRIBUTE_HOOK_NAME, ATTRIBUTE_FASTIFY_TYPE, ATTRIBUTE_HOOK_CALLBACK_NAME, ATTRIBUTE_FASTIFY_ROOT, HOOK_TYPE_ROUTE, HOOK_TYPE_INSTANCE, HOOK_TYPE_HANDLER, ANONYMOUS_FUNCTION_NAME, kRequestSpan, kAddHookOriginal, kSetNotFoundOriginal, pluginSymbols, _isInstrumented, instrumentFastify;
 var init_instrumentation3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/instrumentation.js"() {
     init_attributes2();
     init_esm();
     init_debug_build4();
@@ -37490,19 +37502,19 @@ var init_instrumentation3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/utils.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/utils.js
 function defaultShouldHandleError2(_error, _request, reply) {
   const statusCode = reply.statusCode;
   return statusCode >= 500 || statusCode <= 299;
 }
 var INTEGRATION_NAME34;
 var init_utils17 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/utils.js"() {
     INTEGRATION_NAME34 = "Fastify";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/errors.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/errors.js
 import * as diagnosticsChannel9 from "node:diagnostics_channel";
 function getFastifyIntegration() {
   const client = getClient();
@@ -37536,17 +37548,17 @@ function handleFastifyError(error4, request3, reply, handlerOrigin) {
   }
 }
 var init_errors = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/errors.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/errors.js"() {
     init_debug_build4();
     init_esm();
     init_utils17();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/index.js
 var _fastifyIntegration, fastifyIntegration, handleFastifyError2;
 var init_fastify = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/fastify/index.js"() {
     init_esm();
     init_instrumentation3();
     init_utils17();
@@ -37573,7 +37585,7 @@ var init_fastify = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mongoose/mongoose-legacy-span.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mongoose/mongoose-legacy-span.js
 function startMongooseLegacySpan({
   collection,
   modelName,
@@ -37602,7 +37614,7 @@ function startMongooseLegacySpan({
 }
 var ATTR_DB_MONGODB_COLLECTION2, ATTR_DB_NAME2, ATTR_DB_USER, ATTR_NET_PEER_NAME2, ATTR_NET_PEER_PORT2, ATTR_DB_OPERATION2, ATTR_DB_SYSTEM2;
 var init_mongoose_legacy_span = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/mongoose/mongoose-legacy-span.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/mongoose/mongoose-legacy-span.js"() {
     init_esm();
     ATTR_DB_MONGODB_COLLECTION2 = "db.mongodb.collection";
     ATTR_DB_NAME2 = "db.name";
@@ -37614,9 +37626,9 @@ var init_mongoose_legacy_span = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/index.js
 var init_esm6 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/index.js"() {
     init_graphql();
     init_mongoose();
     init_mongodb_span();
@@ -37630,7 +37642,7 @@ var init_esm6 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/index.js
 function getFastifyIntegration2() {
   const client = getClient();
   if (!client) {
@@ -37659,7 +37671,7 @@ function setupFastifyErrorHandler(fastify, options) {
 }
 var INTEGRATION_NAME35, instrumentFastifyV3, _fastifyIntegration2, fastifyIntegration2;
 var init_fastify2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/fastify/index.js"() {
     init_esm();
     init_esm5();
     init_instrumentation2();
@@ -37683,11 +37695,11 @@ var init_fastify2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/InstrumentationNodeModuleFile.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/InstrumentationNodeModuleFile.js
 import { normalize as normalize2 } from "path";
 var InstrumentationNodeModuleFile;
 var init_InstrumentationNodeModuleFile = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/InstrumentationNodeModuleFile.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/InstrumentationNodeModuleFile.js"() {
     InstrumentationNodeModuleFile = class {
       constructor(name, supportedVersions9, patch, unpatch) {
         this.name = normalize2(name);
@@ -37699,10 +37711,10 @@ var init_InstrumentationNodeModuleFile = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/enum.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/enum.js
 var AllowedOperationTypes, TokenKind, SpanNames;
 var init_enum = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/enum.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/enum.js"() {
     AllowedOperationTypes = /* @__PURE__ */ ((AllowedOperationTypes2) => {
       AllowedOperationTypes2["QUERY"] = "query";
       AllowedOperationTypes2["MUTATION"] = "mutation";
@@ -37746,10 +37758,10 @@ var init_enum = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/enums/AttributeNames.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/enums/AttributeNames.js
 var AttributeNames2;
 var init_AttributeNames2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/enums/AttributeNames.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/enums/AttributeNames.js"() {
     AttributeNames2 = /* @__PURE__ */ ((AttributeNames22) => {
       AttributeNames22["SOURCE"] = "graphql.source";
       AttributeNames22["FIELD_NAME"] = "graphql.field.name";
@@ -37763,24 +37775,24 @@ var init_AttributeNames2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/symbols.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/symbols.js
 var OTEL_PATCHED_SYMBOL, OTEL_GRAPHQL_DATA_SYMBOL;
 var init_symbols = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/symbols.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/symbols.js"() {
     OTEL_PATCHED_SYMBOL = /* @__PURE__ */ Symbol.for("opentelemetry.patched");
     OTEL_GRAPHQL_DATA_SYMBOL = /* @__PURE__ */ Symbol.for("opentelemetry.graphql_data");
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/internal-types.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/internal-types.js
 var OPERATION_NOT_SUPPORTED;
 var init_internal_types = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/internal-types.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/internal-types.js"() {
     OPERATION_NOT_SUPPORTED = "Operation$operationName$not supported";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/utils.js
 function addSpanSource(span, loc, start, end) {
   if (getClient()?.getDataCollectionOptions().graphQL.document === true) {
     const source = getSourceFromLocation(loc, start, end);
@@ -38011,7 +38023,7 @@ function wrapFieldResolver(getConfig3, fieldResolver, isDefaultResolver = false)
 }
 var OPERATION_VALUES, isPromise3, KindsToBeRemoved, handleResolveSpanError, handleResolveSpanSuccess;
 var init_utils18 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/utils.js"() {
     init_esm();
     init_enum();
     init_AttributeNames2();
@@ -38040,7 +38052,7 @@ var init_utils18 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/instrumentation.js
 function getGraphqlOperationNamesFromAttribute3(attr) {
   if (Array.isArray(attr)) {
     const sorted = attr.slice().sort();
@@ -38054,7 +38066,7 @@ function getGraphqlOperationNamesFromAttribute3(attr) {
 }
 var import_instrumentation9, PACKAGE_NAME3, ORIGIN7, DEFAULT_CONFIG, supportedVersions, GraphQLInstrumentation;
 var init_instrumentation4 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/vendored/instrumentation.js"() {
     import_instrumentation9 = __toESM(require_src4(), 1);
     init_InstrumentationNodeModuleFile();
     init_enum();
@@ -38370,7 +38382,7 @@ var init_instrumentation4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/index.js
 function getOptionsWithDefaults(options) {
   return {
     ignoreResolveSpans: true,
@@ -38381,7 +38393,7 @@ function getOptionsWithDefaults(options) {
 }
 var INTEGRATION_NAME36, instrumentGraphql, _graphqlIntegration2, graphqlIntegration2;
 var init_graphql2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/graphql/index.js"() {
     init_instrumentation4();
     init_esm();
     init_esm5();
@@ -38404,10 +38416,10 @@ var init_graphql2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/semconv.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/semconv.js
 var ATTR_MESSAGING_DESTINATION_PARTITION_ID, ATTR_MESSAGING_KAFKA_MESSAGE_KEY, ATTR_MESSAGING_KAFKA_MESSAGE_TOMBSTONE, ATTR_MESSAGING_KAFKA_OFFSET, MESSAGING_OPERATION_TYPE_VALUE_PROCESS, MESSAGING_OPERATION_TYPE_VALUE_RECEIVE, MESSAGING_OPERATION_TYPE_VALUE_SEND, MESSAGING_SYSTEM_VALUE_KAFKA, ERROR_TYPE_VALUE_OTHER2;
 var init_semconv = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/semconv.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/semconv.js"() {
     ATTR_MESSAGING_DESTINATION_PARTITION_ID = "messaging.destination.partition.id";
     ATTR_MESSAGING_KAFKA_MESSAGE_KEY = "messaging.kafka.message.key";
     ATTR_MESSAGING_KAFKA_MESSAGE_TOMBSTONE = "messaging.kafka.message.tombstone";
@@ -38420,7 +38432,7 @@ var init_semconv = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/utils.js
 function getHeaderAsString(headers, key) {
   const value = headers?.[key];
   if (value == null) {
@@ -38521,7 +38533,7 @@ function endSpansOnPromise(spans, sendPromise) {
 }
 var PRODUCER_ORIGIN, CONSUMER_ORIGIN;
 var init_utils19 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/utils.js"() {
     init_esm2();
     init_attributes2();
     init_esm();
@@ -38531,10 +38543,10 @@ var init_utils19 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/instrumentation.js
 var import_instrumentation11, PACKAGE_NAME4, KafkaJsInstrumentation;
 var init_instrumentation5 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/vendored/instrumentation.js"() {
     import_instrumentation11 = __toESM(require_src4(), 1);
     init_attributes2();
     init_esm();
@@ -38769,10 +38781,10 @@ var init_instrumentation5 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/index.js
 var INTEGRATION_NAME37, instrumentKafka, _kafkaIntegration, kafkaIntegration;
 var init_kafka = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/kafka/index.js"() {
     init_instrumentation5();
     init_esm();
     init_esm5();
@@ -38790,10 +38802,10 @@ var init_kafka = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/lrumemoizer/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/lrumemoizer/vendored/instrumentation.js
 var import_instrumentation13, PACKAGE_NAME5, LruMemoizerInstrumentation;
 var init_instrumentation6 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/lrumemoizer/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/lrumemoizer/vendored/instrumentation.js"() {
     import_instrumentation13 = __toESM(require_src4(), 1);
     init_esm();
     PACKAGE_NAME5 = "@sentry/instrumentation-lru-memoizer";
@@ -38829,10 +38841,10 @@ var init_instrumentation6 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/lrumemoizer/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/lrumemoizer/index.js
 var INTEGRATION_NAME38, instrumentLruMemoizer, _lruMemoizerIntegration, lruMemoizerIntegration;
 var init_lrumemoizer = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/lrumemoizer/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/lrumemoizer/index.js"() {
     init_instrumentation6();
     init_esm();
     init_esm5();
@@ -38850,7 +38862,7 @@ var init_lrumemoizer = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/utils.js
 function getV4SpanAttributes2(connectionCtx, ns2, command, operation) {
   return getV4SpanAttributes(connectionCtx, ns2, command, operation, ORIGIN8);
 }
@@ -38879,14 +38891,14 @@ function shouldSkipInstrumentation() {
 }
 var ORIGIN8;
 var init_utils20 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/utils.js"() {
     init_esm();
     init_esm6();
     ORIGIN8 = "auto.db.otel.mongo";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/patches.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/patches.js
 function getV3PatchOperation(operationName) {
   return (original) => {
     return function patchedServerCommand(server, ns2, ops, options, callback) {
@@ -39023,17 +39035,17 @@ function getV4ConnectionPoolCheckOut() {
   };
 }
 var init_patches = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/patches.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/patches.js"() {
     init_esm();
     init_utils20();
     init_esm6();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/instrumentation.js
 var import_instrumentation15, PACKAGE_NAME6, MongoDBInstrumentation;
 var init_instrumentation7 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/vendored/instrumentation.js"() {
     import_instrumentation15 = __toESM(require_src4(), 1);
     init_esm();
     init_InstrumentationNodeModuleFile();
@@ -39160,10 +39172,10 @@ var init_instrumentation7 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/index.js
 var INTEGRATION_NAME39, instrumentMongo, _mongoIntegration, mongoIntegration;
 var init_mongo = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongo/index.js"() {
     init_instrumentation7();
     init_esm();
     init_esm5();
@@ -39181,7 +39193,7 @@ var init_mongo = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/vendored/utils.js
 function setErrorStatus(span, error4) {
   span.setStatus({
     code: SPAN_STATUS_ERROR,
@@ -39216,12 +39228,12 @@ function handleCallbackResponse(callback, exec, originalThis, span, args) {
   return exec.apply(originalThis, args);
 }
 var init_utils21 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/vendored/utils.js"() {
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/vendored/mongoose.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/vendored/mongoose.js
 function getContextCaptureFunctions(moduleVersion) {
   if (!moduleVersion) {
     return contextCaptureFunctionsCommon;
@@ -39245,7 +39257,7 @@ function needsDocumentMethodPatch(moduleVersion) {
 }
 var import_instrumentation17, PACKAGE_NAME7, ORIGIN9, contextCaptureFunctionsCommon, contextCaptureFunctions6, contextCaptureFunctions7, contextCaptureFunctions8, _STORED_PARENT_SPAN, _ALREADY_INSTRUMENTED, MongooseInstrumentation;
 var init_mongoose2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/vendored/mongoose.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/vendored/mongoose.js"() {
     import_instrumentation17 = __toESM(require_src4(), 1);
     init_esm();
     init_esm6();
@@ -39460,10 +39472,10 @@ var init_mongoose2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/index.js
 var INTEGRATION_NAME40, instrumentMongoose, _mongooseIntegration2, mongooseIntegration2;
 var init_mongoose3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mongoose/index.js"() {
     init_mongoose2();
     init_esm();
     init_esm5();
@@ -39482,16 +39494,16 @@ var init_mongoose3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/semconv.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/semconv.js
 var ATTR_DB_CONNECTION_STRING2, DB_SYSTEM_VALUE_MYSQL;
 var init_semconv2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/semconv.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/semconv.js"() {
     ATTR_DB_CONNECTION_STRING2 = "db.connection_string";
     DB_SYSTEM_VALUE_MYSQL = "mysql";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/utils.js
 function getConfig(config2) {
   const resolved = config2?.connectionConfig || config2 || {};
   const { host, port: port2, database, user } = resolved;
@@ -39523,14 +39535,14 @@ function getSpanName(query) {
   return rawQuery;
 }
 var init_utils22 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/utils.js"() {
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/instrumentation.js
 var import_instrumentation18, PACKAGE_NAME8, ORIGIN10, MySQLInstrumentation;
 var init_instrumentation8 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/vendored/instrumentation.js"() {
     import_instrumentation18 = __toESM(require_src4(), 1);
     init_esm();
     init_attributes2();
@@ -39713,10 +39725,10 @@ var init_instrumentation8 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/index.js
 var INTEGRATION_NAME41, instrumentMysql, _mysqlIntegration, mysqlIntegration;
 var init_mysql = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql/index.js"() {
     init_instrumentation8();
     init_esm();
     init_esm5();
@@ -39734,16 +39746,16 @@ var init_mysql = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/semconv.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/semconv.js
 var ATTR_DB_CONNECTION_STRING3, DB_SYSTEM_VALUE_MYSQL2;
 var init_semconv3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/semconv.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/semconv.js"() {
     ATTR_DB_CONNECTION_STRING3 = "db.connection_string";
     DB_SYSTEM_VALUE_MYSQL2 = "mysql";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/utils.js
 function getConnectionAttributes(config2) {
   const { host, port: port2, database, user } = getConfig2(config2);
   const attrs = {
@@ -39807,7 +39819,7 @@ function getConnectionPrototypeToInstrument(connection) {
 }
 var once;
 var init_utils23 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/utils.js"() {
     init_attributes2();
     init_semconv3();
     once = (fn) => {
@@ -39821,10 +39833,10 @@ var init_utils23 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/instrumentation.js
 var import_instrumentation20, PACKAGE_NAME9, ORIGIN11, supportedVersions2, MySQL2Instrumentation;
 var init_instrumentation9 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/vendored/instrumentation.js"() {
     import_instrumentation20 = __toESM(require_src4(), 1);
     init_attributes2();
     init_esm();
@@ -39960,10 +39972,10 @@ var init_instrumentation9 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/index.js
 var INTEGRATION_NAME42, instrumentMysql2, _mysql2Integration2, mysql2Integration2;
 var init_mysql22 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/mysql2/index.js"() {
     init_instrumentation9();
     init_esm();
     init_esm5();
@@ -39982,7 +39994,7 @@ var init_mysql22 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/sdk/diagnosticsChannelInjection.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/sdk/diagnosticsChannelInjection.js
 function setDiagnosticsChannelInjectionLoader(load) {
   loader = load;
 }
@@ -39997,11 +40009,11 @@ function resolveDiagnosticsChannelInjection() {
 }
 var loader, cached;
 var init_diagnosticsChannelInjection = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/sdk/diagnosticsChannelInjection.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/sdk/diagnosticsChannelInjection.js"() {
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/utils/redisCache.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/utils/redisCache.js
 function isInCommands(redisCommands, command) {
   return redisCommands.includes(command.toLowerCase());
 }
@@ -40086,7 +40098,7 @@ function flatten(input) {
 }
 var SINGLE_ARG_COMMANDS, GET_COMMANDS, SET_COMMANDS, REMOVE_COMMANDS;
 var init_redisCache = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/utils/redisCache.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/utils/redisCache.js"() {
     SINGLE_ARG_COMMANDS = ["get", "set", "setex"];
     GET_COMMANDS = ["get", "mget"];
     SET_COMMANDS = ["set", "setex"];
@@ -40094,13 +40106,13 @@ var init_redisCache = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/redis/cache.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/redis/cache.js
 function setRedisOptions(options) {
   _redisOptions = options;
 }
 var _redisOptions, cacheResponseHook;
 var init_cache = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/redis/cache.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/redis/cache.js"() {
     init_esm();
     init_redisCache();
     _redisOptions = {};
@@ -40135,16 +40147,16 @@ var init_cache = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/semconv.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/semconv.js
 var ATTR_DB_CONNECTION_STRING4, DB_SYSTEM_VALUE_REDIS;
 var init_semconv4 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/semconv.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/semconv.js"() {
     ATTR_DB_CONNECTION_STRING4 = "db.connection_string";
     DB_SYSTEM_VALUE_REDIS = "redis";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/ioredis-instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/ioredis-instrumentation.js
 function endSpan4(span, err) {
   if (err) {
     span.setStatus({ code: SPAN_STATUS_ERROR, message: err.message });
@@ -40153,7 +40165,7 @@ function endSpan4(span, err) {
 }
 var import_instrumentation22, PACKAGE_NAME10, ORIGIN12, SUPPORTED_VERSIONS3, IORedisInstrumentation;
 var init_ioredis_instrumentation = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/ioredis-instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/ioredis-instrumentation.js"() {
     import_instrumentation22 = __toESM(require_src4(), 1);
     init_esm();
     init_attributes2();
@@ -40292,7 +40304,7 @@ var init_ioredis_instrumentation = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/redis-instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/redis-instrumentation.js
 function endSpan5(span, err) {
   if (err) {
     span.setStatus({ code: SPAN_STATUS_ERROR, message: err.message });
@@ -40337,7 +40349,7 @@ function getClientAttributes2(options) {
 }
 var import_instrumentation23, PACKAGE_NAME11, ORIGIN13, OTEL_OPEN_SPANS, MULTI_COMMAND_OPTIONS, _RedisInstrumentationV2_V3, RedisInstrumentationV2_V3, _RedisInstrumentationV4_V5, RedisInstrumentationV4_V5, RedisInstrumentation;
 var init_redis_instrumentation = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/redis-instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/redis/vendored/redis-instrumentation.js"() {
     import_instrumentation23 = __toESM(require_src4(), 1);
     init_esm();
     init_attributes2();
@@ -40738,11 +40750,11 @@ var init_redis_instrumentation = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/redis/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/redis/index.js
 import * as dc from "node:diagnostics_channel";
 var INTEGRATION_NAME43, instrumentIORedis, instrumentRedisModule, instrumentRedis, _redisIntegration2, redisIntegration2;
 var init_redis2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/redis/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/redis/index.js"() {
     init_esm();
     init_esm6();
     init_esm5();
@@ -40783,10 +40795,10 @@ var init_redis2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/enums/SpanNames.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/enums/SpanNames.js
 var SpanNames2;
 var init_SpanNames = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/enums/SpanNames.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/enums/SpanNames.js"() {
     SpanNames2 = /* @__PURE__ */ ((SpanNames22) => {
       SpanNames22["QUERY_PREFIX"] = "pg.query";
       SpanNames22["CONNECT"] = "pg.connect";
@@ -40796,10 +40808,10 @@ var init_SpanNames = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/enums/AttributeNames.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/enums/AttributeNames.js
 var AttributeNames3;
 var init_AttributeNames3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/enums/AttributeNames.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/enums/AttributeNames.js"() {
     AttributeNames3 = /* @__PURE__ */ ((AttributeNames22) => {
       AttributeNames22["PG_PLAN"] = "db.postgresql.plan";
       AttributeNames22["IDLE_TIMEOUT_MILLIS"] = "db.postgresql.idle.timeout.millis";
@@ -40809,16 +40821,16 @@ var init_AttributeNames3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/semconv.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/semconv.js
 var ATTR_DB_CONNECTION_STRING5, DB_SYSTEM_VALUE_POSTGRESQL;
 var init_semconv5 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/semconv.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/semconv.js"() {
     ATTR_DB_CONNECTION_STRING5 = "db.connection_string";
     DB_SYSTEM_VALUE_POSTGRESQL = "postgresql";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/utils.js
 function getQuerySpanName(dbName, queryConfig) {
   if (!queryConfig) return SpanNames2.QUERY_PREFIX;
   const command = typeof queryConfig.name === "string" && queryConfig.name ? queryConfig.name : parseNormalizedOperationName(queryConfig.text);
@@ -40947,7 +40959,7 @@ function isObjectWithTextString(it) {
 }
 var ORIGIN14;
 var init_utils24 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/utils.js"() {
     init_esm();
     init_AttributeNames3();
     init_SpanNames();
@@ -40957,7 +40969,7 @@ var init_utils24 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/instrumentation.js
 function extractModuleExports(module2) {
   return module2[Symbol.toStringTag] === "Module" ? module2.default : module2;
 }
@@ -40982,7 +40994,7 @@ function handleConnectResult(span, connectResult) {
 }
 var import_instrumentation24, PACKAGE_NAME12, PgInstrumentation;
 var init_instrumentation10 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/vendored/instrumentation.js"() {
     import_instrumentation24 = __toESM(require_src4(), 1);
     init_esm();
     init_InstrumentationNodeModuleFile();
@@ -41183,10 +41195,10 @@ var init_instrumentation10 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/index.js
 var INTEGRATION_NAME44, instrumentPostgres, _postgresIntegration, postgresIntegration;
 var init_postgres = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgres/index.js"() {
     init_instrumentation10();
     init_esm();
     init_esm5();
@@ -41210,10 +41222,10 @@ var init_postgres = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgresjs.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgresjs.js
 var import_instrumentation26, INTEGRATION_NAME45, SUPPORTED_VERSIONS4, ATTR_DB_RESPONSE_STATUS_CODE2, SQL_OPERATION_REGEX2, QUERY_FROM_INSTRUMENTED_SQL2, instrumentPostgresJs, PostgresJsInstrumentation, _postgresJsIntegration, postgresJsIntegration;
 var init_postgresjs2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/postgresjs.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/postgresjs.js"() {
     init_esm2();
     import_instrumentation26 = __toESM(require_src4(), 1);
     init_InstrumentationNodeModuleFile();
@@ -41474,10 +41486,10 @@ var init_postgresjs2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/enums/AttributeNames.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/enums/AttributeNames.js
 var AttributeNames4;
 var init_AttributeNames4 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/enums/AttributeNames.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/enums/AttributeNames.js"() {
     AttributeNames4 = /* @__PURE__ */ ((AttributeNames22) => {
       AttributeNames22["HAPI_TYPE"] = "hapi.type";
       AttributeNames22["PLUGIN_NAME"] = "hapi.plugin.name";
@@ -41487,10 +41499,10 @@ var init_AttributeNames4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/internal-types.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/internal-types.js
 var HapiComponentName, handlerPatched, HapiLayerType, HapiLifecycleMethodNames;
 var init_internal_types2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/internal-types.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/internal-types.js"() {
     HapiComponentName = "@hapi/hapi";
     handlerPatched = /* @__PURE__ */ Symbol("hapi-handler-patched");
     HapiLayerType = {
@@ -41510,7 +41522,7 @@ var init_internal_types2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/utils.js
 function getPluginName(plugin) {
   if (plugin.name) {
     return plugin.name;
@@ -41520,7 +41532,7 @@ function getPluginName(plugin) {
 }
 var isLifecycleExtType, isLifecycleExtEventObj, isDirectExtInput, isPatchableExtMethod, getRouteMetadata, getExtMetadata, getPluginFromInput;
 var init_utils25 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/utils.js"() {
     init_attributes2();
     init_internal_types2();
     init_AttributeNames4();
@@ -41589,10 +41601,10 @@ var init_utils25 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/instrumentation.js
 var import_instrumentation27, PACKAGE_NAME13, HapiInstrumentation;
 var init_instrumentation11 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/vendored/instrumentation.js"() {
     init_esm2();
     init_setHttpServerSpanRouteAttribute();
     import_instrumentation27 = __toESM(require_src4(), 1);
@@ -41845,7 +41857,7 @@ var init_instrumentation11 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/index.js
 function isErrorEvent4(event) {
   return !!(event && typeof event === "object" && "error" in event && event.error);
 }
@@ -41863,7 +41875,7 @@ async function setupHapiErrorHandler(server) {
 }
 var INTEGRATION_NAME46, instrumentHapi, _hapiIntegration, hapiIntegration, hapiErrorPlugin;
 var init_hapi = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hapi/index.js"() {
     init_instrumentation11();
     init_esm();
     init_esm5();
@@ -41903,10 +41915,10 @@ var init_hapi = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hono/constants.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hono/constants.js
 var AttributeNames5, HonoTypes;
 var init_constants13 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hono/constants.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hono/constants.js"() {
     AttributeNames5 = {
       HONO_TYPE: "hono.type",
       HONO_NAME: "hono.name"
@@ -41918,10 +41930,10 @@ var init_constants13 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hono/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hono/instrumentation.js
 var import_instrumentation29, PACKAGE_NAME14, PACKAGE_VERSION, HonoInstrumentation;
 var init_instrumentation12 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hono/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hono/instrumentation.js"() {
     init_esm2();
     import_instrumentation29 = __toESM(require_src4(), 1);
     init_esm();
@@ -42120,7 +42132,7 @@ var init_instrumentation12 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hono/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hono/index.js
 function addHonoSpanAttributes(span) {
   const attributes = spanToJSON(span).data;
   const type = attributes[AttributeNames5.HONO_TYPE];
@@ -42177,7 +42189,7 @@ function setupHonoErrorHandler(app3, options) {
 }
 var INTEGRATION_NAME47, instrumentHono, _honoIntegration, honoIntegration;
 var init_hono = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/hono/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/hono/index.js"() {
     init_attributes2();
     init_esm();
     init_esm5();
@@ -42205,10 +42217,10 @@ var init_hono = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/types.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/types.js
 var KoaLayerType;
 var init_types3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/types.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/types.js"() {
     KoaLayerType = /* @__PURE__ */ ((KoaLayerType2) => {
       KoaLayerType2["ROUTER"] = "router";
       KoaLayerType2["MIDDLEWARE"] = "middleware";
@@ -42217,10 +42229,10 @@ var init_types3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/enums/AttributeNames.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/enums/AttributeNames.js
 var AttributeNames6;
 var init_AttributeNames5 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/enums/AttributeNames.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/enums/AttributeNames.js"() {
     AttributeNames6 = /* @__PURE__ */ ((AttributeNames22) => {
       AttributeNames22["KOA_TYPE"] = "koa.type";
       AttributeNames22["KOA_NAME"] = "koa.name";
@@ -42229,10 +42241,10 @@ var init_AttributeNames5 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/utils.js
 var getMiddlewareMetadata, isLayerIgnored2;
 var init_utils26 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/utils.js"() {
     init_types3();
     init_AttributeNames5();
     init_attributes2();
@@ -42265,18 +42277,18 @@ var init_utils26 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/internal-types.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/internal-types.js
 var kLayerPatched;
 var init_internal_types3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/internal-types.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/internal-types.js"() {
     kLayerPatched = /* @__PURE__ */ Symbol("koa-layer-patched");
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/instrumentation.js
 var import_instrumentation31, PACKAGE_NAME15, KoaInstrumentation;
 var init_instrumentation13 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/vendored/instrumentation.js"() {
     init_esm2();
     import_instrumentation31 = __toESM(require_src4(), 1);
     init_types3();
@@ -42401,10 +42413,10 @@ var init_instrumentation13 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/index.js
 var INTEGRATION_NAME48, instrumentKoa, _koaIntegration, koaIntegration, setupKoaErrorHandler;
 var init_koa = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/koa/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/koa/index.js"() {
     init_instrumentation13();
     init_esm();
     init_esm5();
@@ -42446,10 +42458,10 @@ var init_koa = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/enums/AttributeNames.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/enums/AttributeNames.js
 var AttributeNames7, ConnectTypes;
 var init_AttributeNames6 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/enums/AttributeNames.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/enums/AttributeNames.js"() {
     AttributeNames7 = /* @__PURE__ */ ((AttributeNames22) => {
       AttributeNames22["CONNECT_TYPE"] = "connect.type";
       AttributeNames22["CONNECT_NAME"] = "connect.name";
@@ -42463,20 +42475,20 @@ var init_AttributeNames6 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/internal-types.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/internal-types.js
 var _LAYERS_STORE_PROPERTY;
 var init_internal_types4 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/internal-types.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/internal-types.js"() {
     _LAYERS_STORE_PROPERTY = /* @__PURE__ */ Symbol(
       "opentelemetry.instrumentation-connect.request-route-stack"
     );
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/utils.js
 var addNewStackLayer, replaceCurrentStackRoute, generateRoute;
 var init_utils27 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/utils.js"() {
     init_esm();
     init_internal_types4();
     init_debug_build3();
@@ -42508,10 +42520,10 @@ var init_utils27 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/instrumentation.js
 var import_instrumentation33, PACKAGE_NAME16, ANONYMOUS_NAME2, ConnectInstrumentation;
 var init_instrumentation14 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/connect/vendored/instrumentation.js"() {
     init_AttributeNames6();
     init_esm();
     init_setHttpServerSpanRouteAttribute();
@@ -42646,7 +42658,7 @@ var init_instrumentation14 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/connect/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/connect/index.js
 function connectErrorMiddleware(err, req, res, next) {
   captureException(err, {
     mechanism: {
@@ -42658,7 +42670,7 @@ function connectErrorMiddleware(err, req, res, next) {
 }
 var INTEGRATION_NAME49, instrumentConnect, _connectIntegration, connectIntegration, setupConnectErrorHandler;
 var init_connect = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/connect/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/connect/index.js"() {
     init_instrumentation14();
     init_esm();
     init_esm5();
@@ -42680,20 +42692,20 @@ var init_connect = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/semconv.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/semconv.js
 var ATTR_DB_SQL_TABLE, DB_SYSTEM_NAME_VALUE_SQLITE, DB_SYSTEM_NAME_VALUE_POSTGRESQL2;
 var init_semconv6 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/semconv.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/semconv.js"() {
     ATTR_DB_SQL_TABLE = "db.sql.table";
     DB_SYSTEM_NAME_VALUE_SQLITE = "sqlite";
     DB_SYSTEM_NAME_VALUE_POSTGRESQL2 = "postgresql";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/utils.js
 var getFormatter, systemMap, mapSystem, getName, limitLength, extractDatabaseFromConnectionString, extractHostFromConnectionString, extractPortFromConnectionString, extractTableName;
 var init_utils28 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/utils.js"() {
     init_semconv6();
     getFormatter = (runner) => {
       if (runner) {
@@ -42768,10 +42780,10 @@ var init_utils28 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/instrumentation.js
 var import_instrumentation35, PACKAGE_NAME17, ORIGIN15, MODULE_NAME, SUPPORTED_VERSIONS5, MAX_QUERY_LENGTH, parentSpanSymbol, KnexInstrumentation;
 var init_instrumentation15 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/knex/vendored/instrumentation.js"() {
     import_instrumentation35 = __toESM(require_src4(), 1);
     init_esm();
     init_attributes2();
@@ -42904,7 +42916,7 @@ var init_instrumentation15 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/subscribe-injection.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/subscribe-injection.js
 function toSubscribeInjections(configs) {
   const seen = /* @__PURE__ */ new Set();
   const injections = [];
@@ -42925,15 +42937,15 @@ function toSubscribeInjections(configs) {
 }
 var SUBSCRIBE_TRANSFORM_NAME;
 var init_subscribe_injection = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/subscribe-injection.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/subscribe-injection.js"() {
     SUBSCRIBE_TRANSFORM_NAME = "sentrySubscribeOrchestrionChannel";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/amqplib.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/amqplib.js
 var module$1, amqplibConfig, amqplibChannels, amqplibSubscribeInjection;
 var init_amqplib = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/amqplib.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/amqplib.js"() {
     init_subscribe_injection();
     module$1 = { name: "amqplib", versionRange: ">=0.5.5 <2" };
     amqplibConfig = [
@@ -43014,10 +43026,10 @@ var init_amqplib = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/anthropic-ai.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/anthropic-ai.js
 var anthropicAiConfig, anthropicAiChannels, anthropicAiSubscribeInjection;
 var init_anthropic_ai2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/anthropic-ai.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/anthropic-ai.js"() {
     init_subscribe_injection();
     anthropicAiConfig = [
       // One entry each for CJS/ESM
@@ -43060,10 +43072,10 @@ var init_anthropic_ai2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/aws-sdk.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/aws-sdk.js
 var awsSdkConfig, awsSdkChannels, awsSdkSubscribeInjection;
 var init_aws_sdk = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/aws-sdk.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/aws-sdk.js"() {
     init_subscribe_injection();
     awsSdkConfig = [
       {
@@ -43091,10 +43103,10 @@ var init_aws_sdk = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/dataloader.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/dataloader.js
 var module$12, dataloaderConfig, dataloaderChannels, dataloaderSubscribeInjection;
 var init_dataloader = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/dataloader.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/dataloader.js"() {
     init_subscribe_injection();
     module$12 = { name: "dataloader", versionRange: ">=2.0.0 <3", filePath: "index.js" };
     dataloaderConfig = [
@@ -43147,10 +43159,10 @@ var init_dataloader = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/express.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/express.js
 var expressConfig, expressChannels, expressSubscribeInjection;
 var init_express3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/express.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/express.js"() {
     init_subscribe_injection();
     expressConfig = [
       // Express funnels every middleware/route handler through a single method on
@@ -43227,10 +43239,10 @@ var init_express3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/firebase.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/firebase.js
 var FIRESTORE_VERSION_RANGE, FIRESTORE_FILE, FIRESTORE_OPERATIONS, FUNCTIONS_VERSION_RANGE, FUNCTIONS_TRIGGERS, firebaseConfig, firebaseChannels, firebaseSubscribeInjection;
 var init_firebase = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/firebase.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/firebase.js"() {
     init_subscribe_injection();
     FIRESTORE_VERSION_RANGE = ">=3.0.0 <5";
     FIRESTORE_FILE = /dist\/lite\/(index|common-[^/]+)\.node\.(cjs\.js|mjs)$/;
@@ -43311,10 +43323,10 @@ var init_firebase = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/generic-pool.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/generic-pool.js
 var genericPoolConfig, genericPoolChannels, genericPoolSubscribeInjection;
 var init_generic_pool = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/generic-pool.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/generic-pool.js"() {
     init_subscribe_injection();
     genericPoolConfig = [
       {
@@ -43335,10 +43347,10 @@ var init_generic_pool = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/google-genai.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/google-genai.js
 var NODE_DIST_FILES, googleGenAiConfig, googleGenAiChannels, googleGenAiSubscribeInjection;
 var init_google_genai2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/google-genai.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/google-genai.js"() {
     init_subscribe_injection();
     NODE_DIST_FILES = ["dist/node/index.js", "dist/node/index.mjs", "dist/node/index.cjs"];
     googleGenAiConfig = [
@@ -43376,10 +43388,10 @@ var init_google_genai2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/graphql.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/graphql.js
 var graphqlConfig, graphqlChannels, graphqlSubscribeInjection;
 var init_graphql3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/graphql.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/graphql.js"() {
     init_subscribe_injection();
     graphqlConfig = [
       {
@@ -43407,10 +43419,10 @@ var init_graphql3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/hapi.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/hapi.js
 var hapiConfig, hapiChannels, hapiSubscribeInjection;
 var init_hapi2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/hapi.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/hapi.js"() {
     init_subscribe_injection();
     hapiConfig = [
       // hapi's `route`/`ext` live on an anonymous class (`internals.Server = class {}`),
@@ -43436,10 +43448,10 @@ var init_hapi2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/ioredis.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/ioredis.js
 var ioredisConfig, ioredisChannels, ioredisSubscribeInjection;
 var init_ioredis = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/ioredis.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/ioredis.js"() {
     init_subscribe_injection();
     ioredisConfig = [
       // ioredis `<5.11.0` (>=5.11.0 publishes its own `ioredis:*` diagnostics_channel)
@@ -43474,10 +43486,10 @@ var init_ioredis = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/kafkajs.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/kafkajs.js
 var kafkajsConfig, kafkajsChannels, kafkajsSubscribeInjection;
 var init_kafkajs = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/kafkajs.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/kafkajs.js"() {
     init_subscribe_injection();
     kafkajsConfig = [
       {
@@ -43507,7 +43519,7 @@ var init_kafkajs = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/knex.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/knex.js
 function runnerQuery(filePath, versionRange) {
   return {
     channelName: "query",
@@ -43524,7 +43536,7 @@ function clientMethod(methodName, filePath, versionRange) {
 }
 var MODULE_NAME2, RUNNER_FILES, CLIENT_FILES, CLIENT_METHODS, knexConfig, knexChannels, knexSubscribeInjection;
 var init_knex = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/knex.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/knex.js"() {
     init_subscribe_injection();
     MODULE_NAME2 = "knex";
     RUNNER_FILES = [
@@ -43553,10 +43565,10 @@ var init_knex = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/koa.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/koa.js
 var koaConfig, koaChannels, koaSubscribeInjection;
 var init_koa2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/koa.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/koa.js"() {
     init_subscribe_injection();
     koaConfig = [
       {
@@ -43572,10 +43584,10 @@ var init_koa2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/langchain.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/langchain.js
 var chatModelConfig, EMBED_QUERY, EMBED_DOCUMENTS, EMBEDDINGS_PROVIDERS, embeddingsConfig, langchainConfig, langchainEmbeddingsChannels, langchainChannels, langchainSubscribeInjection;
 var init_langchain2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/langchain.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/langchain.js"() {
     init_subscribe_injection();
     chatModelConfig = ["dist/language_models/chat_models.cjs", "dist/language_models/chat_models.js"].flatMap(
       (filePath) => {
@@ -43626,10 +43638,10 @@ var init_langchain2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/langgraph.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/langgraph.js
 var module$13, compileConfig, createReactAgentConfig, langgraphConfig, langgraphChannels, langgraphSubscribeInjection;
 var init_langgraph2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/langgraph.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/langgraph.js"() {
     init_subscribe_injection();
     module$13 = (filePath) => ({
       name: "@langchain/langgraph",
@@ -43657,10 +43669,10 @@ var init_langgraph2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/lru-memoizer.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/lru-memoizer.js
 var lruMemoizerConfig, lruMemoizerChannels, lruMemoizerSubscribeInjection;
 var init_lru_memoizer = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/lru-memoizer.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/lru-memoizer.js"() {
     init_subscribe_injection();
     lruMemoizerConfig = [
       {
@@ -43677,10 +43689,10 @@ var init_lru_memoizer = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mongodb.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mongodb.js
 var module$14, mongodbConfig, mongodbChannels, mongodbSubscribeInjection;
 var init_mongodb = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mongodb.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mongodb.js"() {
     init_subscribe_injection();
     module$14 = { name: "mongodb" };
     mongodbConfig = [
@@ -43747,10 +43759,10 @@ var init_mongodb = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mongoose.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mongoose.js
 var module$15, CONTEXT_CAPTURE_QUERY_METHODS, mongooseConfig, mongooseChannels, MONGOOSE_CONTEXT_CAPTURE_CHANNELS, mongooseSubscribeInjection;
 var init_mongoose4 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mongoose.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mongoose.js"() {
     init_subscribe_injection();
     module$15 = { name: "mongoose", versionRange: ">=5.9.7 <9.7.0" };
     CONTEXT_CAPTURE_QUERY_METHODS = [
@@ -43856,10 +43868,10 @@ var init_mongoose4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mysql2.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mysql2.js
 var mysql2Config, mysql2Channels, mysql2SubscribeInjection;
 var init_mysql23 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mysql2.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mysql2.js"() {
     init_subscribe_injection();
     mysql2Config = [
       {
@@ -43891,10 +43903,10 @@ var init_mysql23 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mysql.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mysql.js
 var mysqlConfig, mysqlChannels, mysqlSubscribeInjection;
 var init_mysql3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mysql.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/mysql.js"() {
     init_subscribe_injection();
     mysqlConfig = [
       {
@@ -43910,13 +43922,13 @@ var init_mysql3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/nestjs.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/nestjs.js
 function astQueryInstrumentation(config2) {
   return config2;
 }
 var nestjsConfig, nestjsChannels, nestjsSubscribeInjection;
 var init_nestjs = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/nestjs.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/nestjs.js"() {
     init_subscribe_injection();
     nestjsConfig = [
       {
@@ -44035,10 +44047,10 @@ var init_nestjs = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/openai.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/openai.js
 var openaiConfig, openaiChannels, openaiSubscribeInjection;
 var init_openai2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/openai.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/openai.js"() {
     init_subscribe_injection();
     openaiConfig = [
       // OpenAI chat completions. `Completions.create` returns a thenable `APIPromise` with no callback arg,
@@ -44078,10 +44090,10 @@ var init_openai2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/pg.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/pg.js
 var pgConfig, pgChannels, pgSubscribeInjection;
 var init_pg = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/pg.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/pg.js"() {
     init_subscribe_injection();
     pgConfig = [
       // `pg` (node-postgres).
@@ -44132,10 +44144,10 @@ var init_pg = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/postgres.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/postgres.js
 var postgresJsInstrumentationConfig, postgresJsConfig, postgresJsChannels, postgresJsSubscribeInjection;
 var init_postgres2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/postgres.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/postgres.js"() {
     init_subscribe_injection();
     postgresJsInstrumentationConfig = (dir) => [
       // `Query.prototype.handle` (`class Query extends Promise`) is the single
@@ -44185,10 +44197,10 @@ var init_postgres2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/redis.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/redis.js
 var redisConfig, redisChannels, redisSubscribeInjection;
 var init_redis3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/redis.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/redis.js"() {
     init_subscribe_injection();
     redisConfig = [
       // redis `>=2.6.0 <4` (standalone `redis`). `internal_send_command` is an
@@ -44264,10 +44276,10 @@ var init_redis3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/remix.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/remix.js
 var remixInstrumentationConfig, remixConfig, remixChannels, remixSubscribeInjection;
 var init_remix = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/remix.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/remix.js"() {
     init_subscribe_injection();
     remixInstrumentationConfig = (dir) => [
       // `createRequestHandler` returns `async function requestHandler(request, loadContext)` — the main
@@ -44321,10 +44333,10 @@ var init_remix = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/tedious.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/tedious.js
 var MODULE_NAME3, FILE_PATH, VERSION_RANGE, METHODS, tediousConfig, tediousChannels, tediousSubscribeInjection;
 var init_tedious = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/tedious.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/tedious.js"() {
     init_subscribe_injection();
     MODULE_NAME3 = "tedious";
     FILE_PATH = "lib/connection.js";
@@ -44348,7 +44360,7 @@ var init_tedious = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/vercel-ai.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/vercel-ai.js
 function vercelAiEntries(versionRange, channelName, functionName, kind) {
   return ["dist/index.js", "dist/index.mjs"].map((filePath) => ({
     channelName,
@@ -44358,7 +44370,7 @@ function vercelAiEntries(versionRange, channelName, functionName, kind) {
 }
 var vercelAiConfig, vercelAiChannels, vercelAiSubscribeInjection;
 var init_vercel_ai3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/vercel-ai.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/vercel-ai.js"() {
     init_subscribe_injection();
     vercelAiConfig = [
       // Vercel AI v6: mirror the v7 native `ai:telemetry` channel by injecting
@@ -44399,10 +44411,10 @@ var init_vercel_ai3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/channels.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/channels.js
 var CHANNELS;
 var init_channels = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/channels.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/channels.js"() {
     init_amqplib();
     init_anthropic_ai2();
     init_aws_sdk();
@@ -44466,7 +44478,7 @@ var init_channels = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/amqplib.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/amqplib.js
 import * as diagnosticsChannel10 from "node:diagnostics_channel";
 function subscribePublish() {
   bindTracingChannelToSpan(diagnosticsChannel10.tracingChannel(CHANNELS.AMQPLIB_PUBLISH), (data) => {
@@ -44820,7 +44832,7 @@ function getHeaderAsString2(headers, key) {
 }
 var INTEGRATION_NAME50, PUBLISHER_ORIGIN, CONSUMER_ORIGIN2, ATTR_MESSAGING_OPERATION, ATTR_MESSAGING_DESTINATION, ATTR_MESSAGING_DESTINATION_KIND, ATTR_MESSAGING_RABBITMQ_ROUTING_KEY, ATTR_MESSAGING_PROTOCOL, ATTR_MESSAGING_PROTOCOL_VERSION_LEGACY, ATTR_MESSAGING_URL, ATTR_MESSAGING_MESSAGE_ID, ATTR_MESSAGING_CONVERSATION_ID_LEGACY, ATTR_MESSAGING_RABBITMQ_DESTINATION_ROUTING_KEY, ATTR_MESSAGING_CONVERSATION_ID, MESSAGING_DESTINATION_KIND_VALUE_TOPIC, MESSAGING_OPERATION_VALUE_PROCESS, MESSAGING_OPERATION_VALUE_SEND, CONSUME_TIMEOUT_MS, END_OP, MESSAGE_STORED_SPAN, CHANNEL_SPANS_NOT_ENDED, CHANNEL_CONSUME_TIMEOUT_TIMER, CHANNEL_CONSUMER_INFO, CHANNEL_IS_CONFIRM_PUBLISHING, CONNECTION_ATTRIBUTES, NOOP2, subscribed2, _amqplibChannelIntegration, amqplibChannelIntegration;
 var init_amqplib2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/amqplib.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/amqplib.js"() {
     init_esm();
     init_attributes2();
     init_debug_build4();
@@ -44887,7 +44899,7 @@ var init_amqplib2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/anthropic.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/anthropic.js
 import * as diagnosticsChannel11 from "node:diagnostics_channel";
 function createGenAiSpan(data, operation, methodPath, options) {
   const args = data.arguments ?? [];
@@ -44937,7 +44949,7 @@ function wrapStreamResult(span, data, stream, options) {
 }
 var INTEGRATION_NAME51, ORIGIN16, INSTRUMENTED_CHANNELS, subscribed3, _anthropicChannelIntegration, anthropicChannelIntegration;
 var init_anthropic = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/anthropic.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/anthropic.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -44989,10 +45001,10 @@ var init_anthropic = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/constants.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/constants.js
 var AWS_SDK_ORIGIN, DB_SYSTEM_VALUE_DYNAMODB, ATTR_MESSAGING_DESTINATION_KIND2, MESSAGING_DESTINATION_KIND_VALUE_TOPIC2, GEN_AI_OPERATION_NAME_VALUE_CHAT, GEN_AI_SYSTEM_VALUE_AWS_BEDROCK;
 var init_constants14 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/constants.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/constants.js"() {
     AWS_SDK_ORIGIN = "auto.aws.orchestrion.aws_sdk";
     DB_SYSTEM_VALUE_DYNAMODB = "dynamodb";
     ATTR_MESSAGING_DESTINATION_KIND2 = "messaging.destination_kind";
@@ -45002,7 +45014,7 @@ var init_constants14 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/bedrock-runtime.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/bedrock-runtime.js
 function resolveStreamRecorder(modelId) {
   if (modelId.includes("amazon.titan")) return recordTitanAttributes;
   if (modelId.includes("anthropic.claude")) return recordClaudeAttributes;
@@ -45126,7 +45138,7 @@ function recordCohereRAttributes(parsedChunk, span) {
 }
 var textDecoder, BedrockRuntimeServiceExtension;
 var init_bedrock_runtime = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/bedrock-runtime.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/bedrock-runtime.js"() {
     init_esm();
     init_attributes2();
     init_debug_build4();
@@ -45422,13 +45434,13 @@ var init_bedrock_runtime = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/dynamodb.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/dynamodb.js
 function toArray(values) {
   return Array.isArray(values) ? values : [values];
 }
 var DynamodbServiceExtension;
 var init_dynamodb = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/dynamodb.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/dynamodb.js"() {
     init_esm();
     init_attributes2();
     init_constants14();
@@ -45554,10 +45566,10 @@ var init_dynamodb = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/kinesis.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/kinesis.js
 var KinesisServiceExtension;
 var init_kinesis = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/kinesis.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/kinesis.js"() {
     init_esm();
     init_attributes2();
     KinesisServiceExtension = class {
@@ -45576,7 +45588,7 @@ var init_kinesis = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/lambda.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/lambda.js
 function injectLambdaPropagationContext(clientContext, span) {
   try {
     const propagatedContext = getTraceData({ span });
@@ -45603,7 +45615,7 @@ function injectLambdaPropagationContext(clientContext, span) {
 }
 var INVOKE_COMMAND, LambdaServiceExtension;
 var init_lambda = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/lambda.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/lambda.js"() {
     init_esm();
     init_attributes2();
     init_debug_build4();
@@ -45641,10 +45653,10 @@ var init_lambda = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/s3.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/s3.js
 var S3ServiceExtension;
 var init_s3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/s3.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/s3.js"() {
     init_esm();
     init_attributes2();
     S3ServiceExtension = class {
@@ -45663,10 +45675,10 @@ var init_s3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/secretsmanager.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/secretsmanager.js
 var SecretsManagerServiceExtension;
 var init_secretsmanager = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/secretsmanager.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/secretsmanager.js"() {
     init_esm();
     init_attributes2();
     SecretsManagerServiceExtension = class {
@@ -45691,7 +45703,7 @@ var init_secretsmanager = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/MessageAttributes.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/MessageAttributes.js
 function injectPropagationContext(attributesMap, traceData) {
   const attributes = attributesMap ?? {};
   const headerKeys = Object.keys(traceData);
@@ -45725,7 +45737,7 @@ function addPropagationFieldsToAttributeNames(messageAttributeNames = []) {
 }
 var MAX_MESSAGE_ATTRIBUTES, SENTRY_TRACE_HEADER3, BAGGAGE_HEADER, PROPAGATION_FIELDS;
 var init_MessageAttributes = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/MessageAttributes.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/MessageAttributes.js"() {
     init_esm();
     init_debug_build4();
     MAX_MESSAGE_ATTRIBUTES = 10;
@@ -45735,7 +45747,7 @@ var init_MessageAttributes = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/sns.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/sns.js
 function extractDestinationName(topicArn, targetArn, phoneNumber) {
   if (topicArn || targetArn) {
     const arn = topicArn ?? targetArn;
@@ -45752,7 +45764,7 @@ function extractDestinationName(topicArn, targetArn, phoneNumber) {
 }
 var SnsServiceExtension;
 var init_sns = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/sns.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/sns.js"() {
     init_esm();
     init_attributes2();
     init_constants14();
@@ -45799,7 +45811,7 @@ var init_sns = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/sqs.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/sqs.js
 function linkReceivedMessageToProducer(span, message) {
   const headers = extractPropagationHeaders(message);
   if (!headers) {
@@ -45830,7 +45842,7 @@ function extractQueueNameFromUrl(queueUrl) {
 }
 var SqsServiceExtension;
 var init_sqs = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/sqs.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/sqs.js"() {
     init_esm();
     init_attributes2();
     init_MessageAttributes();
@@ -45916,10 +45928,10 @@ var init_sqs = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/stepfunctions.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/stepfunctions.js
 var StepFunctionsServiceExtension;
 var init_stepfunctions = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/stepfunctions.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/stepfunctions.js"() {
     init_esm();
     init_attributes2();
     StepFunctionsServiceExtension = class {
@@ -45942,10 +45954,10 @@ var init_stepfunctions = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/ServicesExtensions.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/ServicesExtensions.js
 var ServicesExtensions;
 var init_ServicesExtensions = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/ServicesExtensions.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/services/ServicesExtensions.js"() {
     init_bedrock_runtime();
     init_dynamodb();
     init_kinesis();
@@ -45988,7 +46000,7 @@ var init_ServicesExtensions = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/utils.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/utils.js
 function removeSuffixFromStringIfExists(str, suffixToRemove) {
   const suffixLength = suffixToRemove.length;
   return str?.slice(-suffixLength) === suffixToRemove ? str.slice(0, -suffixLength) : str;
@@ -46011,12 +46023,12 @@ function extractAttributesFromNormalizedRequest(normalizedRequest) {
   };
 }
 var init_utils29 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/utils.js"() {
     init_attributes2();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/index.js
 import * as diagnosticsChannel12 from "node:diagnostics_channel";
 function safe(fn) {
   try {
@@ -46042,7 +46054,7 @@ function setMetadataAttributes(span, metadata) {
 }
 var INTEGRATION_NAME52, _awsChannelIntegration, awsChannelIntegration;
 var init_aws_sdk2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/aws-sdk/index.js"() {
     init_esm();
     init_attributes2();
     init_debug_build4();
@@ -46171,7 +46183,7 @@ var init_aws_sdk2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/dataloader.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/dataloader.js
 import * as diagnosticsChannel13 from "node:diagnostics_channel";
 function getSpanName3(loader2, operation) {
   const name = loader2?.name;
@@ -46243,7 +46255,7 @@ function startInactiveSpanFor(loader2, operation, keyArg) {
 }
 var INTEGRATION_NAME53, MODULE_NAME4, ORIGIN17, CACHE_GET_OP, WRAPPED, _dataloaderChannelIntegration, dataloaderChannelIntegration;
 var init_dataloader2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/dataloader.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/dataloader.js"() {
     init_attributes2();
     init_esm();
     init_debug_build4();
@@ -46277,7 +46289,7 @@ var init_dataloader2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/generic-pool.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/generic-pool.js
 import * as diagnosticsChannel14 from "node:diagnostics_channel";
 function instrumentGenericPool() {
   bindTracingChannelToSpan(
@@ -46292,7 +46304,7 @@ function instrumentGenericPool() {
 }
 var INTEGRATION_NAME54, _genericPoolChannelIntegration, genericPoolChannelIntegration;
 var init_generic_pool2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/generic-pool.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/generic-pool.js"() {
     init_esm();
     init_channels();
     init_tracing_channel();
@@ -46312,7 +46324,7 @@ var init_generic_pool2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/google-genai.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/google-genai.js
 import * as diagnosticsChannel15 from "node:diagnostics_channel";
 function createGenAiSpan2(data, operation, options) {
   if (_INTERNAL_shouldSkipAiProviderWrapping(INTEGRATION_NAME55)) {
@@ -46360,7 +46372,7 @@ function wrapStreamResult2(span, data, options) {
 }
 var INTEGRATION_NAME55, ORIGIN18, INSTRUMENTED_CHANNELS2, subscribed4, _googleGenAIChannelIntegration, googleGenAIChannelIntegration;
 var init_google_genai3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/google-genai.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/google-genai.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -46409,10 +46421,10 @@ var init_google_genai3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/constants.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/constants.js
 var ORIGIN19, SPAN_NAME_PARSE2, SPAN_NAME_VALIDATE2, SPAN_NAME_EXECUTE2, SPAN_NAME_RESOLVE2, GRAPHQL_FIELD_NAME2, GRAPHQL_FIELD_PATH2, GRAPHQL_FIELD_TYPE2, GRAPHQL_PARENT_NAME2, GRAPHQL_DATA_SYMBOL, GRAPHQL_PATCHED_SYMBOL;
 var init_constants15 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/constants.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/constants.js"() {
     ORIGIN19 = "auto.graphql.diagnostic_channel";
     SPAN_NAME_PARSE2 = "graphql.parse";
     SPAN_NAME_VALIDATE2 = "graphql.validate";
@@ -46427,7 +46439,7 @@ var init_constants15 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/resolvers.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/resolvers.js
 function isPromise4(value) {
   return typeof value?.then === "function";
 }
@@ -46586,14 +46598,14 @@ function getOperation2(document2, operationName) {
   return definitions.find(isOperation);
 }
 var init_resolvers = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/resolvers.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/resolvers.js"() {
     init_op();
     init_esm();
     init_constants15();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/spans.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/spans.js
 function startParseSpan() {
   return startInactiveSpan({ name: SPAN_NAME_PARSE2, attributes: { ...BASE_ATTRIBUTES } });
 }
@@ -46699,7 +46711,7 @@ function finalizeExecuteSpan(span, result) {
 }
 var BASE_ATTRIBUTES;
 var init_spans2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/spans.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/spans.js"() {
     init_attributes2();
     init_op();
     init_esm();
@@ -46713,7 +46725,7 @@ var init_spans2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/index.js
 import * as diagnosticsChannel16 from "node:diagnostics_channel";
 function getOptionsWithDefaults2(options) {
   return {
@@ -46732,7 +46744,7 @@ function safe2(fn) {
 }
 var INTEGRATION_NAME56, _graphqlChannelIntegration, graphqlChannelIntegration, graphqlDiagnosticsChannelIntegration;
 var init_graphql4 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/graphql/index.js"() {
     init_esm();
     init_debug_build4();
     init_graphql();
@@ -46779,10 +46791,10 @@ var init_graphql4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi-types.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi-types.js
 var LIFECYCLE_EXT_POINTS, handlerPatched2, HapiLayerType2, HapiLifecycleMethodNames2, AttributeNames8;
 var init_hapi_types = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi-types.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi-types.js"() {
     LIFECYCLE_EXT_POINTS = [
       "onPreAuth",
       "onCredentials",
@@ -46808,7 +46820,7 @@ var init_hapi_types = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi-utils.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi-utils.js
 function setHttpServerSpanRouteAttribute2(route) {
   const activeSpan = getActiveSpan();
   if (!activeSpan) {
@@ -46923,7 +46935,7 @@ function wrapExtArguments(args, pluginName) {
 }
 var isLifecycleExtType2, isLifecycleExtEventObj2, isDirectExtInput2, isPatchableExtMethod2, getRouteMetadata2, getExtMetadata2;
 var init_hapi_utils = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi-utils.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi-utils.js"() {
     init_esm();
     init_attributes2();
     init_hapi_types();
@@ -46983,11 +46995,11 @@ var init_hapi_utils = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi.js
 import * as diagnosticsChannel17 from "node:diagnostics_channel";
 var INTEGRATION_NAME57, _hapiChannelIntegration, hapiChannelIntegration;
 var init_hapi3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/hapi.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -47036,7 +47048,7 @@ var init_hapi3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/koa.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/koa.js
 import * as diagnosticsChannel18 from "node:diagnostics_channel";
 function handleUse(ctx, ignoreLayersType) {
   const middleware = ctx.arguments[0];
@@ -47140,7 +47152,7 @@ function setHttpServerSpanRouteAttribute3(route) {
 }
 var INTEGRATION_NAME58, ORIGIN20, LAYER_TYPE, kLayerPatched2, subscribed5, _koaChannelIntegration, koaChannelIntegration;
 var init_koa3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/koa.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/koa.js"() {
     init_esm();
     init_attributes2();
     init_debug_build4();
@@ -47183,7 +47195,7 @@ var init_koa3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/ioredis.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/ioredis.js
 import * as diagnosticsChannel19 from "node:diagnostics_channel";
 function getConnectionOptions(self2) {
   return { host: self2?.options?.host, port: self2?.options?.port };
@@ -47222,7 +47234,7 @@ function runResponseHook3(hook, span, command, result) {
 }
 var INTEGRATION_NAME59, ORIGIN21, ATTR_DB_CONNECTION_STRING6, tracedCommands, _ioredisChannelIntegration, ioredisChannelIntegration;
 var init_ioredis2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/ioredis.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/ioredis.js"() {
     init_attributes2();
     init_esm();
     init_debug_build4();
@@ -47282,10 +47294,10 @@ var init_ioredis2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/semconv.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/semconv.js
 var ATTR_MESSAGING_DESTINATION_PARTITION_ID2, ATTR_MESSAGING_KAFKA_MESSAGE_KEY2, ATTR_MESSAGING_KAFKA_MESSAGE_TOMBSTONE2, ATTR_MESSAGING_KAFKA_OFFSET2, MESSAGING_OPERATION_TYPE_VALUE_PROCESS2, MESSAGING_OPERATION_TYPE_VALUE_RECEIVE2, MESSAGING_OPERATION_TYPE_VALUE_SEND2, MESSAGING_SYSTEM_VALUE_KAFKA2, ERROR_TYPE_VALUE_OTHER3;
 var init_semconv7 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/semconv.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/semconv.js"() {
     ATTR_MESSAGING_DESTINATION_PARTITION_ID2 = "messaging.destination.partition.id";
     ATTR_MESSAGING_KAFKA_MESSAGE_KEY2 = "messaging.kafka.message.key";
     ATTR_MESSAGING_KAFKA_MESSAGE_TOMBSTONE2 = "messaging.kafka.message.tombstone";
@@ -47298,7 +47310,7 @@ var init_semconv7 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/spans.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/spans.js
 function getHeaderAsString3(headers, key) {
   const value = headers?.[key];
   if (value == null) {
@@ -47402,7 +47414,7 @@ function endSpansOnPromise2(spans, promise) {
 }
 var PRODUCER_ORIGIN2, CONSUMER_ORIGIN3, TRACE_FLAG_SAMPLED2, TRACE_FLAG_NONE2;
 var init_spans3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/spans.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/spans.js"() {
     init_attributes2();
     init_esm();
     init_semconv7();
@@ -47413,7 +47425,7 @@ var init_spans3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/consumer.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/consumer.js
 function isWrappedConsumerCallback(fn) {
   return typeof fn === "function" && fn[consumerCallbackWrapped] === true;
 }
@@ -47474,7 +47486,7 @@ function wrapEachBatch(original) {
 }
 var consumerCallbackWrapped;
 var init_consumer = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/consumer.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/consumer.js"() {
     init_attributes2();
     init_esm();
     init_semconv7();
@@ -47483,7 +47495,7 @@ var init_consumer = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/index.js
 import * as diagnosticsChannel20 from "node:diagnostics_channel";
 function subscribeToProducer() {
   const channel4 = diagnosticsChannel20.tracingChannel(CHANNELS.KAFKAJS_SEND_BATCH);
@@ -47528,7 +47540,7 @@ function subscribeToConsumer() {
 }
 var INTEGRATION_NAME60, _kafkajsChannelIntegration, kafkajsChannelIntegration;
 var init_kafkajs2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/kafkajs/index.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -47554,7 +47566,7 @@ var init_kafkajs2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/knex.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/knex.js
 import * as diagnosticsChannel21 from "node:diagnostics_channel";
 function subscribeBuilder(channelName) {
   diagnosticsChannel21.tracingChannel(channelName).end.subscribe((message) => {
@@ -47709,7 +47721,7 @@ function extractPortFromConnectionString2(connectionString) {
 }
 var INTEGRATION_NAME61, ORIGIN22, MAX_QUERY_LENGTH2, ATTR_DB_SQL_TABLE2, DB_SYSTEM_SQLITE, DB_SYSTEM_POSTGRESQL, parentSpanSymbol2, _knexChannelIntegration, knexChannelIntegration;
 var init_knex2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/knex.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/knex.js"() {
     init_esm();
     init_attributes2();
     init_debug_build4();
@@ -47743,7 +47755,7 @@ var init_knex2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/langchain.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/langchain.js
 import * as diagnosticsChannel22 from "node:diagnostics_channel";
 function markProvidersSkipped() {
   _INTERNAL_skipAiProviderWrapping(SKIPPED_PROVIDERS);
@@ -47755,7 +47767,7 @@ function createEmbeddingsSpan(data, options) {
 }
 var INTEGRATION_NAME62, SKIPPED_PROVIDERS, subscribed6, _langChainChannelIntegration, langChainChannelIntegration;
 var init_langchain3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/langchain.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/langchain.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -47807,7 +47819,7 @@ var init_langchain3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/langgraph.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/langgraph.js
 import * as diagnosticsChannel23 from "node:diagnostics_channel";
 function getFirstArgObject(args) {
   const first = (args ?? [])[0];
@@ -47832,7 +47844,7 @@ function wrapCompiledGraphInvoke(graph, compileOptions, options, llm, sentryHand
 }
 var INTEGRATION_NAME63, subscribed7, insideCreateReactAgent, _langGraphChannelIntegration, langGraphChannelIntegration;
 var init_langgraph3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/langgraph.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/langgraph.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -47908,11 +47920,11 @@ var init_langgraph3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/lru-memoizer.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/lru-memoizer.js
 import * as diagnosticsChannel24 from "node:diagnostics_channel";
 var INTEGRATION_NAME64, _lruMemoizerChannelIntegration, lruMemoizerChannelIntegration;
 var init_lru_memoizer2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/lru-memoizer.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/lru-memoizer.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -47940,7 +47952,7 @@ var init_lru_memoizer2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mongodb.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mongodb.js
 import * as diagnosticsChannel25 from "node:diagnostics_channel";
 function subscribeV4Command() {
   bindTracingChannelToSpan(
@@ -48018,7 +48030,7 @@ function bindV3(channelName, extract) {
 }
 var INTEGRATION_NAME65, ORIGIN23, V3_DEDICATED_COMMANDS, _mongodbChannelIntegration, mongodbChannelIntegration;
 var init_mongodb2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mongodb.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mongodb.js"() {
     init_esm();
     init_mongodb_span();
     init_channels();
@@ -48045,7 +48057,7 @@ var init_mongodb2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mongoose.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mongoose.js
 import * as diagnosticsChannel26 from "node:diagnostics_channel";
 function subscribeOrchestrionMongooseChannels() {
   if (orchestrionSubscribed) {
@@ -48126,7 +48138,7 @@ function stashParentSpan(self2) {
 }
 var INTEGRATION_NAME66, ORIGIN24, STORED_PARENT_SPAN, orchestrionSubscribed, _mongooseChannelIntegration, mongooseChannelIntegration;
 var init_mongoose5 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mongoose.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mongoose.js"() {
     init_esm();
     init_mongoose_dc_subscriber();
     init_mongoose_legacy_span();
@@ -48156,7 +48168,7 @@ var init_mongoose5 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mysql.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mysql.js
 import * as diagnosticsChannel27 from "node:diagnostics_channel";
 function hasOnMethod(obj) {
   return "on" in obj && typeof obj.on === "function";
@@ -48192,7 +48204,7 @@ function getJDBCString3(host, port2, database) {
 }
 var INTEGRATION_NAME67, ATTR_DB_SYSTEM3, ATTR_DB_CONNECTION_STRING7, ATTR_DB_NAME3, ATTR_DB_USER2, ATTR_DB_STATEMENT2, ATTR_NET_PEER_NAME3, ATTR_NET_PEER_PORT3, _mysqlChannelIntegration, mysqlChannelIntegration;
 var init_mysql4 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mysql.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mysql.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -48264,7 +48276,7 @@ var init_mysql4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mysql2.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mysql2.js
 import * as diagnosticsChannel28 from "node:diagnostics_channel";
 function instrumentMysql22() {
   subscribeMysql2DiagnosticChannels(diagnosticsChannel28.tracingChannel);
@@ -48322,7 +48334,7 @@ function getConnectionAttributes2(config2) {
 }
 var INTEGRATION_NAME68, ORIGIN25, DB_SYSTEM_VALUE_MYSQL3, _mysql2ChannelIntegration, mysql2ChannelIntegration;
 var init_mysql24 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mysql2.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/mysql2.js"() {
     init_esm();
     init_mysql2_dc_subscriber();
     init_channels();
@@ -48348,7 +48360,7 @@ var init_mysql24 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/openai.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/openai.js
 import * as diagnosticsChannel29 from "node:diagnostics_channel";
 function createGenAiSpan3(data, operation, options) {
   if (_INTERNAL_shouldSkipAiProviderWrapping(INTEGRATION_NAME69)) {
@@ -48387,7 +48399,7 @@ function wrapStreamResult3(span, data, options) {
 }
 var INTEGRATION_NAME69, ORIGIN26, INSTRUMENTED_CHANNELS3, subscribed8, _openaiChannelIntegration, openaiChannelIntegration;
 var init_openai3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/openai.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/openai.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -48430,7 +48442,7 @@ var init_openai3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/postgres.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/postgres.js
 import * as diagnosticsChannel30 from "node:diagnostics_channel";
 function subscribeQueryLikeChannel(channelName, getSpanOptions2, { deferStreamedResult = false } = {}) {
   DEBUG_BUILD5 && debug.log(`[orchestrion:pg] subscribing to channel "${channelName}"`);
@@ -48559,7 +48571,7 @@ function getConnectionString2(params) {
 }
 var INTEGRATION_NAME70, ORIGIN27, ATTR_DB_SYSTEM4, ATTR_DB_NAME4, ATTR_DB_CONNECTION_STRING8, ATTR_DB_USER3, ATTR_DB_STATEMENT3, ATTR_NET_PEER_NAME4, ATTR_NET_PEER_PORT4, ATTR_PG_PLAN, ATTR_PG_IDLE_TIMEOUT, ATTR_PG_MAX_CLIENT, DB_SYSTEM_POSTGRESQL2, SPAN_QUERY_FALLBACK, SPAN_CONNECT, SPAN_POOL_CONNECT, _postgresChannelIntegration, postgresChannelIntegration;
 var init_postgres3 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/postgres.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/postgres.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -48601,7 +48613,7 @@ var init_postgres3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/postgres-js.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/postgres-js.js
 import * as diagnosticsChannel31 from "node:diagnostics_channel";
 function registerEndpoint(context2) {
   const alreadyKnown = endpointRegistry.some(
@@ -48686,7 +48698,7 @@ function wrapQuerySettlement(data, span, sanitizedSqlQuery) {
 }
 var INTEGRATION_NAME71, ORIGIN28, DB_RESPONSE_STATUS_CODE, NOOP3, QUERY_FROM_INSTRUMENTED_SQL3, QUERY_SPAN, CONNECTION_ATTRS_SET, SPAN_ENDED, connectionContexts, endpointRegistry, _postgresJsChannelIntegration, postgresJsChannelIntegration;
 var init_postgres_js = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/postgres-js.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/postgres-js.js"() {
     init_attributes2();
     init_esm();
     init_debug_build4();
@@ -48793,7 +48805,7 @@ var init_postgres_js = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/tedious.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/tedious.js
 import { EventEmitter as EventEmitter2 } from "node:events";
 import * as diagnosticsChannel32 from "node:diagnostics_channel";
 function setDatabase(databaseName) {
@@ -48905,7 +48917,7 @@ function once2(fn) {
 }
 var INTEGRATION_NAME72, ORIGIN29, DB_SYSTEM_VALUE_MSSQL, ATTR_DB_SQL_TABLE3, currentDatabaseSymbol, _tediousChannelIntegration, tediousChannelIntegration;
 var init_tedious2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/tedious.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/tedious.js"() {
     init_esm();
     init_attributes2();
     init_debug_build4();
@@ -48939,7 +48951,7 @@ var init_tedious2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/vercel-ai/vercel-ai-orchestrion-subscriber.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/vercel-ai/vercel-ai-orchestrion-subscriber.js
 function nextCallId() {
   return `v6-${++callIdCounter}`;
 }
@@ -49318,7 +49330,7 @@ function modelField(model, field) {
 }
 var PATCHED, TOOL_PATCHED, callIdCounter, messages, operationSpans, toolCallSpans, callIdBySpan, recordingBySpan, operationErrorInfoBySpan, suppressedTelemetry, subscribed9;
 var init_vercel_ai_orchestrion_subscriber = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/vercel-ai/vercel-ai-orchestrion-subscriber.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/vercel-ai/vercel-ai-orchestrion-subscriber.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -49339,11 +49351,11 @@ var init_vercel_ai_orchestrion_subscriber = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/vercel-ai.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/vercel-ai.js
 import * as diagnosticsChannel33 from "node:diagnostics_channel";
 var _vercelAiChannelIntegration, vercelAiChannelIntegration;
 var init_vercel_ai4 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/vercel-ai.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/vercel-ai.js"() {
     init_esm();
     init_vercel_ai2();
     init_vercel_ai_orchestrion_subscriber();
@@ -49365,7 +49377,7 @@ var init_vercel_ai4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/route.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/route.js
 function setLayerRegisteredPath(layer, path2) {
   layerRegisteredPaths.set(layer, path2);
 }
@@ -49431,13 +49443,13 @@ function isRoutePattern2(route) {
 }
 var layerRegisteredPaths, requestLayerPaths;
 var init_route = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/route.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/route.js"() {
     layerRegisteredPaths = /* @__PURE__ */ new WeakMap();
     requestLayerPaths = /* @__PURE__ */ new WeakMap();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/instrumentation.js
 function instrumentExpress2(options, tracingChannel36) {
   if (_isInstrumented2) {
     return;
@@ -49590,7 +49602,7 @@ function isLayerIgnored3(name, type, options) {
 }
 var ORIGIN30, ATTR_EXPRESS_NAME2, ATTR_EXPRESS_TYPE2, NOOP4, _isInstrumented2;
 var init_instrumentation16 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/instrumentation.js"() {
     init_attributes2();
     init_esm();
     init_debug_build4();
@@ -49606,11 +49618,11 @@ var init_instrumentation16 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/index.js
 import * as diagnosticsChannel34 from "node:diagnostics_channel";
 var INTEGRATION_NAME73, _expressChannelIntegration, expressChannelIntegration;
 var init_express4 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/express/index.js"() {
     init_esm();
     init_instrumentation16();
     INTEGRATION_NAME73 = "Express";
@@ -49631,7 +49643,7 @@ var init_express4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/firestore.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/firestore.js
 import * as net2 from "node:net";
 function startFirestoreSpan(spanName, reference) {
   return startInactiveSpan({
@@ -49702,13 +49714,13 @@ function buildAttributes(reference) {
   return attributes;
 }
 var init_firestore = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/firestore.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/firestore.js"() {
     init_attributes2();
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/functions.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/functions.js
 function wrapFunctionsRegistration(data, triggerType) {
   const args = data.arguments;
   if (!Array.isArray(args) || args.length === 0) {
@@ -49768,7 +49780,7 @@ function wrapHandler(handler, triggerType) {
 }
 var FUNCTIONS_ORIGIN, WRAPPED2;
 var init_functions = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/functions.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/functions.js"() {
     init_attributes2();
     init_esm();
     FUNCTIONS_ORIGIN = "auto.firebase.orchestrion.functions";
@@ -49776,7 +49788,7 @@ var init_functions = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/instrumentation.js
 import * as diagnosticsChannel35 from "node:diagnostics_channel";
 function safe3(fn) {
   try {
@@ -49812,7 +49824,7 @@ function instrumentFirebase() {
 }
 var FIRESTORE_OPERATIONS2, FUNCTIONS_TRIGGERS2, NOOP5;
 var init_instrumentation17 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/instrumentation.js"() {
     init_esm();
     init_debug_build4();
     init_channels();
@@ -49843,11 +49855,11 @@ var init_instrumentation17 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/index.js
 import * as diagnosticsChannel36 from "node:diagnostics_channel";
 var INTEGRATION_NAME74, _firebaseChannelIntegration, firebaseChannelIntegration;
 var init_firebase2 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/firebase/index.js"() {
     init_esm();
     init_instrumentation17();
     INTEGRATION_NAME74 = "Firebase";
@@ -49868,7 +49880,7 @@ var init_firebase2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/detect.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/detect.js
 function isOrchestrionInjected() {
   return !!GLOBAL_OBJ.__SENTRY_ORCHESTRION__;
 }
@@ -49888,12 +49900,12 @@ function detectOrchestrionSetup() {
   );
 }
 var init_detect = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/detect.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/detect.js"() {
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/redis.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/redis.js
 import * as diagnosticsChannel37 from "node:diagnostics_channel";
 function endSpan6(span, err) {
   if (err) {
@@ -50073,7 +50085,7 @@ function bindNodeRedisBatchChannel(channelName, getOperation3) {
 }
 var INTEGRATION_NAME75, ORIGIN31, ATTR_DB_CONNECTION_STRING9, DB_SYSTEM_VALUE_REDIS2, _redisChannelIntegration, redisChannelIntegration;
 var init_redis4 = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/redis.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/integrations/tracing-channel/redis.js"() {
     init_attributes2();
     init_esm();
     init_debug_build4();
@@ -50112,10 +50124,10 @@ var init_redis4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/index.js
 var channelIntegrations;
 var init_orchestrion = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/index.js"() {
     init_amqplib2();
     init_anthropic();
     init_aws_sdk2();
@@ -50172,10 +50184,10 @@ var init_orchestrion = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/knex/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/knex/index.js
 var INTEGRATION_NAME76, instrumentKnex, _knexIntegration, knexIntegration;
 var init_knex3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/knex/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/knex/index.js"() {
     init_instrumentation15();
     init_esm();
     init_esm5();
@@ -50198,16 +50210,16 @@ var init_knex3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/semconv.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/semconv.js
 var ATTR_DB_SQL_TABLE4, DB_SYSTEM_VALUE_MSSQL2;
 var init_semconv8 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/semconv.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/semconv.js"() {
     ATTR_DB_SQL_TABLE4 = "db.sql.table";
     DB_SYSTEM_VALUE_MSSQL2 = "mssql";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/utils.js
 function getSpanName5(operation, db3, sql2, bulkLoadTable) {
   if (operation === "execBulkLoad" && bulkLoadTable && db3) {
     return `${operation} ${bulkLoadTable} ${db3}`;
@@ -50225,7 +50237,7 @@ function getSpanName5(operation, db3, sql2, bulkLoadTable) {
 }
 var once3;
 var init_utils30 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/utils.js"() {
     once3 = (fn) => {
       let called = false;
       return (...args) => {
@@ -50237,7 +50249,7 @@ var init_utils30 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/instrumentation.js
 import { EventEmitter as EventEmitter3 } from "events";
 function setDatabase2(databaseName) {
   Object.defineProperty(this, CURRENT_DATABASE, {
@@ -50247,7 +50259,7 @@ function setDatabase2(databaseName) {
 }
 var import_instrumentation39, PACKAGE_NAME18, CURRENT_DATABASE, PATCHED_METHODS, _TediousInstrumentation, TediousInstrumentation;
 var init_instrumentation18 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/vendored/instrumentation.js"() {
     import_instrumentation39 = __toESM(require_src4(), 1);
     init_attributes2();
     init_semconv8();
@@ -50392,10 +50404,10 @@ var init_instrumentation18 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/index.js
 var INTEGRATION_NAME77, instrumentTedious, _tediousIntegration, tediousIntegration;
 var init_tedious3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/tedious/index.js"() {
     init_instrumentation18();
     init_esm();
     init_esm5();
@@ -50413,10 +50425,10 @@ var init_tedious3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/genericPool/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/genericPool/vendored/instrumentation.js
 var import_instrumentation41, MODULE_NAME5, PACKAGE_NAME19, GenericPoolInstrumentation;
 var init_instrumentation19 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/genericPool/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/genericPool/vendored/instrumentation.js"() {
     import_instrumentation41 = __toESM(require_src4(), 1);
     init_esm();
     MODULE_NAME5 = "generic-pool";
@@ -50535,10 +50547,10 @@ var init_instrumentation19 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/genericPool/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/genericPool/index.js
 var INTEGRATION_NAME78, instrumentGenericPool2, _genericPoolIntegration, genericPoolIntegration;
 var init_genericPool = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/genericPool/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/genericPool/index.js"() {
     init_instrumentation19();
     init_esm();
     init_esm5();
@@ -50556,7 +50568,7 @@ var init_genericPool = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/dataloader/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/dataloader/vendored/instrumentation.js
 function isModule(module2) {
   return module2[Symbol.toStringTag] === "Module";
 }
@@ -50584,7 +50596,7 @@ function getCacheKey2(keyArg) {
 }
 var import_instrumentation43, MODULE_NAME6, PACKAGE_NAME20, ORIGIN32, DataloaderInstrumentation;
 var init_instrumentation20 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/dataloader/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/dataloader/vendored/instrumentation.js"() {
     import_instrumentation43 = __toESM(require_src4(), 1);
     init_attributes2();
     init_esm();
@@ -50784,10 +50796,10 @@ var init_instrumentation20 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/dataloader/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/dataloader/index.js
 var INTEGRATION_NAME79, instrumentDataloader, _dataloaderIntegration, dataloaderIntegration;
 var init_dataloader3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/dataloader/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/dataloader/index.js"() {
     init_esm();
     init_esm5();
     init_orchestrion();
@@ -50810,10 +50822,10 @@ var init_dataloader3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/types.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/types.js
 var EndOperation;
 var init_types4 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/types.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/types.js"() {
     EndOperation = /* @__PURE__ */ ((EndOperation2) => {
       EndOperation2["AutoAck"] = "auto ack";
       EndOperation2["Ack"] = "ack";
@@ -50829,10 +50841,10 @@ var init_types4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/semconv.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/semconv.js
 var ATTR_MESSAGING_OPERATION2, ATTR_MESSAGING_DESTINATION2, ATTR_MESSAGING_DESTINATION_KIND3, ATTR_MESSAGING_RABBITMQ_ROUTING_KEY2, ATTR_MESSAGING_PROTOCOL2, ATTR_MESSAGING_PROTOCOL_VERSION, ATTR_MESSAGING_URL2, OLD_ATTR_MESSAGING_MESSAGE_ID, ATTR_MESSAGING_CONVERSATION_ID2, MESSAGING_DESTINATION_KIND_VALUE_TOPIC3, MESSAGING_OPERATION_VALUE_PROCESS2;
 var init_semconv9 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/semconv.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/semconv.js"() {
     ATTR_MESSAGING_OPERATION2 = "messaging.operation";
     ATTR_MESSAGING_DESTINATION2 = "messaging.destination";
     ATTR_MESSAGING_DESTINATION_KIND3 = "messaging.destination_kind";
@@ -50847,7 +50859,7 @@ var init_semconv9 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/utils.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/utils.js
 function getHeaderAsString4(headers, key) {
   const value = headers?.[key];
   if (value == null) {
@@ -50899,7 +50911,7 @@ function startConsumeSpan2(queue, msg, channel4) {
 }
 var PUBLISHER_ORIGIN2, CONSUMER_ORIGIN4, MESSAGE_STORED_SPAN2, CHANNEL_SPANS_NOT_ENDED2, CHANNEL_CONSUME_TIMEOUT_TIMER2, CONNECTION_ATTRIBUTES2, CHANNEL_IS_CONFIRM_PUBLISHING2, normalizeExchange2, censorPassword2, getPort3, getProtocol2, getHostname2, getConnectionAttributesFromServer2, getConnectionAttributesFromUrl2;
 var init_utils31 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/utils.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/utils.js"() {
     init_esm2();
     init_esm();
     init_attributes2();
@@ -50967,7 +50979,7 @@ var init_utils31 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/patches.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/patches.js
 function endConsumerSpan2(message, isRejected, operation, requeue) {
   const storedSpan = message[MESSAGE_STORED_SPAN2];
   if (!storedSpan) {
@@ -51139,7 +51151,7 @@ function getPublishPatch(original) {
 }
 var CONSUME_TIMEOUT_MS2;
 var init_patches2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/patches.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/patches.js"() {
     init_esm();
     init_types4();
     init_utils31();
@@ -51147,10 +51159,10 @@ var init_patches2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/instrumentation.js
 var import_instrumentation45, PACKAGE_NAME21, supportedVersions3, AmqplibInstrumentation;
 var init_instrumentation21 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/vendored/instrumentation.js"() {
     import_instrumentation45 = __toESM(require_src4(), 1);
     init_esm();
     init_InstrumentationNodeModuleFile();
@@ -51265,10 +51277,10 @@ var init_instrumentation21 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/index.js
 var INTEGRATION_NAME80, instrumentAmqplib, _amqplibIntegration, amqplibIntegration;
 var init_amqplib3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/amqplib/index.js"() {
     init_esm();
     init_esm5();
     init_instrumentation21();
@@ -51286,15 +51298,15 @@ var init_amqplib3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/constants.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/constants.js
 var INTEGRATION_NAME81;
 var init_constants16 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/constants.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/constants.js"() {
     INTEGRATION_NAME81 = "VercelAI";
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/instrumentation.js
 function isToolError(obj) {
   if (typeof obj !== "object" || obj === null) {
     return false;
@@ -51364,7 +51376,7 @@ function determineRecordingSettings(integrationRecordingOptions, methodTelemetry
 }
 var import_instrumentation47, SUPPORTED_VERSIONS6, INSTRUMENTED_METHODS2, SentryVercelAiInstrumentation;
 var init_instrumentation22 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/instrumentation.js"() {
     import_instrumentation47 = __toESM(require_src4(), 1);
     init_esm();
     init_constants16();
@@ -51468,14 +51480,14 @@ var init_instrumentation22 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/index.js
 function shouldForceIntegration(client) {
   const modules = client.getIntegrationByName("Modules");
   return !!modules?.getModules?.()?.ai;
 }
 var instrumentVercelAi, _vercelAIIntegration, vercelAIIntegration;
 var init_vercelai = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/vercelai/index.js"() {
     init_esm();
     init_esm5();
     init_esm6();
@@ -51504,10 +51516,10 @@ var init_vercelai = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/openai/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/openai/instrumentation.js
 var import_instrumentation49, supportedVersions4, SentryOpenAiInstrumentation;
 var init_instrumentation23 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/openai/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/openai/instrumentation.js"() {
     import_instrumentation49 = __toESM(require_src4(), 1);
     init_esm();
     supportedVersions4 = [">=4.0.0 <7"];
@@ -51585,10 +51597,10 @@ var init_instrumentation23 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/openai/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/openai/index.js
 var instrumentOpenAi, _openAiIntegration, openAIIntegration;
 var init_openai4 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/openai/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/openai/index.js"() {
     init_esm();
     init_esm5();
     init_instrumentation23();
@@ -51608,10 +51620,10 @@ var init_openai4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/anthropic-ai/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/anthropic-ai/instrumentation.js
 var import_instrumentation51, supportedVersions5, SentryAnthropicAiInstrumentation;
 var init_instrumentation24 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/anthropic-ai/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/anthropic-ai/instrumentation.js"() {
     import_instrumentation51 = __toESM(require_src4(), 1);
     init_esm();
     supportedVersions5 = [">=0.19.2 <1.0.0"];
@@ -51681,10 +51693,10 @@ var init_instrumentation24 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/anthropic-ai/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/anthropic-ai/index.js
 var instrumentAnthropicAi, _anthropicAIIntegration, anthropicAIIntegration;
 var init_anthropic_ai3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/anthropic-ai/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/anthropic-ai/index.js"() {
     init_esm();
     init_esm5();
     init_instrumentation24();
@@ -51705,10 +51717,10 @@ var init_anthropic_ai3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/google-genai/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/google-genai/instrumentation.js
 var import_instrumentation53, supportedVersions6, SentryGoogleGenAiInstrumentation;
 var init_instrumentation25 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/google-genai/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/google-genai/instrumentation.js"() {
     import_instrumentation53 = __toESM(require_src4(), 1);
     init_InstrumentationNodeModuleFile();
     init_esm();
@@ -51774,10 +51786,10 @@ var init_instrumentation25 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/google-genai/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/google-genai/index.js
 var instrumentGoogleGenAI, _googleGenAIIntegration, googleGenAIIntegration;
 var init_google_genai4 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/google-genai/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/google-genai/index.js"() {
     init_esm();
     init_esm5();
     init_instrumentation25();
@@ -51797,7 +51809,7 @@ var init_google_genai4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/langchain/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/langchain/instrumentation.js
 function wrapRunnableMethod(originalMethod, sentryHandler, _methodName) {
   return new Proxy(originalMethod, {
     apply(target, thisArg, args) {
@@ -51814,7 +51826,7 @@ function wrapRunnableMethod(originalMethod, sentryHandler, _methodName) {
 }
 var import_instrumentation55, supportedVersions7, SentryLangChainInstrumentation;
 var init_instrumentation26 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/langchain/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/langchain/instrumentation.js"() {
     import_instrumentation55 = __toESM(require_src4(), 1);
     init_InstrumentationNodeModuleFile();
     init_esm();
@@ -51959,10 +51971,10 @@ var init_instrumentation26 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/langchain/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/langchain/index.js
 var instrumentLangChain, _langChainIntegration, langChainIntegration;
 var init_langchain4 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/langchain/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/langchain/index.js"() {
     init_esm();
     init_esm5();
     init_instrumentation26();
@@ -51982,10 +51994,10 @@ var init_langchain4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/langgraph/instrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/langgraph/instrumentation.js
 var import_instrumentation57, supportedVersions8, SentryLangGraphInstrumentation;
 var init_instrumentation27 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/langgraph/instrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/langgraph/instrumentation.js"() {
     import_instrumentation57 = __toESM(require_src4(), 1);
     init_InstrumentationNodeModuleFile();
     init_esm();
@@ -52079,10 +52091,10 @@ var init_instrumentation27 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/langgraph/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/langgraph/index.js
 var instrumentLangGraph2, _langGraphIntegration, langGraphIntegration;
 var init_langgraph4 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/langgraph/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/langgraph/index.js"() {
     init_esm();
     init_esm5();
     init_instrumentation27();
@@ -52102,7 +52114,7 @@ var init_langgraph4 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/launchDarkly.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/launchDarkly.js
 function buildLaunchDarklyFlagUsedHandlerShim() {
   if (!isBrowser()) {
     consoleSandbox(() => {
@@ -52118,7 +52130,7 @@ function buildLaunchDarklyFlagUsedHandlerShim() {
 }
 var launchDarklyIntegrationShim;
 var init_launchDarkly = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/launchDarkly.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/launchDarkly.js"() {
     init_esm();
     launchDarklyIntegrationShim = defineIntegration((_options) => {
       if (!isBrowser()) {
@@ -52133,10 +52145,10 @@ var init_launchDarkly = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/openFeature.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/openFeature.js
 var openFeatureIntegrationShim, OpenFeatureIntegrationHookShim;
 var init_openFeature = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/openFeature.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/openFeature.js"() {
     init_esm();
     openFeatureIntegrationShim = defineIntegration((_options) => {
       if (!isBrowser()) {
@@ -52173,10 +52185,10 @@ var init_openFeature = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/statsig.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/statsig.js
 var statsigIntegrationShim;
 var init_statsig = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/statsig.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/statsig.js"() {
     init_esm();
     statsigIntegrationShim = defineIntegration((_options) => {
       if (!isBrowser()) {
@@ -52191,10 +52203,10 @@ var init_statsig = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/unleash.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/unleash.js
 var unleashIntegrationShim;
 var init_unleash = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/unleash.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/unleash.js"() {
     init_esm();
     unleashIntegrationShim = defineIntegration((_options) => {
       if (!isBrowser()) {
@@ -52209,16 +52221,16 @@ var init_unleash = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/growthbook.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/growthbook.js
 var growthbookIntegrationShim;
 var init_growthbook2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/growthbook.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/featureFlagShims/growthbook.js"() {
     init_esm();
     growthbookIntegrationShim = growthbookIntegration;
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/patches/firestore.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/patches/firestore.js
 import * as net3 from "node:net";
 function patchFirestore(firestoreSupportedVersions2, wrap, unwrap) {
   const moduleFirestoreCJS = new import_instrumentation59.InstrumentationNodeModuleDefinition(
@@ -52365,7 +52377,7 @@ function buildAttributes2(reference) {
 }
 var import_instrumentation59;
 var init_firestore2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/patches/firestore.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/patches/firestore.js"() {
     import_instrumentation59 = __toESM(require_src4(), 1);
     init_InstrumentationNodeModuleFile();
     init_attributes2();
@@ -52373,7 +52385,7 @@ var init_firestore2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/patches/functions.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/patches/functions.js
 function patchFunctions(functionsSupportedVersions2, wrap, unwrap) {
   const moduleFunctionsCJS = new import_instrumentation60.InstrumentationNodeModuleDefinition("firebase-functions", functionsSupportedVersions2);
   const modulesToInstrument = [
@@ -52507,17 +52519,17 @@ function unwrapCommonFunctions(moduleExports, unwrap) {
 }
 var import_instrumentation60;
 var init_functions2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/patches/functions.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/patches/functions.js"() {
     import_instrumentation60 = __toESM(require_src4(), 1);
     init_InstrumentationNodeModuleFile();
     init_esm();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/firebaseInstrumentation.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/firebaseInstrumentation.js
 var import_instrumentation61, firestoreSupportedVersions, functionsSupportedVersions, FirebaseInstrumentation;
 var init_firebaseInstrumentation = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/firebaseInstrumentation.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/otel/firebaseInstrumentation.js"() {
     import_instrumentation61 = __toESM(require_src4(), 1);
     init_esm();
     init_firestore2();
@@ -52543,10 +52555,10 @@ var init_firebaseInstrumentation = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/firebase.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/firebase.js
 var INTEGRATION_NAME82, instrumentFirebase2, _firebaseIntegration, firebaseIntegration;
 var init_firebase3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/firebase.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/firebase/firebase.js"() {
     init_esm();
     init_esm5();
     init_firebaseInstrumentation();
@@ -52564,7 +52576,7 @@ var init_firebase3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/index.js
 function getAutoPerformanceIntegrations() {
   return [
     expressIntegration(),
@@ -52632,7 +52644,7 @@ function getOpenTelemetryInstrumentationToPreload() {
   ];
 }
 var init_tracing2 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/integrations/tracing/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/integrations/tracing/index.js"() {
     init_esm6();
     init_http3();
     init_amqplib3();
@@ -52664,7 +52676,7 @@ var init_tracing2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/sdk/initOtel.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/sdk/initOtel.js
 function registerGlobalTracerProvider(provider) {
   if (trace.setGlobalTracerProvider(provider)) {
     return true;
@@ -52789,7 +52801,7 @@ function _clampSpanProcessorTimeout(maxSpanWaitDuration) {
 }
 var import_sdk_trace_base2, MAX_MAX_SPAN_WAIT_DURATION, OTEL_API_GLOBAL_KEY;
 var init_initOtel = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/sdk/initOtel.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/sdk/initOtel.js"() {
     init_esm2();
     import_sdk_trace_base2 = __toESM(require_index_shim(), 1);
     init_esm();
@@ -52802,7 +52814,7 @@ var init_initOtel = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/sdk/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/sdk/index.js
 function getDefaultIntegrationsWithoutPerformance() {
   const nodeCoreIntegrations = getDefaultIntegrations();
   return nodeCoreIntegrations.filter((integration) => integration.name !== "Http" && integration.name !== "NodeFetch").concat(httpIntegration2(), nativeNodeFetchIntegration2());
@@ -52863,7 +52875,7 @@ function initWithoutDefaultIntegrations2(options = {}) {
   return _init2(options, () => []);
 }
 var init_sdk3 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/sdk/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/sdk/index.js"() {
     init_esm();
     init_esm5();
     init_http3();
@@ -52874,7 +52886,7 @@ var init_sdk3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/index.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/index.js
 function instrumentedModuleNames(instrumentations = []) {
   return [
     ...uniq([...SENTRY_INSTRUMENTATIONS, ...instrumentations].map((i) => i.module.name)),
@@ -52885,7 +52897,7 @@ function instrumentedModuleNames(instrumentations = []) {
 }
 var SENTRY_INSTRUMENTATIONS, SUBSCRIBE_INJECTIONS, INSTRUMENTED_MODULE_NAMES;
 var init_config = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/config/index.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/config/index.js"() {
     init_esm();
     init_aws_sdk();
     init_amqplib();
@@ -52982,7 +52994,7 @@ var init_config = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/runtime/register.js
+// ../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/runtime/register.js
 import * as Module from "node:module";
 import { createRequire } from "node:module";
 import { pathToFileURL } from "node:url";
@@ -53054,13 +53066,13 @@ function registerDiagnosticsChannelInjection(options) {
   GLOBAL_OBJ.__SENTRY_ORCHESTRION__.runtime = GLOBAL_OBJ.__SENTRY_ORCHESTRION__.runtime || [];
 }
 var init_register = __esm({
-  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0/node_modules/@sentry/server-utils/build/esm/orchestrion/runtime/register.js"() {
+  "../../node_modules/.pnpm/@sentry+server-utils@10.71.0_supports-color@8.1.1/node_modules/@sentry/server-utils/build/esm/orchestrion/runtime/register.js"() {
     init_esm();
     init_config();
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/sdk/experimentalUseDiagnosticsChannelInjection.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/sdk/experimentalUseDiagnosticsChannelInjection.js
 function diagnosticsChannelInjectionIntegrations() {
   return channelIntegrations;
 }
@@ -53084,7 +53096,7 @@ function experimentalUseDiagnosticsChannelInjection(options) {
   });
 }
 var init_experimentalUseDiagnosticsChannelInjection = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/sdk/experimentalUseDiagnosticsChannelInjection.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/sdk/experimentalUseDiagnosticsChannelInjection.js"() {
     init_orchestrion();
     init_register();
     init_cache();
@@ -53092,7 +53104,7 @@ var init_experimentalUseDiagnosticsChannelInjection = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/index.js
+// ../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/index.js
 var esm_exports3 = {};
 __export(esm_exports3, {
   NODE_VERSION: () => NODE_VERSION,
@@ -53277,7 +53289,7 @@ __export(esm_exports3, {
   zodErrorsIntegration: () => zodErrorsIntegration
 });
 var init_esm7 = __esm({
-  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1_/node_modules/@sentry/node/build/esm/index.js"() {
+  "../../node_modules/.pnpm/@sentry+node@10.71.0_@opentelemetry+core@2.10.0_@opentelemetry+api@1.9.1__supports-color@8.1.1/node_modules/@sentry/node/build/esm/index.js"() {
     init_http3();
     init_node_fetch2();
     init_fs();
@@ -57427,7 +57439,7 @@ var require_pino = __commonJS({
     function pinoBundlerAbsolutePath(p) {
       try {
         const path2 = __require("path");
-        const outputDir = "/home/runner/workspace/artifacts/api-server/dist";
+        const outputDir = "/home/runner/work/RealtimeAlgoChatAppFinal/RealtimeAlgoChatAppFinal/artifacts/api-server/dist";
         return path2.resolve(outputDir, p.replace(/^\.\//, ""));
       } catch (e) {
         const f = new Function("p", "return new URL(p, import.meta.url).pathname");
@@ -76589,11 +76601,11 @@ var init_underscore = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/utils-C86a0e6e.mjs
+// ../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_supports-color@8.1.1__react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/utils-C86a0e6e.mjs
 import { Readable as Readable2 } from "stream";
 var clerkAuthBrand, brandRequestAuth, requestHasAuthObject, loadClientEnv, loadApiEnv, incomingMessageToRequest, requestToProxyRequest;
 var init_utils_C86a0e6e = __esm({
-  "../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/utils-C86a0e6e.mjs"() {
+  "../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_supports-color@8.1.1__react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/utils-C86a0e6e.mjs"() {
     init_underscore();
     clerkAuthBrand = /* @__PURE__ */ Symbol.for("@clerk/express.auth");
     brandRequestAuth = (authHandler) => Object.assign(authHandler, { [clerkAuthBrand]: true });
@@ -86360,11 +86372,11 @@ var init_utils36 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/index.mjs
+// ../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_supports-color@8.1.1__react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/index.mjs
 import { Readable as Readable3 } from "stream";
 var clerkClientSingleton, clerkClient, createErrorMessage, middlewareRequired, satelliteAndMissingProxyUrlAndDomain, satelliteAndMissingSignInUrl, authenticateRequest2, setResponseHeaders, setResponseForHandshake, absoluteProxyUrl, resolveDefaultClerkClient, authenticateAndDecorateRequest, clerkMiddleware, getAuth;
 var init_dist2 = __esm({
-  "../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/index.mjs"() {
+  "../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_supports-color@8.1.1__react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/index.mjs"() {
     init_utils_C86a0e6e();
     init_dist();
     init_internal3();
@@ -101593,9 +101605,9 @@ var require_type_is = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/utils.js
+// ../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/utils.js
 var require_utils7 = __commonJS({
-  "../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/utils.js"(exports, module2) {
+  "../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/utils.js"(exports, module2) {
     "use strict";
     var bytes = require_bytes();
     var contentType = require_dist3();
@@ -101645,9 +101657,9 @@ var require_utils7 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/read.js
+// ../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/read.js
 var require_read = __commonJS({
-  "../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/read.js"(exports, module2) {
+  "../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/read.js"(exports, module2) {
     "use strict";
     var createError = require_http_errors();
     var getBody = require_raw_body();
@@ -101803,9 +101815,9 @@ var require_read = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/types/json.js
+// ../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/types/json.js
 var require_json = __commonJS({
-  "../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/types/json.js"(exports, module2) {
+  "../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/types/json.js"(exports, module2) {
     "use strict";
     var debug9 = require_src3()("body-parser:json");
     var read = require_read();
@@ -101902,9 +101914,9 @@ var require_json = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/types/raw.js
+// ../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/types/raw.js
 var require_raw = __commonJS({
-  "../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/types/raw.js"(exports, module2) {
+  "../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/types/raw.js"(exports, module2) {
     "use strict";
     var debug9 = require_src3()("body-parser:raw");
     var read = require_read();
@@ -101924,9 +101936,9 @@ var require_raw = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/types/text.js
+// ../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/types/text.js
 var require_text = __commonJS({
-  "../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/types/text.js"(exports, module2) {
+  "../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/types/text.js"(exports, module2) {
     "use strict";
     var debug9 = require_src3()("body-parser:text");
     var read = require_read();
@@ -104539,9 +104551,9 @@ var require_lib5 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/types/urlencoded.js
+// ../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/types/urlencoded.js
 var require_urlencoded = __commonJS({
-  "../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/lib/types/urlencoded.js"(exports, module2) {
+  "../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/lib/types/urlencoded.js"(exports, module2) {
     "use strict";
     var createError = require_http_errors();
     var debug9 = require_src3()("body-parser:urlencoded");
@@ -104625,9 +104637,9 @@ var require_urlencoded = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/index.js
+// ../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/index.js
 var require_body_parser = __commonJS({
-  "../../node_modules/.pnpm/body-parser@2.3.0/node_modules/body-parser/index.js"(exports, module2) {
+  "../../node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser/index.js"(exports, module2) {
     "use strict";
     exports = module2.exports = bodyParser;
     exports.json = require_json();
@@ -104809,9 +104821,9 @@ var require_parseurl = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/finalhandler@2.1.1/node_modules/finalhandler/index.js
+// ../../node_modules/.pnpm/finalhandler@2.1.1_supports-color@8.1.1/node_modules/finalhandler/index.js
 var require_finalhandler = __commonJS({
-  "../../node_modules/.pnpm/finalhandler@2.1.1/node_modules/finalhandler/index.js"(exports, module2) {
+  "../../node_modules/.pnpm/finalhandler@2.1.1_supports-color@8.1.1/node_modules/finalhandler/index.js"(exports, module2) {
     "use strict";
     var debug9 = require_src3()("finalhandler");
     var encodeUrl = require_encodeurl();
@@ -104936,9 +104948,9 @@ var require_finalhandler = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/view.js
+// ../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/view.js
 var require_view = __commonJS({
-  "../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/view.js"(exports, module2) {
+  "../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/view.js"(exports, module2) {
     "use strict";
     var debug9 = require_src3()("express:view");
     var path2 = __require("node:path");
@@ -106004,9 +106016,9 @@ var require_proxy_addr = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/utils.js
+// ../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/utils.js
 var require_utils9 = __commonJS({
-  "../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/utils.js"(exports) {
+  "../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/utils.js"(exports) {
     "use strict";
     var { METHODS: METHODS2 } = __require("node:http");
     var contentType = require_content_type();
@@ -106585,9 +106597,9 @@ var require_dist4 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/router@2.2.0/node_modules/router/lib/layer.js
+// ../../node_modules/.pnpm/router@2.2.0_supports-color@8.1.1/node_modules/router/lib/layer.js
 var require_layer = __commonJS({
-  "../../node_modules/.pnpm/router@2.2.0/node_modules/router/lib/layer.js"(exports, module2) {
+  "../../node_modules/.pnpm/router@2.2.0_supports-color@8.1.1/node_modules/router/lib/layer.js"(exports, module2) {
     "use strict";
     var isPromise5 = require_is_promise();
     var pathRegexp = require_dist4();
@@ -106735,9 +106747,9 @@ var require_layer = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/router@2.2.0/node_modules/router/lib/route.js
+// ../../node_modules/.pnpm/router@2.2.0_supports-color@8.1.1/node_modules/router/lib/route.js
 var require_route = __commonJS({
-  "../../node_modules/.pnpm/router@2.2.0/node_modules/router/lib/route.js"(exports, module2) {
+  "../../node_modules/.pnpm/router@2.2.0_supports-color@8.1.1/node_modules/router/lib/route.js"(exports, module2) {
     "use strict";
     var debug9 = require_src3()("router:route");
     var Layer = require_layer();
@@ -106855,9 +106867,9 @@ var require_route = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/router@2.2.0/node_modules/router/index.js
+// ../../node_modules/.pnpm/router@2.2.0_supports-color@8.1.1/node_modules/router/index.js
 var require_router = __commonJS({
-  "../../node_modules/.pnpm/router@2.2.0/node_modules/router/index.js"(exports, module2) {
+  "../../node_modules/.pnpm/router@2.2.0_supports-color@8.1.1/node_modules/router/index.js"(exports, module2) {
     "use strict";
     var isPromise5 = require_is_promise();
     var Layer = require_layer();
@@ -107253,9 +107265,9 @@ var require_router = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/application.js
+// ../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/application.js
 var require_application = __commonJS({
-  "../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/application.js"(exports, module2) {
+  "../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/application.js"(exports, module2) {
     "use strict";
     var finalhandler = require_finalhandler();
     var debug9 = require_src3()("express:application");
@@ -108355,9 +108367,9 @@ var require_range_parser = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/request.js
+// ../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/request.js
 var require_request = __commonJS({
-  "../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/request.js"(exports, module2) {
+  "../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/request.js"(exports, module2) {
     "use strict";
     var accepts = require_accepts();
     var isIP3 = __require("node:net").isIP;
@@ -108896,9 +108908,9 @@ var require_cookie = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/send@1.2.1/node_modules/send/index.js
+// ../../node_modules/.pnpm/send@1.2.1_supports-color@8.1.1/node_modules/send/index.js
 var require_send = __commonJS({
-  "../../node_modules/.pnpm/send@1.2.1/node_modules/send/index.js"(exports, module2) {
+  "../../node_modules/.pnpm/send@1.2.1_supports-color@8.1.1/node_modules/send/index.js"(exports, module2) {
     "use strict";
     var createError = require_http_errors();
     var debug9 = require_src3()("send");
@@ -109379,9 +109391,9 @@ var require_send = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/response.js
+// ../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/response.js
 var require_response = __commonJS({
-  "../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/response.js"(exports, module2) {
+  "../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/response.js"(exports, module2) {
     "use strict";
     var contentDisposition = require_content_disposition();
     var createError = require_http_errors();
@@ -109849,9 +109861,9 @@ var require_response = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/serve-static@2.2.1/node_modules/serve-static/index.js
+// ../../node_modules/.pnpm/serve-static@2.2.1_supports-color@8.1.1/node_modules/serve-static/index.js
 var require_serve_static = __commonJS({
-  "../../node_modules/.pnpm/serve-static@2.2.1/node_modules/serve-static/index.js"(exports, module2) {
+  "../../node_modules/.pnpm/serve-static@2.2.1_supports-color@8.1.1/node_modules/serve-static/index.js"(exports, module2) {
     "use strict";
     var encodeUrl = require_encodeurl();
     var escapeHtml2 = require_escape_html();
@@ -109953,9 +109965,9 @@ var require_serve_static = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/express.js
+// ../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/express.js
 var require_express = __commonJS({
-  "../../node_modules/.pnpm/express@5.2.1/node_modules/express/lib/express.js"(exports, module2) {
+  "../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/lib/express.js"(exports, module2) {
     "use strict";
     var bodyParser = require_body_parser();
     var EventEmitter5 = __require("node:events").EventEmitter;
@@ -109993,9 +110005,9 @@ var require_express = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/express@5.2.1/node_modules/express/index.js
+// ../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/index.js
 var require_express2 = __commonJS({
-  "../../node_modules/.pnpm/express@5.2.1/node_modules/express/index.js"(exports, module2) {
+  "../../node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express/index.js"(exports, module2) {
     "use strict";
     module2.exports = require_express();
   }
@@ -119400,9 +119412,12 @@ var require_accepts2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/base64id@2.0.0/node_modules/base64id/lib/base64id.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/contrib/base64id.js
 var require_base64id = __commonJS({
-  "../../node_modules/.pnpm/base64id@2.0.0/node_modules/base64id/lib/base64id.js"(exports, module2) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/contrib/base64id.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.base64id = void 0;
     var crypto2 = __require("crypto");
     var Base64Id = function() {
     };
@@ -119413,8 +119428,8 @@ var require_base64id = __commonJS({
       if (bytes > BUFFER_SIZE) {
         return crypto2.randomBytes(bytes);
       }
-      var bytesInBuffer = parseInt(BUFFER_SIZE / bytes);
-      var threshold = parseInt(bytesInBuffer * 0.85);
+      var bytesInBuffer = Math.floor(BUFFER_SIZE / bytes);
+      var threshold = Math.floor(bytesInBuffer * 0.85);
       if (!threshold) {
         return crypto2.randomBytes(bytes);
       }
@@ -119458,7 +119473,7 @@ var require_base64id = __commonJS({
       }
       return rand.toString("base64").replace(/\//g, "_").replace(/\+/g, "-");
     };
-    exports = module2.exports = new Base64Id();
+    exports.base64id = new Base64Id();
   }
 });
 
@@ -119743,9 +119758,10 @@ var require_cjs = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/parser-v3/utf8.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/parser-v3/utf8.js
 var require_utf8 = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/parser-v3/utf8.js"(exports, module2) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/parser-v3/utf8.js"(exports, module2) {
+    "use strict";
     var stringFromCharCode = String.fromCharCode;
     function ucs2decode(string4) {
       var output = [];
@@ -119914,9 +119930,9 @@ var require_utf8 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/parser-v3/index.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/parser-v3/index.js
 var require_parser_v3 = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/parser-v3/index.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/parser-v3/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.packets = exports.protocol = void 0;
@@ -120203,16 +120219,56 @@ var require_parser_v3 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transport.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transport.js
 var require_transport2 = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transport.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transport.js"(exports) {
     "use strict";
+    var __createBinding = exports && exports.__createBinding || (Object.create ? (function(o, m, k2, k22) {
+      if (k22 === void 0) k22 = k2;
+      var desc2 = Object.getOwnPropertyDescriptor(m, k2);
+      if (!desc2 || ("get" in desc2 ? !m.__esModule : desc2.writable || desc2.configurable)) {
+        desc2 = { enumerable: true, get: function() {
+          return m[k2];
+        } };
+      }
+      Object.defineProperty(o, k22, desc2);
+    }) : (function(o, m, k2, k22) {
+      if (k22 === void 0) k22 = k2;
+      o[k22] = m[k2];
+    }));
+    var __setModuleDefault = exports && exports.__setModuleDefault || (Object.create ? (function(o, v) {
+      Object.defineProperty(o, "default", { enumerable: true, value: v });
+    }) : function(o, v) {
+      o["default"] = v;
+    });
+    var __importStar = exports && exports.__importStar || /* @__PURE__ */ (function() {
+      var ownKeys = function(o) {
+        ownKeys = Object.getOwnPropertyNames || function(o2) {
+          var ar2 = [];
+          for (var k2 in o2) if (Object.prototype.hasOwnProperty.call(o2, k2)) ar2[ar2.length] = k2;
+          return ar2;
+        };
+        return ownKeys(o);
+      };
+      return function(mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) {
+          for (var k2 = ownKeys(mod), i = 0; i < k2.length; i++) if (k2[i] !== "default") __createBinding(result, mod, k2[i]);
+        }
+        __setModuleDefault(result, mod);
+        return result;
+      };
+    })();
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Transport = void 0;
     var events_1 = __require("events");
-    var parser_v4 = require_cjs();
-    var parser_v3 = require_parser_v3();
-    var debug_1 = require_src3();
+    var parser_v4 = __importStar(require_cjs());
+    var parser_v3 = __importStar(require_parser_v3());
+    var debug_1 = __importDefault(require_src3());
     var debug9 = (0, debug_1.default)("engine:transport");
     function noop3() {
     }
@@ -120315,16 +120371,19 @@ var require_transport2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling.js
 var require_polling = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling.js"(exports) {
     "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Polling = void 0;
     var transport_1 = require_transport2();
     var zlib_1 = __require("zlib");
     var accepts = require_accepts2();
-    var debug_1 = require_src3();
+    var debug_1 = __importDefault(require_src3());
     var debug9 = (0, debug_1.default)("engine:polling");
     var compressionMethods = {
       gzip: zlib_1.createGzip,
@@ -120413,32 +120472,39 @@ var require_polling = __commonJS({
         }
         this.dataReq = req;
         this.dataRes = res;
-        let chunks = isBinary ? Buffer.concat([]) : "";
+        const buffers = [];
+        let stringChunks = "";
+        let contentLength = 0;
+        let exceededMaxHttpBufferSize = false;
         const cleanup = () => {
           req.removeListener("data", onData);
           req.removeListener("end", onEnd);
           req.removeListener("close", onClose);
-          this.dataReq = this.dataRes = chunks = null;
+          this.dataReq = this.dataRes = null;
         };
         const onClose = () => {
           cleanup();
           this.onError("data request connection closed prematurely");
         };
-        const onData = (data) => {
-          let contentLength;
-          if (isBinary) {
-            chunks = Buffer.concat([chunks, data]);
-            contentLength = chunks.length;
-          } else {
-            chunks += data;
-            contentLength = Buffer.byteLength(chunks);
-          }
+        const onData = (chunk) => {
+          contentLength += isBinary ? chunk.length : Buffer.byteLength(chunk);
           if (contentLength > this.maxHttpBufferSize) {
+            exceededMaxHttpBufferSize = true;
             res.writeHead(413).end();
             cleanup();
+            return;
+          }
+          if (isBinary) {
+            buffers.push(chunk);
+          } else {
+            stringChunks += chunk;
           }
         };
         const onEnd = () => {
+          if (exceededMaxHttpBufferSize) {
+            return;
+          }
+          const chunks = isBinary ? Buffer.concat(buffers, contentLength) : stringChunks;
           this.onData(chunks);
           const headers = {
             // text/html is required instead of text/plain to avoid an
@@ -120554,32 +120620,28 @@ var require_polling = __commonJS({
           respond(data);
           return;
         }
-        this.compress(data, encoding, (err, data2) => {
-          if (err) {
-            this.res.writeHead(500);
-            this.res.end();
-            callback(err);
+        debug9("compressing");
+        headers["Content-Encoding"] = encoding;
+        this.res.writeHead(200, this.headers(this.req, headers));
+        const stream = compressionMethods[encoding](this.httpCompression);
+        let isErrored = false;
+        let isDone = false;
+        const done = () => {
+          if (isDone || isErrored) {
             return;
           }
-          headers["Content-Encoding"] = encoding;
-          respond(data2);
+          isDone = true;
+          callback();
+        };
+        stream.on("error", (err) => {
+          isErrored = true;
+          this.res.end();
+          callback(err);
         });
-      }
-      /**
-       * Compresses data.
-       *
-       * @private
-       */
-      compress(data, encoding, callback) {
-        debug9("compressing");
-        const buffers = [];
-        let nread = 0;
-        compressionMethods[encoding](this.httpCompression).on("error", callback).on("data", function(chunk) {
-          buffers.push(chunk);
-          nread += chunk.length;
-        }).on("end", function() {
-          callback(null, Buffer.concat(buffers, nread));
-        }).end(data);
+        this.res.once("finish", done);
+        this.res.once("close", done);
+        stream.pipe(this.res);
+        stream.end(data);
       }
       /**
        * Closes the transport.
@@ -120632,14 +120694,51 @@ var require_polling = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling-jsonp.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling-jsonp.js
 var require_polling_jsonp = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling-jsonp.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling-jsonp.js"(exports) {
     "use strict";
+    var __createBinding = exports && exports.__createBinding || (Object.create ? (function(o, m, k2, k22) {
+      if (k22 === void 0) k22 = k2;
+      var desc2 = Object.getOwnPropertyDescriptor(m, k2);
+      if (!desc2 || ("get" in desc2 ? !m.__esModule : desc2.writable || desc2.configurable)) {
+        desc2 = { enumerable: true, get: function() {
+          return m[k2];
+        } };
+      }
+      Object.defineProperty(o, k22, desc2);
+    }) : (function(o, m, k2, k22) {
+      if (k22 === void 0) k22 = k2;
+      o[k22] = m[k2];
+    }));
+    var __setModuleDefault = exports && exports.__setModuleDefault || (Object.create ? (function(o, v) {
+      Object.defineProperty(o, "default", { enumerable: true, value: v });
+    }) : function(o, v) {
+      o["default"] = v;
+    });
+    var __importStar = exports && exports.__importStar || /* @__PURE__ */ (function() {
+      var ownKeys = function(o) {
+        ownKeys = Object.getOwnPropertyNames || function(o2) {
+          var ar2 = [];
+          for (var k2 in o2) if (Object.prototype.hasOwnProperty.call(o2, k2)) ar2[ar2.length] = k2;
+          return ar2;
+        };
+        return ownKeys(o);
+      };
+      return function(mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) {
+          for (var k2 = ownKeys(mod), i = 0; i < k2.length; i++) if (k2[i] !== "default") __createBinding(result, mod, k2[i]);
+        }
+        __setModuleDefault(result, mod);
+        return result;
+      };
+    })();
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.JSONP = void 0;
     var polling_1 = require_polling();
-    var qs = __require("querystring");
+    var qs = __importStar(__require("querystring"));
     var rDoubleSlashes = /\\\\n/g;
     var rSlashes = /(\\)?\\n/g;
     var JSONP = class extends polling_1.Polling {
@@ -120670,14 +120769,17 @@ var require_polling_jsonp = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/websocket.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/websocket.js
 var require_websocket = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/websocket.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/websocket.js"(exports) {
     "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.WebSocket = void 0;
     var transport_1 = require_transport2();
-    var debug_1 = require_src3();
+    var debug_1 = __importDefault(require_src3());
     var debug9 = (0, debug_1.default)("engine:ws");
     var WebSocket = class extends transport_1.Transport {
       /**
@@ -120762,14 +120864,17 @@ var require_websocket = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/webtransport.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/webtransport.js
 var require_webtransport = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/webtransport.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/webtransport.js"(exports) {
     "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.WebTransport = void 0;
     var transport_1 = require_transport2();
-    var debug_1 = require_src3();
+    var debug_1 = __importDefault(require_src3());
     var engine_io_parser_1 = require_cjs();
     var debug9 = (0, debug_1.default)("engine:webtransport");
     var WebTransport = class extends transport_1.Transport {
@@ -120826,9 +120931,9 @@ var require_webtransport = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/index.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/index.js
 var require_transports = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/index.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var polling_1 = require_polling();
@@ -120851,14 +120956,17 @@ var require_transports = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/socket.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/socket.js
 var require_socket = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/socket.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/socket.js"(exports) {
     "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Socket = void 0;
     var events_1 = __require("events");
-    var debug_1 = require_src3();
+    var debug_1 = __importDefault(require_src3());
     var timers_1 = __require("timers");
     var debug9 = (0, debug_1.default)("engine:socket");
     var Socket4 = class extends events_1.EventEmitter {
@@ -120878,6 +120986,9 @@ var require_socket = __commonJS({
         this.packetsFn = [];
         this.sentCallbackFn = [];
         this.cleanupFn = [];
+        this.pingTimeoutTimer = null;
+        this.pingIntervalTimer = null;
+        this.hasRefreshedPingTimeout = false;
         this.id = id;
         this.server = server;
         this.request = req;
@@ -120890,8 +121001,6 @@ var require_socket = __commonJS({
           }
         } else {
         }
-        this.pingTimeoutTimer = null;
-        this.pingIntervalTimer = null;
         this.setTransport(transport);
         this.onOpen();
       }
@@ -120927,30 +121036,37 @@ var require_socket = __commonJS({
        * @private
        */
       onPacket(packet) {
+        var _a3, _b;
         if ("open" !== this.readyState) {
           return debug9("packet received with closed socket");
         }
         debug9(`received packet ${packet.type}`);
         this.emit("packet", packet);
+        if (this.protocol !== 3 && this.pingTimeoutTimer !== null && !this.hasRefreshedPingTimeout && packet.type !== "pong") {
+          debug9("got packet while waiting for pong - refreshing ping timeout");
+          this.pingTimeoutTimer.refresh();
+          this.hasRefreshedPingTimeout = true;
+        }
         switch (packet.type) {
           case "ping":
-            if (this.transport.protocol !== 3) {
+            if (this.protocol !== 3) {
               this.onError(new Error("invalid heartbeat direction"));
               return;
             }
             debug9("got ping");
-            this.pingTimeoutTimer.refresh();
+            (_a3 = this.pingTimeoutTimer) === null || _a3 === void 0 ? void 0 : _a3.refresh();
             this.sendPacket("pong");
             this.emit("heartbeat");
             break;
           case "pong":
-            if (this.transport.protocol === 3) {
+            if (this.protocol === 3) {
               this.onError(new Error("invalid heartbeat direction"));
               return;
             }
             debug9("got pong");
             (0, timers_1.clearTimeout)(this.pingTimeoutTimer);
-            this.pingIntervalTimer.refresh();
+            this.pingTimeoutTimer = null;
+            (_b = this.pingIntervalTimer) === null || _b === void 0 ? void 0 : _b.refresh();
             this.emit("heartbeat");
             break;
           case "error":
@@ -120981,6 +121097,7 @@ var require_socket = __commonJS({
       schedulePing() {
         this.pingIntervalTimer = (0, timers_1.setTimeout)(() => {
           debug9("writing ping packet - expecting pong within %sms", this.server.opts.pingTimeout);
+          this.hasRefreshedPingTimeout = false;
           this.sendPacket("ping");
           this.resetPingTimeout();
         }, this.server.opts.pingInterval);
@@ -121133,6 +121250,7 @@ var require_socket = __commonJS({
         });
         this.transport.close();
         (0, timers_1.clearTimeout)(this.pingTimeoutTimer);
+        this.pingTimeoutTimer = null;
       }
       /**
        * Called upon transport considered closed.
@@ -124991,21 +125109,41 @@ var require_ws = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/server.js
-var require_server = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/server.js"(exports) {
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/utils/objectFromEntries.js
+var require_objectFromEntries = __commonJS({
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/utils/objectFromEntries.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
+    exports.objectFromEntries = void 0;
+    exports.objectFromEntries = Object.fromEntries || function fromEntries(entries) {
+      const obj = {};
+      for (const [key, value] of entries) {
+        obj[key] = value;
+      }
+      return obj;
+    };
+  }
+});
+
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/server.js
+var require_server = __commonJS({
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/server.js"(exports) {
+    "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
     exports.Server = exports.BaseServer = void 0;
-    var base64id = require_base64id();
-    var transports_1 = require_transports();
+    var base64id_1 = require_base64id();
+    var transports_1 = __importDefault(require_transports());
     var events_1 = __require("events");
     var socket_1 = require_socket();
-    var debug_1 = require_src3();
+    var debug_1 = __importDefault(require_src3());
     var cookie_1 = require_cookie();
     var ws_1 = require_ws();
     var webtransport_1 = require_webtransport();
     var engine_io_parser_1 = require_cjs();
+    var objectFromEntries_1 = require_objectFromEntries();
     var debug9 = (0, debug_1.default)("engine");
     var kResponseHeaders = /* @__PURE__ */ Symbol("responseHeaders");
     function parseSessionId(data) {
@@ -125019,6 +125157,9 @@ var require_server = __commonJS({
     }
     function hasOwn2(obj, key) {
       return Object.prototype.hasOwnProperty.call(obj, key);
+    }
+    function computeProtocolRevision(req) {
+      return req._query.EIO === "4" ? 4 : 3;
     }
     var BaseServer = class extends events_1.EventEmitter {
       /**
@@ -125117,13 +125258,23 @@ var require_server = __commonJS({
               sid
             });
           }
-          const previousTransport = this.clients[sid].transport.name;
+          const client = this.clients[sid];
+          const previousTransport = client.transport.name;
           if (!upgrade && previousTransport !== transport) {
             debug9("bad request: unexpected transport without upgrade");
             return fn(Server2.errors.BAD_REQUEST, {
               name: "TRANSPORT_MISMATCH",
               transport,
               previousTransport
+            });
+          }
+          const protocol = computeProtocolRevision(req);
+          if (client.protocol !== protocol) {
+            debug9("bad request: unexpected protocol version during upgrade");
+            return fn(Server2.errors.BAD_REQUEST, {
+              name: "PROTOCOL_MISMATCH",
+              protocol,
+              previousProtocol: client.protocol
             });
           }
         } else {
@@ -125212,7 +125363,7 @@ var require_server = __commonJS({
        * @param {IncomingMessage} req - the request object
        */
       generateId(req) {
-        return base64id.generateId();
+        return base64id_1.base64id.generateId();
       }
       /**
        * Handshakes a new client.
@@ -125224,7 +125375,7 @@ var require_server = __commonJS({
        * @protected
        */
       async handshake(transportName, req, closeConnection) {
-        const protocol = req._query.EIO === "4" ? 4 : 3;
+        const protocol = computeProtocolRevision(req);
         if (protocol === 3 && !this.opts.allowEIO3) {
           debug9("unsupported protocol version");
           this.emit("connection_error", {
@@ -125343,7 +125494,7 @@ var require_server = __commonJS({
         }
         if (value.data === void 0) {
           const transport = new webtransport_1.WebTransport(session, stream, reader);
-          const id = base64id.generateId();
+          const id = base64id_1.base64id.generateId();
           debug9('handshaking client "%s" (WebTransport)', id);
           const socket = new socket_1.Socket(id, this, transport, null, 4);
           this.clients[id] = socket;
@@ -125464,7 +125615,7 @@ var require_server = __commonJS({
       prepare(req) {
         if (!req._query) {
           const url = new URL(req.url, "https://socket.io");
-          req._query = Object.fromEntries(url.searchParams.entries());
+          req._query = (0, objectFromEntries_1.objectFromEntries)(url.searchParams.entries());
         }
       }
       createTransport(transportName, req) {
@@ -125955,16 +126106,19 @@ var require_server = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/polling.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/polling.js
 var require_polling2 = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/polling.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/polling.js"(exports) {
     "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Polling = void 0;
     var transport_1 = require_transport2();
     var zlib_1 = __require("zlib");
     var accepts = require_accepts2();
-    var debug_1 = require_src3();
+    var debug_1 = __importDefault(require_src3());
     var debug9 = (0, debug_1.default)("engine:polling");
     var compressionMethods = {
       gzip: zlib_1.createGzip,
@@ -126306,14 +126460,17 @@ var require_polling2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/websocket.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/websocket.js
 var require_websocket3 = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/websocket.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/websocket.js"(exports) {
     "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.WebSocket = void 0;
     var transport_1 = require_transport2();
-    var debug_1 = require_src3();
+    var debug_1 = __importDefault(require_src3());
     var debug9 = (0, debug_1.default)("engine:ws");
     var WebSocket = class extends transport_1.Transport {
       /**
@@ -126382,9 +126539,9 @@ var require_websocket3 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/index.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/index.js
 var require_transports_uws = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/index.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var polling_1 = require_polling2();
@@ -126396,15 +126553,19 @@ var require_transports_uws = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/userver.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/userver.js
 var require_userver = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/userver.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/userver.js"(exports) {
     "use strict";
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.uServer = void 0;
-    var debug_1 = require_src3();
+    var debug_1 = __importDefault(require_src3());
     var server_1 = require_server();
-    var transports_uws_1 = require_transports_uws();
+    var transports_uws_1 = __importDefault(require_transports_uws());
+    var objectFromEntries_1 = require_objectFromEntries();
     var debug9 = (0, debug_1.default)("engine:uws");
     var uServer = class extends server_1.BaseServer {
       init() {
@@ -126420,7 +126581,7 @@ var require_userver = __commonJS({
         req.method = req.getMethod().toUpperCase();
         req.url = req.getUrl();
         const params = new URLSearchParams(req.getQuery());
-        req._query = Object.fromEntries(params.entries());
+        req._query = (0, objectFromEntries_1.objectFromEntries)(params.entries());
         req.headers = {};
         req.forEach((key, value) => {
           req.headers[key] = value;
@@ -126663,10 +126824,50 @@ var require_userver = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/engine.io.js
+// ../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/engine.io.js
 var require_engine_io = __commonJS({
-  "../../node_modules/.pnpm/engine.io@6.6.9_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/engine.io.js"(exports) {
+  "../../node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/engine.io/build/engine.io.js"(exports) {
     "use strict";
+    var __createBinding = exports && exports.__createBinding || (Object.create ? (function(o, m, k2, k22) {
+      if (k22 === void 0) k22 = k2;
+      var desc2 = Object.getOwnPropertyDescriptor(m, k2);
+      if (!desc2 || ("get" in desc2 ? !m.__esModule : desc2.writable || desc2.configurable)) {
+        desc2 = { enumerable: true, get: function() {
+          return m[k2];
+        } };
+      }
+      Object.defineProperty(o, k22, desc2);
+    }) : (function(o, m, k2, k22) {
+      if (k22 === void 0) k22 = k2;
+      o[k22] = m[k2];
+    }));
+    var __setModuleDefault = exports && exports.__setModuleDefault || (Object.create ? (function(o, v) {
+      Object.defineProperty(o, "default", { enumerable: true, value: v });
+    }) : function(o, v) {
+      o["default"] = v;
+    });
+    var __importStar = exports && exports.__importStar || /* @__PURE__ */ (function() {
+      var ownKeys = function(o) {
+        ownKeys = Object.getOwnPropertyNames || function(o2) {
+          var ar2 = [];
+          for (var k2 in o2) if (Object.prototype.hasOwnProperty.call(o2, k2)) ar2[ar2.length] = k2;
+          return ar2;
+        };
+        return ownKeys(o);
+      };
+      return function(mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) {
+          for (var k2 = ownKeys(mod), i = 0; i < k2.length; i++) if (k2[i] !== "default") __createBinding(result, mod, k2[i]);
+        }
+        __setModuleDefault(result, mod);
+        return result;
+      };
+    })();
+    var __importDefault = exports && exports.__importDefault || function(mod) {
+      return mod && mod.__esModule ? mod : { "default": mod };
+    };
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.protocol = exports.Transport = exports.Socket = exports.uServer = exports.parser = exports.transports = exports.Server = void 0;
     exports.listen = listen;
@@ -126676,9 +126877,9 @@ var require_engine_io = __commonJS({
     Object.defineProperty(exports, "Server", { enumerable: true, get: function() {
       return server_1.Server;
     } });
-    var index_1 = require_transports();
+    var index_1 = __importDefault(require_transports());
     exports.transports = index_1.default;
-    var parser = require_cjs();
+    var parser = __importStar(require_cjs());
     exports.parser = parser;
     var userver_1 = require_userver();
     Object.defineProperty(exports, "uServer", { enumerable: true, get: function() {
@@ -126792,9 +126993,9 @@ var require_cjs2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io-parser@4.2.7/node_modules/socket.io-parser/build/cjs/is-binary.js
+// ../../node_modules/.pnpm/socket.io-parser@4.2.7_supports-color@8.1.1/node_modules/socket.io-parser/build/cjs/is-binary.js
 var require_is_binary = __commonJS({
-  "../../node_modules/.pnpm/socket.io-parser@4.2.7/node_modules/socket.io-parser/build/cjs/is-binary.js"(exports) {
+  "../../node_modules/.pnpm/socket.io-parser@4.2.7_supports-color@8.1.1/node_modules/socket.io-parser/build/cjs/is-binary.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isBinary = isBinary;
@@ -126837,9 +127038,9 @@ var require_is_binary = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io-parser@4.2.7/node_modules/socket.io-parser/build/cjs/binary.js
+// ../../node_modules/.pnpm/socket.io-parser@4.2.7_supports-color@8.1.1/node_modules/socket.io-parser/build/cjs/binary.js
 var require_binary = __commonJS({
-  "../../node_modules/.pnpm/socket.io-parser@4.2.7/node_modules/socket.io-parser/build/cjs/binary.js"(exports) {
+  "../../node_modules/.pnpm/socket.io-parser@4.2.7_supports-color@8.1.1/node_modules/socket.io-parser/build/cjs/binary.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.deconstructPacket = deconstructPacket;
@@ -126911,9 +127112,9 @@ var require_binary = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io-parser@4.2.7/node_modules/socket.io-parser/build/cjs/index.js
+// ../../node_modules/.pnpm/socket.io-parser@4.2.7_supports-color@8.1.1/node_modules/socket.io-parser/build/cjs/index.js
 var require_cjs3 = __commonJS({
-  "../../node_modules/.pnpm/socket.io-parser@4.2.7/node_modules/socket.io-parser/build/cjs/index.js"(exports) {
+  "../../node_modules/.pnpm/socket.io-parser@4.2.7_supports-color@8.1.1/node_modules/socket.io-parser/build/cjs/index.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -127225,9 +127426,9 @@ var require_cjs3 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/client.js
+// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/client.js
 var require_client3 = __commonJS({
-  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/client.js"(exports) {
+  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/client.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -127487,9 +127688,9 @@ var require_client3 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/typed-events.js
+// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/typed-events.js
 var require_typed_events = __commonJS({
-  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/typed-events.js"(exports) {
+  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/typed-events.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.StrictEventEmitter = void 0;
@@ -127561,9 +127762,71 @@ var require_typed_events = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket-types.js
+// ../../node_modules/.pnpm/base64id@2.0.0/node_modules/base64id/lib/base64id.js
+var require_base64id2 = __commonJS({
+  "../../node_modules/.pnpm/base64id@2.0.0/node_modules/base64id/lib/base64id.js"(exports, module2) {
+    var crypto2 = __require("crypto");
+    var Base64Id = function() {
+    };
+    Base64Id.prototype.getRandomBytes = function(bytes) {
+      var BUFFER_SIZE = 4096;
+      var self2 = this;
+      bytes = bytes || 12;
+      if (bytes > BUFFER_SIZE) {
+        return crypto2.randomBytes(bytes);
+      }
+      var bytesInBuffer = parseInt(BUFFER_SIZE / bytes);
+      var threshold = parseInt(bytesInBuffer * 0.85);
+      if (!threshold) {
+        return crypto2.randomBytes(bytes);
+      }
+      if (this.bytesBufferIndex == null) {
+        this.bytesBufferIndex = -1;
+      }
+      if (this.bytesBufferIndex == bytesInBuffer) {
+        this.bytesBuffer = null;
+        this.bytesBufferIndex = -1;
+      }
+      if (this.bytesBufferIndex == -1 || this.bytesBufferIndex > threshold) {
+        if (!this.isGeneratingBytes) {
+          this.isGeneratingBytes = true;
+          crypto2.randomBytes(BUFFER_SIZE, function(err, bytes2) {
+            self2.bytesBuffer = bytes2;
+            self2.bytesBufferIndex = 0;
+            self2.isGeneratingBytes = false;
+          });
+        }
+        if (this.bytesBufferIndex == -1) {
+          return crypto2.randomBytes(bytes);
+        }
+      }
+      var result = this.bytesBuffer.slice(bytes * this.bytesBufferIndex, bytes * (this.bytesBufferIndex + 1));
+      this.bytesBufferIndex++;
+      return result;
+    };
+    Base64Id.prototype.generateId = function() {
+      var rand = Buffer.alloc(15);
+      if (!rand.writeInt32BE) {
+        return Math.abs(Math.random() * Math.random() * Date.now() | 0).toString() + Math.abs(Math.random() * Math.random() * Date.now() | 0).toString();
+      }
+      this.sequenceNumber = this.sequenceNumber + 1 | 0;
+      rand.writeInt32BE(this.sequenceNumber, 11);
+      if (crypto2.randomBytes) {
+        this.getRandomBytes(12).copy(rand);
+      } else {
+        [0, 4, 8].forEach(function(i) {
+          rand.writeInt32BE(Math.random() * Math.pow(2, 32) | 0, i);
+        });
+      }
+      return rand.toString("base64").replace(/\//g, "_").replace(/\+/g, "-");
+    };
+    exports = module2.exports = new Base64Id();
+  }
+});
+
+// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket-types.js
 var require_socket_types = __commonJS({
-  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket-types.js"(exports) {
+  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket-types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.RESERVED_EVENTS = void 0;
@@ -127578,9 +127841,9 @@ var require_socket_types = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/broadcast-operator.js
+// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/broadcast-operator.js
 var require_broadcast_operator = __commonJS({
-  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/broadcast-operator.js"(exports) {
+  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/broadcast-operator.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.RemoteSocket = exports.BroadcastOperator = void 0;
@@ -128007,9 +128270,9 @@ var require_broadcast_operator = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket.js
+// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket.js
 var require_socket2 = __commonJS({
-  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket.js"(exports) {
+  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -128019,7 +128282,7 @@ var require_socket2 = __commonJS({
     var socket_io_parser_1 = require_cjs3();
     var debug_1 = __importDefault(require_src3());
     var typed_events_1 = require_typed_events();
-    var base64id_1 = __importDefault(require_base64id());
+    var base64id_1 = __importDefault(require_base64id2());
     var broadcast_operator_1 = require_broadcast_operator();
     var socket_types_1 = require_socket_types();
     var debug9 = (0, debug_1.default)("socket.io:socket");
@@ -128914,9 +129177,9 @@ var require_socket2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/namespace.js
+// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/namespace.js
 var require_namespace = __commonJS({
-  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/namespace.js"(exports) {
+  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/namespace.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -129426,9 +129689,9 @@ var require_namespace = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/contrib/yeast.js
+// ../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/contrib/yeast.js
 var require_yeast = __commonJS({
-  "../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/contrib/yeast.js"(exports) {
+  "../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/contrib/yeast.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.encode = encode;
@@ -129466,9 +129729,9 @@ var require_yeast = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/in-memory-adapter.js
+// ../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/in-memory-adapter.js
 var require_in_memory_adapter = __commonJS({
-  "../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/in-memory-adapter.js"(exports) {
+  "../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/in-memory-adapter.js"(exports) {
     "use strict";
     var _a3;
     Object.defineProperty(exports, "__esModule", { value: true });
@@ -129852,9 +130115,9 @@ var require_in_memory_adapter = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/cluster-adapter.js
+// ../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/cluster-adapter.js
 var require_cluster_adapter = __commonJS({
-  "../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/cluster-adapter.js"(exports) {
+  "../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/cluster-adapter.js"(exports) {
     "use strict";
     var __rest = exports && exports.__rest || function(s2, e) {
       var t = {};
@@ -130511,9 +130774,9 @@ var require_cluster_adapter = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/index.js
+// ../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/index.js
 var require_dist5 = __commonJS({
-  "../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/index.js"(exports) {
+  "../../node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.MessageType = exports.ClusterAdapterWithHeartbeat = exports.ClusterAdapter = exports.SessionAwareAdapter = exports.Adapter = void 0;
@@ -130537,9 +130800,9 @@ var require_dist5 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/parent-namespace.js
+// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/parent-namespace.js
 var require_parent_namespace = __commonJS({
-  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/parent-namespace.js"(exports) {
+  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/parent-namespace.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -130606,9 +130869,9 @@ var require_parent_namespace = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/uws.js
+// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/uws.js
 var require_uws = __commonJS({
-  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/uws.js"(exports) {
+  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/uws.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -130735,9 +130998,9 @@ var require_uws = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/package.json
+// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/package.json
 var require_package2 = __commonJS({
-  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/package.json"(exports, module2) {
+  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/package.json"(exports, module2) {
     module2.exports = {
       name: "socket.io",
       version: "4.8.3",
@@ -130829,9 +131092,9 @@ var require_package2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/index.js
+// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/index.js
 var require_dist6 = __commonJS({
-  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/index.js"(exports, module2) {
+  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/dist/index.js"(exports, module2) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? (function(o, m, k2, k22) {
       if (k22 === void 0) k22 = k2;
@@ -131581,10 +131844,10 @@ var require_dist6 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/wrapper.mjs
+// ../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/wrapper.mjs
 var import_dist, Server, Namespace, Socket2;
 var init_wrapper = __esm({
-  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/wrapper.mjs"() {
+  "../../node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_supports-color@8.1.1_utf-8-validate@6.0.6/node_modules/socket.io/wrapper.mjs"() {
     import_dist = __toESM(require_dist6(), 1);
     ({ Server, Namespace, Socket: Socket2 } = import_dist.default);
   }
@@ -139090,7 +139353,7 @@ var init_webhooks = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/webhooks.mjs
+// ../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_supports-color@8.1.1__react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/webhooks.mjs
 async function verifyWebhook2(req, options) {
   const webRequest = incomingMessageToRequest(req);
   let serializedBody;
@@ -139105,7 +139368,7 @@ async function verifyWebhook2(req, options) {
   return verifyWebhook(new Request(webRequest, { body: serializedBody }), options);
 }
 var init_webhooks2 = __esm({
-  "../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/webhooks.mjs"() {
+  "../../node_modules/.pnpm/@clerk+express@2.1.64_express@5.2.1_supports-color@8.1.1__react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/@clerk/express/dist/webhooks.mjs"() {
     init_utils_C86a0e6e();
     init_webhooks();
     init_webhooks();
@@ -140759,10 +141022,10 @@ var init_dist3 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/errors.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/errors.js
 var HttpProxyMiddlewareError;
 var init_errors6 = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/errors.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/errors.js"() {
     HttpProxyMiddlewareError = class extends Error {
       code;
       constructor(message, code) {
@@ -140777,44 +141040,44 @@ var init_errors6 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/configuration.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/configuration.js
 function verifyConfig(options) {
   if (!options.target && !options.router) {
     throw new HttpProxyMiddlewareError('[HPM] Missing "target" option. Example: {target: "http://www.example.org"}', "ERR_CONFIG_FACTORY_TARGET_MISSING");
   }
 }
 var init_configuration = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/configuration.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/configuration.js"() {
     init_errors6();
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/debug.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/debug.js
 var import_debug4, Debug;
 var init_debug2 = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/debug.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/debug.js"() {
     import_debug4 = __toESM(require_src3(), 1);
     Debug = (0, import_debug4.default)("http-proxy-middleware");
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/define-plugin.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/define-plugin.js
 function definePlugin(fn) {
   return fn;
 }
 var init_define_plugin = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/define-plugin.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/define-plugin.js"() {
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/default/debug-proxy-errors-plugin.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/default/debug-proxy-errors-plugin.js
 import { styleText } from "node:util";
 function hasParsedBody(req) {
   return Boolean(req && req.method === "POST" && "body" in req && req.body);
 }
 var debug3, BODY_PARSER_ERROR_MESSAGE, debugProxyErrorsPlugin;
 var init_debug_proxy_errors_plugin = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/default/debug-proxy-errors-plugin.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/default/debug-proxy-errors-plugin.js"() {
     init_debug2();
     init_define_plugin();
     debug3 = Debug.extend("debug-proxy-errors-plugin");
@@ -140873,7 +141136,7 @@ var init_debug_proxy_errors_plugin = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/status-code.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/status-code.js
 function getStatusCode(errorCode) {
   let statusCode;
   if (/HPE_INVALID/.test(errorCode)) {
@@ -140898,20 +141161,20 @@ function getStatusCode(errorCode) {
   return statusCode;
 }
 var init_status_code = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/status-code.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/status-code.js"() {
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/utils/sanitize.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/utils/sanitize.js
 function sanitize(input) {
   return input?.replace(/[<>]/g, (i) => encodeURIComponent(i)) ?? "";
 }
 var init_sanitize = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/utils/sanitize.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/utils/sanitize.js"() {
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/default/error-response-plugin.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/default/error-response-plugin.js
 function isResponseLike2(obj) {
   return obj && typeof obj.writeHead === "function";
 }
@@ -140920,7 +141183,7 @@ function isSocketLike(obj) {
 }
 var errorResponsePlugin;
 var init_error_response_plugin = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/default/error-response-plugin.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/default/error-response-plugin.js"() {
     init_status_code();
     init_sanitize();
     init_define_plugin();
@@ -140944,13 +141207,13 @@ var init_error_response_plugin = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/logger.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/logger.js
 function getLogger(options) {
   return options.logger || noopLogger2;
 }
 var noopLogger2;
 var init_logger5 = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/logger.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/logger.js"() {
     noopLogger2 = {
       info: () => {
       },
@@ -140962,7 +141225,7 @@ var init_logger5 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/utils/create-url.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/utils/create-url.js
 import { URL as URL3 } from "url";
 function createUrl({ protocol, host, port: port2, path: path2 }) {
   const ipv6Host = host?.includes(":") ? `[${host}]` : host;
@@ -140977,24 +141240,24 @@ function createUrl({ protocol, host, port: port2, path: path2 }) {
   return url;
 }
 var init_create_url = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/utils/create-url.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/utils/create-url.js"() {
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/utils/logger-plugin.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/utils/logger-plugin.js
 function getPort5(sockets) {
   return Object.keys(sockets || {})?.[0]?.split(":")[1];
 }
 var init_logger_plugin = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/utils/logger-plugin.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/utils/logger-plugin.js"() {
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/default/logger-plugin.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/default/logger-plugin.js
 import { URL as URL4 } from "node:url";
 var loggerPlugin;
 var init_logger_plugin2 = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/default/logger-plugin.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/default/logger-plugin.js"() {
     init_logger5();
     init_create_url();
     init_logger_plugin();
@@ -141035,19 +141298,19 @@ var init_logger_plugin2 = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/utils/function.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/utils/function.js
 function getFunctionName2(fn) {
   return fn.name || "[anonymous Function]";
 }
 var init_function2 = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/utils/function.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/utils/function.js"() {
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/default/proxy-events.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/default/proxy-events.js
 var debug4, proxyEventsPlugin;
 var init_proxy_events = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/default/proxy-events.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/default/proxy-events.js"() {
     init_debug2();
     init_function2();
     init_define_plugin();
@@ -141071,9 +141334,9 @@ var init_proxy_events = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/default/index.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/default/index.js
 var init_default = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/default/index.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/default/index.js"() {
     init_debug_proxy_errors_plugin();
     init_error_response_plugin();
     init_logger_plugin2();
@@ -141081,7 +141344,7 @@ var init_default = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/get-plugins.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/get-plugins.js
 function getPlugins(options) {
   const maybeErrorResponsePlugin = options.on?.error ? [] : [errorResponsePlugin];
   const defaultPlugins = options.ejectPlugins ? [] : [debugProxyErrorsPlugin, proxyEventsPlugin, loggerPlugin, ...maybeErrorResponsePlugin];
@@ -141089,7 +141352,7 @@ function getPlugins(options) {
   return [...defaultPlugins, ...userPlugins];
 }
 var init_get_plugins = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/get-plugins.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/get-plugins.js"() {
     init_default();
   }
 });
@@ -141242,9 +141505,9 @@ var require_is_glob = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/utils.js
+// ../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/utils.js
 var require_utils10 = __commonJS({
-  "../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/utils.js"(exports) {
+  "../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/utils.js"(exports) {
     "use strict";
     exports.isInteger = (num) => {
       if (typeof num === "number") {
@@ -141324,9 +141587,9 @@ var require_utils10 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/stringify.js
+// ../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/stringify.js
 var require_stringify2 = __commonJS({
-  "../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/stringify.js"(exports, module2) {
+  "../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/stringify.js"(exports, module2) {
     "use strict";
     var utils = require_utils10();
     module2.exports = (ast, options = {}) => {
@@ -141776,9 +142039,9 @@ var require_fill_range = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/compile.js
+// ../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/compile.js
 var require_compile = __commonJS({
-  "../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/compile.js"(exports, module2) {
+  "../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/compile.js"(exports, module2) {
     "use strict";
     var fill2 = require_fill_range();
     var utils = require_utils10();
@@ -141828,9 +142091,9 @@ var require_compile = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/expand.js
+// ../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/expand.js
 var require_expand = __commonJS({
-  "../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/expand.js"(exports, module2) {
+  "../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/expand.js"(exports, module2) {
     "use strict";
     var fill2 = require_fill_range();
     var stringify3 = require_stringify2();
@@ -141922,9 +142185,9 @@ var require_expand = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/constants.js
+// ../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/constants.js
 var require_constants4 = __commonJS({
-  "../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/constants.js"(exports, module2) {
+  "../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/constants.js"(exports, module2) {
     "use strict";
     module2.exports = {
       MAX_LENGTH: 1e4,
@@ -142023,9 +142286,9 @@ var require_constants4 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/parse.js
+// ../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/parse.js
 var require_parse2 = __commonJS({
-  "../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/lib/parse.js"(exports, module2) {
+  "../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/lib/parse.js"(exports, module2) {
     "use strict";
     var stringify3 = require_stringify2();
     var {
@@ -142057,6 +142320,7 @@ var require_parse2 = __commonJS({
       CHAR_NO_BREAK_SPACE,
       CHAR_ZERO_WIDTH_NOBREAK_SPACE
     } = require_constants4();
+    var MAX_NESTING_DEPTH = 100;
     var parse3 = (input, options = {}) => {
       if (typeof input !== "string") {
         throw new TypeError("Expected a string");
@@ -142129,6 +142393,9 @@ var require_parse2 = __commonJS({
           continue;
         }
         if (value === CHAR_LEFT_PARENTHESES) {
+          if (stack.length > MAX_NESTING_DEPTH) {
+            throw new SyntaxError(`Input exceeds maximum nesting depth (${MAX_NESTING_DEPTH})`);
+          }
           block = push({ type: "paren", nodes: [] });
           stack.push(block);
           push({ type: "text", value });
@@ -142165,6 +142432,9 @@ var require_parse2 = __commonJS({
           continue;
         }
         if (value === CHAR_LEFT_CURLY_BRACE) {
+          if (stack.length > MAX_NESTING_DEPTH) {
+            throw new SyntaxError(`Input exceeds maximum nesting depth (${MAX_NESTING_DEPTH})`);
+          }
           depth++;
           const dollar = prev.value && prev.value.slice(-1) === "$" || block.dollar === true;
           const brace = {
@@ -142261,9 +142531,9 @@ var require_parse2 = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/index.js
+// ../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/index.js
 var require_braces = __commonJS({
-  "../../node_modules/.pnpm/braces@3.0.3/node_modules/braces/index.js"(exports, module2) {
+  "../../node_modules/.pnpm/braces@3.0.3_patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04/node_modules/braces/index.js"(exports, module2) {
     "use strict";
     var stringify3 = require_stringify2();
     var compile = require_compile();
@@ -144228,7 +144498,7 @@ var require_micromatch = __commonJS({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/path-filter.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/path-filter.js
 function matchPathFilter(pathFilter = "/", uri, req) {
   if (isStringPath(pathFilter)) {
     return matchSingleStringPath(pathFilter, uri);
@@ -144284,7 +144554,7 @@ function isGlobPath(pathFilter) {
 }
 var import_is_glob, import_micromatch;
 var init_path_filter = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/path-filter.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/path-filter.js"() {
     import_is_glob = __toESM(require_is_glob(), 1);
     import_micromatch = __toESM(require_micromatch(), 1);
     init_errors6();
@@ -144304,7 +144574,7 @@ var init_is_plain_obj = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/path-rewriter.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/path-rewriter.js
 function createPathRewriter(rewriteConfig) {
   let rulesCache;
   if (!isValidRewriteConfig(rewriteConfig)) {
@@ -144355,7 +144625,7 @@ function parsePathRewriteRules(rewriteConfig) {
 }
 var debug5;
 var init_path_rewriter = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/path-rewriter.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/path-rewriter.js"() {
     init_is_plain_obj();
     init_debug2();
     init_errors6();
@@ -144363,7 +144633,7 @@ var init_path_rewriter = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/router.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/router.js
 async function getTarget(req, res, config2) {
   let newTarget;
   const router9 = config2.router;
@@ -144416,14 +144686,14 @@ function splitHostAndPathKey(v) {
 }
 var debug6;
 var init_router = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/router.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/router.js"() {
     init_is_plain_obj();
     init_debug2();
     debug6 = Debug.extend("router");
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/utils/ipv6.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/utils/ipv6.js
 function normalizeIPv6LiteralTargets(options) {
   options.target = normalizeIPv6ProxyTarget(options.target, "target");
   options.forward = normalizeIPv6ProxyTarget(options.forward, "forward");
@@ -144469,16 +144739,16 @@ function normalizeIPv6DestinationHostname(hostname3) {
 }
 var debug7;
 var init_ipv6 = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/utils/ipv6.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/utils/ipv6.js"() {
     init_debug2();
     debug7 = Debug.extend("ipv6");
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/http-proxy-middleware.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/http-proxy-middleware.js
 var HttpProxyMiddleware;
 var init_http_proxy_middleware = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/http-proxy-middleware.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/http-proxy-middleware.js"() {
     init_dist3();
     init_configuration();
     init_debug2();
@@ -144636,67 +144906,67 @@ var init_http_proxy_middleware = __esm({
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/factory.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/factory.js
 function createProxyMiddleware(options) {
   const { middleware } = new HttpProxyMiddleware(options);
   return middleware;
 }
 var init_factory = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/factory.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/factory.js"() {
     init_http_proxy_middleware();
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/handlers/response-interceptor.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/handlers/response-interceptor.js
 var debug8;
 var init_response_interceptor = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/handlers/response-interceptor.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/handlers/response-interceptor.js"() {
     init_debug2();
     init_function2();
     debug8 = Debug.extend("response-interceptor");
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/handlers/fix-request-body-utils/stringify-form-data.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/handlers/fix-request-body-utils/stringify-form-data.js
 var init_stringify_form_data = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/handlers/fix-request-body-utils/stringify-form-data.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/handlers/fix-request-body-utils/stringify-form-data.js"() {
     init_errors6();
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/handlers/fix-request-body.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/handlers/fix-request-body.js
 var init_fix_request_body = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/handlers/fix-request-body.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/handlers/fix-request-body.js"() {
     init_stringify_form_data();
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/handlers/public.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/handlers/public.js
 var init_public = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/handlers/public.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/handlers/public.js"() {
     init_response_interceptor();
     init_fix_request_body();
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/handlers/index.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/handlers/index.js
 var init_handlers3 = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/handlers/index.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/handlers/index.js"() {
     init_public();
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/index.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/index.js
 var init_plugins = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/plugins/index.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/plugins/index.js"() {
     init_define_plugin();
     init_default();
   }
 });
 
-// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/index.js
+// ../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/index.js
 var init_dist4 = __esm({
-  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0/node_modules/http-proxy-middleware/dist/index.js"() {
+  "../../node_modules/.pnpm/http-proxy-middleware@4.2.0_supports-color@8.1.1/node_modules/http-proxy-middleware/dist/index.js"() {
     init_factory();
     init_handlers3();
     init_plugins();
@@ -145223,6 +145493,7 @@ serve-static/index.js:
    * MIT Licensed
    *)
 
+engine.io/build/contrib/base64id.js:
 base64id/lib/base64id.js:
   (*!
    * base64id v0.1.0
