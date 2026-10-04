@@ -1,0 +1,40 @@
+diff --git a/index.js b/index.js
+index f01e9a16b4781dc24c8f43dc7a4c8e6d1e4ae5eb..ec578206fb172b303eb4e38413a63511677080fd 100644
+--- a/index.js
++++ b/index.js
+@@ -484,17 +484,29 @@ module.exports = class CachePolicy {
+             return true;
+         }
+ 
+-        // A Vary header field-value of "*" always fails to match
+-        if (this._resHeaders.vary === '*') {
+-            return false;
+-        }
+-
+         const fields = this._resHeaders.vary
+             .trim()
+             .toLowerCase()
+             .split(/\s*,\s*/);
++
+         for (const name of fields) {
+-            if (req.headers[name] !== this._reqHeaders[name]) return false;
++            if (name === '*') {
++                return false;
++            }
++
++            const newReq = Object.prototype.hasOwnProperty.call(
++                req.headers,
++                name
++            ) && req.headers[name];
++
++            const cachedReq = Object.prototype.hasOwnProperty.call(
++                this._reqHeaders,
++                name
++            ) && this._reqHeaders[name];
++
++            if (newReq !== cachedReq) {
++                return false;
++            }
+         }
+         return true;
+     }
