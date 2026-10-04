@@ -22,7 +22,7 @@
     "typecheck:e2e": "pnpm -w run typecheck:libs && tsc -p e2e/tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@clerk/backend": "^3.16.13",
+    "@clerk/backend": "^3.21.1",
     "@clerk/express": "^2.1.64",
     "@clerk/shared": "^4.30.2",
     "@sentry/node": "^10.71.0",
