@@ -333,8 +333,8 @@ importers:
         specifier: ^15.1.1
         version: 15.1.1(expo-font@57.0.4)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       '@react-native-async-storage/async-storage':
-        specifier: 2.2.0
-        version: 2.2.0(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))
+        specifier: 3.1.1
+        version: 3.1.1(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       '@react-native/jest-preset':
         specifier: 0.86.3
         version: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1)
@@ -2520,10 +2520,11 @@ packages:
     peerDependencies:
       react-native: ^0.0.0-0 || >=0.60 <1.0
 
-  '@react-native-async-storage/async-storage@2.2.0':
-    resolution: {integrity: sha512-gvRvjR5JAaUZF8tv2Kcq/Gbt3JHwbKFYfmb445rhOj6NUMx3qPLixmDx5pZAyb9at1bYvJ4/eTUipU5aki45xw==}
+  '@react-native-async-storage/async-storage@3.1.1':
+    resolution: {integrity: sha512-z+PnLz1n6ECKhgoHZHkfc+dijXZEyZnNFSajbtE0NEbsJhmX8x9GlOeiMQIKX2E4DUqPSgfIh4FYBv1M49KgPQ==}
     peerDependencies:
-      react-native: ^0.0.0-0 || >=0.65 <1.0
+      react: '*'
+      react-native: '*'
 
   '@react-native-masked-view/masked-view@0.3.2':
     resolution: {integrity: sha512-XwuQoW7/GEgWRMovOQtX3A4PrXhyaZm0lVUiY8qJDvdngjLms9Cpdck6SmGAUNqQwcj2EadHC1HwL0bEyoa/SQ==}
@@ -5219,6 +5220,9 @@ packages:
 
   idb-keyval@6.2.1:
     resolution: {integrity: sha512-8Sb3veuYCyrZL+VBt9LJfZjLUPWVvqn8tG28VqYNFCo43KHcKuq+b4EiXGeuaLAQWL2YmyDgMp2aSpH9JHsEQg==}
+
+  idb@8.0.3:
+    resolution: {integrity: sha512-LtwtVyVYO5BqRvcsKuB2iUMnHwPVByPCXFXOpuU96IZPPoPN6xjOGxZQ74pgSVVLQWtUOYgyeL4GE98BY5D3wg==}
 
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
@@ -9156,24 +9160,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@orval/core@8.27.0(supports-color@8.1.1)(typescript@6.0.3)':
-    dependencies:
-      '@scalar/openapi-types': 0.9.4
-      acorn: 8.16.0
-      compare-versions: 6.1.1
-      debug: 4.4.3(supports-color@8.1.1)
-      esbuild: 0.28.2
-      esutils: 2.0.3
-      fs-extra: 11.3.5
-      jiti: 2.7.0
-      jsesc: 3.1.0
-      remeda: 2.34.0
-      tinyglobby: 0.2.16
-      typedoc: 0.28.19(typescript@6.0.3)
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
-
   '@orval/effect@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
@@ -9191,13 +9177,13 @@ snapshots:
       - supports-color
       - typescript
 
-  '@orval/hono@8.27.0(supports-color@8.1.1)(typescript@6.0.3)':
+  '@orval/hono@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
-      '@orval/zod': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/zod': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       fs-extra: 11.3.5
     optionalDependencies:
-      typescript: 6.0.3
+      typescript: 5.9.3
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
@@ -9251,16 +9237,6 @@ snapshots:
   '@orval/zod@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      jsesc: 3.1.0
-      remeda: 2.34.0
-    transitivePeerDependencies:
-      - '@faker-js/faker'
-      - supports-color
-      - typescript
-
-  '@orval/zod@8.27.0(supports-color@8.1.1)(typescript@6.0.3)':
-    dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
       jsesc: 3.1.0
       remeda: 2.34.0
     transitivePeerDependencies:
@@ -9981,9 +9957,10 @@ snapshots:
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
     optional: true
 
-  '@react-native-async-storage/async-storage@2.2.0(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))':
+  '@react-native-async-storage/async-storage@3.1.1(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)':
     dependencies:
-      merge-options: 3.0.4
+      idb: 8.0.3
+      react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
 
   '@react-native-masked-view/masked-view@0.3.2(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)':
@@ -13036,6 +13013,8 @@ snapshots:
 
   idb-keyval@6.2.1: {}
 
+  idb@8.0.3: {}
+
   ieee754@1.2.1: {}
 
   ignore@5.3.2: {}
@@ -13103,7 +13082,8 @@ snapshots:
 
   is-number@7.0.0: {}
 
-  is-plain-obj@2.1.0: {}
+  is-plain-obj@2.1.0:
+    optional: true
 
   is-plain-obj@4.1.0: {}
 
@@ -13754,6 +13734,7 @@ snapshots:
   merge-options@3.0.4:
     dependencies:
       is-plain-obj: 2.1.0
+    optional: true
 
   merge-stream@2.0.0: {}
 
@@ -14282,7 +14263,7 @@ snapshots:
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/effect': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/fetch': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      '@orval/hono': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
+      '@orval/hono': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/mcp': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/mock': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/query': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
@@ -14302,9 +14283,9 @@ snapshots:
       js-yaml: 4.3.2
       remeda: 2.34.0
       string-argv: 0.3.2
-      typedoc: 0.28.19(typescript@6.0.3)
-      typedoc-plugin-coverage: 4.0.3(typedoc@0.28.19(typescript@6.0.3))
-      typedoc-plugin-markdown: 4.11.0(typedoc@0.28.19(typescript@6.0.3))
+      typedoc: 0.28.19(typescript@5.9.3)
+      typedoc-plugin-coverage: 4.0.3(typedoc@0.28.19(typescript@5.9.3))
+      typedoc-plugin-markdown: 4.11.0(typedoc@0.28.19(typescript@5.9.3))
     optionalDependencies:
       prettier: 3.9.6
     transitivePeerDependencies:
@@ -15479,13 +15460,13 @@ snapshots:
       media-typer: 1.1.0
       mime-types: 3.0.2
 
-  typedoc-plugin-coverage@4.0.3(typedoc@0.28.19(typescript@6.0.3)):
+  typedoc-plugin-coverage@4.0.3(typedoc@0.28.19(typescript@5.9.3)):
     dependencies:
-      typedoc: 0.28.19(typescript@6.0.3)
+      typedoc: 0.28.19(typescript@5.9.3)
 
-  typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@6.0.3)):
+  typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@5.9.3)):
     dependencies:
-      typedoc: 0.28.19(typescript@6.0.3)
+      typedoc: 0.28.19(typescript@5.9.3)
 
   typedoc@0.28.19(typescript@5.9.3):
     dependencies:
@@ -15494,15 +15475,6 @@ snapshots:
       markdown-it: 14.3.1
       minimatch: 10.2.5
       typescript: 5.9.3
-      yaml: 2.9.0
-
-  typedoc@0.28.19(typescript@6.0.3):
-    dependencies:
-      '@gerrit0/mini-shiki': 3.23.0
-      lunr: 2.3.9
-      markdown-it: 14.3.1
-      minimatch: 10.2.5
-      typescript: 6.0.3
       yaml: 2.9.0
 
   typescript@5.9.3: {}
