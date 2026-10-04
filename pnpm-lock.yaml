@@ -606,8 +606,8 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1(@types/react-dom@19.2.7(@types/react@19.2.18))(@types/react@19.2.18)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       date-fns:
-        specifier: ^3.6.0
-        version: 3.6.0
+        specifier: ^4.4.0
+        version: 4.4.0
       embla-carousel-react:
         specifier: ^8.6.0
         version: 8.6.0(react@19.2.3)
@@ -4232,11 +4232,8 @@ packages:
   date-fns-jalali@4.1.0-0:
     resolution: {integrity: sha512-hTIP/z+t+qKwBDcmmsnmjWTduxCg+5KfdqWQvb2X/8C9+knYY6epN/pfxdDuyVlSVeFz0sM5eEfwIUQ70U4ckg==}
 
-  date-fns@3.6.0:
-    resolution: {integrity: sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==}
-
-  date-fns@4.1.0:
-    resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
+  date-fns@4.4.0:
+    resolution: {integrity: sha512-+1UMbeh68lH1SegH83CGWwpb6OHHbpSgr3+s5Eww5M4CAgswBpoWS0AjTOfEJ33HiYKz1hdj/KTFprzXHmq/6w==}
 
   dateformat@4.6.3:
     resolution: {integrity: sha512-2P0p0pFGzHS5EMnhdxQi7aJN+iMheud0UhG4dlE1DLAlvL8JHjJJTX/CSm4JXwV0Ka5nGk3zC5mcb5bUQUxxMA==}
@@ -9156,24 +9153,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@orval/core@8.27.0(supports-color@8.1.1)(typescript@6.0.3)':
-    dependencies:
-      '@scalar/openapi-types': 0.9.4
-      acorn: 8.16.0
-      compare-versions: 6.1.1
-      debug: 4.4.3(supports-color@8.1.1)
-      esbuild: 0.28.2
-      esutils: 2.0.3
-      fs-extra: 11.3.5
-      jiti: 2.7.0
-      jsesc: 3.1.0
-      remeda: 2.34.0
-      tinyglobby: 0.2.16
-      typedoc: 0.28.19(typescript@6.0.3)
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
-
   '@orval/effect@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
@@ -9191,13 +9170,13 @@ snapshots:
       - supports-color
       - typescript
 
-  '@orval/hono@8.27.0(supports-color@8.1.1)(typescript@6.0.3)':
+  '@orval/hono@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
-      '@orval/zod': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/zod': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       fs-extra: 11.3.5
     optionalDependencies:
-      typescript: 6.0.3
+      typescript: 5.9.3
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
@@ -9251,16 +9230,6 @@ snapshots:
   '@orval/zod@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      jsesc: 3.1.0
-      remeda: 2.34.0
-    transitivePeerDependencies:
-      - '@faker-js/faker'
-      - supports-color
-      - typescript
-
-  '@orval/zod@8.27.0(supports-color@8.1.1)(typescript@6.0.3)':
-    dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
       jsesc: 3.1.0
       remeda: 2.34.0
     transitivePeerDependencies:
@@ -12067,9 +12036,7 @@ snapshots:
 
   date-fns-jalali@4.1.0-0: {}
 
-  date-fns@3.6.0: {}
-
-  date-fns@4.1.0: {}
+  date-fns@4.4.0: {}
 
   dateformat@4.6.3: {}
 
@@ -14282,7 +14249,7 @@ snapshots:
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/effect': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/fetch': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      '@orval/hono': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
+      '@orval/hono': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/mcp': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/mock': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/query': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
@@ -14302,9 +14269,9 @@ snapshots:
       js-yaml: 4.3.2
       remeda: 2.34.0
       string-argv: 0.3.2
-      typedoc: 0.28.19(typescript@6.0.3)
-      typedoc-plugin-coverage: 4.0.3(typedoc@0.28.19(typescript@6.0.3))
-      typedoc-plugin-markdown: 4.11.0(typedoc@0.28.19(typescript@6.0.3))
+      typedoc: 0.28.19(typescript@5.9.3)
+      typedoc-plugin-coverage: 4.0.3(typedoc@0.28.19(typescript@5.9.3))
+      typedoc-plugin-markdown: 4.11.0(typedoc@0.28.19(typescript@5.9.3))
     optionalDependencies:
       prettier: 3.9.6
     transitivePeerDependencies:
@@ -14648,7 +14615,7 @@ snapshots:
     dependencies:
       '@date-fns/tz': 1.4.1
       '@tabby_ai/hijri-converter': 1.0.5
-      date-fns: 4.1.0
+      date-fns: 4.4.0
       date-fns-jalali: 4.1.0-0
       react: 19.2.3
 
@@ -15479,13 +15446,13 @@ snapshots:
       media-typer: 1.1.0
       mime-types: 3.0.2
 
-  typedoc-plugin-coverage@4.0.3(typedoc@0.28.19(typescript@6.0.3)):
+  typedoc-plugin-coverage@4.0.3(typedoc@0.28.19(typescript@5.9.3)):
     dependencies:
-      typedoc: 0.28.19(typescript@6.0.3)
+      typedoc: 0.28.19(typescript@5.9.3)
 
-  typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@6.0.3)):
+  typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@5.9.3)):
     dependencies:
-      typedoc: 0.28.19(typescript@6.0.3)
+      typedoc: 0.28.19(typescript@5.9.3)
 
   typedoc@0.28.19(typescript@5.9.3):
     dependencies:
@@ -15494,15 +15461,6 @@ snapshots:
       markdown-it: 14.3.1
       minimatch: 10.2.5
       typescript: 5.9.3
-      yaml: 2.9.0
-
-  typedoc@0.28.19(typescript@6.0.3):
-    dependencies:
-      '@gerrit0/mini-shiki': 3.23.0
-      lunr: 2.3.9
-      markdown-it: 14.3.1
-      minimatch: 10.2.5
-      typescript: 6.0.3
       yaml: 2.9.0
 
   typescript@5.9.3: {}
