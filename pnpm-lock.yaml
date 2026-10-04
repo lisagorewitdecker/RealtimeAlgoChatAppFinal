@@ -415,7 +415,7 @@ importers:
         version: 57.0.20(expo@57.0.25)(supports-color@8.1.1)(typescript@6.0.3)
       expo-router:
         specifier: ~57.0.23
-        version: 57.0.23(bc097c5f92146d261808adef14249909)
+        version: 57.0.23(5d9c4f1a0f653c7e8a3ba6253460b2fa)
       expo-secure-store:
         specifier: ~57.0.4
         version: 57.0.4(expo@57.0.25)
@@ -465,8 +465,8 @@ importers:
         specifier: ~5.7.0
         version: 5.7.0(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       react-native-screens:
-        specifier: ~4.26.2
-        version: 4.26.2(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
+        specifier: ~4.28.0
+        version: 4.28.0(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       react-native-svg:
         specifier: 15.15.4
         version: 15.15.4(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
@@ -6508,8 +6508,8 @@ packages:
       react: '*'
       react-native: '*'
 
-  react-native-screens@4.26.2:
-    resolution: {integrity: sha512-2XnWsZToKj76trGtEZzx5ELD/qOICFEprEeUntImmitQFVUkea27fiWdUSITArI356Y1qynpXZINW+Unbhky/A==}
+  react-native-screens@4.28.0:
+    resolution: {integrity: sha512-0/79Z8RCibuaAHti+DJ2Dq0m6UFWh4+p1bH58K3cjiQ7IDWs5kU9tCAj4lXcJMHHonbF2mIE2BeaPSEvOpIiFg==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -8472,7 +8472,7 @@ snapshots:
       ws: 8.21.0(bufferutil@4.1.0)(utf-8-validate@6.0.6)
       zod: 3.25.76
     optionalDependencies:
-      expo-router: 57.0.23(bc097c5f92146d261808adef14249909)
+      expo-router: 57.0.23(5d9c4f1a0f653c7e8a3ba6253460b2fa)
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@expo/metro-runtime'
@@ -8762,7 +8762,7 @@ snapshots:
       react: 19.2.3
     optionalDependencies:
       '@expo/metro-runtime': 57.0.16(expo@57.0.25)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
-      expo-router: 57.0.23(bc097c5f92146d261808adef14249909)
+      expo-router: 57.0.23(5d9c4f1a0f653c7e8a3ba6253460b2fa)
       react-dom: 19.2.3(react@19.2.3)
     transitivePeerDependencies:
       - supports-color
@@ -9156,24 +9156,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@orval/core@8.27.0(supports-color@8.1.1)(typescript@6.0.3)':
-    dependencies:
-      '@scalar/openapi-types': 0.9.4
-      acorn: 8.16.0
-      compare-versions: 6.1.1
-      debug: 4.4.3(supports-color@8.1.1)
-      esbuild: 0.28.2
-      esutils: 2.0.3
-      fs-extra: 11.3.5
-      jiti: 2.7.0
-      jsesc: 3.1.0
-      remeda: 2.34.0
-      tinyglobby: 0.2.16
-      typedoc: 0.28.19(typescript@6.0.3)
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
-
   '@orval/effect@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
@@ -9191,13 +9173,13 @@ snapshots:
       - supports-color
       - typescript
 
-  '@orval/hono@8.27.0(supports-color@8.1.1)(typescript@6.0.3)':
+  '@orval/hono@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
-      '@orval/zod': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
+      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
+      '@orval/zod': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       fs-extra: 11.3.5
     optionalDependencies:
-      typescript: 6.0.3
+      typescript: 5.9.3
     transitivePeerDependencies:
       - '@faker-js/faker'
       - supports-color
@@ -9251,16 +9233,6 @@ snapshots:
   '@orval/zod@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      jsesc: 3.1.0
-      remeda: 2.34.0
-    transitivePeerDependencies:
-      - '@faker-js/faker'
-      - supports-color
-      - typescript
-
-  '@orval/zod@8.27.0(supports-color@8.1.1)(typescript@6.0.3)':
-    dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
       jsesc: 3.1.0
       remeda: 2.34.0
     transitivePeerDependencies:
@@ -12519,7 +12491,7 @@ snapshots:
     dependencies:
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
 
-  expo-router@57.0.23(bc097c5f92146d261808adef14249909):
+  expo-router@57.0.23(5d9c4f1a0f653c7e8a3ba6253460b2fa):
     dependencies:
       '@expo/log-box': 57.0.4(expo@57.0.25)(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       '@expo/metro-runtime': 57.0.16(expo@57.0.25)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
@@ -12548,7 +12520,7 @@ snapshots:
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
       react-native-drawer-layout: 4.2.10(40b41f33260f5f576b70a7d042591d0c)
       react-native-safe-area-context: 5.7.0(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
-      react-native-screens: 4.26.2(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
+      react-native-screens: 4.28.0(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3)
       server-only: 0.0.1
       sf-symbols-typescript: 2.2.0
       shallowequal: 1.1.0
@@ -14282,7 +14254,7 @@ snapshots:
       '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/effect': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/fetch': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      '@orval/hono': 8.27.0(supports-color@8.1.1)(typescript@6.0.3)
+      '@orval/hono': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/mcp': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/mock': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
       '@orval/query': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
@@ -14302,9 +14274,9 @@ snapshots:
       js-yaml: 4.3.2
       remeda: 2.34.0
       string-argv: 0.3.2
-      typedoc: 0.28.19(typescript@6.0.3)
-      typedoc-plugin-coverage: 4.0.3(typedoc@0.28.19(typescript@6.0.3))
-      typedoc-plugin-markdown: 4.11.0(typedoc@0.28.19(typescript@6.0.3))
+      typedoc: 0.28.19(typescript@5.9.3)
+      typedoc-plugin-coverage: 4.0.3(typedoc@0.28.19(typescript@5.9.3))
+      typedoc-plugin-markdown: 4.11.0(typedoc@0.28.19(typescript@5.9.3))
     optionalDependencies:
       prettier: 3.9.6
     transitivePeerDependencies:
@@ -14724,7 +14696,7 @@ snapshots:
       react: 19.2.3
       react-native: 0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1)
 
-  react-native-screens@4.26.2(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3):
+  react-native-screens@4.28.0(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.2.3)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.2.18)(bufferutil@4.1.0)(react@19.2.3)(supports-color@8.1.1))(react@19.2.3):
     dependencies:
       react: 19.2.3
       react-freeze: 1.0.4(react@19.2.3)
@@ -15479,13 +15451,13 @@ snapshots:
       media-typer: 1.1.0
       mime-types: 3.0.2
 
-  typedoc-plugin-coverage@4.0.3(typedoc@0.28.19(typescript@6.0.3)):
+  typedoc-plugin-coverage@4.0.3(typedoc@0.28.19(typescript@5.9.3)):
     dependencies:
-      typedoc: 0.28.19(typescript@6.0.3)
+      typedoc: 0.28.19(typescript@5.9.3)
 
-  typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@6.0.3)):
+  typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@5.9.3)):
     dependencies:
-      typedoc: 0.28.19(typescript@6.0.3)
+      typedoc: 0.28.19(typescript@5.9.3)
 
   typedoc@0.28.19(typescript@5.9.3):
     dependencies:
@@ -15494,15 +15466,6 @@ snapshots:
       markdown-it: 14.3.1
       minimatch: 10.2.5
       typescript: 5.9.3
-      yaml: 2.9.0
-
-  typedoc@0.28.19(typescript@6.0.3):
-    dependencies:
-      '@gerrit0/mini-shiki': 3.23.0
-      lunr: 2.3.9
-      markdown-it: 14.3.1
-      minimatch: 10.2.5
-      typescript: 6.0.3
       yaml: 2.9.0
 
   typescript@5.9.3: {}
