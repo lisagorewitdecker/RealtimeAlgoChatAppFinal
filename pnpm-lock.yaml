@@ -16789,9 +16789,6 @@ snapshots:
   typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@5.9.3)):
     dependencies:
       typedoc: 0.28.19(typescript@5.9.3)
-    dependencies:
-      typedoc: 0.28.19(typescript@5.9.3)
-    dependencies:
   typedoc-plugin-coverage@4.0.3(typedoc@0.28.19(typescript@7.0.2)):
     dependencies:
       typedoc: 0.28.19(typescript@7.0.2)
