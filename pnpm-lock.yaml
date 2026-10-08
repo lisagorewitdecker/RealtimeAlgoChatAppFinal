@@ -9808,7 +9808,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@orval/effect@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
   '@orval/effect@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
   '@orval/effect@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
     dependencies:
