@@ -9836,12 +9836,6 @@ snapshots:
       - '@faker-js/faker'
       - supports-color
 
-  '@orval/hono@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
-    dependencies:
-      '@orval/core': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      '@orval/zod': 8.27.0(supports-color@8.1.1)(typescript@5.9.3)
-      fs-extra: 11.3.5
-    optionalDependencies:
   '@orval/mcp@8.27.0(supports-color@8.1.1)(typescript@5.9.3)':
   '@orval/hono@8.27.0(supports-color@8.1.1)(typescript@7.0.2)':
     dependencies:
