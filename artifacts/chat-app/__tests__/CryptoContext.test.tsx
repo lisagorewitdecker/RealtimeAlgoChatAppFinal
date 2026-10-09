@@ -90,7 +90,8 @@ describe("CryptoProvider", () => {
 
   it("does not expose a room key when persistence fails", async () => {
     await renderCryptoProvider();
-    const storeSet = jest.requireMock("expo-secure-store").setItemAsync as jest.Mock;
+    const storeSet = jest.requireMock("expo-secure-store")
+      .setItemAsync as jest.Mock;
     storeSet.mockRejectedValueOnce(new Error("Storage unavailable"));
     const roomKey = new Uint8Array(nacl.secretbox.keyLength).fill(7);
 

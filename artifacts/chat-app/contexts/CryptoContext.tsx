@@ -150,7 +150,7 @@ export function CryptoProvider({
           kp = nacl.box.keyPair();
           await secureSet(
             DEVICE_KEYPAIR_KEY,
-            JSON.stringify({ secretKey: encodeBase64(kp.secretKey) })
+            JSON.stringify({ secretKey: encodeBase64(kp.secretKey) }),
           );
         }
         setKeypair(kp);
@@ -160,11 +160,14 @@ export function CryptoProvider({
           const kp = nacl.box.keyPair();
           await secureSet(
             DEVICE_KEYPAIR_KEY,
-            JSON.stringify({ secretKey: encodeBase64(kp.secretKey) })
+            JSON.stringify({ secretKey: encodeBase64(kp.secretKey) }),
           );
           setKeypair(kp);
         } catch (storageError) {
-          console.error("[Crypto] Unable to persist device keypair:", storageError);
+          console.error(
+            "[Crypto] Unable to persist device keypair:",
+            storageError,
+          );
         }
       }
     })();
