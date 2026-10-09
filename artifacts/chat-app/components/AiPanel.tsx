@@ -116,6 +116,7 @@ export default function AiPanel({ roomId: _roomId }: Props) {
           // ignore malformed SSE line
           return;
         }
+        if (!data || typeof data !== "object") return;
         if (data.error) throw new Error(data.error);
         if (data.content) {
           accumulated += data.content;
