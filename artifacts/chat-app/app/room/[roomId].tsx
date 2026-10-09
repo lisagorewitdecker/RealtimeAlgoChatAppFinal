@@ -105,6 +105,7 @@ export default function RoomScreen() {
   const [roomBanned, setRoomBanned] = useState(false);
   const [roomClosed, setRoomClosed] = useState(false);
   const [roomReady, setRoomReady] = useState(false);
+  const [secureRoomError, setSecureRoomError] = useState(false);
   const pendingMessagesRef = useRef<EncryptedMessage[]>([]);
   const inputRef = useRef<TextInput>(null);
 
@@ -160,40 +161,44 @@ export default function RoomScreen() {
         senderPublicKey: string;
       };
     }) {
-      await loadRoomKey(roomId);
-      let roomKey = getRoomKey(roomId);
-      if (!roomKey && data.roomKeyEnvelope) {
-        roomKey = decryptRoomKeyEnvelope(
-          data.roomKeyEnvelope.ciphertext,
-          data.roomKeyEnvelope.nonce,
-          data.roomKeyEnvelope.senderPublicKey,
-        );
-        if (roomKey) await setRoomKey(roomId, roomKey);
-      }
-      if (!roomKey && data.canInitializeKey) {
-        roomKey = await generateRoomKey(roomId);
-        const envelope = encryptRoomKey(roomKey, publicKeyB64);
-        if (envelope) {
-          socket?.emit("room-key-share", {
-            roomId,
-            userId,
-            ciphertext: envelope.ciphertextB64,
-            nonce: envelope.nonceB64,
-            senderPublicKey: publicKeyB64,
-          });
+      try {
+        await loadRoomKey(roomId);
+        let roomKey = getRoomKey(roomId);
+        if (!roomKey && data.roomKeyEnvelope) {
+          roomKey = decryptRoomKeyEnvelope(
+            data.roomKeyEnvelope.ciphertext,
+            data.roomKeyEnvelope.nonce,
+            data.roomKeyEnvelope.senderPublicKey,
+          );
+          if (roomKey) await setRoomKey(roomId, roomKey);
         }
+        if (!roomKey && data.canInitializeKey) {
+          roomKey = await generateRoomKey(roomId);
+          const envelope = encryptRoomKey(roomKey, publicKeyB64);
+          if (envelope) {
+            socket?.emit("room-key-share", {
+              roomId,
+              userId,
+              ciphertext: envelope.ciphertextB64,
+              nonce: envelope.nonceB64,
+              senderPublicKey: publicKeyB64,
+            });
+          }
+        }
+        setRoomReady(true);
+        setMessages(
+          roomKey
+            ? data.messages
+                .map(decryptTransportMessage)
+                .filter((message): message is Message => message !== null)
+            : [],
+        );
+        setUsers(data.users);
+        setIsRoomCreator(data.isRoomCreator === true);
+        setCanClose(data.canClose === true);
+      } catch {
+        setSecureRoomError(true);
       }
-      setRoomReady(true);
-      setMessages(
-        roomKey
-          ? data.messages
-              .map(decryptTransportMessage)
-              .filter((message): message is Message => message !== null)
-          : [],
-      );
-      setUsers(data.users);
-      setIsRoomCreator(data.isRoomCreator === true);
-      setCanClose(data.canClose === true);
     }
     function onMessage(msg: EncryptedMessage) {
       const decrypted = decryptTransportMessage(msg);
@@ -230,19 +235,23 @@ export default function RoomScreen() {
       nonce: string;
       senderPublicKey: string;
     }) {
-      if (data.roomId !== roomId || getRoomKey(roomId)) return;
-      const roomKey = decryptRoomKeyEnvelope(
-        data.ciphertext,
-        data.nonce,
-        data.senderPublicKey,
-      );
-      if (!roomKey) return;
-      await setRoomKey(roomId, roomKey);
-      const pending = pendingMessagesRef.current.splice(0);
-      const decrypted = pending
-        .map(decryptTransportMessage)
-        .filter((message): message is Message => message !== null);
-      if (decrypted.length) setMessages((prev) => [...prev, ...decrypted]);
+      try {
+        if (data.roomId !== roomId || getRoomKey(roomId)) return;
+        const roomKey = decryptRoomKeyEnvelope(
+          data.ciphertext,
+          data.nonce,
+          data.senderPublicKey,
+        );
+        if (!roomKey) return;
+        await setRoomKey(roomId, roomKey);
+        const pending = pendingMessagesRef.current.splice(0);
+        const decrypted = pending
+          .map(decryptTransportMessage)
+          .filter((message): message is Message => message !== null);
+        if (decrypted.length) setMessages((prev) => [...prev, ...decrypted]);
+      } catch {
+        setSecureRoomError(true);
+      }
     }
     function onRoomKeyNeeded(data: {
       roomId: string;
@@ -515,6 +524,45 @@ export default function RoomScreen() {
         </Text>
         <Text style={[styles.blockedDescription, { color: colors.mutedForeground }]}>
           This room was permanently closed and can no longer be joined.
+        </Text>
+        <TouchableOpacity
+          testID="return-to-room-list-button"
+          accessibilityRole="button"
+          accessibilityLabel="Return to room list"
+          onPress={() => router.replace("/(tabs)" as never)}
+          style={[styles.blockedButton, { backgroundColor: colors.primary }]}
+        >
+          <Text style={[styles.blockedButtonText, { color: colors.primaryForeground }]}>
+            Return to room list
+          </Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }
+
+  if (secureRoomError) {
+    return (
+      <View
+        testID="secure-room-error"
+        accessibilityRole="alert"
+        style={[
+          styles.blockedRoot,
+          {
+            backgroundColor: colors.background,
+            paddingTop: headerTop + 24,
+            paddingBottom: statusScreenBottomPadding,
+          },
+        ]}
+      >
+        <Feather name="lock" size={40} color={colors.destructive} />
+        <Text
+          accessibilityRole="header"
+          style={[styles.blockedTitle, { color: colors.foreground }]}
+        >
+          Secure room unavailable
+        </Text>
+        <Text style={[styles.blockedDescription, { color: colors.mutedForeground }]}>
+          The room key could not be stored securely. No messages were exposed.
         </Text>
         <TouchableOpacity
           testID="return-to-room-list-button"
