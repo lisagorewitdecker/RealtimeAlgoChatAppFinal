@@ -105,25 +105,28 @@ export default function AiPanel({ roomId: _roomId }: Props) {
           ? rawLine.slice(0, -1)
           : rawLine;
         if (!line.startsWith("data: ")) return;
+        let data: { content?: string; done?: boolean; error?: string };
         try {
-          const data = JSON.parse(line.slice(6)) as {
+          data = JSON.parse(line.slice(6)) as {
             content?: string;
             done?: boolean;
             error?: string;
           };
-          if (data.error) throw new Error(data.error);
-          if (data.content) {
-            accumulated += data.content;
-            setMessages((prev) =>
-              prev.map((m) =>
-                m.id === assistantId
-                  ? { ...m, content: accumulated, pending: false }
-                  : m,
-              ),
-            );
-          }
-        } catch (parseErr) {
+        } catch {
           // ignore malformed SSE line
+          return;
+        }
+        if (!data || typeof data !== "object") return;
+        if (data.error) throw new Error(data.error);
+        if (data.content) {
+          accumulated += data.content;
+          setMessages((prev) =>
+            prev.map((m) =>
+              m.id === assistantId
+                ? { ...m, content: accumulated, pending: false }
+                : m,
+            ),
+          );
         }
       };
 

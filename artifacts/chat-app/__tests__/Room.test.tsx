@@ -21,6 +21,9 @@ const mockSocket = {
 };
 const mockGetToken = jest.fn();
 const mockRefreshAdminAccess = jest.fn();
+const mockLoadRoomKey = jest.fn(async () => undefined);
+const mockSetRoomKey = jest.fn(async () => undefined);
+const mockDecryptRoomKeyEnvelope = jest.fn((): Uint8Array | null => null);
 
 jest.mock("@expo/vector-icons", () => ({
   Feather: () => null,
@@ -96,12 +99,12 @@ jest.mock("@/contexts/CryptoContext", () => ({
   useCrypto: () => ({
     isReady: true,
     publicKeyB64: "public-key",
-    loadRoomKey: jest.fn(async () => undefined),
+    loadRoomKey: mockLoadRoomKey,
     getRoomKey: jest.fn(() => null),
     generateRoomKey: jest.fn(),
     encryptRoomKey: jest.fn(),
-    decryptRoomKeyEnvelope: jest.fn(),
-    setRoomKey: jest.fn(),
+    decryptRoomKeyEnvelope: mockDecryptRoomKeyEnvelope,
+    setRoomKey: mockSetRoomKey,
     decryptMessage: jest.fn(),
     encryptMessage: jest.fn(),
   }),
@@ -127,6 +130,9 @@ describe("room ban handling", () => {
     mockSocket.off.mockClear();
     mockSocket.emit.mockClear();
     mockGetToken.mockReset().mockResolvedValue("clerk-token");
+    mockLoadRoomKey.mockReset().mockResolvedValue(undefined);
+    mockSetRoomKey.mockReset().mockResolvedValue(undefined);
+    mockDecryptRoomKeyEnvelope.mockReset().mockReturnValue(null);
     globalThis.fetch = jest.fn().mockResolvedValue({
       ok: true,
       json: jest.fn().mockResolvedValue({ ok: true }),
@@ -168,6 +174,51 @@ describe("room ban handling", () => {
 
     expect(queryByTestId("room-loading")).toBeNull();
     expect(getByTestId("room-back-button")).toBeTruthy();
+  });
+
+  it("shows a secure-room error when loading the persisted key fails", async () => {
+    mockLoadRoomKey.mockRejectedValueOnce(new Error("Storage unavailable"));
+    const { getByTestId, getByText, queryByTestId } = render(<RoomScreen />);
+
+    await act(async () => {
+      await mockHandlers.get("room-joined")?.({
+        messages: [],
+        users: [],
+      });
+    });
+
+    expect(getByTestId("secure-room-error")).toBeTruthy();
+    expect(getByText("Secure room unavailable")).toBeTruthy();
+    expect(
+      getByText(
+        "The room key could not be stored securely. No messages were exposed.",
+      ),
+    ).toBeTruthy();
+    expect(queryByTestId("room-header")).toBeNull();
+  });
+
+  it("shows a secure-room error when storing a received key fails", async () => {
+    mockDecryptRoomKeyEnvelope.mockReturnValueOnce(new Uint8Array(32));
+    mockSetRoomKey.mockRejectedValueOnce(new Error("Storage unavailable"));
+    const { getByTestId, queryByTestId } = render(<RoomScreen />);
+
+    await act(async () => {
+      await mockHandlers.get("room-joined")?.({
+        messages: [],
+        users: [],
+      });
+    });
+    await act(async () => {
+      await mockHandlers.get("room-key-envelope")?.({
+        roomId: "room-42",
+        ciphertext: "ciphertext",
+        nonce: "nonce",
+        senderPublicKey: "sender-key",
+      });
+    });
+
+    expect(getByTestId("secure-room-error")).toBeTruthy();
+    expect(queryByTestId("room-header")).toBeNull();
   });
 
   it("lets a room creator confirm and ban another member", async () => {

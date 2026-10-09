@@ -38,20 +38,14 @@ nacl.setPRNG((target: Uint8Array, length: number) => {
 
 async function secureGet(key: string): Promise<string | null> {
   if (Platform.OS === "web") {
-    try {
-      return localStorage.getItem(key);
-    } catch {
-      return null;
-    }
+    return localStorage.getItem(key);
   }
   return SecureStore.getItemAsync(key);
 }
 
 async function secureSet(key: string, value: string): Promise<void> {
   if (Platform.OS === "web") {
-    try {
-      localStorage.setItem(key, value);
-    } catch {}
+    localStorage.setItem(key, value);
     return;
   }
   await SecureStore.setItemAsync(key, value);
@@ -156,20 +150,25 @@ export function CryptoProvider({
           kp = nacl.box.keyPair();
           await secureSet(
             DEVICE_KEYPAIR_KEY,
-            JSON.stringify({ secretKey: encodeBase64(kp.secretKey) })
+            JSON.stringify({ secretKey: encodeBase64(kp.secretKey) }),
           );
         }
         setKeypair(kp);
       } catch (e) {
         console.warn("[Crypto] Failed to load keypair, generating fresh:", e);
-        const kp = nacl.box.keyPair();
         try {
+          const kp = nacl.box.keyPair();
           await secureSet(
             DEVICE_KEYPAIR_KEY,
-            JSON.stringify({ secretKey: encodeBase64(kp.secretKey) })
+            JSON.stringify({ secretKey: encodeBase64(kp.secretKey) }),
           );
-        } catch {}
-        setKeypair(kp);
+          setKeypair(kp);
+        } catch (storageError) {
+          console.error(
+            "[Crypto] Unable to persist device keypair:",
+            storageError,
+          );
+        }
       }
     })();
   }, []);
@@ -345,21 +344,15 @@ export function CryptoProvider({
   );
 
   const setRoomKey = useCallback(async (roomId: string, key: Uint8Array) => {
+    const storedIndex = await secureGet(ROOM_KEY_INDEX_KEY);
+    const roomIds = new Set<string>(
+      storedIndex ? (JSON.parse(storedIndex) as string[]) : [],
+    );
+    roomIds.add(roomId);
+    await secureSet(ROOM_KEY_INDEX_KEY, JSON.stringify([...roomIds]));
+    await secureSet(`devstudio_roomkey_${roomId}`, encodeBase64(key));
     roomKeysRef.current.set(roomId, key);
     setRoomKeysVersion((v) => v + 1);
-    // Persist to SecureStore
-    try {
-      await secureSet(
-        `devstudio_roomkey_${roomId}`,
-        encodeBase64(key)
-      );
-      const storedIndex = await secureGet(ROOM_KEY_INDEX_KEY);
-      const roomIds = new Set<string>(
-        storedIndex ? (JSON.parse(storedIndex) as string[]) : [],
-      );
-      roomIds.add(roomId);
-      await secureSet(ROOM_KEY_INDEX_KEY, JSON.stringify([...roomIds]));
-    } catch {}
   }, []);
 
   const getRoomKey = useCallback((roomId: string): Uint8Array | null => {
@@ -382,19 +375,17 @@ export function CryptoProvider({
 
   const loadRoomKey = useCallback(async (roomId: string): Promise<void> => {
     if (roomKeysRef.current.has(roomId)) return;
-    try {
-      const stored = await secureGet(`devstudio_roomkey_${roomId}`);
-      if (stored) {
-        roomKeysRef.current.set(roomId, decodeBase64(stored));
-        setRoomKeysVersion((v) => v + 1);
-        const storedIndex = await secureGet(ROOM_KEY_INDEX_KEY);
-        const roomIds = new Set<string>(
-          storedIndex ? (JSON.parse(storedIndex) as string[]) : [],
-        );
-        roomIds.add(roomId);
-        await secureSet(ROOM_KEY_INDEX_KEY, JSON.stringify([...roomIds]));
-      }
-    } catch {}
+    const stored = await secureGet(`devstudio_roomkey_${roomId}`);
+    if (!stored) return;
+    const key = decodeBase64(stored);
+    const storedIndex = await secureGet(ROOM_KEY_INDEX_KEY);
+    const roomIds = new Set<string>(
+      storedIndex ? (JSON.parse(storedIndex) as string[]) : [],
+    );
+    roomIds.add(roomId);
+    await secureSet(ROOM_KEY_INDEX_KEY, JSON.stringify([...roomIds]));
+    roomKeysRef.current.set(roomId, key);
+    setRoomKeysVersion((v) => v + 1);
   }, []);
 
   const clearLocalKeys = useCallback(async (): Promise<void> => {

@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { build as esbuild } from "esbuild";
 import esbuildPluginPino from "esbuild-plugin-pino";
-import { rm } from "node:fs/promises";
+import { mkdtemp, rename, rm } from "node:fs/promises";
 
 // Plugins (e.g. 'esbuild-plugin-pino') may use `require` to resolve dependencies
 globalThis.require = createRequire(import.meta.url);
@@ -12,14 +12,15 @@ const artifactDir = path.dirname(fileURLToPath(import.meta.url));
 
 async function buildAll() {
   const distDir = path.resolve(artifactDir, "dist");
-  await rm(distDir, { recursive: true, force: true });
+  const stagingDir = await mkdtemp(path.join(artifactDir, ".dist-staging-"));
+  const backupDir = path.resolve(artifactDir, `.dist-backup-${process.pid}`);
 
   await esbuild({
     entryPoints: [path.resolve(artifactDir, "src/index.ts")],
     platform: "node",
     bundle: true,
     format: "esm",
-    outdir: distDir,
+    outdir: stagingDir,
     outExtension: { ".js": ".mjs" },
     logLevel: "info",
     // Some packages may not be bundleable, so we externalize them, we can add more here as needed.
@@ -103,7 +104,7 @@ async function buildAll() {
     sourcemap: "linked",
     plugins: [
       // pino relies on workers to handle logging, instead of externalizing it we use a plugin to handle it
-      esbuildPluginPino({ transports: ["pino-pretty"] })
+      esbuildPluginPino({ transports: ["pino-pretty"] }),
     ],
     // Make sure packages that are cjs only (e.g. express) but are bundled continue to work in our esm output file
     banner: {
@@ -116,7 +117,36 @@ globalThis.__filename = __bannerUrl.fileURLToPath(import.meta.url);
 globalThis.__dirname = __bannerPath.dirname(globalThis.__filename);
     `,
     },
+  }).catch(async (error) => {
+    await rm(stagingDir, { recursive: true, force: true });
+    throw error;
   });
+
+  let backedUp = false;
+  let promoted = false;
+  try {
+    await rm(backupDir, { recursive: true, force: true });
+    try {
+      await rename(distDir, backupDir);
+      backedUp = true;
+    } catch (error) {
+      if (
+        !error ||
+        typeof error !== "object" ||
+        !("code" in error) ||
+        error.code !== "ENOENT"
+      ) {
+        throw error;
+      }
+    }
+    await rename(stagingDir, distDir);
+    promoted = true;
+  } catch (error) {
+    await rm(stagingDir, { recursive: true, force: true });
+    if (backedUp && !promoted) await rename(backupDir, distDir);
+    throw error;
+  }
+  if (backedUp) await rm(backupDir, { recursive: true, force: true });
 }
 
 buildAll().catch((err) => {
