@@ -202,6 +202,38 @@ describe("AI assistant send control accessibility colors", () => {
     ).toBe(true);
   });
 
+  it("shows assistant stream errors instead of leaving the pending indicator", async () => {
+    const stream = new TextEncoder().encode(
+      'data: {"error":"Assistant is temporarily unavailable"}\n\n',
+    );
+    const fetchMock = jest.fn().mockResolvedValue({
+      ok: true,
+      body: {
+        getReader: () => ({
+          read: jest
+            .fn()
+            .mockResolvedValueOnce({ done: false, value: stream })
+            .mockResolvedValueOnce({ done: true }),
+        }),
+      },
+    });
+    globalThis.fetch = fetchMock as jest.Mock;
+    const { getByLabelText, findByText, queryByText } = render(
+      <AiPanel roomId="room-42" />,
+    );
+
+    fireEvent.changeText(
+      getByLabelText("Ask AI a coding question"),
+      "Explain this code",
+    );
+    fireEvent.press(getByLabelText("Send question to AI"));
+
+    expect(
+      await findByText("Error: Assistant is temporarily unavailable"),
+    ).toBeTruthy();
+    expect(queryByText("Thinking…")).toBeNull();
+  });
+
   it("keeps the normal-mode send foregrounds unchanged", () => {
     const { getByLabelText, getByText } = render(
       <AiPanel roomId="room-42" />,
