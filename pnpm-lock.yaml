@@ -179,7 +179,7 @@ packageExtensionsChecksum: sha256-Ma9cYwas7PdjZkW6X2fPnhlhbC6+uWu/LcWMQ7mJuNI=
 
 patchedDependencies:
   braces@3.0.3: 8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04
-  http-cache-semantics@4.2.0: 36d87449a42ec5b994402b0ce89d21fee0dcfc1f05c07dc34f41e345d9548f65
+  http-cache-semantics@4.2.0: 6f799dfafee2907883287121393856509b91c10e7be3a4cb7a24ad6257812fcc
   node-forge@1.4.0: b7c83f1048de1fed7b79ea126641c8d7cd7a27fed66c77062e9a92b8b9e01800
 
 importers:
@@ -11180,7 +11180,7 @@ snapshots:
     dependencies:
       clone-response: 1.0.3
       get-stream: 5.2.0
-      http-cache-semantics: 4.2.0(patch_hash=36d87449a42ec5b994402b0ce89d21fee0dcfc1f05c07dc34f41e345d9548f65)
+      http-cache-semantics: 4.2.0(patch_hash=6f799dfafee2907883287121393856509b91c10e7be3a4cb7a24ad6257812fcc)
       keyv: 4.5.4
       lowercase-keys: 2.0.0
       normalize-url: 6.1.0
@@ -12415,7 +12415,7 @@ snapshots:
 
   html-escaper@2.0.2: {}
 
-  http-cache-semantics@4.2.0(patch_hash=36d87449a42ec5b994402b0ce89d21fee0dcfc1f05c07dc34f41e345d9548f65): {}
+  http-cache-semantics@4.2.0(patch_hash=6f799dfafee2907883287121393856509b91c10e7be3a4cb7a24ad6257812fcc): {}
 
   http-errors@2.0.1:
     dependencies:
