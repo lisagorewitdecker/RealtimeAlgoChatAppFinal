@@ -51,7 +51,7 @@ test("max-stale cannot override shared-cache reuse restrictions", () => {
   const restrictedResponses = [
     {
       headers: {
-        "cache-control": "public, max-age=600",
+        "cache-control": "max-age=600",
         "set-cookie": "session=alice",
       },
     },
@@ -64,7 +64,11 @@ test("max-stale cannot override shared-cache reuse restrictions", () => {
   for (const response of restrictedResponses) {
     const policy = new CachePolicy(
       request,
-      { status: 200, ...response },
+      {
+        status: 200,
+        ...response,
+        headers: { age: "601", ...response.headers },
+      },
       { shared: true },
     );
 
