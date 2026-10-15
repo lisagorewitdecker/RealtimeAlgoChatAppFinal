@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@clerk/testing": "2.2.31",
-    "@playwright/test": "1.62.1",
+    "@playwright/test": "1.64.0",
     "@workspace/browser-test-requirements": "workspace:*",
     "@types/cookie-parser": "^1.4.10",
     "@types/cors": "^2.8.19",
