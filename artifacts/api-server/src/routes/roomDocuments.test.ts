@@ -116,9 +116,9 @@ function createBrowserHarness(connected: boolean) {
 }
 
 function inlineScripts(html: string): string[] {
-  return [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script\s*>/gi)].map(
-    (match) => match[1]!,
-  );
+  return [
+    ...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script(?:\s+[^>]*)?>/gi),
+  ].map((match) => match[1]!);
 }
 
 function sandboxArguments(roomId = "test-room") {
