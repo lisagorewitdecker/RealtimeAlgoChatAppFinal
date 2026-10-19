@@ -12,7 +12,7 @@ const signingRequire = createRequire(
 );
 const forge = signingRequire("node-forge");
 
-test("RSA verification rejects extra DigestAlgorithm elements", () => {
+test("RSA verification rejects non-canonical DigestAlgorithm parameters", () => {
   const keyPair = forge.pki.rsa.generateKeyPair({ bits: 512, e: 3 });
   const asn1 = forge.asn1;
   const validSigningDigest = forge.md.sha256.create();
@@ -44,8 +44,7 @@ test("RSA verification rejects extra DigestAlgorithm elements", () => {
         false,
         asn1.oidToDer(forge.pki.oids.sha256).getBytes(),
       ),
-      asn1.create(asn1.Class.UNIVERSAL, asn1.Type.NULL, false, ""),
-      asn1.create(asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, []),
+      asn1.create(asn1.Class.UNIVERSAL, asn1.Type.NULL, false, "ab"),
     ],
   );
   const digestInfo = asn1.create(

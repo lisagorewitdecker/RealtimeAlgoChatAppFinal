@@ -1,15 +1,57 @@
 diff --git a/lib/rsa.js b/lib/rsa.js
-index a4264822b4dcd6dca44ca3e59e410c982eed7183..267e5804da38782cac19b1c966057d5536439f92 100644
 --- a/lib/rsa.js
 +++ b/lib/rsa.js
-@@ -1172,7 +1172,9 @@ pki.setRsaPublicKey = pki.rsa.setPublicKey = function(n, e) {
+@@ -299,4 +299,30 @@ var digestInfoValidator = {
+     constructed: false,
+     capture: 'digest'
+   }]
+ };
++
++/**
++ * DER-encodes a DigestInfo value from a digest algorithm OID and digest.
++ *
++ * @param oid the digest algorithm OID as a dotted string.
++ * @param digest the digest value as a binary-encoded string.
++ * @param includeParameters true to include the empty NULL parameters field.
++ *
++ * @return the DER-encoded DigestInfo as a binary-encoded string.
++ */
++var _encodeDigestInfo = function(oid, digest, includeParameters) {
++  var digestAlgorithm = [asn1.create(
++    asn1.Class.UNIVERSAL, asn1.Type.OID, false,
++    asn1.oidToDer(oid).getBytes())];
++  if(includeParameters) {
++    digestAlgorithm.push(asn1.create(
++      asn1.Class.UNIVERSAL, asn1.Type.NULL, false, ''));
++  }
++  return asn1.toDer(asn1.create(
++    asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, [
++      asn1.create(
++        asn1.Class.UNIVERSAL, asn1.Type.SEQUENCE, true, digestAlgorithm),
++      asn1.create(
++        asn1.Class.UNIVERSAL, asn1.Type.OCTETSTRING, false, digest)
++    ])).getBytes();
++};
+@@ -1171,8 +1197,7 @@ pki.setRsaPublicKey = pki.rsa.setPublicKey = function(n, e) {
+-          // validate DigestInfo structure and element count
++          // Validate the structure before checking its canonical encoding.
            var capture = {};
            var errors = [];
-           if(!asn1.validate(obj, digestInfoValidator, capture, errors) ||
+-          if(!asn1.validate(obj, digestInfoValidator, capture, errors) ||
 -            obj.value.length !== 2) {
-+            obj.value.length !== 2 ||
-+            obj.value[0].value.length < 1 ||
-+            obj.value[0].value.length > 2) {
++          if(!asn1.validate(obj, digestInfoValidator, capture, errors)) {
              var error = new Error(
                'ASN.1 object does not contain a valid RSASSA-PKCS1-v1_5 ' +
                'DigestInfo value.');
+@@ -1211,2 +1236,11 @@ pki.setRsaPublicKey = pki.rsa.setPublicKey = function(n, e) {
++          var expected = ('parameters' in capture) ?
++            _encodeDigestInfo(oid, capture.digest, true) :
++            _encodeDigestInfo(oid, capture.digest, false);
++          if(d.substring(0, expected.length) !== expected) {
++            throw new Error(
++              'ASN.1 object does not contain a valid RSASSA-PKCS1-v1_5 ' +
++              'DigestInfo value.');
++          }
++
+           // compare the given digest to the decrypted one
+           return digest === capture.digest;
