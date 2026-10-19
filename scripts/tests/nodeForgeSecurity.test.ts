@@ -44,7 +44,7 @@ test("RSA verification rejects non-canonical DigestAlgorithm parameters", () => 
         false,
         asn1.oidToDer(forge.pki.oids.sha256).getBytes(),
       ),
-      asn1.create(asn1.Class.UNIVERSAL, asn1.Type.NULL, false, "attacker data"),
+      asn1.create(asn1.Class.UNIVERSAL, asn1.Type.NULL, false, "ab"),
     ],
   );
   const digestInfo = asn1.create(
