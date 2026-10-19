@@ -1,8 +1,8 @@
 diff --git a/index.js b/index.js
-index f01e9a16b4781dc24c8f43dc7a4c8e6d1e4ae5eb..0000000000000000000000000000000000000000 100644
+index 56c26025074cbcf218e3ec4d810662da93f8024e..774f9e39dfa768fcdb51702a151dd0c90b384664 100644
 --- a/index.js
 +++ b/index.js
-@@ -394,8 +394,8 @@ module.exports = class CachePolicy {
+@@ -395,8 +395,8 @@ module.exports = class CachePolicy {
      evaluateRequest(req) {
          this._assertRequestHasHeaders(req);
  
@@ -13,49 +13,11 @@ index f01e9a16b4781dc24c8f43dc7a4c8e6d1e4ae5eb..00000000000000000000000000000000
              return this._evaluateRequestMissResult(req);
          }
  
-@@ -484,17 +484,29 @@ module.exports = class CachePolicy {
-             return true;
-         }
- 
--        // A Vary header field-value of "*" always fails to match
--        if (this._resHeaders.vary === '*') {
--            return false;
--        }
--
-         const fields = this._resHeaders.vary
-             .trim()
-             .toLowerCase()
-             .split(/\s*,\s*/);
-+
-         for (const name of fields) {
--            if (req.headers[name] !== this._reqHeaders[name]) return false;
-+            if (name === '*') {
-+                return false;
-+            }
-+
-+            const newReq = Object.prototype.hasOwnProperty.call(
-+                req.headers,
-+                name
-+            ) && req.headers[name];
-+
-+            const cachedReq = Object.prototype.hasOwnProperty.call(
-+                this._reqHeaders,
-+                name
-+            ) && this._reqHeaders[name];
-+
-+            if (newReq !== cachedReq) {
-+                return false;
-+            }
-         }
-         return true;
-     }
-@@ -587,7 +599,23 @@ module.exports = class CachePolicy {
-     _ageValue() {
+@@ -610,6 +610,20 @@ module.exports = class CachePolicy {
          return toNumberOrZero(this._resHeaders.age);
      }
  
 +    /**
-+     * Distinguishes reuse restrictions from ordinary expiration.
 +     * @returns {boolean} Whether this response must not be reused without validation.
 +     */
 +    _requiresRevalidation() {
@@ -64,7 +26,6 @@ index f01e9a16b4781dc24c8f43dc7a4c8e6d1e4ae5eb..00000000000000000000000000000000
 +            this._rescc['no-cache'] ||
 +            (this._isShared &&
 +                (this._rescc['proxy-revalidate'] ||
-+                    // Sharing responses with cookies requires an explicit public opt-in.
 +                    (this._resHeaders['set-cookie'] &&
 +                        !this._rescc.public)))
 +        );
@@ -73,7 +34,7 @@ index f01e9a16b4781dc24c8f43dc7a4c8e6d1e4ae5eb..00000000000000000000000000000000
      /**
       * Possibly outdated value of applicable max-age (or heuristic equivalent) in seconds.
       * This counts since response's `Date`.
-@@ -597,18 +626,7 @@ module.exports = class CachePolicy {
+@@ -620,18 +634,7 @@ module.exports = class CachePolicy {
       * @returns {number} The max-age value in seconds.
       */
      maxAge() {
@@ -93,7 +54,7 @@ index f01e9a16b4781dc24c8f43dc7a4c8e6d1e4ae5eb..00000000000000000000000000000000
              return 0;
          }
  
-@@ -617,9 +635,6 @@ module.exports = class CachePolicy {
+@@ -640,9 +643,6 @@ module.exports = class CachePolicy {
          }
  
          if (this._isShared) {
