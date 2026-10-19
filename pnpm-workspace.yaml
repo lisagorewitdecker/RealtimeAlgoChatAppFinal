@@ -198,7 +198,7 @@ overrides:
   body-parser: "2.3.0"
   fast-uri: "3.1.8"
   # Carry the upstream fix while preserving the minimum-release-age policy.
-  http-cache-semantics: "4.2.0"
+  http-cache-semantics: "4.3.0"
   # Stay within the versions required by Expo's plist and the newer plist package.
   "@xmldom/xmldom@<0.9.0": "0.8.15"
   "@xmldom/xmldom@>=0.9.0": "0.9.12"
@@ -217,5 +217,5 @@ overrides:
 # Backported fixes for transitive dependencies without an admissible upstream release.
 patchedDependencies:
   braces@3.0.3: patches/braces@3.0.3.patch
-  http-cache-semantics@4.2.0: patches/http-cache-semantics@4.2.0.patch
+  http-cache-semantics@4.3.0: patches/http-cache-semantics@4.3.0.patch
   node-forge@1.4.0: patches/node-forge@1.4.0.patch
