@@ -179,10 +179,8 @@ packageExtensionsChecksum: sha256-Ma9cYwas7PdjZkW6X2fPnhlhbC6+uWu/LcWMQ7mJuNI=
 
 patchedDependencies:
   braces@3.0.3: 8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04
-  http-cache-semantics@4.2.0: 6f799dfafee2907883287121393856509b91c10e7be3a4cb7a24ad6257812fcc
-  node-forge@1.4.0: 3782e23e0c64f2208cfa50a92688dc1ab6ba58e68a77315d1f1e176a1f0f08cc
   http-cache-semantics@4.2.0: e1a2c0fa62c3e90aaf214030b6682505efa4745b123917bedc85a7f32e5748ef
-  node-forge@1.4.0: b7c83f1048de1fed7b79ea126641c8d7cd7a27fed66c77062e9a92b8b9e01800
+  node-forge@1.4.0: 3782e23e0c64f2208cfa50a92688dc1ab6ba58e68a77315d1f1e176a1f0f08cc
 
 importers:
 
