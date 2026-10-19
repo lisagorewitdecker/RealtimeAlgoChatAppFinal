@@ -55,6 +55,12 @@ test("max-stale cannot override shared-cache reuse restrictions", () => {
         "set-cookie": "session=alice",
       },
     },
+    {
+      headers: {
+        "cache-control": "immutable, max-age=600",
+        "set-cookie": "session=alice",
+      },
+    },
     { headers: { "cache-control": "public, max-age=600, proxy-revalidate" } },
     { headers: { "cache-control": "public, max-age=600, no-cache" } },
     { headers: { "cache-control": "public, max-age=600, must-revalidate" } },
