@@ -31,3 +31,31 @@ index 3a6988e629f52aee6609dc5ec290a5e9ff47cecb..abf3f98802bdfbfb87c03358a5e2a61f
        depth++;
  
        const dollar = prev.value && prev.value.slice(-1) === '$' || block.dollar === true;
+diff --git a/lib/compile.js b/lib/compile.js
+index dce69be..ccd9dc3 100644
+--- a/lib/compile.js
++++ b/lib/compile.js
+@@ -7,2 +7,9 @@ const compile = (ast, options = {}) => {
+   const walk = (node, parent = {}) => {
++    let depth = 1;
++    for (let current = parent; current && current.parent; current = current.parent) {
++      depth++;
++    }
++    if (depth > 100) {
++      throw new SyntaxError('Input exceeds maximum nesting depth (100)');
++    }
+     const invalidBlock = utils.isInvalidBrace(parent);
+diff --git a/lib/expand.js b/lib/expand.js
+index 35b2c41..d78db1f 100644
+--- a/lib/expand.js
++++ b/lib/expand.js
+@@ -36,2 +36,9 @@ const expand = (ast, options = {}) => {
+   const walk = (node, parent = {}) => {
++    let depth = 1;
++    for (let current = parent; current && current.parent; current = current.parent) {
++      depth++;
++    }
++    if (depth > 100) {
++      throw new SyntaxError('Input exceeds maximum nesting depth (100)');
++    }
+     node.queue = [];

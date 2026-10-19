@@ -179,6 +179,9 @@ packageExtensionsChecksum: sha256-Ma9cYwas7PdjZkW6X2fPnhlhbC6+uWu/LcWMQ7mJuNI=
 
 patchedDependencies:
   braces@3.0.3: 8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04
+  braces@3.0.3: 21f8975939350a32ea63e72385add32f9fcebf646dbd1f94f7cf8bdfe961de75
+  http-cache-semantics@4.2.0: 6f799dfafee2907883287121393856509b91c10e7be3a4cb7a24ad6257812fcc
+  node-forge@1.4.0: 3782e23e0c64f2208cfa50a92688dc1ab6ba58e68a77315d1f1e176a1f0f08cc
   http-cache-semantics@4.2.0: e1a2c0fa62c3e90aaf214030b6682505efa4745b123917bedc85a7f32e5748ef
   node-forge@1.4.0: 3782e23e0c64f2208cfa50a92688dc1ab6ba58e68a77315d1f1e176a1f0f08cc
 
@@ -11395,7 +11398,7 @@ snapshots:
     dependencies:
       balanced-match: 4.0.4
 
-  braces@3.0.3(patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04):
+  braces@3.0.3(patch_hash=21f8975939350a32ea63e72385add32f9fcebf646dbd1f94f7cf8bdfe961de75):
     dependencies:
       fill-range: 7.1.1
 
@@ -13900,7 +13903,7 @@ snapshots:
 
   micromatch@4.0.8:
     dependencies:
-      braces: 3.0.3(patch_hash=8039f52f53afc2fcb6e5d9494e4e2f690488af67ae1e5399353ce6e4f50e9f04)
+      braces: 3.0.3(patch_hash=21f8975939350a32ea63e72385add32f9fcebf646dbd1f94f7cf8bdfe961de75)
       picomatch: 2.3.2
 
   mime-db@1.52.0: {}
