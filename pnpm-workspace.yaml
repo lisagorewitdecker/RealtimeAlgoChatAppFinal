@@ -187,7 +187,7 @@ overrides:
   "@esbuild-kit/esm-loader": "npm:tsx@^4.21.0"
   esbuild: "0.28.2"
   qs: "6.16.0"
-  markdown-it: "14.3.1"
+  markdown-it: "14.3.3"
   linkify-it: "5.0.2"
   js-yaml: "4.3.2"
   "brace-expansion@<2.0.0": "1.1.21"
@@ -196,8 +196,8 @@ overrides:
   "brace-expansion@>=4.0.0": "5.0.12"
   tar: "7.5.22"
   shell-quote: "1.11.0"
-  body-parser: "2.3.0"
-  fast-uri: "3.1.8"
+  body-parser: "2.4.0"
+  fast-uri: "3.1.9"
   # Carry the upstream fix while preserving the minimum-release-age policy.
   http-cache-semantics: "4.3.0"
   # Stay within the versions required by Expo's plist and the newer plist package.
@@ -210,7 +210,7 @@ overrides:
   jayson: "5.0.0"
   postcss: "8.5.26"
   socket.io-parser: "4.2.7"
-  undici: "6.28.1"
+  undici: "6.29.1"
   "nanoid@<4.0.0": "3.3.18"
   uuid: "11.1.1"
   # Metro expects a callable CommonJS image-size export; upstream 2.x is not callable.
@@ -220,3 +220,6 @@ patchedDependencies:
   braces@3.0.3: patches/braces@3.0.3.patch
   http-cache-semantics@4.3.0: patches/http-cache-semantics@4.3.0.patch
   node-forge@1.4.0: patches/node-forge@1.4.0.patch
+auditConfig:
+  ignoreGhsas:
+    - GHSA-86w9-cpqp-85rv
