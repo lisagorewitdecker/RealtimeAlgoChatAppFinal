@@ -221,5 +221,7 @@ patchedDependencies:
   http-cache-semantics@4.3.0: patches/http-cache-semantics@4.3.0.patch
   node-forge@1.4.0: patches/node-forge@1.4.0.patch
 auditConfig:
+  # Fixed by patches/node-forge@1.4.0.patch; CI must run nodeForgeSecurity.test.ts.
+  # Remove when an upstream release replaces the backport.
   ignoreGhsas:
     - GHSA-86w9-cpqp-85rv
