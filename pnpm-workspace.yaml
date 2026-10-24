@@ -187,7 +187,7 @@ overrides:
   "@esbuild-kit/esm-loader": "npm:tsx@^4.21.0"
   esbuild: "0.28.2"
   qs: "6.16.0"
-  markdown-it: "14.3.1"
+  markdown-it: "14.3.3"
   linkify-it: "5.0.2"
   js-yaml: "4.3.2"
   "brace-expansion@<2.0.0": "1.1.21"
