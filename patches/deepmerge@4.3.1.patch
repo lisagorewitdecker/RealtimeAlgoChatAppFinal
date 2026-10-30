@@ -28,7 +28,7 @@ diff --git a/dist/umd.js b/dist/umd.js
 index 8d72112..c44c312 100644
 --- a/dist/umd.js
 +++ b/dist/umd.js
-@@ -77,4 +77,5 @@ function propertyIsUnsafe(target, key) {
+@@ -77,3 +77,4 @@ function propertyIsUnsafe(target, key) {
 -		return propertyIsOnObject(target, key) // Properties are safe to merge if they don't exist in the target yet,
 -			&& !(Object.hasOwnProperty.call(target, key) // unsafe if they exist up the prototype chain,
 -				&& Object.propertyIsEnumerable.call(target, key)) // and also unsafe if they're nonenumerable.
@@ -36,4 +36,3 @@ index 8d72112..c44c312 100644
 +			|| (propertyIsOnObject(target, key) // Properties are safe to merge if they don't exist in the target yet,
 +				&& !(Object.hasOwnProperty.call(target, key) // unsafe if they exist up the prototype chain,
 +					&& Object.propertyIsEnumerable.call(target, key))) // and also unsafe if they're nonenumerable.
- 	}
