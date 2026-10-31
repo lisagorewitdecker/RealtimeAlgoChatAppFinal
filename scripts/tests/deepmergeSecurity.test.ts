@@ -25,7 +25,7 @@ test("deepmerge does not copy prototype-polluting keys", () => {
   assert.equal(Object.hasOwn(merged, "constructor"), false);
   assert.equal(Object.hasOwn(merged, "prototype"), false);
   assert.equal(({} as Record<string, unknown>).polluted, undefined);
-const deepmerge = configRequire("deepmerge");
+});
 
 test("deepmerge does not poison the prototype with a null-prototype target", () => {
   const source = Object.create(null);
@@ -116,7 +116,6 @@ for (const entry of ["index.js", "dist/cjs.js", "dist/umd.js"]) {
 }
 const expoCliRequire = createRequire(chatAppRequire.resolve("@expo/cli"));
 const expoConfigRequire = createRequire(expoCliRequire.resolve("@expo/config"));
-const cliDeepmerge = expoConfigRequire("deepmerge");
 const expoCliDeepmerge = expoConfigRequire("deepmerge");
 
 test("deepmerge does not allow __proto__ to poison merged object prototypes", () => {
@@ -135,7 +134,6 @@ test("deepmerge does not allow __proto__ to poison merged object prototypes", ()
 test("deepmerge does not use own __proto__ keys to poison merged object prototypes", () => {
   const target = JSON.parse('{"__proto__":{"safe":true}}');
   const source = JSON.parse('{"__proto__":{"injected":true},"retained":true}');
-  const result = cliDeepmerge(target, source);
   const result = expoCliDeepmerge(target, source);
 
   assert.equal(Object.getPrototypeOf(result), Object.prototype);
@@ -146,14 +144,12 @@ test("deepmerge does not use own __proto__ keys to poison merged object prototyp
 test("deepmerge used by Expo CLI ignores __proto__ properties safely", () => {
   const source = JSON.parse('{"__proto__":{"polluted":true}}');
   const target = Object.create(null);
-  const fromSource = cliDeepmerge(target, source);
   const fromSource = expoCliDeepmerge(target, source);
 
   assert.equal(Object.getPrototypeOf(fromSource), Object.prototype);
   assert.equal(Object.hasOwn(fromSource, "__proto__"), false);
   assert.equal(fromSource.polluted, undefined);
 
-  const fromTarget = cliDeepmerge(source, {});
   const fromTarget = expoCliDeepmerge(source, {});
   assert.equal(Object.getPrototypeOf(fromTarget), Object.prototype);
   assert.equal(Object.hasOwn(fromTarget, "__proto__"), false);
