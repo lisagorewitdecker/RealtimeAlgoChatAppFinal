@@ -30,6 +30,5 @@ jobs:
       - name: Verify security backports and dependency regressions
         run: node --test scripts/tests/*Security.test.ts
       - name: Audit all dependencies (fail on low or higher)
-        # Version-only deepmerge/minimatch alerts are covered by mandatory tests above.
-        # Remove these exceptions once compatible fixed releases replace the backports.
+        # Backport and legacy-version exceptions require the security tests above.
         run: pnpm audit --audit-level low

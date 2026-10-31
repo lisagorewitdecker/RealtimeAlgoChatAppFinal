@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { createRequire } from "node:module";
-import { resolve } from "node:path";
+import { dirname, resolve } from "node:path";
 import test from "node:test";
 
 const chatAppRequire = createRequire(
@@ -8,51 +8,65 @@ const chatAppRequire = createRequire(
 );
 const expoRequire = createRequire(chatAppRequire.resolve("expo"));
 const configRequire = createRequire(expoRequire.resolve("@expo/config"));
-const deepmergePath = configRequire.resolve("deepmerge");
+const packageDir = dirname(configRequire.resolve("deepmerge/package.json"));
 
-for (const entry of ["cjs.js", "umd.js"]) {
-  const deepmerge = configRequire(resolve(deepmergePath, "..", entry));
+for (const entry of ["dist/cjs.js", "dist/umd.js"]) {
+  const merge = configRequire(resolve(packageDir, entry));
 
-  test(`deepmerge ${entry} rejects prototype poisoning from targets and sources`, () => {
-    const payload = JSON.parse('{"__proto__":{"polluted":true},"safe":1}');
-    for (const [target, source] of [
-      [payload, {}],
-      [Object.create(null), payload],
-      [payload, payload],
-      [{ nested: payload }, { nested: { other: 2 } }],
-      [[], [payload]],
-    ]) {
-      const result = deepmerge(target, source);
-      const objects = Array.isArray(result) ? result : [result, result.nested];
-      for (const object of objects.filter(Boolean)) {
-        assert.equal(Object.getPrototypeOf(object), Object.prototype);
-        assert.equal(object.polluted, undefined);
-        assert.equal(Object.hasOwn(object, "__proto__"), false);
-      }
+  test(`deepmerge ${entry} ignores prototype-sensitive keys from targets and sources`, () => {
+    for (const key of ["__proto__", "constructor", "prototype"]) {
+      const target = JSON.parse(
+        `{"${key}":{"polluted":true},"kept":{"target":true}}`,
+      );
+      const source = JSON.parse(
+        `{"${key}":{"polluted":true},"kept":{"source":true}}`,
+      );
+      const result = merge(target, source);
+      assert.equal(Object.hasOwn(result, key), false);
+      assert.equal(Object.getPrototypeOf(result), Object.prototype);
+      assert.deepEqual(result.kept, { target: true, source: true });
     }
-    assert.equal(({} as Record<string, unknown>).polluted, undefined);
   });
 
-  test(`deepmerge ${entry} preserves ordinary merge behavior`, () => {
-    const symbol = Symbol("setting");
-    const target = { nested: { a: 1 }, list: [1], [symbol]: { a: 1 } };
-    const source = { nested: { b: 2 }, list: [2], [symbol]: { b: 2 } };
-    const expected = {
-      nested: { a: 1, b: 2 },
-      list: [1, 2],
-      [symbol]: { a: 1, b: 2 },
-    };
-    assert.deepEqual(deepmerge(target, source), expected);
-    assert.deepEqual(deepmerge.all([target, source]), expected);
-    assert.deepEqual(target.nested, { a: 1 });
-    assert.deepEqual(source.nested, { b: 2 });
+  test(`deepmerge ${entry} rejects prototype poisoning from either operand`, () => {
+    const payload = JSON.parse('{"__proto__":{"poisoned":true},"safe":1}');
+    for (const target of [
+      {},
+      payload,
+      Object.assign(Object.create(null), payload),
+    ]) {
+      for (const source of [{}, payload]) {
+        for (const clone of [true, false]) {
+          const result = merge(target, source, { clone });
+          assert.equal(Object.getPrototypeOf(result), Object.prototype);
+          assert.equal(result.poisoned, undefined);
+          assert.equal(Object.hasOwn(result, "__proto__"), false);
+        }
+      }
+    }
+    const nested = merge({}, { nested: payload, array: [payload] });
+    assert.equal(nested.nested.poisoned, undefined);
+    assert.equal(nested.array[0].poisoned, undefined);
+    assert.equal(Object.getPrototypeOf(nested.nested), Object.prototype);
+    assert.equal(Object.getPrototypeOf(nested.array[0]), Object.prototype);
+  });
+
+  test(`deepmerge ${entry} preserves ordinary merges and enumerable symbols`, () => {
+    const symbol = Symbol("key");
     assert.deepEqual(
-      deepmerge(
-        { list: [1] },
-        { list: [2] },
-        { arrayMerge: (_: unknown, s: unknown) => s },
+      merge(
+        { nested: { left: 1 }, array: [1], [symbol]: { left: 1 } },
+        { nested: { right: 2 }, array: [2], [symbol]: { right: 2 } },
       ),
-      { list: [2] },
+      {
+        nested: { left: 1, right: 2 },
+        array: [1, 2],
+        [symbol]: { left: 1, right: 2 },
+      },
     );
+    assert.deepEqual(merge.all([{ left: 1 }, { right: 2 }]), {
+      left: 1,
+      right: 2,
+    });
   });
 }
