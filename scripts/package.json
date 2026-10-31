@@ -19,6 +19,7 @@
   "devDependencies": {
     "@types/node": "catalog:",
     "@workspace/browser-test-requirements": "workspace:*",
+    "markdown-it": "14.3.3",
     "tsx": "catalog:"
   }
 }
