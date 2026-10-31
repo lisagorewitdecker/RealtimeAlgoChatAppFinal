@@ -186,7 +186,7 @@ overrides:
   # drizzle-kit uses esbuild internally on an older version that's vulnerable, this overrides it
   "@esbuild-kit/esm-loader": "npm:tsx@^4.21.0"
   esbuild: "0.28.2"
-  qs: "6.16.0"
+  qs: "6.16.2"
   markdown-it: "14.3.3"
   linkify-it: "5.0.2"
   js-yaml: "4.3.2"
@@ -205,7 +205,9 @@ overrides:
   "@xmldom/xmldom@>=0.9.0": "0.9.12"
   browserslist: "4.28.7"
   baseline-browser-mapping: "2.11.0"
-  decode-uri-component: "0.5.0"
+  decode-uri-component: "0.5.1"
+  node-forge: "1.4.2"
+  "glob@>=9.0.0": "14.0.3"
   # jayson 4 depends on the vulnerable stream-json 1.x API.
   jayson: "5.0.0"
   postcss: "8.5.26"
@@ -219,9 +221,13 @@ overrides:
 patchedDependencies:
   braces@3.0.3: patches/braces@3.0.3.patch
   http-cache-semantics@4.3.0: patches/http-cache-semantics@4.3.0.patch
-  node-forge@1.4.0: patches/node-forge@1.4.0.patch
+  minimatch@10.2.5: patches/minimatch@10.2.5.patch
+  deepmerge@4.3.1: patches/deepmerge@4.3.1.patch
 auditConfig:
-  # Fixed by patches/node-forge@1.4.0.patch; CI must run nodeForgeSecurity.test.ts.
+  # Fixed by patches/deepmerge@4.3.1.patch; CI must run deepmergeSecurity.test.ts.
   # Remove when an upstream release replaces the backport.
   ignoreGhsas:
-    - GHSA-86w9-cpqp-85rv
+    - GHSA-gcqx-w48m-w2h4
+    # Backported for 10; 3.x has no vulnerable preprocessing.
+    # CI verifies every installed minimatch version in minimatchSecurity.test.ts.
+    - GHSA-g3hv-75wg-m249
