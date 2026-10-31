@@ -6,10 +6,8 @@ import test from "node:test";
 const chatAppRequire = createRequire(
   resolve(process.cwd(), "artifacts/chat-app/package.json"),
 );
-const expoRequire = createRequire(chatAppRequire.resolve("expo"));
-const expoConfigRequire = createRequire(
-  expoRequire.resolve("@expo/config"),
-);
+const expoCliRequire = createRequire(chatAppRequire.resolve("@expo/cli"));
+const expoConfigRequire = createRequire(expoCliRequire.resolve("@expo/config"));
 const deepmerge = expoConfigRequire("deepmerge");
 
 test("deepmerge does not use own __proto__ keys to poison merged object prototypes", () => {
@@ -20,11 +18,7 @@ test("deepmerge does not use own __proto__ keys to poison merged object prototyp
   assert.equal(Object.getPrototypeOf(result), Object.prototype);
   assert.equal(Object.hasOwn(result, "injected"), false);
   assert.equal(Object.hasOwn(result, "retained"), true);
-const expoCliRequire = createRequire(chatAppRequire.resolve("@expo/cli"));
-const expoConfigRequire = createRequire(
-  expoCliRequire.resolve("@expo/config"),
-);
-const deepmerge = expoConfigRequire("deepmerge");
+});
 
 test("merging __proto__ properties cannot poison the result prototype", () => {
   const source = JSON.parse('{"__proto__":{"polluted":true}}');

@@ -183,7 +183,6 @@ packageExtensionsChecksum: sha256-Ma9cYwas7PdjZkW6X2fPnhlhbC6+uWu/LcWMQ7mJuNI=
 
 patchedDependencies:
   braces@3.0.3: 21f8975939350a32ea63e72385add32f9fcebf646dbd1f94f7cf8bdfe961de75
-  deepmerge@4.3.1: 409734390365b6b6262f42c811aaa2ed79808f3aade5d715e18ddc2b52e43fa6
   deepmerge@4.3.1: 60bdf6767f420302eafc83a1452a5b1ab97381718f88e8574cf223e7081321ac
   http-cache-semantics@4.3.0: 6939a2c11cd23bb55caebbaa976fdbaf202f05f1363554dbf6efeae4f590c20b
 
@@ -8913,7 +8912,6 @@ snapshots:
       '@expo/config-types': 57.0.2
       '@expo/json-file': 11.0.1
       '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@7.0.2)
-      deepmerge: 4.3.1(patch_hash=409734390365b6b6262f42c811aaa2ed79808f3aade5d715e18ddc2b52e43fa6)
       deepmerge: 4.3.1(patch_hash=60bdf6767f420302eafc83a1452a5b1ab97381718f88e8574cf223e7081321ac)
       getenv: 2.0.0
       glob: 14.0.2
@@ -12674,7 +12672,6 @@ snapshots:
 
   dedent@1.7.2: {}
 
-  deepmerge@4.3.1(patch_hash=409734390365b6b6262f42c811aaa2ed79808f3aade5d715e18ddc2b52e43fa6): {}
   deepmerge@4.3.1(patch_hash=60bdf6767f420302eafc83a1452a5b1ab97381718f88e8574cf223e7081321ac): {}
 
   defaults@1.0.4:
@@ -13772,10 +13769,8 @@ snapshots:
       babel-jest: 30.5.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       chalk: 4.1.2
       ci-info: 4.4.0
-      deepmerge: 4.3.1(patch_hash=409734390365b6b6262f42c811aaa2ed79808f3aade5d715e18ddc2b52e43fa6)
-      glob: 14.0.2
       deepmerge: 4.3.1(patch_hash=60bdf6767f420302eafc83a1452a5b1ab97381718f88e8574cf223e7081321ac)
-      glob: 13.0.6
+      glob: 14.0.2
       graceful-fs: 4.2.11
       jest-circus: 30.5.2(supports-color@8.1.1)
       jest-docblock: 30.5.0

@@ -226,9 +226,6 @@ patchedDependencies:
 auditConfig:
   # Fixed by patches/deepmerge@4.3.1.patch; CI must run deepmergeSecurity.test.ts.
   # Remove when an upstream release replaces the backport.
-  ignoreGhsas:
-    - GHSA-gcqx-w48m-w2h4
-  # Remove when an upstream release replaces the backport.
   # Fixed by patches/node-forge@1.4.0.patch; CI must run nodeForgeSecurity.test.ts.
   # Remove when an upstream release replaces the backport.
   ignoreGhsas:
