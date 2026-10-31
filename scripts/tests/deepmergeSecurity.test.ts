@@ -13,6 +13,21 @@ const packageDir = dirname(configRequire.resolve("deepmerge/package.json"));
 for (const entry of ["dist/cjs.js", "dist/umd.js"]) {
   const merge = configRequire(resolve(packageDir, entry));
 
+  test(`deepmerge ${entry} ignores prototype-sensitive keys from targets and sources`, () => {
+    for (const key of ["__proto__", "constructor", "prototype"]) {
+      const target = JSON.parse(
+        `{"${key}":{"polluted":true},"kept":{"target":true}}`,
+      );
+      const source = JSON.parse(
+        `{"${key}":{"polluted":true},"kept":{"source":true}}`,
+      );
+      const result = merge(target, source);
+      assert.equal(Object.hasOwn(result, key), false);
+      assert.equal(Object.getPrototypeOf(result), Object.prototype);
+      assert.deepEqual(result.kept, { target: true, source: true });
+    }
+  });
+
   test(`deepmerge ${entry} rejects prototype poisoning from either operand`, () => {
     const payload = JSON.parse('{"__proto__":{"poisoned":true},"safe":1}');
     for (const target of [

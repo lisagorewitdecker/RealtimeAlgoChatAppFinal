@@ -183,7 +183,7 @@ packageExtensionsChecksum: sha256-Ma9cYwas7PdjZkW6X2fPnhlhbC6+uWu/LcWMQ7mJuNI=
 
 patchedDependencies:
   braces@3.0.3: 21f8975939350a32ea63e72385add32f9fcebf646dbd1f94f7cf8bdfe961de75
-  deepmerge@4.3.1: 725fbf7d9443c93e1bfeacd0a451f5a4b376a9a813d4d80977ead8cb75cf7980
+  deepmerge@4.3.1: 5ccb523130e22755a0ebee871eceb4ebf23866baf61ae996cf16122ba71055bc
   http-cache-semantics@4.3.0: 6939a2c11cd23bb55caebbaa976fdbaf202f05f1363554dbf6efeae4f590c20b
 
 importers:
@@ -9353,7 +9353,7 @@ snapshots:
       '@expo/config-types': 57.0.2
       '@expo/json-file': 11.0.1
       '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@7.0.2)
-      deepmerge: 4.3.1(patch_hash=725fbf7d9443c93e1bfeacd0a451f5a4b376a9a813d4d80977ead8cb75cf7980)
+      deepmerge: 4.3.1(patch_hash=5ccb523130e22755a0ebee871eceb4ebf23866baf61ae996cf16122ba71055bc)
       getenv: 2.0.0
       glob: 14.0.3
       resolve-workspace-root: 2.0.1
@@ -9370,7 +9370,7 @@ snapshots:
       '@expo/json-file': 11.2.1
       '@expo/platforms': 58.0.1
       '@expo/require-utils': 58.0.5(supports-color@8.1.1)(typescript@7.0.2)
-      deepmerge: 4.3.1(patch_hash=725fbf7d9443c93e1bfeacd0a451f5a4b376a9a813d4d80977ead8cb75cf7980)
+      deepmerge: 4.3.1(patch_hash=5ccb523130e22755a0ebee871eceb4ebf23866baf61ae996cf16122ba71055bc)
       getenv: 2.0.0
       glob: 14.0.3
       resolve-workspace-root: 2.0.1
@@ -13402,7 +13402,7 @@ snapshots:
 
   dedent@1.7.2: {}
 
-  deepmerge@4.3.1(patch_hash=725fbf7d9443c93e1bfeacd0a451f5a4b376a9a813d4d80977ead8cb75cf7980): {}
+  deepmerge@4.3.1(patch_hash=5ccb523130e22755a0ebee871eceb4ebf23866baf61ae996cf16122ba71055bc): {}
 
   defaults@1.0.4:
     dependencies:
@@ -14519,7 +14519,7 @@ snapshots:
       babel-jest: 30.5.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       chalk: 4.1.2
       ci-info: 4.4.0
-      deepmerge: 4.3.1(patch_hash=725fbf7d9443c93e1bfeacd0a451f5a4b376a9a813d4d80977ead8cb75cf7980)
+      deepmerge: 4.3.1(patch_hash=5ccb523130e22755a0ebee871eceb4ebf23866baf61ae996cf16122ba71055bc)
       glob: 14.0.3
       graceful-fs: 4.2.11
       jest-circus: 30.5.2(supports-color@8.1.1)
