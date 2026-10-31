@@ -1,0 +1,36 @@
+diff --git a/index.js b/index.js
+--- a/index.js
++++ b/index.js
+@@ -58,1 +58,4 @@
+-			destination[key] = cloneUnlessOtherwiseSpecified(target[key], options)
++			if (key === '__proto__') {
++				return
++			}
++			destination[key] = cloneUnlessOtherwiseSpecified(target[key], options)
+@@ -62,1 +65,1 @@
+-		if (propertyIsUnsafe(target, key)) {
++		if (key === '__proto__' || propertyIsUnsafe(target, key)) {
+diff --git a/dist/cjs.js b/dist/cjs.js
+--- a/dist/cjs.js
++++ b/dist/cjs.js
+@@ -83,1 +83,4 @@
+-			destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
++			if (key === '__proto__') {
++				return
++			}
++			destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
+@@ -87,1 +90,1 @@
+-		if (propertyIsUnsafe(target, key)) {
++		if (key === '__proto__' || propertyIsUnsafe(target, key)) {
+diff --git a/dist/umd.js b/dist/umd.js
+--- a/dist/umd.js
++++ b/dist/umd.js
+@@ -87,1 +87,4 @@
+-				destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
++				if (key === '__proto__') {
++					return
++				}
++				destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
+@@ -91,1 +94,1 @@
+-			if (propertyIsUnsafe(target, key)) {
++			if (key === '__proto__' || propertyIsUnsafe(target, key)) {
