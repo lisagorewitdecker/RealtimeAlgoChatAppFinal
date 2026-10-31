@@ -209,6 +209,7 @@ overrides:
   node-forge: "1.4.2"
   "glob@>=9.0.0": "14.0.3"
   "minimatch@>=10.0.0 <11.0.0": "10.2.5"
+  "minimatch@>=11.0.0": "11.0.1"
   # jayson 4 depends on the vulnerable stream-json 1.x API.
   jayson: "5.0.0"
   postcss: "8.5.26"
