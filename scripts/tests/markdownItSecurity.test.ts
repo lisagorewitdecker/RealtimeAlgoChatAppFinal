@@ -1,14 +1,18 @@
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
+import { readdirSync } from "node:fs";
 import { createRequire } from "node:module";
 import { resolve } from "node:path";
 import test from "node:test";
 
-const apiSpecRequire = createRequire(
-  resolve(process.cwd(), "lib/api-spec/package.json"),
+const store = resolve(process.cwd(), "node_modules/.pnpm");
+const typedocEntry = readdirSync(store).find((entry) =>
+  entry.startsWith("typedoc@"),
 );
-const orvalRequire = createRequire(apiSpecRequire.resolve("orval"));
-const typedocRequire = createRequire(orvalRequire.resolve("typedoc"));
+assert.ok(typedocEntry, "missing typedoc");
+const typedocRequire = createRequire(
+  resolve(store, typedocEntry, "node_modules/typedoc/package.json"),
+);
 const markdownItPath = typedocRequire.resolve("markdown-it");
 const MarkdownIt = typedocRequire("markdown-it");
 
