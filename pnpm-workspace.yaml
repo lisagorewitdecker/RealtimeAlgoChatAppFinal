@@ -187,7 +187,6 @@ overrides:
   "@esbuild-kit/esm-loader": "npm:tsx@^4.21.0"
   esbuild: "0.28.2"
   "minimatch@<4.0.0": "3.1.5"
-  "minimatch@>=11.0.0": "11.0.1"
   # 6.16.1 fixes GHSA-6pq8-jhm2-2vcw.
   minimatch: "11.0.1"
   "glob@7>minimatch": "3.1.5"

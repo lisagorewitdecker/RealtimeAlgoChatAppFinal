@@ -3,29 +3,11 @@ import { spawnSync } from "node:child_process";
 import { createRequire } from "node:module";
 import test from "node:test";
 
-const apiSpecRequire = createRequire(
-  resolve(process.cwd(), "lib/api-spec/package.json"),
-);
-const orvalRequire = createRequire(apiSpecRequire.resolve("orval"));
-let typedocPath: string | undefined;
-try {
-  typedocPath = orvalRequire.resolve("typedoc");
-} catch (error) {
-  if ((error as NodeJS.ErrnoException).code !== "MODULE_NOT_FOUND") throw error;
-}
-const typedocRequire = typedocPath ? createRequire(typedocPath) : undefined;
-const markdownItPath = typedocRequire?.resolve("markdown-it");
-const MarkdownIt = typedocRequire?.("markdown-it");
-const options = {
-  skip: typedocRequire
-    ? false
-    : "Orval's optional TypeDoc peer is not installed",
-};
 const require = createRequire(import.meta.url);
 const markdownItPath = require.resolve("markdown-it");
 const MarkdownIt = require("markdown-it");
 
-test("markdown-it preserves ordinary smartquote rendering", options, () => {
+test("markdown-it preserves ordinary smartquote rendering", () => {
   const md = new MarkdownIt({ typographer: true });
 
   assert.equal(
@@ -40,7 +22,6 @@ for (const [opening, closing] of [
 ]) {
   test(
     `markdown-it handles unmatched ${closing.trim()} quotes without excessive CPU use`,
-    options,
     () => {
       const result = spawnSync(
         process.execPath,
@@ -55,7 +36,7 @@ for (const [opening, closing] of [
           assert.ok(output.startsWith("<p>"));
           assert.ok(output.endsWith("</p>\\n"));
         `,
-          markdownItPath!,
+          markdownItPath,
           opening,
           closing,
         ],
