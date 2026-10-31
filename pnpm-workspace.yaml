@@ -186,7 +186,7 @@ overrides:
   # drizzle-kit uses esbuild internally on an older version that's vulnerable, this overrides it
   "@esbuild-kit/esm-loader": "npm:tsx@^4.21.0"
   esbuild: "0.28.2"
-  minimatch: "11.0.1"
+  "minimatch@>=11.0.0 <12.0.0": "11.0.1"
   qs: "6.16.1"
   markdown-it: "14.3.3"
   linkify-it: "5.0.2"
