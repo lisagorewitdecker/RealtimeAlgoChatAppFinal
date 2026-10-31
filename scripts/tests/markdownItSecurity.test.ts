@@ -20,12 +20,14 @@ for (const [opening, closing] of [
   ['"a ', "b' "],
   ["'a ", 'b" '],
 ]) {
-  test(`markdown-it handles unmatched ${closing.trim()} quotes without excessive CPU use`, () => {
-    const result = spawnSync(
-      process.execPath,
-      [
-        "-e",
-        `
+  test(
+    `markdown-it handles unmatched ${closing.trim()} quotes without excessive CPU use`,
+    () => {
+      const result = spawnSync(
+        process.execPath,
+        [
+          "-e",
+          `
           const assert = require("node:assert/strict");
           const md = require(process.argv[1])({ typographer: true });
           const input = process.argv[2].repeat(200000) +
@@ -34,14 +36,15 @@ for (const [opening, closing] of [
           assert.ok(output.startsWith("<p>"));
           assert.ok(output.endsWith("</p>\\n"));
         `,
-        markdownItPath,
-        opening,
-        closing,
-      ],
-      { encoding: "utf8", timeout: 15000 },
-    );
+          markdownItPath,
+          opening,
+          closing,
+        ],
+        { encoding: "utf8", timeout: 15000 },
+      );
 
-    assert.ifError(result.error);
-    assert.equal(result.status, 0, result.stderr);
-  });
+      assert.ifError(result.error);
+      assert.equal(result.status, 0, result.stderr);
+    },
+  );
 }
