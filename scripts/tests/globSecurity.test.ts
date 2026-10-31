@@ -4,7 +4,6 @@ import {
   type Dirent,
   mkdtempSync,
   mkdirSync,
-  readFileSync,
   readdir,
   readdirSync,
   rmSync,
@@ -17,20 +16,19 @@ import test from "node:test";
 
 const root = process.cwd();
 const require = createRequire(resolve(root, "package.json"));
-const lockfile = readFileSync(resolve(root, "pnpm-lock.yaml"), "utf8");
+const store = resolve(root, "node_modules/.pnpm");
 
 function versions(name: string): string[] {
   return [
     ...new Set(
-      [...lockfile.matchAll(new RegExp(`^  ${name}@([^:(]+):$`, "gm"))].map(
-        (match) => match[1],
-      ),
+      readdirSync(store)
+        .filter((entry) => entry.startsWith(`${name}@`))
+        .map((entry) => entry.slice(name.length + 1).split("_patch_hash=")[0]),
     ),
-  ];
+  ].sort();
 }
 
 function packagePath(name: string, version: string): string {
-  const store = resolve(root, "node_modules/.pnpm");
   const directory = readdirSync(store).find(
     (entry) =>
       entry === `${name}@${version}` ||

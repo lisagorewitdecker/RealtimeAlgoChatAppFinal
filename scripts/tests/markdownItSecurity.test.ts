@@ -1,7 +1,6 @@
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
 import { createRequire } from "node:module";
-import { resolve } from "node:path";
 import test from "node:test";
 
 const apiSpecRequire = createRequire(
@@ -22,6 +21,9 @@ const options = {
     ? false
     : "Orval's optional TypeDoc peer is not installed",
 };
+const require = createRequire(import.meta.url);
+const markdownItPath = require.resolve("markdown-it");
+const MarkdownIt = require("markdown-it");
 
 test("markdown-it preserves ordinary smartquote rendering", options, () => {
   const md = new MarkdownIt({ typographer: true });
