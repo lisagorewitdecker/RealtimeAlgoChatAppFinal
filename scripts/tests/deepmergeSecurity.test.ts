@@ -25,11 +25,27 @@ test("deepmerge does not copy prototype-polluting keys", () => {
   assert.equal(Object.hasOwn(merged, "constructor"), false);
   assert.equal(Object.hasOwn(merged, "prototype"), false);
   assert.equal(({} as Record<string, unknown>).polluted, undefined);
+const deepmerge = configRequire("deepmerge");
+
+test("deepmerge does not poison the prototype with a null-prototype target", () => {
+  const source = Object.create(null);
+  Object.defineProperty(source, "__proto__", {
+    value: { compromised: true },
+    enumerable: true,
+  });
+  source.safe = "value";
+
+  const result = deepmerge(Object.create(null), source);
+
+  assert.equal(Object.getPrototypeOf(result), Object.prototype);
+  assert.equal(Object.hasOwn(result, "__proto__"), false);
+  assert.equal(result.safe, "value");
+  assert.equal(({} as { compromised?: boolean }).compromised, undefined);
 });
 
 const packageDir = dirname(configRequire.resolve("deepmerge/package.json"));
 
-for (const entry of ["dist/cjs.js", "dist/umd.js"]) {
+for (const entry of ["index.js", "dist/cjs.js", "dist/umd.js"]) {
   const merge = configRequire(resolve(packageDir, entry));
 
   test(`deepmerge ${entry} rejects target-side __proto__ copying`, () => {
@@ -101,13 +117,14 @@ for (const entry of ["dist/cjs.js", "dist/umd.js"]) {
 const expoCliRequire = createRequire(chatAppRequire.resolve("@expo/cli"));
 const expoConfigRequire = createRequire(expoCliRequire.resolve("@expo/config"));
 const cliDeepmerge = expoConfigRequire("deepmerge");
+const expoCliDeepmerge = expoConfigRequire("deepmerge");
 
 test("deepmerge does not allow __proto__ to poison merged object prototypes", () => {
   const target = Object.create(null);
   const source = JSON.parse(
     '{"safe":"value","__proto__":{"polluted":true}}',
   ) as Record<string, unknown>;
-  const merged = deepmerge(target, source);
+  const merged = expoCliDeepmerge(target, source);
 
   assert.equal(merged.safe, "value");
   assert.equal(merged.polluted, undefined);
@@ -119,6 +136,7 @@ test("deepmerge does not use own __proto__ keys to poison merged object prototyp
   const target = JSON.parse('{"__proto__":{"safe":true}}');
   const source = JSON.parse('{"__proto__":{"injected":true},"retained":true}');
   const result = cliDeepmerge(target, source);
+  const result = expoCliDeepmerge(target, source);
 
   assert.equal(Object.getPrototypeOf(result), Object.prototype);
   assert.equal(Object.hasOwn(result, "injected"), false);
@@ -129,12 +147,14 @@ test("deepmerge used by Expo CLI ignores __proto__ properties safely", () => {
   const source = JSON.parse('{"__proto__":{"polluted":true}}');
   const target = Object.create(null);
   const fromSource = cliDeepmerge(target, source);
+  const fromSource = expoCliDeepmerge(target, source);
 
   assert.equal(Object.getPrototypeOf(fromSource), Object.prototype);
   assert.equal(Object.hasOwn(fromSource, "__proto__"), false);
   assert.equal(fromSource.polluted, undefined);
 
   const fromTarget = cliDeepmerge(source, {});
+  const fromTarget = expoCliDeepmerge(source, {});
   assert.equal(Object.getPrototypeOf(fromTarget), Object.prototype);
   assert.equal(Object.hasOwn(fromTarget, "__proto__"), false);
   assert.equal(fromTarget.polluted, undefined);
