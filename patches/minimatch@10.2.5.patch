@@ -1,0 +1,32 @@
+diff --git a/dist/commonjs/index.js b/dist/commonjs/index.js
+--- a/dist/commonjs/index.js
++++ b/dist/commonjs/index.js
+@@ -455,2 +455,3 @@
+     firstPhasePreProcess(globParts) {
++        const { braceExpandMax = 100_000 } = this.options;
+         let didSomething = false;
+@@ -478,2 +479,3 @@
+                     if (!p ||
++                        globParts.length >= braceExpandMax ||
+                         p === '.' ||
+@@ -539,2 +541,4 @@
+     secondPhasePreProcess(globParts) {
++        if (globParts.length > 1000)
++            return globParts;
+         for (let i = 0; i < globParts.length - 1; i++) {
+diff --git a/dist/esm/index.js b/dist/esm/index.js
+--- a/dist/esm/index.js
++++ b/dist/esm/index.js
+@@ -446,2 +446,3 @@
+     firstPhasePreProcess(globParts) {
++        const { braceExpandMax = 100_000 } = this.options;
+         let didSomething = false;
+@@ -469,2 +470,3 @@
+                     if (!p ||
++                        globParts.length >= braceExpandMax ||
+                         p === '.' ||
+@@ -530,2 +532,4 @@
+     secondPhasePreProcess(globParts) {
++        if (globParts.length > 1000)
++            return globParts;
+         for (let i = 0; i < globParts.length - 1; i++) {
