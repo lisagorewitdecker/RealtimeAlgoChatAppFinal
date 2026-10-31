@@ -1,16 +1,11 @@
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
 import { createRequire } from "node:module";
-import { resolve } from "node:path";
 import test from "node:test";
 
-const apiSpecRequire = createRequire(
-  resolve(process.cwd(), "lib/api-spec/package.json"),
-);
-const orvalRequire = createRequire(apiSpecRequire.resolve("orval"));
-const typedocRequire = createRequire(orvalRequire.resolve("typedoc"));
-const markdownItPath = typedocRequire.resolve("markdown-it");
-const MarkdownIt = typedocRequire("markdown-it");
+const require = createRequire(import.meta.url);
+const markdownItPath = require.resolve("markdown-it");
+const MarkdownIt = require("markdown-it");
 
 test("markdown-it preserves ordinary smartquote rendering", () => {
   const md = new MarkdownIt({ typographer: true });
