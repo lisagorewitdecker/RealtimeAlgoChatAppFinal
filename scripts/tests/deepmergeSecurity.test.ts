@@ -1,6 +1,5 @@
 import assert from "node:assert/strict";
 import { createRequire } from "node:module";
-import { resolve } from "node:path";
 import { dirname, resolve } from "node:path";
 import test from "node:test";
 
@@ -26,6 +25,8 @@ test("deepmerge does not copy prototype-polluting keys", () => {
   assert.equal(Object.hasOwn(merged, "constructor"), false);
   assert.equal(Object.hasOwn(merged, "prototype"), false);
   assert.equal(({} as Record<string, unknown>).polluted, undefined);
+});
+
 const packageDir = dirname(configRequire.resolve("deepmerge/package.json"));
 
 for (const entry of ["dist/cjs.js", "dist/umd.js"]) {
@@ -90,29 +91,28 @@ for (const entry of ["dist/cjs.js", "dist/umd.js"]) {
 }
 const expoCliRequire = createRequire(chatAppRequire.resolve("@expo/cli"));
 const expoConfigRequire = createRequire(expoCliRequire.resolve("@expo/config"));
-const deepmerge = expoConfigRequire("deepmerge");
+const cliDeepmerge = expoConfigRequire("deepmerge");
 
 test("deepmerge does not use own __proto__ keys to poison merged object prototypes", () => {
   const target = JSON.parse('{"__proto__":{"safe":true}}');
   const source = JSON.parse('{"__proto__":{"injected":true},"retained":true}');
-  const result = deepmerge(target, source);
+  const result = cliDeepmerge(target, source);
 
   assert.equal(Object.getPrototypeOf(result), Object.prototype);
   assert.equal(Object.hasOwn(result, "injected"), false);
   assert.equal(Object.hasOwn(result, "retained"), true);
 });
 
-test("merging __proto__ properties cannot poison the result prototype", () => {
 test("deepmerge used by Expo CLI ignores __proto__ properties safely", () => {
   const source = JSON.parse('{"__proto__":{"polluted":true}}');
   const target = Object.create(null);
-  const fromSource = deepmerge(target, source);
+  const fromSource = cliDeepmerge(target, source);
 
   assert.equal(Object.getPrototypeOf(fromSource), Object.prototype);
   assert.equal(Object.hasOwn(fromSource, "__proto__"), false);
   assert.equal(fromSource.polluted, undefined);
 
-  const fromTarget = deepmerge(source, {});
+  const fromTarget = cliDeepmerge(source, {});
   assert.equal(Object.getPrototypeOf(fromTarget), Object.prototype);
   assert.equal(Object.hasOwn(fromTarget, "__proto__"), false);
   assert.equal(fromTarget.polluted, undefined);
