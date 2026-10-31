@@ -17,7 +17,7 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: '22'
       - name: Set up pnpm
@@ -31,4 +31,6 @@ jobs:
         run: node --test scripts/tests/*Security.test.ts
       - name: Audit all dependencies (fail on low or higher)
         # Backport and legacy-version exceptions require the security tests above.
+        # Locally patched advisories are covered by the mandatory backport tests above.
+        # Remove each exception when an upstream fixed release replaces its patch.
         run: pnpm audit --audit-level low

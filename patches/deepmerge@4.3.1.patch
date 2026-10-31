@@ -8,6 +8,19 @@ index 7c36cbdd06cc22c92d590be3f87a08a91ca06b40..908d0c9ed160470770bb140f745a7856
  
 +function isUnsafeKey(key) {
 +	return key === '__proto__' || key === 'constructor' || key === 'prototype'
+--- a/dist/cjs.js
++++ b/dist/cjs.js
+@@ -76,11 +76,20 @@
+ 			&& Object.propertyIsEnumerable.call(target, key)) // and also unsafe if they're nonenumerable.
+ }
+ 
++function setProperty(target, key, value) {
++	Object.defineProperty(target, key, {
++		configurable: true,
++		enumerable: true,
++		value: value,
++		writable: true
++	});
 +}
 +
  function mergeObject(target, source, options) {
@@ -82,3 +95,20 @@ index 77968aed5d456cccc294f60912ef381fa1e52a7b..26d2acfeccdc1e848af0439ac8b38cef
  			return
  		}
  
+-			destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
++			setProperty(destination, key, cloneUnlessOtherwiseSpecified(target[key], options));
+ 		});
+ 	}
+ 	getKeys(source).forEach(function(key) {
+@@ -89,9 +98,9 @@
+ 		}
+ 
+ 		if (propertyIsOnObject(target, key) && options.isMergeableObject(source[key])) {
+-			destination[key] = getMergeFunction(key, options)(target[key], source[key], options);
++			setProperty(destination, key, getMergeFunction(key, options)(target[key], source[key], options));
+ 		} else {
+-			destination[key] = cloneUnlessOtherwiseSpecified(source[key], options);
++			setProperty(destination, key, cloneUnlessOtherwiseSpecified(source[key], options));
+ 		}
+ 	});
+ 	return destination
