@@ -1,6 +1,5 @@
 import assert from "node:assert/strict";
 import { createRequire } from "node:module";
-import { resolve } from "node:path";
 import { dirname, resolve } from "node:path";
 import test from "node:test";
 
@@ -13,6 +12,15 @@ const packageDir = dirname(configRequire.resolve("deepmerge/package.json"));
 
 for (const entry of ["dist/cjs.js", "dist/umd.js"]) {
   const merge = configRequire(resolve(packageDir, entry));
+
+  test(`deepmerge ${entry} rejects target-side __proto__ copying`, () => {
+    const target = JSON.parse('{"__proto__":{"polluted":true}}');
+    const result = merge(target, {});
+
+    assert.equal(result.polluted, undefined);
+    assert.equal(Object.hasOwn(result, "__proto__"), false);
+    assert.equal(Object.getPrototypeOf(result), Object.prototype);
+  });
 
   test(`deepmerge ${entry} ignores prototype-sensitive keys from targets and sources`, () => {
     for (const key of ["__proto__", "constructor", "prototype"]) {
@@ -86,6 +94,8 @@ test("deepmerge does not allow __proto__ to poison merged object prototypes", ()
   assert.equal(merged.polluted, undefined);
   assert.equal(Object.hasOwn(merged, "__proto__"), false);
   assert.equal(Object.getPrototypeOf(merged), Object.prototype);
+});
+
 test("deepmerge does not use own __proto__ keys to poison merged object prototypes", () => {
   const target = JSON.parse('{"__proto__":{"safe":true}}');
   const source = JSON.parse('{"__proto__":{"injected":true},"retained":true}');
@@ -96,7 +106,6 @@ test("deepmerge does not use own __proto__ keys to poison merged object prototyp
   assert.equal(Object.hasOwn(result, "retained"), true);
 });
 
-test("merging __proto__ properties cannot poison the result prototype", () => {
 test("deepmerge used by Expo CLI ignores __proto__ properties safely", () => {
   const source = JSON.parse('{"__proto__":{"polluted":true}}');
   const target = Object.create(null);

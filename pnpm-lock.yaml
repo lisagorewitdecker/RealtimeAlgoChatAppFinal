@@ -186,7 +186,6 @@ packageExtensionsChecksum: sha256-Ma9cYwas7PdjZkW6X2fPnhlhbC6+uWu/LcWMQ7mJuNI=
 
 patchedDependencies:
   braces@3.0.3: 21f8975939350a32ea63e72385add32f9fcebf646dbd1f94f7cf8bdfe961de75
-  deepmerge@4.3.1: 514af847289fd519463924945f27ac17dd1c8d581d5e79cb0115451cb9b99c4d
   deepmerge@4.3.1: 685fe937710cf294cca64edac481a49e75ee794db8508ea41903fc1b2cbf656b
   http-cache-semantics@4.3.0: 6939a2c11cd23bb55caebbaa976fdbaf202f05f1363554dbf6efeae4f590c20b
   minimatch@10.2.5: eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf
@@ -9347,7 +9346,7 @@ snapshots:
       '@expo/config-types': 57.0.2
       '@expo/json-file': 11.0.1
       '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@7.0.2)
-      deepmerge: 4.3.1(patch_hash=514af847289fd519463924945f27ac17dd1c8d581d5e79cb0115451cb9b99c4d)
+      deepmerge: 4.3.1(patch_hash=685fe937710cf294cca64edac481a49e75ee794db8508ea41903fc1b2cbf656b)
       '@expo/config-types': 58.0.3
       '@expo/json-file': 11.2.1
       '@expo/plist': 0.10.1
@@ -13439,7 +13438,6 @@ snapshots:
 
   dedent@1.7.2: {}
 
-  deepmerge@4.3.1(patch_hash=514af847289fd519463924945f27ac17dd1c8d581d5e79cb0115451cb9b99c4d): {}
   deepmerge@4.3.1(patch_hash=685fe937710cf294cca64edac481a49e75ee794db8508ea41903fc1b2cbf656b): {}
 
   defaults@1.0.4:
@@ -14562,9 +14560,7 @@ snapshots:
       babel-jest: 30.5.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       chalk: 4.1.2
       ci-info: 4.4.0
-      deepmerge: 4.3.1(patch_hash=514af847289fd519463924945f27ac17dd1c8d581d5e79cb0115451cb9b99c4d)
       glob: 13.0.6
-      deepmerge: 4.3.1(patch_hash=60bdf6767f420302eafc83a1452a5b1ab97381718f88e8574cf223e7081321ac)
       glob: 14.0.2
       deepmerge: 4.3.1(patch_hash=685fe937710cf294cca64edac481a49e75ee794db8508ea41903fc1b2cbf656b)
       glob: 14.0.3
