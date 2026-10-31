@@ -30,6 +30,5 @@ jobs:
       - name: Verify security backports and dependency regressions
         run: node --test scripts/tests/*Security.test.ts
       - name: Audit all dependencies (fail on low or higher)
-        # Version-only Forge alert is covered by the mandatory backport tests above.
-        # Remove this single exception once an upstream fixed release replaces the patch.
+        # Backport and legacy-version exceptions require the security tests above.
         run: pnpm audit --audit-level low
