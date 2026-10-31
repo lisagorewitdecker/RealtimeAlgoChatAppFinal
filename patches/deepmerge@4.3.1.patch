@@ -1,5 +1,5 @@
 diff --git a/dist/cjs.js b/dist/cjs.js
-index 7c36cbdd06cc22c92d590be3f87a08a91ca06b40..908d0c9ed160470770bb140f745a7856ae82571a 100644
+index 7c36cbd..908d0c9 100644
 --- a/dist/cjs.js
 +++ b/dist/cjs.js
 @@ -76,15 +76,22 @@ function propertyIsUnsafe(target, key) {
@@ -8,19 +8,6 @@ index 7c36cbdd06cc22c92d590be3f87a08a91ca06b40..908d0c9ed160470770bb140f745a7856
  
 +function isUnsafeKey(key) {
 +	return key === '__proto__' || key === 'constructor' || key === 'prototype'
---- a/dist/cjs.js
-+++ b/dist/cjs.js
-@@ -76,11 +76,20 @@
- 			&& Object.propertyIsEnumerable.call(target, key)) // and also unsafe if they're nonenumerable.
- }
- 
-+function setProperty(target, key, value) {
-+	Object.defineProperty(target, key, {
-+		configurable: true,
-+		enumerable: true,
-+		value: value,
-+		writable: true
-+	});
 +}
 +
  function mergeObject(target, source, options) {
@@ -40,7 +27,7 @@ index 7c36cbdd06cc22c92d590be3f87a08a91ca06b40..908d0c9ed160470770bb140f745a7856
  		}
  
 diff --git a/dist/umd.js b/dist/umd.js
-index 4071e7c56ec8e5273fe166f6e723ac460fab8b72..ee24de50a36f9770bd6fd7604801f658f1dd75a5 100644
+index 4071e7c..ee24de5 100644
 --- a/dist/umd.js
 +++ b/dist/umd.js
 @@ -80,15 +80,22 @@
@@ -68,10 +55,10 @@ index 4071e7c56ec8e5273fe166f6e723ac460fab8b72..ee24de50a36f9770bd6fd7604801f658
  			}
  
 diff --git a/index.js b/index.js
-index 77968aed5d456cccc294f60912ef381fa1e52a7b..26d2acfeccdc1e848af0439ac8b38cef639e4ece 100644
+index 77968ae..26d2acf 100644
 --- a/index.js
 +++ b/index.js
-@@ -51,15 +51,22 @@ function propertyIsUnsafe(target, key) {
+@@ -51,14 +51,21 @@ function propertyIsUnsafe(target, key) {
  			&& Object.propertyIsEnumerable.call(target, key)) // and also unsafe if they're nonenumerable.
  }
  
@@ -94,21 +81,3 @@ index 77968aed5d456cccc294f60912ef381fa1e52a7b..26d2acfeccdc1e848af0439ac8b38cef
 +		if (isUnsafeKey(key) || propertyIsUnsafe(target, key)) {
  			return
  		}
- 
--			destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
-+			setProperty(destination, key, cloneUnlessOtherwiseSpecified(target[key], options));
- 		});
- 	}
- 	getKeys(source).forEach(function(key) {
-@@ -89,9 +98,9 @@
- 		}
- 
- 		if (propertyIsOnObject(target, key) && options.isMergeableObject(source[key])) {
--			destination[key] = getMergeFunction(key, options)(target[key], source[key], options);
-+			setProperty(destination, key, getMergeFunction(key, options)(target[key], source[key], options));
- 		} else {
--			destination[key] = cloneUnlessOtherwiseSpecified(source[key], options);
-+			setProperty(destination, key, cloneUnlessOtherwiseSpecified(source[key], options));
- 		}
- 	});
- 	return destination
