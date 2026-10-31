@@ -84,7 +84,6 @@ test("deepmerge does not use own __proto__ keys to poison merged object prototyp
   assert.equal(Object.hasOwn(result, "retained"), true);
 });
 
-test("merging __proto__ properties cannot poison the result prototype", () => {
 test("deepmerge used by Expo CLI ignores __proto__ properties safely", () => {
   const source = JSON.parse('{"__proto__":{"polluted":true}}');
   const target = Object.create(null);
