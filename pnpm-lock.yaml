@@ -16,8 +16,8 @@ catalogs:
       specifier: ^4.3.3
       version: 4.3.3
     '@tanstack/react-query':
-      specifier: ^5.102.8
-      version: 5.102.8
+      specifier: ^5.105.0
+      version: 5.105.0
     '@types/node':
       specifier: ^25.9.5
       version: 25.9.5
@@ -184,6 +184,7 @@ packageExtensionsChecksum: sha256-Ma9cYwas7PdjZkW6X2fPnhlhbC6+uWu/LcWMQ7mJuNI=
 patchedDependencies:
   braces@3.0.3: 21f8975939350a32ea63e72385add32f9fcebf646dbd1f94f7cf8bdfe961de75
   deepmerge@4.3.1: 409734390365b6b6262f42c811aaa2ed79808f3aade5d715e18ddc2b52e43fa6
+  deepmerge@4.3.1: 60bdf6767f420302eafc83a1452a5b1ab97381718f88e8574cf223e7081321ac
   http-cache-semantics@4.3.0: 6939a2c11cd23bb55caebbaa976fdbaf202f05f1363554dbf6efeae4f590c20b
 
 importers:
@@ -300,8 +301,8 @@ importers:
   artifacts/chat-app:
     dependencies:
       '@solana/web3.js':
-        specifier: ^3.1.0
-        version: 3.1.0(bufferutil@4.1.0)(typescript@7.0.2)
+        specifier: ^3.1.1
+        version: 3.1.1(bufferutil@4.1.0)(typescript@7.0.2)
       bs58:
         specifier: ^6.0.0
         version: 6.0.0
@@ -322,8 +323,8 @@ importers:
         specifier: ^7.29.7
         version: 7.29.7(supports-color@8.1.1)
       '@clerk/expo':
-        specifier: ^4.7.3
-        version: 4.7.3(653d5e1804455806a9a90471166a4984)
+        specifier: ^4.14.1
+        version: 4.14.1(653d5e1804455806a9a90471166a4984)
       '@expo-google-fonts/inter':
         specifier: ^0.4.2
         version: 0.4.2
@@ -350,7 +351,7 @@ importers:
         version: 1.0.2
       '@tanstack/react-query':
         specifier: 'catalog:'
-        version: 5.102.8(react@19.3.1)
+        version: 5.105.0(@types/react@19.3.0)(react@19.3.1)
       '@testing-library/react-native':
         specifier: ^13.3.3
         version: 13.3.3(jest@30.5.2(@types/node@25.9.5)(supports-color@8.1.1))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.3.1)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.3.0)(bufferutil@4.1.0)(react@19.3.1)(supports-color@8.1.1))(react-test-renderer@19.2.3(react@19.3.1))(react@19.3.1)
@@ -677,13 +678,13 @@ importers:
     dependencies:
       '@tanstack/react-query':
         specifier: 'catalog:'
-        version: 5.102.8(react@19.3.1)
+        version: 5.105.0(@types/react@19.3.0)(react@19.3.1)
 
   lib/api-spec:
     devDependencies:
       orval:
         specifier: ^8.41.0
-        version: 8.41.0(@tanstack/react-query@5.102.8(react@19.3.1))(prettier@3.9.6)(typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@7.0.2)))(typedoc@0.28.19(typescript@7.0.2))(typescript@7.0.2)(zod@4.6.6)
+        version: 8.41.0(@tanstack/react-query@5.105.0(@types/react@19.3.0)(react@19.3.1))(prettier@3.9.6)(typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@7.0.2)))(typedoc@0.28.19(typescript@7.0.2))(typescript@7.0.2)(zod@4.6.6)
 
   lib/api-zod:
     dependencies:
@@ -1244,17 +1245,19 @@ packages:
     resolution: {integrity: sha512-ltt+63usCarUUdkvoI2sAOcFse0CavFjq/a1cwfnm6NTGk03542sN0DFA9JpkBCQG5MgORsrapW0w9ev+DI3rg==}
     engines: {node: '>=20.9.0'}
 
-  '@clerk/clerk-js@6.36.0':
-    resolution: {integrity: sha512-DoUrBxcmJlg+MiMrBMz56ypdqo0VUGrq29ipLc27J2VuctJQxwdMlpIpW5XGaGhjVsYO6j/hVQJjufXMTUlKeQ==}
+  '@clerk/clerk-js@6.40.1':
+    resolution: {integrity: sha512-Y2Jho5IIiMEhXkpyo7UTAYA/iPJcJSTUSgqoywQNSAbyV8FZZtZVYRmi0/7Mq1LAUVaTbrvNgF3PsxZAHDmt2A==}
     engines: {node: '>=20.9.0'}
 
-  '@clerk/expo@4.7.3':
-    resolution: {integrity: sha512-qa1jQm8U18r0cmQ8gPcHt9rpwuqQ9klnJ+HZjaAdI+Xq3X0R678GoOV1MZGboZJQIQSht7swwf4bAZcXHYlp0A==}
+  '@clerk/expo@4.14.1':
+    resolution: {integrity: sha512-H1f4GOvB7uUJNqkWfaEmetdw1sWg8SJsQoVmGpRZRZ8k7//WVqNzDuWEjmb0XzcA4Voy1YSUogSRVCapY8vCTA==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
+      '@clerk/expo-biometrics': '>=0.1.0'
       '@clerk/expo-google-signin': '>=0.1.0'
+      '@clerk/expo-native-components': '>=0.3.0'
       '@clerk/expo-passkeys': '>=0.0.6'
-      expo: '>=54 <58'
+      expo: '>=54 <59'
       expo-apple-authentication: '>=7.0.0'
       expo-auth-session: '>=5'
       expo-constants: '>=12'
@@ -1266,7 +1269,11 @@ packages:
       react-dom: ^18.0.0 || ^19.0.0
       react-native: '>=0.75'
     peerDependenciesMeta:
+      '@clerk/expo-biometrics':
+        optional: true
       '@clerk/expo-google-signin':
+        optional: true
+      '@clerk/expo-native-components':
         optional: true
       '@clerk/expo-passkeys':
         optional: true
@@ -1293,8 +1300,8 @@ packages:
     peerDependencies:
       express: ^4.17.0 || ^5.0.0
 
-  '@clerk/react@6.17.4':
-    resolution: {integrity: sha512-rWpdpePDf7BrQQ+vN8yO4qeH6WxehHHa3rmg3+cxyLz/0Oy9bt8MrEDzvWnkUGZPQ4RYW5n64sytf8Ry0jGyUw==}
+  '@clerk/react@6.18.1':
+    resolution: {integrity: sha512-vCd3qctGaBJ7p7bnf2SLI4ynweaDHqiEgXbFaPVHjY3kduG5uPzHAFE42VwJazXbV81P56rhus3BYna0D1l62g==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
       react: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
@@ -1302,6 +1309,18 @@ packages:
 
   '@clerk/shared@4.37.1':
     resolution: {integrity: sha512-kzUuDJW1PKKrH7szqfhBf1RaXgfJPQLrZMrxg9rgyUP+RMElhmBGJUB+7/0Wkkfyv0G3UyVBDu3NR1wXfx0XdQ==}
+    engines: {node: '>=20.9.0'}
+    peerDependencies:
+      react: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
+      react-dom: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+
+  '@clerk/shared@4.41.1':
+    resolution: {integrity: sha512-qxy8bzGMV6EGuKqnfEVm/+f9yGncUyOJhxdbM10X52PoMiALJ5VOH+c3C427ETkupYalF81eBlg7aBH50AtbNA==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
       react: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
@@ -3089,20 +3108,20 @@ packages:
   '@socket.io/component-emitter@3.1.2':
     resolution: {integrity: sha512-9BCxFwvbGg/RsZK9tjXd8s4UcwR0MWeFQ1XEKIQVVvAGJyINdrqKMcTRyLoK8Rse1GjzLV9cwjWV1olXRWEXVA==}
 
-  '@solana-program/address-lookup-table@0.15.0':
-    resolution: {integrity: sha512-O8pkQCmuT1Uo+KvAU7zg8fKWUIA0PoJzOtY2O9UVuN7EzDXCfOFeG8YzvnsMAfsgSXMWSRFhMt6pFxUBtny3qg==}
+  '@solana-program/address-lookup-table@0.16.0':
+    resolution: {integrity: sha512-i33+5gX1FApHReFfds6gY9s3taYNJC3t4uwFC7IVLUof9TCM+Wi3sFCk73VLBdcRZWmnXekF8pafiuLyctrEEA==}
     peerDependencies:
-      '@solana/kit': ^8.3.0
+      '@solana/kit': ^8.5.0
 
-  '@solana-program/compute-budget@0.19.0':
-    resolution: {integrity: sha512-YV5T0MnTM//avw46UBvWswZw3KZx+HgqohPZkH/OonEHRX4+MSO9wV/8XePEDDyu/geHtdmdEXY/HlgRGJKa8A==}
+  '@solana-program/compute-budget@0.20.0':
+    resolution: {integrity: sha512-7SrwpFVNX6R5sjmPnqHUohCwZ3167TsWtE1Htg5wVrnsSoKfS8o1JxH033S/mYE56jGLwusYgNAwJn+Md1JmTQ==}
     peerDependencies:
-      '@solana/kit': ^8.3.0
+      '@solana/kit': ^8.5.0
 
-  '@solana-program/loader-v3@0.7.0':
-    resolution: {integrity: sha512-99XGVhGstmJX0eeZllqWhOuxYdhdCs/GZhVJW+by3g5vVz8qQ7qxGOweKdXXa4kQZvAWlUu3owKnVVIV+V8xdQ==}
+  '@solana-program/loader-v3@0.8.0':
+    resolution: {integrity: sha512-WMtdoW24mAnBIOynbSwGCEFzIMe14sBOBnVxMALT9gjSLLTPHGkXd8ZcWqFSwx1IMTyGn7hUsZAM02atqvU9WQ==}
     peerDependencies:
-      '@solana/kit': ^8.3.0
+      '@solana/kit': ^8.5.0
 
   '@solana-program/stake@0.9.0':
     resolution: {integrity: sha512-mLRn8Hjo7ntHepV2I9fwRNLU1tIJuDc456cbOJSKjEgk9yPKVNHXkwQ6cnl7jDROde4CRjLfEpVLB5OhFqRZhQ==}
@@ -3110,10 +3129,10 @@ packages:
     peerDependencies:
       '@solana/kit': ^8.0.0
 
-  '@solana-program/system@0.15.0':
-    resolution: {integrity: sha512-xE08wZCyNRhOaO/XNRd9A3kSLfUrTe/BnmAHhql8uqc2eriNy2ZmnvaGRrs0m+kOSihvUbANzHljmJsTzGL5kg==}
+  '@solana-program/system@0.16.0':
+    resolution: {integrity: sha512-/RG6q2E2vG/XpdOt8Jj/kbQktPlL5JyJuNGAeN9wDcxKDKQtrGTJpDrJgQUxiEy23fsPNXQbLN8XeCtYoMof3Q==}
     peerDependencies:
-      '@solana/kit': ^8.3.0
+      '@solana/kit': ^8.5.0
 
   '@solana/accounts@8.5.0':
     resolution: {integrity: sha512-vwwXYCobg1oG4kFeUEsGiNORjPujI2ff3yKLp6lCa7QBIlKaD7kZ2QRI3PZFYcNrMJ6HYNwNeZXR7ixg02pWdA==}
@@ -3506,8 +3525,8 @@ packages:
       typescript:
         optional: true
 
-  '@solana/web3.js@3.1.0':
-    resolution: {integrity: sha512-WdXc9Tua/1H09vwPDchjmqm6iGbB7DsWpSS7N0kWiTiBXmkUpTiu2Yv12ERm2VuCTa4/IxFyop29mVKIamvznQ==}
+  '@solana/web3.js@3.1.1':
+    resolution: {integrity: sha512-2dAS0pl1bjrF6UsqMuYU8C+mf9BArOgUY06TcIS+XMOM1kDpxoxG4lhRcG2sH/VYz2wbm0ZW8vaHbs89zGJJWw==}
     engines: {node: '>=20.18.0'}
 
   '@stablelib/base64@1.0.1':
@@ -3565,10 +3584,17 @@ packages:
   '@tanstack/query-core@5.102.8':
     resolution: {integrity: sha512-ZNjkJ33CqvPNec/6lZBnHqLc3EVGPZ9ySLhYahU9TcuRFdmwXewuj0c4hwSWcGHqEUwcSrKeZ+oGcvPBqXcQcg==}
 
-  '@tanstack/react-query@5.102.8':
-    resolution: {integrity: sha512-TYBea4OuXWD7MhaSHq069TWbFe7rcwWN6kzT7JF0OKi1K6c1gTv2IzD6A6ExJsCMozdkqBWeuIUZmu4KQg0O5A==}
+  '@tanstack/query-core@5.105.0':
+    resolution: {integrity: sha512-7p56vRmT/z4UJ6sctGIdl5WRUQyUv53IUpUwEKi2g97zMbO7zh8ZsCLffGAvCPBR4xD72e3VXsDyLwXHhoNTMQ==}
+
+  '@tanstack/react-query@5.105.0':
+    resolution: {integrity: sha512-y+hMuDERvgg6ay1da0V1a6ZC0ZONt7dELxSFkqRZuwm7p1TTZs0MoXrPlBRflIpRoYjvzQVYxycnLImpFLhWrw==}
     peerDependencies:
+      '@types/react': ^18 || ^19
       react: ^18 || ^19
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
 
   '@testing-library/react-native@13.3.3':
     resolution: {integrity: sha512-k6Mjsd9dbZgvY4Bl7P1NIpePQNi+dfYtlJ5voi9KQlynxSyQkfOgJmYGCYmw/aSgH/rUcFvG8u5gd4npzgRDyg==}
@@ -8630,10 +8656,10 @@ snapshots:
       - react
       - react-dom
 
-  '@clerk/clerk-js@6.36.0(@types/react@19.3.0)(bufferutil@4.1.0)(react-dom@19.2.3(react@19.3.1))(react@19.3.1)(typescript@7.0.2)(zod@4.6.6)':
+  '@clerk/clerk-js@6.40.1(@types/react@19.3.0)(bufferutil@4.1.0)(react-dom@19.2.3(react@19.3.1))(react@19.3.1)(typescript@7.0.2)(zod@4.6.6)':
     dependencies:
       '@base-org/account': 2.0.1(@types/react@19.3.0)(bufferutil@4.1.0)(react@19.3.1)(typescript@7.0.2)(zod@4.6.6)
-      '@clerk/shared': 4.37.1(react-dom@19.2.3(react@19.3.1))(react@19.3.1)
+      '@clerk/shared': 4.41.1(react-dom@19.2.3(react@19.3.1))(react@19.3.1)
       '@coinbase/wallet-sdk': 4.3.7(bufferutil@4.1.0)(typescript@7.0.2)(zod@4.6.6)
       '@stripe/stripe-js': 5.6.0
       '@swc/helpers': 0.5.21
@@ -8658,11 +8684,11 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@clerk/expo@4.7.3(653d5e1804455806a9a90471166a4984)':
+  '@clerk/expo@4.14.1(653d5e1804455806a9a90471166a4984)':
     dependencies:
-      '@clerk/clerk-js': 6.36.0(@types/react@19.3.0)(bufferutil@4.1.0)(react-dom@19.2.3(react@19.3.1))(react@19.3.1)(typescript@7.0.2)(zod@4.6.6)
-      '@clerk/react': 6.17.4(react-dom@19.2.3(react@19.3.1))(react@19.3.1)
-      '@clerk/shared': 4.37.1(react-dom@19.2.3(react@19.3.1))(react@19.3.1)
+      '@clerk/clerk-js': 6.40.1(@types/react@19.3.0)(bufferutil@4.1.0)(react-dom@19.2.3(react@19.3.1))(react@19.3.1)(typescript@7.0.2)(zod@4.6.6)
+      '@clerk/react': 6.18.1(react-dom@19.2.3(react@19.3.1))(react@19.3.1)
+      '@clerk/shared': 4.41.1(react-dom@19.2.3(react@19.3.1))(react@19.3.1)
       base-64: 1.0.0
       expo: 57.0.25(465f843a5850f858a0596779af93d0ae)
       react: 19.3.1
@@ -8696,14 +8722,24 @@ snapshots:
       - react
       - react-dom
 
-  '@clerk/react@6.17.4(react-dom@19.2.3(react@19.3.1))(react@19.3.1)':
+  '@clerk/react@6.18.1(react-dom@19.2.3(react@19.3.1))(react@19.3.1)':
     dependencies:
-      '@clerk/shared': 4.37.1(react-dom@19.2.3(react@19.3.1))(react@19.3.1)
+      '@clerk/shared': 4.41.1(react-dom@19.2.3(react@19.3.1))(react@19.3.1)
       react: 19.3.1
       react-dom: 19.2.3(react@19.3.1)
       tslib: 2.8.1
 
   '@clerk/shared@4.37.1(react-dom@19.2.3(react@19.3.1))(react@19.3.1)':
+    dependencies:
+      '@tanstack/query-core': 5.102.8
+      dequal: 2.0.3
+      glob-to-regexp: 0.4.1
+      js-cookie: 3.0.8
+    optionalDependencies:
+      react: 19.3.1
+      react-dom: 19.2.3(react@19.3.1)
+
+  '@clerk/shared@4.41.1(react-dom@19.2.3(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@tanstack/query-core': 5.102.8
       dequal: 2.0.3
@@ -8878,6 +8914,7 @@ snapshots:
       '@expo/json-file': 11.0.1
       '@expo/require-utils': 57.0.5(supports-color@8.1.1)(typescript@7.0.2)
       deepmerge: 4.3.1(patch_hash=409734390365b6b6262f42c811aaa2ed79808f3aade5d715e18ddc2b52e43fa6)
+      deepmerge: 4.3.1(patch_hash=60bdf6767f420302eafc83a1452a5b1ab97381718f88e8574cf223e7081321ac)
       getenv: 2.0.0
       glob: 14.0.2
       resolve-workspace-root: 2.0.1
@@ -9646,12 +9683,12 @@ snapshots:
     transitivePeerDependencies:
       - '@faker-js/faker'
 
-  '@orval/query@8.41.0(@tanstack/react-query@5.102.8(react@19.3.1))':
+  '@orval/query@8.41.0(@tanstack/react-query@5.105.0(@types/react@19.3.0)(react@19.3.1))':
     dependencies:
       '@orval/core': 8.41.0
       '@orval/fetch': 8.41.0
     optionalDependencies:
-      '@tanstack/react-query': 5.102.8(react@19.3.1)
+      '@tanstack/react-query': 5.105.0(@types/react@19.3.0)(react@19.3.1)
     transitivePeerDependencies:
       - '@faker-js/faker'
 
@@ -10928,15 +10965,15 @@ snapshots:
 
   '@socket.io/component-emitter@3.1.2': {}
 
-  '@solana-program/address-lookup-table@0.15.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))':
+  '@solana-program/address-lookup-table@0.16.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))':
     dependencies:
       '@solana/kit': 8.5.0(bufferutil@4.1.0)(typescript@7.0.2)
 
-  '@solana-program/compute-budget@0.19.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))':
+  '@solana-program/compute-budget@0.20.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))':
     dependencies:
       '@solana/kit': 8.5.0(bufferutil@4.1.0)(typescript@7.0.2)
 
-  '@solana-program/loader-v3@0.7.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))':
+  '@solana-program/loader-v3@0.8.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))':
     dependencies:
       '@solana/kit': 8.5.0(bufferutil@4.1.0)(typescript@7.0.2)
 
@@ -10944,7 +10981,7 @@ snapshots:
     dependencies:
       '@solana/kit': 8.5.0(bufferutil@4.1.0)(typescript@7.0.2)
 
-  '@solana-program/system@0.15.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))':
+  '@solana-program/system@0.16.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))':
     dependencies:
       '@solana/kit': 8.5.0(bufferutil@4.1.0)(typescript@7.0.2)
 
@@ -11440,15 +11477,15 @@ snapshots:
     transitivePeerDependencies:
       - fastestsmallesttextencoderdecoder
 
-  '@solana/web3.js@3.1.0(bufferutil@4.1.0)(typescript@7.0.2)':
+  '@solana/web3.js@3.1.1(bufferutil@4.1.0)(typescript@7.0.2)':
     dependencies:
       '@noble/curves': 1.9.7
       '@noble/hashes': 1.8.0
-      '@solana-program/address-lookup-table': 0.15.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))
-      '@solana-program/compute-budget': 0.19.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))
-      '@solana-program/loader-v3': 0.7.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))
+      '@solana-program/address-lookup-table': 0.16.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))
+      '@solana-program/compute-budget': 0.20.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))
+      '@solana-program/loader-v3': 0.8.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))
       '@solana-program/stake': 0.9.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))
-      '@solana-program/system': 0.15.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))
+      '@solana-program/system': 0.16.0(@solana/kit@8.5.0(bufferutil@4.1.0)(typescript@7.0.2))
       '@solana/assertions': 8.5.0(typescript@7.0.2)
       '@solana/fast-stable-stringify': 8.5.0(typescript@7.0.2)
       '@solana/kit': 8.5.0(bufferutil@4.1.0)(typescript@7.0.2)
@@ -11506,10 +11543,14 @@ snapshots:
 
   '@tanstack/query-core@5.102.8': {}
 
-  '@tanstack/react-query@5.102.8(react@19.3.1)':
+  '@tanstack/query-core@5.105.0': {}
+
+  '@tanstack/react-query@5.105.0(@types/react@19.3.0)(react@19.3.1)':
     dependencies:
-      '@tanstack/query-core': 5.102.8
+      '@tanstack/query-core': 5.105.0
       react: 19.3.1
+    optionalDependencies:
+      '@types/react': 19.3.0
 
   '@testing-library/react-native@13.3.3(jest@30.5.2(@types/node@25.9.5)(supports-color@8.1.1))(react-native@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(@react-native/jest-preset@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(react@19.3.1)(supports-color@8.1.1))(@react-native/metro-config@0.86.3(@babel/core@7.29.7(supports-color@8.1.1))(bufferutil@4.1.0)(supports-color@8.1.1))(@types/react@19.3.0)(bufferutil@4.1.0)(react@19.3.1)(supports-color@8.1.1))(react-test-renderer@19.2.3(react@19.3.1))(react@19.3.1)':
     dependencies:
@@ -12634,6 +12675,7 @@ snapshots:
   dedent@1.7.2: {}
 
   deepmerge@4.3.1(patch_hash=409734390365b6b6262f42c811aaa2ed79808f3aade5d715e18ddc2b52e43fa6): {}
+  deepmerge@4.3.1(patch_hash=60bdf6767f420302eafc83a1452a5b1ab97381718f88e8574cf223e7081321ac): {}
 
   defaults@1.0.4:
     dependencies:
@@ -13732,6 +13774,8 @@ snapshots:
       ci-info: 4.4.0
       deepmerge: 4.3.1(patch_hash=409734390365b6b6262f42c811aaa2ed79808f3aade5d715e18ddc2b52e43fa6)
       glob: 14.0.2
+      deepmerge: 4.3.1(patch_hash=60bdf6767f420302eafc83a1452a5b1ab97381718f88e8574cf223e7081321ac)
+      glob: 13.0.6
       graceful-fs: 4.2.11
       jest-circus: 30.5.2(supports-color@8.1.1)
       jest-docblock: 30.5.0
@@ -14851,7 +14895,7 @@ snapshots:
       strip-ansi: 5.2.0
       wcwidth: 1.0.1
 
-  orval@8.41.0(@tanstack/react-query@5.102.8(react@19.3.1))(prettier@3.9.6)(typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@7.0.2)))(typedoc@0.28.19(typescript@7.0.2))(typescript@7.0.2)(zod@4.6.6):
+  orval@8.41.0(@tanstack/react-query@5.105.0(@types/react@19.3.0)(react@19.3.1))(prettier@3.9.6)(typedoc-plugin-markdown@4.11.0(typedoc@0.28.19(typescript@7.0.2)))(typedoc@0.28.19(typescript@7.0.2))(typescript@7.0.2)(zod@4.6.6):
     dependencies:
       '@commander-js/extra-typings': 15.0.0(commander@15.0.0)
       '@orval/angular': 8.41.0
@@ -14863,7 +14907,7 @@ snapshots:
       '@orval/mcp': 8.41.0(zod@4.6.6)
       '@orval/mock': 8.41.0
       '@orval/pinia-colada': 8.41.0
-      '@orval/query': 8.41.0(@tanstack/react-query@5.102.8(react@19.3.1))
+      '@orval/query': 8.41.0(@tanstack/react-query@5.105.0(@types/react@19.3.0)(react@19.3.1))
       '@orval/solid-start': 8.41.0
       '@orval/swr': 8.41.0
       '@orval/zod': 8.41.0(zod@4.6.6)
