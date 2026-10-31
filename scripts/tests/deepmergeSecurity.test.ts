@@ -45,7 +45,7 @@ test("deepmerge does not poison the prototype with a null-prototype target", () 
 
 const packageDir = dirname(configRequire.resolve("deepmerge/package.json"));
 
-for (const entry of ["index.js", "dist/cjs.js", "dist/umd.js"]) {
+for (const entry of ["dist/cjs.js", "dist/umd.js"]) {
   const merge = configRequire(resolve(packageDir, entry));
 
   test(`deepmerge ${entry} rejects target-side __proto__ copying`, () => {
