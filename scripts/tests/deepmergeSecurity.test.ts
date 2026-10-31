@@ -71,11 +71,20 @@ for (const entry of ["dist/cjs.js", "dist/umd.js"]) {
   });
 }
 const expoCliRequire = createRequire(chatAppRequire.resolve("@expo/cli"));
-const expoConfigRequire = createRequire(
-  expoCliRequire.resolve("@expo/config"),
-);
+const expoConfigRequire = createRequire(expoCliRequire.resolve("@expo/config"));
 const deepmerge = expoConfigRequire("deepmerge");
 
+test("deepmerge does not use own __proto__ keys to poison merged object prototypes", () => {
+  const target = JSON.parse('{"__proto__":{"safe":true}}');
+  const source = JSON.parse('{"__proto__":{"injected":true},"retained":true}');
+  const result = deepmerge(target, source);
+
+  assert.equal(Object.getPrototypeOf(result), Object.prototype);
+  assert.equal(Object.hasOwn(result, "injected"), false);
+  assert.equal(Object.hasOwn(result, "retained"), true);
+});
+
+test("merging __proto__ properties cannot poison the result prototype", () => {
 test("deepmerge used by Expo CLI ignores __proto__ properties safely", () => {
   const source = JSON.parse('{"__proto__":{"polluted":true}}');
   const target = Object.create(null);
