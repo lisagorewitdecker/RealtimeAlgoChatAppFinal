@@ -151,9 +151,9 @@ overrides:
   '@esbuild-kit/esm-loader': npm:tsx@^4.21.0
   esbuild: 0.28.2
   minimatch@<4.0.0: 3.1.5
-  minimatch: 11.0.1
+  minimatch: 3.1.5
   glob@7>minimatch: 3.1.5
-  minimatch@>=11.0.0 <12.0.0: 11.0.1
+  minimatch@>=11.0.0 <12.0.0: 11.0.1: 3.1.5
   qs: 6.16.1
   markdown-it: 14.3.3
   linkify-it: 5.0.2
@@ -175,8 +175,8 @@ overrides:
   node-forge: 1.4.3
   glob@>=9.0.0: 14.0.3
   glob@7.2.3>minimatch: 3.1.5
-  minimatch@>=10.0.0 <11.0.0: 10.2.5
-  minimatch@>=11.0.0: 11.0.1
+  minimatch@>=10.0.0 <11.0.0: 10.2.5: 3.1.5
+  minimatch@>=11.0.0 11.0.1 3.1.5
   jayson: 5.0.0
   postcss: 8.5.26
   socket.io-parser: 4.2.7
@@ -191,7 +191,7 @@ patchedDependencies:
   braces@3.0.3: 21f8975939350a32ea63e72385add32f9fcebf646dbd1f94f7cf8bdfe961de75
   deepmerge@4.3.1: 852ddcd398f2b15bdae4e4a63fa6750fbce92337809ef5765b26ea82e42950c5
   http-cache-semantics@4.3.0: 6939a2c11cd23bb55caebbaa976fdbaf202f05f1363554dbf6efeae4f590c20b
-  minimatch@10.2.5: eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf
+  minimatch@3.1.5: eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf
 
 importers:
 
@@ -9467,7 +9467,7 @@ snapshots:
       getenv: 2.0.0
       glob: 14.0.3
       ignore: 5.3.2
-      minimatch: 10.2.5(patch_hash=eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf)
+      minimatch: 3.1.5(patch_hash=eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf)
       resolve-from: 5.0.0
       semver: 7.8.5
     transitivePeerDependencies:
@@ -14270,7 +14270,7 @@ snapshots:
 
   glob@14.0.3:
     dependencies:
-      minimatch: 11.0.1
+      minimatch: 3.1.5
       minipass: 7.1.3
       path-scurry: 3.0.0
 
@@ -16999,13 +16999,13 @@ snapshots:
     dependencies:
       '@istanbuljs/schema': 0.1.6
       glob: 7.2.3
-      minimatch: 11.0.1
+      minimatch: 3.1.5
 
   test-exclude@7.0.2:
     dependencies:
       '@istanbuljs/schema': 0.1.6
       glob: 14.0.3
-      minimatch: 10.2.5(patch_hash=eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf)
+      minimatch: 3.1.5(patch_hash=eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf)
 
   thread-stream@3.1.0:
     dependencies:
@@ -17084,7 +17084,7 @@ snapshots:
       '@gerrit0/mini-shiki': 3.23.0
       lunr: 2.3.9
       markdown-it: 14.3.3
-      minimatch: 10.2.5(patch_hash=eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf)
+      minimatch: 3.1.5(patch_hash=eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf)
       typescript: 7.0.2
       yaml: 2.9.0
 
