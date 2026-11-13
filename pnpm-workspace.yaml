@@ -211,7 +211,7 @@ overrides:
   browserslist: "4.28.7"
   baseline-browser-mapping: "2.11.0"
   decode-uri-component: "0.5.1"
-  node-forge: "1.4.2"
+  node-forge: "1.4.3"
   "glob@>=9.0.0": "14.0.3"
   "glob@7.2.3>minimatch": "3.1.5"
   "minimatch@>=10.0.0 <11.0.0": "10.2.5"
@@ -241,8 +241,6 @@ auditConfig:
     # Legacy minimatch 3 has no vulnerable preprocessing; 10 is backported.
     # CI must run globSecurity.test.ts and minimatchSecurity.test.ts.
     - GHSA-g3hv-75wg-m249
-    # Fixed by the node-forge override; CI must run nodeForgeSecurity.test.ts.
-    - GHSA-86w9-cpqp-85rv
     # Fixed by patches/deepmerge@4.3.1.patch; CI must run deepmergeSecurity.test.ts.
     # Remove when an upstream release replaces the backport.
     - GHSA-gcqx-w48m-w2h4
