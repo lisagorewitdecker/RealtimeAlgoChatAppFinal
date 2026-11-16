@@ -188,9 +188,6 @@ overrides:
   esbuild: "0.28.2"
   "minimatch@<4.0.0": "3.1.5"
   # 6.16.1 fixes GHSA-6pq8-jhm2-2vcw.
-  minimatch: "11.0.1"
-  "glob@7>minimatch": "3.1.5"
-  "minimatch@>=11.0.0 <12.0.0": "11.0.1"
   qs: "6.16.1"
   markdown-it: "14.3.3"
   linkify-it: "5.0.2"
@@ -214,7 +211,8 @@ overrides:
   node-forge: "1.4.3"
   "glob@>=9.0.0": "14.0.3"
   "glob@7.2.3>minimatch": "3.1.5"
-  "minimatch@>=10.0.0 <11.0.0": "10.2.5"
+  # Bound globparts amplification without changing the callable minimatch 3 API (GHSA-g3hv-75wg-m249).
+  "minimatch@>=7.0.0 <11.0.1": "11.0.1"
   "minimatch@>=11.0.0": "11.0.1"
   # jayson 4 depends on the vulnerable stream-json 1.x API.
   jayson: "5.0.0"
@@ -230,17 +228,10 @@ patchedDependencies:
   braces@3.0.3: patches/braces@3.0.3.patch
   deepmerge@4.3.1: patches/deepmerge@4.3.1.patch
   http-cache-semantics@4.3.0: patches/http-cache-semantics@4.3.0.patch
-  minimatch@10.2.5: patches/minimatch@10.2.5.patch
+  # TypeDoc still calls matchOne(), removed in minimatch 11.
+  typedoc@0.28.20: patches/typedoc@0.28.20.patch
 auditConfig:
   ignoreGhsas:
-    # Fixed by patches/deepmerge@4.3.1.patch; CI must run deepmergeSecurity.test.ts.
-    # Remove when an upstream release replaces the backport.
-    - GHSA-gcqx-w48m-w2h4
-    # Fixed by the deepmerge backport; CI must run deepmergeSecurity.test.ts.
-    - GHSA-gcqx-w48m-w2h4
-    # Legacy minimatch 3 has no vulnerable preprocessing; 10 is backported.
-    # CI must run globSecurity.test.ts and minimatchSecurity.test.ts.
-    - GHSA-g3hv-75wg-m249
     # Fixed by patches/deepmerge@4.3.1.patch; CI must run deepmergeSecurity.test.ts.
     # Remove when an upstream release replaces the backport.
     - GHSA-gcqx-w48m-w2h4
