@@ -31,6 +31,7 @@ prevent a rebuild and leave the account-metadata issue below unresolved.
 | `markdown-it` | `14.3.3` | Fix three quadratic-time parsing/rendering denial-of-service advisories. |
 | `undici` | `6.29.1` | Bound EventSource parsing and handle excessive content encodings safely. |
 | `fast-uri` | `3.1.9` | Fix encoded-scheme injection, host confusion, and path/reference normalization. |
+| `minimatch` (`>=7.0.0 <11.0.1`) | `11.0.1` | Bound `globparts` amplification during optimization (GHSA-g3hv-75wg-m249) while retaining callable `minimatch@3.1.5` for legacy consumers and patching `typedoc@0.28.20` to use `match(path, true)`. |
 
 These overrides preserve the existing major versions and one-day minimum
 release age. The lockfile includes the required `iconv-lite` transitive update.

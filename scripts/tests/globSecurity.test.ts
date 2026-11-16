@@ -38,7 +38,7 @@ function packagePath(name: string, version: string): string {
   return resolve(store, directory, "node_modules", name);
 }
 
-test("minimatch audit exception applies only to legacy implementations", () => {
+test("installed minimatch versions exclude releases affected by GHSA-g3hv-75wg-m249", () => {
   const installed = versions("minimatch");
   assert.ok(installed.length > 0);
   for (const version of installed) {
@@ -50,10 +50,6 @@ test("minimatch audit exception applies only to legacy implementations", () => {
       assert.equal(typeof matcher, "function");
       assert.equal(matcher.Minimatch.prototype.firstPhasePreProcess, undefined);
       assert.equal(matcher("src/test.ts", "src/*.ts"), true);
-    } else if (major === 10) {
-      assert.equal(version, "10.2.5");
-      assert.equal(typeof matcher.Minimatch.prototype.matchOne, "function");
-      assert.equal(matcher.minimatch("src/test.ts", "src/*.ts"), true);
     } else {
       assert.ok(
         major > 11 || (major === 11 && (minor > 0 || patch >= 1)),

@@ -151,9 +151,6 @@ overrides:
   '@esbuild-kit/esm-loader': npm:tsx@^4.21.0
   esbuild: 0.28.2
   minimatch@<4.0.0: 3.1.5
-  minimatch: 11.0.1
-  glob@7>minimatch: 3.1.5
-  minimatch@>=11.0.0 <12.0.0: 11.0.1
   qs: 6.16.1
   markdown-it: 14.3.3
   linkify-it: 5.0.2
@@ -175,7 +172,7 @@ overrides:
   node-forge: 1.4.3
   glob@>=9.0.0: 14.0.3
   glob@7.2.3>minimatch: 3.1.5
-  minimatch@>=10.0.0 <11.0.0: 10.2.5
+  minimatch@>=7.0.0 <11.0.1: 11.0.1
   minimatch@>=11.0.0: 11.0.1
   jayson: 5.0.0
   postcss: 8.5.26
@@ -191,7 +188,7 @@ patchedDependencies:
   braces@3.0.3: 21f8975939350a32ea63e72385add32f9fcebf646dbd1f94f7cf8bdfe961de75
   deepmerge@4.3.1: 852ddcd398f2b15bdae4e4a63fa6750fbce92337809ef5765b26ea82e42950c5
   http-cache-semantics@4.3.0: 6939a2c11cd23bb55caebbaa976fdbaf202f05f1363554dbf6efeae4f590c20b
-  minimatch@10.2.5: eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf
+  typedoc@0.28.20: b288e454b12261b0aa9998d9eccd92bba45615f92c9469a29749285279810200
 
 importers:
 
@@ -690,10 +687,10 @@ importers:
     devDependencies:
       orval:
         specifier: ^8.41.0
-        version: 8.41.0(@tanstack/react-query@5.105.0(@types/react@19.3.0)(react@19.3.1))(prettier@3.9.6)(typedoc@0.28.20(typescript@7.0.2))(typescript@7.0.2)(zod@4.6.6)
+        version: 8.41.0(@tanstack/react-query@5.105.0(@types/react@19.3.0)(react@19.3.1))(prettier@3.9.6)(typedoc@0.28.20(patch_hash=b288e454b12261b0aa9998d9eccd92bba45615f92c9469a29749285279810200)(typescript@7.0.2))(typescript@7.0.2)(zod@4.6.6)
       typedoc:
         specifier: ^0.28.20
-        version: 0.28.20(typescript@7.0.2)
+        version: 0.28.20(patch_hash=b288e454b12261b0aa9998d9eccd92bba45615f92c9469a29749285279810200)(typescript@7.0.2)
 
   lib/api-zod:
     dependencies:
@@ -6720,10 +6717,6 @@ packages:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
 
-  minimatch@10.2.5:
-    resolution: {integrity: sha512-MULkVLfKGYDFYejP07QOurDLLQpcjk7Fw+7jXS2R2czRQzR56yHRveU5NDJEOviH+hETZKSkIk5c+T23GjFUMg==}
-    engines: {node: 18 || 20 || >=22}
-
   minimatch@11.0.1:
     resolution: {integrity: sha512-t+Vn6DX4wPCxS23y03C0uhF7S1jpi1GfqPrnlEipCJaA2ykiNbMkVlDutZtmvLfRcUN6R8AYVlzTsQrT4RZoLQ==}
     engines: {node: 18 || 20 || >=22}
@@ -9467,7 +9460,7 @@ snapshots:
       getenv: 2.0.0
       glob: 14.0.3
       ignore: 5.3.2
-      minimatch: 10.2.5(patch_hash=eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf)
+      minimatch: 11.0.1
       resolve-from: 5.0.0
       semver: 7.8.5
     transitivePeerDependencies:
@@ -15755,10 +15748,6 @@ snapshots:
 
   min-indent@1.0.1: {}
 
-  minimatch@10.2.5(patch_hash=eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf):
-    dependencies:
-      brace-expansion: 5.0.12
-
   minimatch@11.0.1:
     dependencies:
       '@isaacs/nonrecursive-glob-match': 1.0.3
@@ -15925,7 +15914,7 @@ snapshots:
       strip-ansi: 5.2.0
       wcwidth: 1.0.1
 
-  orval@8.41.0(@tanstack/react-query@5.105.0(@types/react@19.3.0)(react@19.3.1))(prettier@3.9.6)(typedoc@0.28.20(typescript@7.0.2))(typescript@7.0.2)(zod@4.6.6):
+  orval@8.41.0(@tanstack/react-query@5.105.0(@types/react@19.3.0)(react@19.3.1))(prettier@3.9.6)(typedoc@0.28.20(patch_hash=b288e454b12261b0aa9998d9eccd92bba45615f92c9469a29749285279810200)(typescript@7.0.2))(typescript@7.0.2)(zod@4.6.6):
     dependencies:
       '@commander-js/extra-typings': 15.0.0(commander@15.0.0)
       '@orval/angular': 8.41.0
@@ -15954,7 +15943,7 @@ snapshots:
       string-argv: 0.3.2
     optionalDependencies:
       prettier: 3.9.6
-      typedoc: 0.28.20(typescript@7.0.2)
+      typedoc: 0.28.20(patch_hash=b288e454b12261b0aa9998d9eccd92bba45615f92c9469a29749285279810200)(typescript@7.0.2)
     transitivePeerDependencies:
       - '@faker-js/faker'
       - '@modelcontextprotocol/sdk'
@@ -16999,13 +16988,13 @@ snapshots:
     dependencies:
       '@istanbuljs/schema': 0.1.6
       glob: 7.2.3
-      minimatch: 11.0.1
+      minimatch: 3.1.5
 
   test-exclude@7.0.2:
     dependencies:
       '@istanbuljs/schema': 0.1.6
       glob: 14.0.3
-      minimatch: 10.2.5(patch_hash=eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf)
+      minimatch: 11.0.1
 
   thread-stream@3.1.0:
     dependencies:
@@ -17079,12 +17068,12 @@ snapshots:
       media-typer: 1.1.0
       mime-types: 3.0.2
 
-  typedoc@0.28.20(typescript@7.0.2):
+  typedoc@0.28.20(patch_hash=b288e454b12261b0aa9998d9eccd92bba45615f92c9469a29749285279810200)(typescript@7.0.2):
     dependencies:
       '@gerrit0/mini-shiki': 3.23.0
       lunr: 2.3.9
       markdown-it: 14.3.3
-      minimatch: 10.2.5(patch_hash=eeeac510a791bee7ad4b201d1d3cc68047ef649ba92a1d40156a59c549db9ccf)
+      minimatch: 11.0.1
       typescript: 7.0.2
       yaml: 2.9.0
 
